@@ -1,0 +1,284 @@
+<script>
+	window.__pageflyProducts = window.__pageflyProducts || {};
+	{% unless product.id == null %}window.__pageflyProducts["{{product.id}}"] = {
+		id: {{ product.id | json }},
+		handle: {{ product.handle | json }},
+		title: {{ product.title | json }},
+		type: {{ product.type | json }},
+		url: {{ product.url | within: collection | json }},
+		vendor: {{ product.vendor | json }},
+		variants: {{ product.variants | json }},
+		options: {{ product.options | json }},
+		media: {{ product.media | json }},
+		has_only_default_variant: {{ product.has_only_default_variant | json }},
+		options_with_values: {{ product.options_with_values | json }},
+		selected_variant: {{ product.selected_variant | json }},
+		selected_or_first_available_variant: {{ product.selected_or_first_available_variant | json }},
+		tags: {{ product.tags | json }},
+		template_suffix: {{ product.template_suffix | json }},
+		featured_image: {{ product.featured_image | json }},
+		featured_media: {{ product.featured_media | json }},
+		images: {{ product.images | json }},
+		quantity: {% assign quantity = '' %}{% for variant in product.variants %}{% assign quantity = quantity | append: variant.id | append: ':' | append: variant.inventory_quantity | append: ',' %}{% endfor %}{% assign quantity = quantity | split: ','%}{{quantity | json }}
+	};{% endunless %}
+	</script>{% if collection_643820192076 == null %}{%- assign collection_643820192076 = collections["her-studio-dresses"] -%}{% endif %} {% if collection_644465459532 == null %}{%- assign collection_644465459532 = collections["best-selling"] -%}{% endif %}<script>
+	window.__pageflyCollections = window.__pageflyCollections || {};
+	window.__pageflyCollections["643820192076"] = {{collection_643820192076 | json }};window.__pageflyCollections["644465459532"] = {{collection_644465459532 | json }};
+	</script><div data-pf-editor-version="legacy" class="sc-iMWBWc iIVPwp __pf __pf_5SMXFYXm" id="__pf"><div data-pf-type="Body" class="sc-eoVZcn aKoDW pf-6_"><div data-pf-type="Layout" class="sc-hTUXFl CFoXW pf-7_"><div data-section-id="pf-9de1" data-category="Product Suggestion" data-name="Lola" data-pf-type="Section" class="sc-jOnqpJ ktfohh pf-8_ pf-color-scheme-1"><div style="--cw:1170px" class="sc-fsvrPk ioqVnb"><div class="sc-feUYzb iXyfoG pf-9_ pf-r pf-r-eh" style="--s-xs:15px" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-dWZrec gFZrdc pf-10_"><img alt="homepage picture.png__PID:d9ae1282-dddb-4dd0-b4fd-cb040e5449b2" src="https://cdn.shopify.com/s/files/1/0862/9970/5676/files/homepage_picture.png?v=1743320683&width=2048" srcSet="https://cdn.shopify.com/s/files/1/0862/9970/5676/files/homepage_picture.png?v=1743320683&width=375 375w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/homepage_picture.png?v=1743320683&width=550 550w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/homepage_picture.png?v=1743320683&width=768 768w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/homepage_picture.png?v=1743320683&width=1024 1024w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/homepage_picture.png?v=1743320683&width=1280 1280w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/homepage_picture.png?v=1743320683&width=1440 1440w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/homepage_picture.png?v=1743320683&width=1680 1680w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/homepage_picture.png?v=1743320683&width=1800 1800w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/homepage_picture.png?v=1743320683&width=1920 1920w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/homepage_picture.png?v=1743320683&width=2048 2048w" fetchPriority="low" decoding="async" loading="lazy" style="--pf-image-ratio:1.7777777777777777" width="1920" height="1080" sizes="75vw" data-pf-type="Image4" class="sc-knuQPt boqfLv pf-11_ pf-image-1" store="[object Object]"/></div></div></div></div></div><div data-section-id="pf-7e2c" data-category="Product Suggestion" data-name="Lola" data-pf-type="Section" class="sc-jOnqpJ ktfohh pf-102_ pf-color-scheme-1"><div style="--cw:1170px" class="sc-fsvrPk ioqVnb"><div class="sc-feUYzb iXyfoG pf-101_ pf-r pf-r-eh" style="--s-xs:15px" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-dWZrec gFZrdc pf-100_"><img alt="second part.png__PID:9e7aba3b-128b-41ec-8755-e68f4a0fa505" src="https://cdn.shopify.com/s/files/1/0862/9970/5676/files/second_part.png?v=1743327890&width=2048" srcSet="https://cdn.shopify.com/s/files/1/0862/9970/5676/files/second_part.png?v=1743327890&width=375 375w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/second_part.png?v=1743327890&width=550 550w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/second_part.png?v=1743327890&width=768 768w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/second_part.png?v=1743327890&width=1024 1024w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/second_part.png?v=1743327890&width=1280 1280w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/second_part.png?v=1743327890&width=1440 1440w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/second_part.png?v=1743327890&width=1680 1680w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/second_part.png?v=1743327890&width=1800 1800w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/second_part.png?v=1743327890&width=1920 1920w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/second_part.png?v=1743327890&width=2048 2048w" fetchPriority="low" decoding="async" loading="lazy" style="--pf-image-ratio:1.7777777777777777" width="1920" height="1080" sizes="75vw" data-pf-type="Image4" class="sc-knuQPt boqfLv pf-99_ pf-image-1" store="[object Object]"/></div></div></div></div></div><div data-section-id="pf-1e1e" data-category="Product Suggestion" data-name="Lola" data-pf-type="Section" class="sc-jOnqpJ ktfohh pf-12_ pf-color-scheme-1"><div style="--cw:1170px" class="sc-fsvrPk ioqVnb"><div class="sc-feUYzb iXyfoG pf-13_ pf-r pf-r-eh" style="--s-xs:15px;--s-lg:12px" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-dWZrec gFZrdc pf-14_"><h3 data-pf-type="Heading2" class="sc-YysaK ejlKKG pf-15_ pf-heading-1-h3">Shop our best sellers</h3><a data-popup-content="shopify" data-src="/pages/sizing" data-action="modal" data-width="854px" data-height="480px" data-pf-type="Button2" class="sc-bVVHAX iVxDwS pf-17_ pf-button-1"><u>Sizing</u></a></div></div><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-dWZrec gFZrdc pf-19_"><div class="sc-cQCPqX eeONKg pf-20_ pf-r pf-r-ew" style="--s-xs:15px;--s-lg:6px;--ew-xs:1;--ew-sm:2;--ew-md:4;--ew-lg:3" data-pf-type="ProductList">{% assign defaultProduct = product %}{% paginate collections.all.products by 3 %}{% for product in collections.all.products %}<div class="pf-c"><div data-product-id="{{ product.id }}" data-pf-type="ProductBox" class="sc-djVWQC jISvZr pf-21_">{% if product != null %}{% form "product", product, data-productid: product.id, class: "pf-product-form" %}<div class="sc-feUYzb iXyfoG pf-22_ pf-r pf-r-eh" style="--s-xs:0px" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-dWZrec gFZrdc pf-23_"><div data-product-id="{{ product.id }}" data-media-id="{% liquid
+    assign min = 10000000000
+    assign max = 99999999999
+    assign diff = max | minus: min
+    assign number = "now" | date: "%N" | modulo: diff | plus: min
+  %}{{number}}" data-pf-type="ProductMedia2" class="sc-eSfNPg bknfYC pf-24_">
+                      {% assign media = product.media %}
+                      {% assign featured_media = product.featured_media %}
+                      {% assign _product = product %}
+                      {% assign first_3d_model = product.media | where: "media_type", "model" | first %}
+                  <div class="sc-fLvPHi jPDWOX   pf-lg-hide-list pf-md-hide-list pf-sm-hide-list pf-xs-hide-list product-media2-inner product-media-loading"><div class="sc-bXWofN lepMVq pmw pf-main-media-wrapper"><div data-pf-type="MediaMain" class="sc-cRmpXP jhZDXW pf-25_ pf-main-media" data-href="{{ product.url }}" data-action="url"><div class="sc-fKMpaq lldEGT">{% if media.size == 0 %}<div class="pf-media-slider scrollfix">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>{% else %}<div class="pf-media-slider scrollfix" data-id="slider-d919c027-621d-42d0-a938-3d1befeda07b">{% for media_item in media %}<div class="pf-slide-main-media" data-media-type="{{ media_item.media_type }}" data-media-id="{{ media_item.id }}">{% case media_item.media_type %}
+                  {% when 'model' %}<div class="pf-media-wrapper" style="--r-xs:341px;--r-sm:100%;--r-lg:395px">{{ media_item | media_tag }}<div class="pf-mask"><span><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" d="M14.1301 3.27971L9.00008 0.319707C8.69604 0.144171 8.35115 0.0517578 8.00008 0.0517578C7.649 0.0517578 7.30411 0.144171 7.00008 0.319707L1.88008 3.31971C1.5719 3.49759 1.31675 3.75447 1.14097 4.06385C0.965185 4.37323 0.875124 4.72391 0.880077 5.07971V10.9997C0.875124 11.3555 0.965185 11.7062 1.14097 12.0156C1.31675 12.3249 1.5719 12.5818 1.88008 12.7597L7.00008 15.7597C7.30411 15.9352 7.649 16.0277 8.00008 16.0277C8.35115 16.0277 8.69604 15.9352 9.00008 15.7597L14.1201 12.7597C14.4283 12.5818 14.6834 12.3249 14.8592 12.0156C15.035 11.7062 15.125 11.3555 15.1201 10.9997V4.99971C15.119 4.65165 15.0271 4.30991 14.8535 4.00825C14.6798 3.7066 14.4305 3.45547 14.1301 3.27971ZM7.73008 14.3797L2.61008 11.3797C2.54095 11.34 2.48167 11.2852 2.43666 11.2194C2.39164 11.1536 2.36205 11.0785 2.35008 10.9997V4.99971C2.3504 4.90601 2.37556 4.81407 2.42299 4.73327C2.47042 4.65246 2.53843 4.58567 2.62008 4.53971L7.74008 1.53971C7.82065 1.49319 7.91204 1.4687 8.00508 1.4687C8.09811 1.4687 8.18951 1.49319 8.27008 1.53971L13.3901 4.53971L8.67008 7.21971C8.45972 7.33976 8.28614 7.51498 8.16806 7.72646C8.04999 7.93793 7.9919 8.17764 8.00008 8.41971V14.4197C7.91475 14.4413 7.8254 14.4413 7.74008 14.4197L7.73008 14.3797Z" fill="black"></path></svg></span></div></div>{% when 'external_video' %}<div class="pf-media-wrapper" data-video-host="{{ media_item.host }}" style="--r-xs:341px;--r-sm:100%;--r-lg:395px">{{ media_item | media_tag }}<div class="pf-mask-iframe" data-play="false"></div></div>{% when 'video' %}<div class="pf-media-wrapper" style="--r-xs:341px;--r-sm:100%;--r-lg:395px">{{ media_item | media_tag: image_size: '1080x' }}</div>{% else %}<img loading="eager" class="sc-aNeNJ jqmGlb active" data-action="1" alt="{{ media_item.alt }}" width="{{ media_item.width }}" height="{{ media_item.height }}" src="{{ media_item | image_url }}"/>{% endcase %}</div>{% endfor %} <button aria-label="Previous" type="button" class="pf-slider-prev nav-style-1" style="visibility:hidden"></button><button aria-label="Next" type="button" class="pf-slider-next nav-style-1" style="visibility:hidden"></button></div>{% endif %}</div></div><div data-product-id="{{ _product.id }}" data-pf-type="ProductBadge" class="sc-iQbOXA fGhVtp pf-28_ pf-button-1"><script>window.__pagefly_variant_stock = window.__pagefly_variant_stock || {};
+				window.__pagefly_product_collections = window.__pagefly_product_collections || {};
+				window.__pagefly_product_collections[{{ _product.id }}] = {{ _product.collections | json}};
+				window.__pagefly_collections_count = {{shop.collections_count}};
+				{% for variant in _product.variants %}
+				window.__pagefly_variant_stock[{{ variant.id }}] = {{ variant.inventory_quantity }};
+				{% endfor %}</script>Buy 1 Get 1 Free</div></div><div class="sc-dUWExc gdagOq pf-26_ pf-list-media pf-hide pf-sm-hide pf-md-hide pf-lg-hide" data-pf-type="MediaList2"><div class="pf-media-slider scrollfix " style="--dpi-xs:0%;--gap-xs:10px" data-id="slider-f206e2e7-b493-4b41-9a4d-d8e79e415f21">{% for media_item in media %}
+              {% assign media_type = media_item.media_type %}<div class="sc-eTqMOj dAIfGB pf-27_ pf-slide-list-media" data-img-id="{{ media_item.id }}" data-media-type="{{ media_item.media_type }}" data-pf-type="MediaListItem2"><img src="{{ media_item | img_url: "xundefined", scale: 2 }}" alt="{{ media_item.alt }}" loading="eager"/>{% case media_type %}
+            {% when 'model' %}<span class="sc-cHMHbD ksRxHk"><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" d="M14.1301 3.27971L9.00008 0.319707C8.69604 0.144171 8.35115 0.0517578 8.00008 0.0517578C7.649 0.0517578 7.30411 0.144171 7.00008 0.319707L1.88008 3.31971C1.5719 3.49759 1.31675 3.75447 1.14097 4.06385C0.965185 4.37323 0.875124 4.72391 0.880077 5.07971V10.9997C0.875124 11.3555 0.965185 11.7062 1.14097 12.0156C1.31675 12.3249 1.5719 12.5818 1.88008 12.7597L7.00008 15.7597C7.30411 15.9352 7.649 16.0277 8.00008 16.0277C8.35115 16.0277 8.69604 15.9352 9.00008 15.7597L14.1201 12.7597C14.4283 12.5818 14.6834 12.3249 14.8592 12.0156C15.035 11.7062 15.125 11.3555 15.1201 10.9997V4.99971C15.119 4.65165 15.0271 4.30991 14.8535 4.00825C14.6798 3.7066 14.4305 3.45547 14.1301 3.27971ZM7.73008 14.3797L2.61008 11.3797C2.54095 11.34 2.48167 11.2852 2.43666 11.2194C2.39164 11.1536 2.36205 11.0785 2.35008 10.9997V4.99971C2.3504 4.90601 2.37556 4.81407 2.42299 4.73327C2.47042 4.65246 2.53843 4.58567 2.62008 4.53971L7.74008 1.53971C7.82065 1.49319 7.91204 1.4687 8.00508 1.4687C8.09811 1.4687 8.18951 1.49319 8.27008 1.53971L13.3901 4.53971L8.67008 7.21971C8.45972 7.33976 8.28614 7.51498 8.16806 7.72646C8.04999 7.93793 7.9919 8.17764 8.00008 8.41971V14.4197C7.91475 14.4413 7.8254 14.4413 7.74008 14.4197L7.73008 14.3797Z" fill="black"></path></svg></span>{% when 'external_video' or 'video' %}<span class="sc-cHMHbD ksRxHk"><svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" d="M1.71795 0.719814C1.56631 0.627985 1.39299 0.578117 1.21573 0.57532C1.03847 0.572523 0.863662 0.616896 0.7092 0.703896C0.554738 0.790895 0.42618 0.917392 0.336696 1.07043C0.247212 1.22346 0.200019 1.39754 0.199951 1.57481V12.3108C0.199976 12.4926 0.249526 12.6708 0.343274 12.8265C0.437022 12.9822 0.571425 13.1094 0.732038 13.1945C0.89265 13.2795 1.0734 13.3191 1.25486 13.3092C1.43632 13.2992 1.61163 13.24 1.76195 13.1378L10.112 7.46081C10.2504 7.36662 10.363 7.23915 10.4394 7.09011C10.5158 6.94107 10.5536 6.77523 10.5492 6.6078C10.5448 6.44038 10.4985 6.27673 10.4144 6.13189C10.3303 5.98704 10.2112 5.86564 10.068 5.77881L1.71795 0.718814V0.719814Z" fill="black"></path></svg></span>{% endcase %}</div>{% endfor %}</div></div></div></div></div></div><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-dWZrec gFZrdc pf-29_"><h3 data-product-type="title" data-product-id="{{ product.id }}" data-href="{{ product.url | within: collection }}" data-pf-type="ProductTitle" class="sc-btwLGw sc-iaJahb jfGYxn cBxDMU pf-30_ pf-heading-1-h3">{{ product.title }}</h3><div data-pf-type="ProductPrice2" class="sc-gAjumy lcnpXU pf-31_ pf-text-1"><div data-product-type="price" data-product-id="{{ product.id }}" data-product-price="true" data-pf-type="ProductPrice2Item" class="sc-kufjOW eInJEW pf-32_ pf-text-1">{{ product.variants[0].price | money }}</div></div><div data-display="dropdown" data-product-id="{{ product.id }}" style="--o-xs:8px;--o-md:16px;--g-xs:4px;--g-md:8px;--g-lg:4px" data-sw-id="{% liquid
+    assign min = 10000000000
+    assign max = 99999999999
+    assign diff = max | minus: min
+    assign swatches_count = "now" | date: "%N" | modulo: diff | plus: min
+  %}sw{{swatches_count}}" class="sc-eLtRpQ eksvcZ pf-34_" data-pf-type="ProductVariantSwatches">
+          {% liquid 
+              assign options_with_values = product.options_with_values
+              assign options = product.options_with_values
+              assign selected_variant = product.selected_or_first_available_variant
+          %}
+      <input type="hidden" name="id" data-product-id="{{product.id}}" value="{{ product.selected_or_first_available_variant.id }}"/>{% unless product.has_only_default_variant %}<div class="pf-th">
+					{% liquid 
+						assign swatches = shop.metafields.pfVariantSwatchesV2
+						assign keys = swatches.pf_keys | split: "; "
+						assign types = swatches.pf_types | split: "; "
+					    assign length = keys.size | minus: 1
+        %}  {% for option in product.options_with_values %} 
+				   {% assign option_name = option.name %}
+				   {% assign formatted_option_name = option.name | replace: '"', '&quot;' %}
+				  {% if keys contains option_name %}
+					        {% for i in (0..length) %}
+						        {% assign originalKey = keys[i] %}
+						        {% assign key = originalKey | replace: '"', '&quot;' %}
+						        {% assign compareKey = originalKey | url_decode%}
+						        {% assign compareOptionName = option.name | url_decode%}
+						        {% assign type = types[i] %}
+						        {% capture option_name_count_id %}pf_option_name_{{i}}{% endcapture %}
+                                {% if compareKey == compareOptionName %} {% case type %}
+	                {% when "label" %}<div class="pf-option-swatches" data-swatch-type="label" data-unique-id="{{option.position}}">{% for option_value in option.values %}{% capture option_id %}pf-sw{{swatches_count}}-{{key}}-{{option_value | remove: '"' | replace: ' ', '-' }}{% endcapture %}{% assign optionValue = option_value | replace: '"', '&quot;' %}<div data-option-name="{{key | default: formatted_option_name}}" class="pf-vs-color pf-vs-square" style="border-style:none;padding:0"><div data-option-name="{{key}}" class="pf-vs-label" style="border-style:none;padding:0"><input {% if option.selected_value == option_value %}checked{% endif %} type="radio" id="{{option_id}}-{{product.id}}" name="sw{{swatches_count}}-{{key}}" value="{{optionValue}}"/><label style="overflow:hidden" for="{{option_id}}-{{product.id}}"><span>{{option_value}}</span></label></div></div>{% endfor %}</div>{% when "dropdown" %}<div class="pf-option-swatches" data-swatch-type="dropdown" data-unique-id="{{option.position}}">{% capture for_value %}{{option.name | downcase | remove: '"' | replace: ' ', '-' }}{% endcapture %}<select data-option-name="{{key | default: formatted_option_name}}" class="pf-variant-select" id="{{for_value}}-b9073845-{{product.id}}">{% for option_value in option.values %}<option {% if option.selected_value == option_value %}selected{% endif %} value="{{ option_value | replace: '"', '&quot;' }}">{{option_value}}</option>{% endfor %}</select></div>{% when "radio" %}<div class="pf-option-swatches" data-swatch-type="radio" data-unique-id="{{option.position}}">{% for option_value in option.values %}{% capture option_id %}pf-sw{{swatches_count}}-{{key}}-{{option_value | remove: '"' | replace: ' ', '-' }}{% endcapture %}{% assign optionValue = option_value | replace: '"', '&quot;' %}<div data-option-name="{{key | default: formatted_option_name}}" class="pf-vs-radio" style="border-style:none;padding:0"><input {% if option.selected_value == option_value %}checked{% endif %} type="radio" id="{{option_id}}-{{product.id}}" name="sw{{swatches_count}}-{{key}}" value="{{optionValue}}"/><label style="overflow:hidden" for="{{option_id}}-{{product.id}}"><span>{{option_value}}</span></label></div>{% endfor %}</div>{% when "color" %}<div class="pf-option-swatches" data-swatch-type="color" data-unique-id="{{option.position}}">{% assign defined_values = swatches[option_name_count_id] | split: "; " %}{% for option_value in option.values %}{% capture option_id %}pf-sw{{swatches_count}}-{{key}}-{{option_value | remove: '"' | replace: ' ', '-' }}{% endcapture %}
+					        {%liquid
+						    assign pick_value = "#78859B"
+						    assign optionValue = option_value | replace: '"', '&quot;'
+						    assign compareOptionValue = option_value | url_decode
+						    for defined_value in defined_values
+						        assign v = defined_value | split: ": "
+						        assign value_key = v.first | url_decode
+							        if value_key == compareOptionValue
+							            assign pick_value = v.last | url_decode
+							            break
+							        endif
+						    endfor
+						    %}<div data-option-name="{{key | default: formatted_option_name}}" class="pf-vs-color pf-vs-square" style="border-style:none;padding:0"><input {% if option.selected_value == option_value %}checked{% endif %} type="radio" id="{{option_id}}-{{product.id}}" name="sw{{swatches_count}}-{{key}}" value="{{optionValue}}"/><label style="overflow:hidden" title="{{optionValue}}" for="{{option_id}}-{{product.id}}"><span style="--bg:{{pick_value}}">{{option_value}}</span></label></div>{% endfor %}</div>{% when "image" %}<div class="pf-option-swatches" data-swatch-type="image" data-unique-id="{{option.position}}">{% assign defined_values = swatches[option_name_count_id] | split: "; " %}{% for option_value in option.values %}{% capture option_id %}pf-sw{{swatches_count}}-{{key}}-{{option_value | remove: '"' | replace: ' ', '-' }}{% endcapture %}
+					        {%liquid
+						    assign pick_value = ""
+					        assign optionValue = option_value | replace: '"', '&quot;'
+					        assign compareOptionValue = option_value | url_decode
+						    for defined_value in defined_values
+						        assign v = defined_value | split: ": "
+						        assign value_key = v.first | url_decode
+							        if value_key == compareOptionValue
+							            assign pick_value = v.last | url_decode
+							            break
+							        endif
+						    endfor
+						    %}<div data-option-name="{{key | default: formatted_option_name}}" class="pf-vs-square pf-vs-image" style="border-style:none;padding:0"><input {% if option.selected_value == option_value %}checked{% endif %} type="radio" id="{{option_id}}-{{product.id}}" name="sw{{swatches_count}}-{{key}}" value="{{optionValue}}"/><label style="overflow:hidden" title="{{optionValue}}" for="{{option_id}}-{{product.id}}"><span style="--bg:url({{pick_value}})">{{option_value}}</span></label></div>{% endfor %}</div>{% when "variant" %}<div class="pf-option-swatches" data-swatch-type="variant" data-unique-id="{{option.position}}">{% for option_value in option.values %}{% capture option_id %}pf-sw{{swatches_count}}-{{key}}-{{option_value | remove: '"' | replace: ' ', '-' }}{% endcapture %}{% liquid 
+							assign pick_value = ""
+							assign optionValue = option_value | replace: '"', '&quot;'
+							for variant in product.variants
+								if variant.options contains option_value
+									assign pick_value = variant.image | img_url
+									break
+								endif
+							endfor
+						
+						%}<div data-option-name="{{key | default: formatted_option_name}}" class="pf-vs-square pf-vs-image" style="border-style:none;padding:0"><input {% if option.selected_value == option_value %}checked{% endif %} type="radio" id="{{option_id}}-{{product.id}}" name="sw{{swatches_count}}-{{key}}" value="{{optionValue}}"/><label style="overflow:hidden" title="{{optionValue}}" for="{{option_id}}-{{product.id}}"><span style="--bg:url({{pick_value}})">{{option_value}}</span></label></div>{% endfor %}</div>
+			                        {% endcase %}
+								{% endif %}
+								{% assign key = nil %}
+							{% endfor %}
+						{% else %} 
+					
+              {% assign key = option_name | replace: '"', '&quot;' %}
+              {% capture for_value %}{{option.name | downcase | remove: '"' | replace: ' ', '-' }}{% endcapture %}
+            <div class="pf-option-swatches" data-swatch-type="dropdown" data-unique-id="{{option.position}}">{% capture for_value %}{{option.name | downcase | remove: '"' | replace: ' ', '-' }}{% endcapture %}<select data-option-name="{{key | default: formatted_option_name}}" class="pf-variant-select" id="{{for_value}}-b9073845-{{product.id}}">{% for option_value in option.values %}<option {% if option.selected_value == option_value %}selected{% endif %} value="{{ option_value | replace: '"', '&quot;' }}">{{option_value}}</option>{% endfor %}</select></div>{% endif %} {% endfor %}</div>{% endunless %}</div><button data-product-id="{{ product.id }}" data-checkout="same" data-soldout="Sold out" data-adding="Adding..." data-added="Thank you!" name="add" type="button" data-pf-type="ProductATC2" class="sc-harTYt ebcsql pf-45_ pf-button-1 animate-glow">Add To Cart</button></div></div></div>{% endform %}{% endif %}</div><script>
+				window.__pageflyProducts = window.__pageflyProducts || {};
+				window.__pageflyProducts["{{product.id}}"] = {
+					id: {{product.id | json }},
+					handle: {{product.handle | json }},
+					title: {{product.title | json }},
+					type: {{product.type | json }},
+					url: {{product.url | within: collection  | json }},
+					vendor: {{product.vendor | json }},
+					variants: {{product.variants | json }},
+					options: {{product.options | json }},
+					media: {{product.media | json }},
+					has_only_default_variant: {{product.has_only_default_variant | json }},
+					options_with_values: {{product.options_with_values | json }},
+					selected_variant: {{product.selected_variant | json }},
+					selected_or_first_available_variant: {{product.selected_or_first_available_variant | json }},
+					tags: {{product.tags | json }},
+					template_suffix: {{product.template_suffix | json }},
+					featured_image: {{product.featured_image | json }},
+					featured_media: {{product.featured_media | json }},
+					images: {{product.images | json }},
+					quantity: {% assign quantity = '' %}{% for variant in product.variants %}{% assign quantity = quantity | append: variant.id | append: ':' | append: variant.inventory_quantity | append: ',' %}{% endfor %}{% assign quantity = quantity | split: ','%}{{quantity | json }}
+
+				};</script></div>{% endfor %}{% endpaginate %}{% assign product = defaultProduct %}</div></div></div></div></div></div><div data-section-id="pf-40c0" data-pf-type="Section" class="sc-jOnqpJ ktfohh pf-47_ pf-color-scheme-1 pf-lg-hide pf-hide"><div style="--cw:1170px" class="sc-fsvrPk ioqVnb"><div class="sc-feUYzb iXyfoG pf-48_ pf-r pf-r-eh" style="--s-xs:15px" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-dWZrec gFZrdc pf-49_"><h3 data-pf-type="Heading2" class="sc-YysaK ejlKKG pf-50_ pf-heading-1-h3">Most Loved</h3><div style="--s-xs:8px;--s-sm:15px;--s-lg:50px" data-pf-type="ProductList2" class="sc-iXzffn sc-dwamxw czcqmS iKoZXR pf-52_"><div class="pf-slider pf-c-ct" style="--ss-xs:2;--ss-sm:2;--ss-md:4;--ss-lg:4" data-slider="{'navStyle':'none','maxHeight':true,'listLayout':{'all':0,'laptop':0,'tablet':0,'mobile':0},'slidesToShow':{'all':4,'laptop':4,'tablet':2,'mobile':2},'slidesToScroll':{'all':2,'laptop':4,'tablet':2,'mobile':1},'paginationStyle':'none','displayPartialItems':{'all':false,'laptop':false,'tablet':false,'mobile':false},'spacing':{'all':'100px','laptop':'30px','tablet':'30px','mobile':'16px'}}">{% assign collection_644465459532 = collections["best-selling"] %}{% assign defaultProduct = product %}{% paginate collection_644465459532.products by 4 %}{% for product in collection_644465459532.products %}{% assign product_index = forloop.index | minus: 1 %}<div class="pf-slide pf-c"><script>
+				window.__pageflyProducts = window.__pageflyProducts || {};
+				window.__pageflyProducts["{{product.id}}"] = {
+					id: {{product.id | json }},
+					handle: {{product.handle | json }},
+					title: {{product.title | json }},
+					type: {{product.type | json }},
+					url: {{product.url | within: collection  | json }},
+					vendor: {{product.vendor | json }},
+					variants: {{product.variants | json }},
+					options: {{product.options | json }},
+					media: {{product.media | json }},
+					has_only_default_variant: {{product.has_only_default_variant | json }},
+					options_with_values: {{product.options_with_values | json }},
+					selected_variant: {{product.selected_variant | json }},
+					selected_or_first_available_variant: {{product.selected_or_first_available_variant | json }},
+					tags: {{product.tags | json }},
+					template_suffix: {{product.template_suffix | json }},
+					featured_image: {{product.featured_image | json }},
+					featured_media: {{product.featured_media | json }},
+					images: {{product.images | json }},
+					quantity: {% assign quantity = '' %}{% for variant in product.variants %}{% assign quantity = quantity | append: variant.id | append: ':' | append: variant.inventory_quantity | append: ',' %}{% endfor %}{% assign quantity = quantity | split: ','%}{{quantity | json }}
+
+				};</script><div data-product-id="{{ product.id }}" data-pf-type="ProductBox" class="sc-djVWQC jISvZr pf-53_">{% if product != null %}{% form "product", product, data-productid: product.id, class: "pf-product-form" %}<div class="sc-feUYzb iXyfoG pf-54_ pf-r pf-r-eh" style="--s-xs:0px" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-dWZrec gFZrdc pf-55_"><div data-product-id="{{ product.id }}" data-media-id="{% liquid
+    assign min = 10000000000
+    assign max = 99999999999
+    assign diff = max | minus: min
+    assign number = "now" | date: "%N" | modulo: diff | plus: min
+  %}{{number}}" data-pf-type="ProductMedia2" class="sc-eSfNPg bknfYC pf-56_">
+                      {% assign media = product.media %}
+                      {% assign featured_media = product.featured_media %}
+                      {% assign _product = product %}
+                      {% assign first_3d_model = product.media | where: "media_type", "model" | first %}
+                  <div class="sc-fLvPHi fBnUvM   pf-lg-hide-list pf-md-hide-list pf-sm-hide-list pf-xs-hide-list product-media2-inner product-media-loading"><div class="sc-bXWofN lepMVq pmw pf-main-media-wrapper"><div data-pf-type="MediaMain" class="sc-cRmpXP jhZDXW pf-57_ pf-main-media"><div class="sc-fKMpaq lldEGT">{% if media.size == 0 %}<div class="pf-media-slider scrollfix">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>{% else %}<div class="pf-media-slider scrollfix" data-id="slider-dbe82171-0921-4256-ab2c-6c61a287bdc2">{% for media_item in media %}<div class="pf-slide-main-media" data-media-type="{{ media_item.media_type }}" data-media-id="{{ media_item.id }}">{% case media_item.media_type %}
+                  {% when 'model' %}<div class="pf-media-wrapper">{{ media_item | media_tag }}<div class="pf-mask"><span><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" d="M14.1301 3.27971L9.00008 0.319707C8.69604 0.144171 8.35115 0.0517578 8.00008 0.0517578C7.649 0.0517578 7.30411 0.144171 7.00008 0.319707L1.88008 3.31971C1.5719 3.49759 1.31675 3.75447 1.14097 4.06385C0.965185 4.37323 0.875124 4.72391 0.880077 5.07971V10.9997C0.875124 11.3555 0.965185 11.7062 1.14097 12.0156C1.31675 12.3249 1.5719 12.5818 1.88008 12.7597L7.00008 15.7597C7.30411 15.9352 7.649 16.0277 8.00008 16.0277C8.35115 16.0277 8.69604 15.9352 9.00008 15.7597L14.1201 12.7597C14.4283 12.5818 14.6834 12.3249 14.8592 12.0156C15.035 11.7062 15.125 11.3555 15.1201 10.9997V4.99971C15.119 4.65165 15.0271 4.30991 14.8535 4.00825C14.6798 3.7066 14.4305 3.45547 14.1301 3.27971ZM7.73008 14.3797L2.61008 11.3797C2.54095 11.34 2.48167 11.2852 2.43666 11.2194C2.39164 11.1536 2.36205 11.0785 2.35008 10.9997V4.99971C2.3504 4.90601 2.37556 4.81407 2.42299 4.73327C2.47042 4.65246 2.53843 4.58567 2.62008 4.53971L7.74008 1.53971C7.82065 1.49319 7.91204 1.4687 8.00508 1.4687C8.09811 1.4687 8.18951 1.49319 8.27008 1.53971L13.3901 4.53971L8.67008 7.21971C8.45972 7.33976 8.28614 7.51498 8.16806 7.72646C8.04999 7.93793 7.9919 8.17764 8.00008 8.41971V14.4197C7.91475 14.4413 7.8254 14.4413 7.74008 14.4197L7.73008 14.3797Z" fill="black"></path></svg></span></div></div>{% when 'external_video' %}<div class="pf-media-wrapper" data-video-host="{{ media_item.host }}">{{ media_item | media_tag }}<div class="pf-mask-iframe" data-play="false"></div></div>{% when 'video' %}<div class="pf-media-wrapper">{{ media_item | media_tag: image_size: '1080x' }}</div>{% else %}<img loading="eager" class="sc-aNeNJ jqmGlb active" data-action="0" alt="{{ media_item.alt }}" width="{{ media_item.width }}" height="{{ media_item.height }}" src="{{ media_item | image_url }}"/>{% endcase %}</div>{% endfor %} </div>{% endif %}</div></div><div data-product-id="{{ _product.id }}" data-pf-type="ProductBadge" class="sc-iQbOXA fGhVtp pf-60_ pf-button-1"><script>window.__pagefly_variant_stock = window.__pagefly_variant_stock || {};
+				window.__pagefly_product_collections = window.__pagefly_product_collections || {};
+				window.__pagefly_product_collections[{{ _product.id }}] = {{ _product.collections | json}};
+				window.__pagefly_collections_count = {{shop.collections_count}};
+				{% for variant in _product.variants %}
+				window.__pagefly_variant_stock[{{ variant.id }}] = {{ variant.inventory_quantity }};
+				{% endfor %}</script>Buy 1 Get Another&nbsp;FREE</div></div><div class="sc-dUWExc gdagOq pf-58_ pf-list-media pf-hide pf-sm-hide pf-md-hide pf-lg-hide" data-pf-type="MediaList2"><div class="pf-media-slider scrollfix " style="--dpi-xs:0%;--gap-xs:10px" data-id="slider-01a6ffff-058b-4417-b806-19191914ffbf">{% for media_item in media %}
+              {% assign media_type = media_item.media_type %}<div class="sc-eTqMOj dAIfGB pf-59_ pf-slide-list-media" data-img-id="{{ media_item.id }}" data-media-type="{{ media_item.media_type }}" data-pf-type="MediaListItem2"><img src="{{ media_item | img_url: "xundefined", scale: 2 }}" alt="{{ media_item.alt }}" loading="eager"/>{% case media_type %}
+            {% when 'model' %}<span class="sc-cHMHbD ksRxHk"><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" d="M14.1301 3.27971L9.00008 0.319707C8.69604 0.144171 8.35115 0.0517578 8.00008 0.0517578C7.649 0.0517578 7.30411 0.144171 7.00008 0.319707L1.88008 3.31971C1.5719 3.49759 1.31675 3.75447 1.14097 4.06385C0.965185 4.37323 0.875124 4.72391 0.880077 5.07971V10.9997C0.875124 11.3555 0.965185 11.7062 1.14097 12.0156C1.31675 12.3249 1.5719 12.5818 1.88008 12.7597L7.00008 15.7597C7.30411 15.9352 7.649 16.0277 8.00008 16.0277C8.35115 16.0277 8.69604 15.9352 9.00008 15.7597L14.1201 12.7597C14.4283 12.5818 14.6834 12.3249 14.8592 12.0156C15.035 11.7062 15.125 11.3555 15.1201 10.9997V4.99971C15.119 4.65165 15.0271 4.30991 14.8535 4.00825C14.6798 3.7066 14.4305 3.45547 14.1301 3.27971ZM7.73008 14.3797L2.61008 11.3797C2.54095 11.34 2.48167 11.2852 2.43666 11.2194C2.39164 11.1536 2.36205 11.0785 2.35008 10.9997V4.99971C2.3504 4.90601 2.37556 4.81407 2.42299 4.73327C2.47042 4.65246 2.53843 4.58567 2.62008 4.53971L7.74008 1.53971C7.82065 1.49319 7.91204 1.4687 8.00508 1.4687C8.09811 1.4687 8.18951 1.49319 8.27008 1.53971L13.3901 4.53971L8.67008 7.21971C8.45972 7.33976 8.28614 7.51498 8.16806 7.72646C8.04999 7.93793 7.9919 8.17764 8.00008 8.41971V14.4197C7.91475 14.4413 7.8254 14.4413 7.74008 14.4197L7.73008 14.3797Z" fill="black"></path></svg></span>{% when 'external_video' or 'video' %}<span class="sc-cHMHbD ksRxHk"><svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" d="M1.71795 0.719814C1.56631 0.627985 1.39299 0.578117 1.21573 0.57532C1.03847 0.572523 0.863662 0.616896 0.7092 0.703896C0.554738 0.790895 0.42618 0.917392 0.336696 1.07043C0.247212 1.22346 0.200019 1.39754 0.199951 1.57481V12.3108C0.199976 12.4926 0.249526 12.6708 0.343274 12.8265C0.437022 12.9822 0.571425 13.1094 0.732038 13.1945C0.89265 13.2795 1.0734 13.3191 1.25486 13.3092C1.43632 13.2992 1.61163 13.24 1.76195 13.1378L10.112 7.46081C10.2504 7.36662 10.363 7.23915 10.4394 7.09011C10.5158 6.94107 10.5536 6.77523 10.5492 6.6078C10.5448 6.44038 10.4985 6.27673 10.4144 6.13189C10.3303 5.98704 10.2112 5.86564 10.068 5.77881L1.71795 0.718814V0.719814Z" fill="black"></path></svg></span>{% endcase %}</div>{% endfor %}</div></div></div></div><h3 data-product-type="title" data-product-id="{{ product.id }}" data-href="{{ product.url | within: collection }}" data-pf-type="ProductTitle" class="sc-btwLGw sc-iaJahb jfGYxn cBxDMU pf-61_ pf-heading-1-h3">{{ product.title }}</h3><div data-display="dropdown" data-product-id="{{ product.id }}" style="--o-xs:8px;--o-md:16px;--g-xs:4px;--g-md:8px;--g-lg:4px" data-sw-id="{% liquid
+    assign min = 10000000000
+    assign max = 99999999999
+    assign diff = max | minus: min
+    assign swatches_count = "now" | date: "%N" | modulo: diff | plus: min
+  %}sw{{swatches_count}}" class="sc-eLtRpQ eksvcZ pf-62_" data-pf-type="ProductVariantSwatches">
+          {% liquid 
+              assign options_with_values = product.options_with_values
+              assign options = product.options_with_values
+              assign selected_variant = product.selected_or_first_available_variant
+          %}
+      <input type="hidden" name="id" data-product-id="{{product.id}}" value="{{ product.selected_or_first_available_variant.id }}"/>{% unless product.has_only_default_variant %}<div class="pf-th">
+					{% liquid 
+						assign swatches = shop.metafields.pfVariantSwatchesV2
+						assign keys = swatches.pf_keys | split: "; "
+						assign types = swatches.pf_types | split: "; "
+					    assign length = keys.size | minus: 1
+        %}  {% for option in product.options_with_values %} 
+				   {% assign option_name = option.name %}
+				   {% assign formatted_option_name = option.name | replace: '"', '&quot;' %}
+				  {% if keys contains option_name %}
+					        {% for i in (0..length) %}
+						        {% assign originalKey = keys[i] %}
+						        {% assign key = originalKey | replace: '"', '&quot;' %}
+						        {% assign compareKey = originalKey | url_decode%}
+						        {% assign compareOptionName = option.name | url_decode%}
+						        {% assign type = types[i] %}
+						        {% capture option_name_count_id %}pf_option_name_{{i}}{% endcapture %}
+                                {% if compareKey == compareOptionName %} {% case type %}
+	                {% when "label" %}<div class="pf-option-swatches" data-swatch-type="label" data-unique-id="{{option.position}}">{% for option_value in option.values %}{% capture option_id %}pf-sw{{swatches_count}}-{{key}}-{{option_value | remove: '"' | replace: ' ', '-' }}{% endcapture %}{% assign optionValue = option_value | replace: '"', '&quot;' %}<div data-option-name="{{key | default: formatted_option_name}}" class="pf-vs-color pf-vs-square" style="border-style:none;padding:0"><div data-option-name="{{key}}" class="pf-vs-label" style="border-style:none;padding:0"><input {% if option.selected_value == option_value %}checked{% endif %} type="radio" id="{{option_id}}-{{product.id}}" name="sw{{swatches_count}}-{{key}}" value="{{optionValue}}"/><label style="overflow:hidden" for="{{option_id}}-{{product.id}}"><span>{{option_value}}</span></label></div></div>{% endfor %}</div>{% when "dropdown" %}<div class="pf-option-swatches" data-swatch-type="dropdown" data-unique-id="{{option.position}}">{% capture for_value %}{{option.name | downcase | remove: '"' | replace: ' ', '-' }}{% endcapture %}<select data-option-name="{{key | default: formatted_option_name}}" class="pf-variant-select" id="{{for_value}}-776dda44-{{product.id}}">{% for option_value in option.values %}<option {% if option.selected_value == option_value %}selected{% endif %} value="{{ option_value | replace: '"', '&quot;' }}">{{option_value}}</option>{% endfor %}</select></div>{% when "radio" %}<div class="pf-option-swatches" data-swatch-type="radio" data-unique-id="{{option.position}}">{% for option_value in option.values %}{% capture option_id %}pf-sw{{swatches_count}}-{{key}}-{{option_value | remove: '"' | replace: ' ', '-' }}{% endcapture %}{% assign optionValue = option_value | replace: '"', '&quot;' %}<div data-option-name="{{key | default: formatted_option_name}}" class="pf-vs-radio" style="border-style:none;padding:0"><input {% if option.selected_value == option_value %}checked{% endif %} type="radio" id="{{option_id}}-{{product.id}}" name="sw{{swatches_count}}-{{key}}" value="{{optionValue}}"/><label style="overflow:hidden" for="{{option_id}}-{{product.id}}"><span>{{option_value}}</span></label></div>{% endfor %}</div>{% when "color" %}<div class="pf-option-swatches" data-swatch-type="color" data-unique-id="{{option.position}}">{% assign defined_values = swatches[option_name_count_id] | split: "; " %}{% for option_value in option.values %}{% capture option_id %}pf-sw{{swatches_count}}-{{key}}-{{option_value | remove: '"' | replace: ' ', '-' }}{% endcapture %}
+					        {%liquid
+						    assign pick_value = "#78859B"
+						    assign optionValue = option_value | replace: '"', '&quot;'
+						    assign compareOptionValue = option_value | url_decode
+						    for defined_value in defined_values
+						        assign v = defined_value | split: ": "
+						        assign value_key = v.first | url_decode
+							        if value_key == compareOptionValue
+							            assign pick_value = v.last | url_decode
+							            break
+							        endif
+						    endfor
+						    %}<div data-option-name="{{key | default: formatted_option_name}}" class="pf-vs-color pf-vs-square" style="border-style:none;padding:0"><input {% if option.selected_value == option_value %}checked{% endif %} type="radio" id="{{option_id}}-{{product.id}}" name="sw{{swatches_count}}-{{key}}" value="{{optionValue}}"/><label style="overflow:hidden" title="{{optionValue}}" for="{{option_id}}-{{product.id}}"><span style="--bg:{{pick_value}}">{{option_value}}</span></label></div>{% endfor %}</div>{% when "image" %}<div class="pf-option-swatches" data-swatch-type="image" data-unique-id="{{option.position}}">{% assign defined_values = swatches[option_name_count_id] | split: "; " %}{% for option_value in option.values %}{% capture option_id %}pf-sw{{swatches_count}}-{{key}}-{{option_value | remove: '"' | replace: ' ', '-' }}{% endcapture %}
+					        {%liquid
+						    assign pick_value = ""
+					        assign optionValue = option_value | replace: '"', '&quot;'
+					        assign compareOptionValue = option_value | url_decode
+						    for defined_value in defined_values
+						        assign v = defined_value | split: ": "
+						        assign value_key = v.first | url_decode
+							        if value_key == compareOptionValue
+							            assign pick_value = v.last | url_decode
+							            break
+							        endif
+						    endfor
+						    %}<div data-option-name="{{key | default: formatted_option_name}}" class="pf-vs-square pf-vs-image" style="border-style:none;padding:0"><input {% if option.selected_value == option_value %}checked{% endif %} type="radio" id="{{option_id}}-{{product.id}}" name="sw{{swatches_count}}-{{key}}" value="{{optionValue}}"/><label style="overflow:hidden" title="{{optionValue}}" for="{{option_id}}-{{product.id}}"><span style="--bg:url({{pick_value}})">{{option_value}}</span></label></div>{% endfor %}</div>{% when "variant" %}<div class="pf-option-swatches" data-swatch-type="variant" data-unique-id="{{option.position}}">{% for option_value in option.values %}{% capture option_id %}pf-sw{{swatches_count}}-{{key}}-{{option_value | remove: '"' | replace: ' ', '-' }}{% endcapture %}{% liquid 
+							assign pick_value = ""
+							assign optionValue = option_value | replace: '"', '&quot;'
+							for variant in product.variants
+								if variant.options contains option_value
+									assign pick_value = variant.image | img_url
+									break
+								endif
+							endfor
+						
+						%}<div data-option-name="{{key | default: formatted_option_name}}" class="pf-vs-square pf-vs-image" style="border-style:none;padding:0"><input {% if option.selected_value == option_value %}checked{% endif %} type="radio" id="{{option_id}}-{{product.id}}" name="sw{{swatches_count}}-{{key}}" value="{{optionValue}}"/><label style="overflow:hidden" title="{{optionValue}}" for="{{option_id}}-{{product.id}}"><span style="--bg:url({{pick_value}})">{{option_value}}</span></label></div>{% endfor %}</div>
+			                        {% endcase %}
+								{% endif %}
+								{% assign key = nil %}
+							{% endfor %}
+						{% else %} 
+					
+              {% assign key = option_name | replace: '"', '&quot;' %}
+              {% capture for_value %}{{option.name | downcase | remove: '"' | replace: ' ', '-' }}{% endcapture %}
+            <div class="pf-option-swatches" data-swatch-type="dropdown" data-unique-id="{{option.position}}">{% capture for_value %}{{option.name | downcase | remove: '"' | replace: ' ', '-' }}{% endcapture %}<select data-option-name="{{key | default: formatted_option_name}}" class="pf-variant-select" id="{{for_value}}-776dda44-{{product.id}}">{% for option_value in option.values %}<option {% if option.selected_value == option_value %}selected{% endif %} value="{{ option_value | replace: '"', '&quot;' }}">{{option_value}}</option>{% endfor %}</select></div>{% endif %} {% endfor %}</div>{% endunless %}</div><div data-pf-type="ProductPrice2" class="sc-gAjumy lcnpXU pf-67_ pf-text-1"></div><button data-product-id="{{ product.id }}" data-checkout="cart" data-soldout="Sold out" data-adding="Adding..." data-added="Thank you!" name="add" type="button" data-pf-type="ProductATC2" class="sc-harTYt ebcsql pf-70_ pf-button-1 animate-float-shadow">Add To Cart</button></div></div></div>{% endform %}{% endif %}</div></div>{% endfor %}{% endpaginate %}{% assign product = defaultProduct %}<button type="button" aria-label="Previous" style="visibility:hidden" class="pf-slider-prev none"></button><button type="button" aria-label="Next" style="visibility:hidden" class="pf-slider-next none"></button></div></div><a class="sc-la-DjoC edFPfe pf-72_ animate-grow-shadow pf-i--right" href="{{ collection_643820192076.url }}" data-pf-type="CollectionViewDetails2">View All<i class="sc-iapVNj jiDUUM pf-73_ pf-icon-1 pfa pfa-arrow-right-long" data-pf-type="Icon"></i></a></div></div></div></div></div><div data-section-id="pf-abdd" data-pf-type="Section" class="sc-jOnqpJ ktfohh pf-74_ pf-color-scheme-1"><div style="--cw:1170px" class="sc-fsvrPk ioqVnb"><div class="sc-feUYzb iXyfoG pf-75_ pf-r pf-r-eh" style="--s-xs:8px;--s-sm:15px" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:6;--c-md:6;--c-lg:7"><div data-pf-type="Column" class="sc-dWZrec gFZrdc pf-76_"><img alt="ChatGPT Image Mar 29, 2025, 06_43_34 PM (1).png__PID:fffd06a1-0036-470d-a712-f1266bb41197" src="https://cdn.shopify.com/s/files/1/0862/9970/5676/files/ChatGPT_Image_Mar_29_2025_06_43_34_PM_1.png?v=1743268796&width=2048" srcSet="https://cdn.shopify.com/s/files/1/0862/9970/5676/files/ChatGPT_Image_Mar_29_2025_06_43_34_PM_1.png?v=1743268796&width=375 375w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/ChatGPT_Image_Mar_29_2025_06_43_34_PM_1.png?v=1743268796&width=550 550w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/ChatGPT_Image_Mar_29_2025_06_43_34_PM_1.png?v=1743268796&width=768 768w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/ChatGPT_Image_Mar_29_2025_06_43_34_PM_1.png?v=1743268796&width=1024 1024w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/ChatGPT_Image_Mar_29_2025_06_43_34_PM_1.png?v=1743268796&width=1280 1280w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/ChatGPT_Image_Mar_29_2025_06_43_34_PM_1.png?v=1743268796&width=1440 1440w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/ChatGPT_Image_Mar_29_2025_06_43_34_PM_1.png?v=1743268796&width=1680 1680w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/ChatGPT_Image_Mar_29_2025_06_43_34_PM_1.png?v=1743268796&width=1800 1800w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/ChatGPT_Image_Mar_29_2025_06_43_34_PM_1.png?v=1743268796&width=1920 1920w,https://cdn.shopify.com/s/files/1/0862/9970/5676/files/ChatGPT_Image_Mar_29_2025_06_43_34_PM_1.png?v=1743268796&width=2048 2048w" fetchPriority="low" decoding="async" loading="lazy" style="--pf-image-ratio:1.5" width="1536" height="1024" sizes="75vw" data-pf-type="Image4" class="sc-knuQPt boqfLv pf-77_ pf-image-1" store="[object Object]"/></div></div><div class="pf-c" style="--c-xs:12;--c-sm:6;--c-md:6;--c-lg:5"><div data-pf-type="Column" class="sc-dWZrec gFZrdc pf-78_"><h3 data-pf-type="Heading2" class="sc-YysaK ejlKKG pf-79_ pf-heading-1-h3">We make gym clothes that fix 3 big worries:</h3><p class="sc-ePDMnc dIqczD pf-81_ pf-text-1" data-pf-type="Paragraph4"><input type="checkbox" id="compact-33be6c12-6b19-46c1-b4ed-a5dd574c9888"/><span class="pf-paragraph-content ">Hides tummy → Like a cozy hug for your belly!<br>No panty lines → Nobody will ever know!<br>Comfy to move → Feels like wearing PJs!<br><br><strong>You’re the brave one.<br></strong>We just add a secret smoothing layer 😉<br><br>Join 20,000 people who said ‘YES’ to their first gym day!</span></p></div></div></div></div></div><div data-section-id="pf-182c" data-category="Newsletter" data-name="Gigi" data-pf-type="Section" class="sc-jOnqpJ ktfohh pf-84_ pf-color-scheme-1"><div class="sc-fsvrPk ioqVnb"><div class="sc-feUYzb iXyfoG pf-85_ pf-r pf-c-cm pf-r-eh" style="--s-xs:0px" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-dWZrec gFZrdc pf-86_"><h3 data-pf-type="Heading2" class="sc-YysaK ejlKKG pf-87_ pf-heading-1-h3">Subscribe To Our Letter</h3><p class="sc-cVzzKN iFIApx pf-89_ pf-text-1" data-pf-type="Paragraph3">Be an insider and get access to the latest news, style tips, and promotions</p><div data-pf-type="Form2" class="sc-fwwEYA dAoShK pf-91_">{% form "customer"   %} {% assign isErrorMessaageDisplayed = false %}{% for field in form.errors %}
+				{% if field == "form" %}<p class="sc-jSoDyZ iVbJnf">Sorry, the submission can not be sent! Please try again later!</p>{{ form.errors.messages[field] }}
+				{% endif %}
+				{% if form.errors.messages[field] contains "can't be blank." %}<p class="sc-jSoDyZ iVbJnf">Field can not be blank</p>{% else %}{% if isErrorMessaageDisplayed == false %}<p class="sc-jSoDyZ iVbJnf">Sorry, the submission can not be sent! Please try again later!</p> {% assign isErrorMessaageDisplayed = true %}{% endif %}{% endif %}
+				{% endfor %}
+				{% if form.posted_successfully? %}<p class="sc-jSoDyZ iVbJnf">Thank you for your submissions!</p>{% elsif form.posted_successfully? == false and form.email.size > 0 and form.errors == null  %}<p class="sc-jSoDyZ iVbJnf">Sorry, the submission can not be sent! Please try again later!</p>{% endif %}<div class="sc-feUYzb iXyfoG pf-92_ pf-r pf-r-eh" style="--s-xs:0px" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-dWZrec gFZrdc pf-93_"><div data-pf-type="Form2.Field" class="sc-eiQrVR kEmsLv pf-94_"><input name="contact[email]" type="email" placeholder="Your email" required="" data-pf-type="FormInput" id="field-fbf7bb5f" class="sc-jhlPQp bpFXyq pf-96_ pf-field-1" value=""/></div><button type="submit" data-pf-type="Form2.Button2" class="sc-eJRdSn cDcbvy pf-97_ pf-button-1 animate-float">Subscribe now</button></div></div></div>{% endform %}</div></div></div></div></div></div></div></div></div><script>
+    !function(){
+      window.__pagefly_page_setting__ = {"pageTitle":"home page tavlux","pageType":"home","pageId":"0e0a46b2-ef1f-486c-a1ec-2298526baa16","lazyLoad":false,"forceByPassGoogleLightHouse":false,"imageLazyLoad":false,"nativeImageLazyLoad":true,"useThemeJQ":false,"sectionRootType":"Section","trackingIDs":[{"elementIndex":70,"elementId":"dd24e7ca-e625-4fe5-b960-8f0de5e91118","elementType":"ProductATC2","pxEvent":"AddToCart","pxCode":"fbq('track', 'AddToCart');","elementName":false},{"elementIndex":97,"elementId":"212410fa-940d-4f83-8940-71a07b8ea771","elementType":"Form2.Button2","pxEvent":"CompleteRegistration","pxCode":"fbq('track', 'CompleteRegistration');","elementName":false}]};
+      window.__pagefly_setting__&&(window.__pagefly_setting2__=window.__pagefly_setting__),window.__pagefly_setting__={"baseURL":"https://apps.pagefly.io","analyticsURL":"https://analytics.pagefly.io","isBackend":false,"cdnURL":"https://cdn.pagefly.io","pageflyVersion":"4.22.6.1","shopDomain":"g3qh6w-0k.myshopify.com","elementData":{"pf-25_":{"hoverAction":0,"onHover":0,"clickAction":1,"navStyle":"nav-style-1","paginationStyle":"none","slidesToShow":{"all":1,"laptop":1,"tablet":1,"mobile":1},"slidesToScroll":{"all":1,"laptop":1,"tablet":1,"mobile":1},"id":"d919c027-621d-42d0-a938-3d1befeda07b","_type":"MediaMain"},"pf-26_":{"slidesToShow":{"all":5,"laptop":5,"tablet":5,"mobile":5},"slidesToScroll":{"all":1,"laptop":1,"tablet":1,"mobile":1},"displayPartialItems":{"all":false,"laptop":false,"tablet":false,"mobile":false},"navStyle":"none","listLayout":{"all":1,"laptop":1,"tablet":1,"mobile":1},"id":"f206e2e7-b493-4b41-9a4d-d8e79e415f21","_type":"MediaList2"},"pf-28_":{"applyCondition":false,"collectionSource":"all","collectionIds":[],"tags":"","id":"806acf38-f0c0-42b6-bd26-f29e9e826de0","_type":"ProductBadge"},"pf-24_":{"listPosition":{"all":2,"laptop":2,"tablet":2,"mobile":2},"hoverAction":0,"onHover":0,"clickAction":0,"imageSource":"featured","id":"7970c510-b643-4a1b-b776-368bf72dbed8","_type":"ProductMedia2"},"pf-45_":{"iconPos":"left","id":"df2e4222-efef-4caa-a48b-0db7aa9c7dfa","_type":"ProductATC2"},"pf-57_":{"hoverAction":0,"onHover":0,"clickAction":0,"navStyle":"none","paginationStyle":"none","slidesToShow":{"all":1,"laptop":1,"tablet":1,"mobile":1},"slidesToScroll":{"all":1,"laptop":1,"tablet":1,"mobile":1},"id":"dbe82171-0921-4256-ab2c-6c61a287bdc2","_type":"MediaMain"},"pf-58_":{"slidesToShow":{"all":5,"laptop":5,"tablet":5,"mobile":5},"slidesToScroll":{"all":1,"laptop":1,"tablet":1,"mobile":1},"displayPartialItems":{"all":false,"laptop":false,"tablet":false,"mobile":false},"navStyle":"none","listLayout":{"all":1,"laptop":1,"tablet":1,"mobile":1},"id":"01a6ffff-058b-4417-b806-19191914ffbf","_type":"MediaList2"},"pf-60_":{"applyCondition":false,"collectionSource":"all","collectionIds":[],"tags":"","id":"21c8b257-7a8b-40c2-8d67-5d2a3d55a5a8","_type":"ProductBadge"},"pf-56_":{"listPosition":{"all":2,"laptop":2,"tablet":2,"mobile":2},"hoverAction":0,"onHover":0,"clickAction":0,"imageSource":"featured","id":"3c6ea30c-9cd8-4464-acd4-c5c9f1f93ec0","_type":"ProductMedia2"},"pf-70_":{"iconPos":"left","id":"dd24e7ca-e625-4fe5-b960-8f0de5e91118","_type":"ProductATC2"}},"shopifyProxyPath":"/apps/pagefly"},window.__pagefly_setting2__&&(window.__pagefly_setting__=function _(d,b){let c={...d||{}};for(let a of Object.keys(b))b[a]instanceof Object&&(Array.isArray(b[a])&&c[a]?Object.assign(b[a],[...b[a],...c[a]]):Object.assign(b[a],_(c[a],b[a])));return Object.assign(c||{},b),c}(__pagefly_setting2__,__pagefly_setting__),delete window.__pagefly_setting2__),window.__pagefly_setting__.moneyFormat={{shop.money_format|json}}}();
+    </script>
+{% schema %}
+{
+  "name": "PageFly Home Page",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "For full configuration, [visit PageFly Editor](https://g3qh6w-0k.myshopify.com/admin/apps/pagefly/editor?id=0e0a46b2-ef1f-486c-a1ec-2298526baa16&type=home)."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ]
+}
+{% endschema %}
