@@ -1,1 +1,1342 @@
-{"sections":{"main":{"type":"main-product","blocks":{"loox_reviews_loox_rating_j8MYmj":{"type":"shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","settings":{"contentSize":16,"pattern":"[rating] | ([count] + Reviews)","hideText":false,"alignment":"","layout":"","textColor":"","starColor":"#1e1e1e","showAllReviews":false,"looxOpenFloatingWidget":true,"emptyRatingWidget":false}},"custom_liquid_bEcCdr":{"type":"custom_liquid","settings":{"custom_liquid":"<style>\n.cart-progress {\n  display: block !important;\n}\n<\/style>"}},"title_7jDqjh":{"type":"title","settings":{"text_size":"h2","title_alignment":"left","uppercase_title":false,"margin_top":0,"margin_bottom":0}},"price_qNHwht":{"type":"price","settings":{"layout":"price_first","price_color":"text","compare_price_color":"text","displayed_badge":"custom","icon_scale":125,"custom_badge_text":" [icon_1]ADD 2, PAY FOR ONE!","icon_1":"sell","filled_icon_1":true,"icon_2":"check_circle","filled_icon_2":false,"margin_top":6,"margin_bottom":6}},"divider_p68xiN":{"type":"divider","settings":{"color":"#e1e1e1","height":1,"width":100,"Full_mobile_width":false,"alignment":"center","border_radius":0,"margin_top":15,"margin_bottom":15}},"variant_picker_hPVAgi":{"type":"variant_picker","settings":{"picker_types":"swatches, pills","custom_labels":"","skip_unavailable":false,"swatches_size":"medium","swatches_custom_colors":"disabled","swatches_custom_colors_list":"purple, #000000, grey, beige,","full_width_dropdowns":false,"breaks_style":"normal","breaks_headline":"BUNDLE & SAVE","breaks_display_selected_indicator":true,"breaks_border_radius":4,"breaks_border_width":2,"breaks_color_scheme":"accent-1","breaks_badges":"[empty], Most popular, [empty]","breaks_badge_style":"1","breaks_badge_color":"accent-1","breaks_displayed_images":"none","breaks_custom_images":"","breaks_image_width":70,"breaks_space_images":true,"breaks_vertical_images_position":"top","breaks_vertical_prices_layout":"vertical","breaks_labels":"[name], [name], [name]","breaks_benefits":"[empty], Free Shipping, Free Shipping","breaks_benefit_position":"top","breaks_benefit_style":"outlined","breaks_benefit_color":"accent-1","breaks_captions":"Variant 1 caption, Variant 2 caption, Variant 3 caption","breaks_price_texts":"[price], [price], [price]","breaks_compare_price_texts":"[compare_price], [compare_price], [compare_price]","margin_top":18,"margin_bottom":18}},"quantity_selector_cbWtRX":{"type":"quantity_selector","settings":{"full_width_classic":false,"atc_append":"right","atc_append_heights":"stretch-quantity","enable_quantity_discounts":false,"style":"compact","headline":"BUNDLE & SAVE","preselected":"option_1","display_selected_indicator":true,"border_radius":20,"border_width":1,"color_scheme":"accent-1","enable_variant_selectors":true,"enable_variant_selectors_on_quantity_of_1":false,"update_prices":false,"skip_unavailable":false,"full_width_pickers":false,"hide_pickers_overlay":true,"pickers_label":"","image_width":70,"space_images":true,"vertical_images_position":"top","vertical_prices_layout":"vertical","option_1_quantity":1,"option_1_badge":"","option_1_badge_style":"1","option_1_badge_color":"accent-1","option_1_label":"Buy [quantity]","option_1_benefit":"","option_1_benefit_position":"top","option_1_benefit_style":"outlined","option_1_benefit_color":"accent-1","option_1_caption":"You save [amount_saved]","option_1_percentage_off_text":"0","option_1_fixed_amount_off":"0","option_1_price_text":"[price]","option_1_compare_price":"compare_price","option_1_compare_price_text":"[compare_price]","option_2_quantity":2,"option_2_badge":"","option_2_badge_style":"1","option_2_badge_color":"accent-1","option_2_label":"Buy [quantity]","option_2_benefit":"","option_2_benefit_position":"top","option_2_benefit_style":"outlined","option_2_benefit_color":"accent-1","option_2_caption":"You save [amount_saved]","option_2_percentage_off_text":"0","option_2_fixed_amount_off":"0","option_2_price_text":"[price]","option_2_compare_price":"compare_price","option_2_compare_price_text":"[compare_price]","option_3_quantity":3,"option_3_badge":"","option_3_badge_style":"1","option_3_badge_color":"accent-1","option_3_label":"Buy [quantity]","option_3_benefit":"","option_3_benefit_position":"top","option_3_benefit_style":"outlined","option_3_benefit_color":"accent-1","option_3_caption":"You save [amount_saved]","option_3_percentage_off_text":"0","option_3_fixed_amount_off":"0","option_3_price_text":"[price]","option_3_compare_price":"compare_price","option_3_compare_price_text":"[compare_price]","option_4_quantity":4,"option_4_badge":"","option_4_badge_style":"1","option_4_badge_color":"accent-1","option_4_label":"Buy [quantity]","option_4_benefit":"","option_4_benefit_position":"top","option_4_benefit_style":"outlined","option_4_benefit_color":"accent-1","option_4_caption":"You save [amount_saved]","option_4_percentage_off_text":"0","option_4_fixed_amount_off":"0","option_4_price_text":"[price]","option_4_compare_price":"compare_price","option_4_compare_price_text":"[compare_price]","margin_top":15,"margin_bottom":15}},"vitals_countdown_HVUDPn":{"type":"shopify:\/\/apps\/vitals\/blocks\/countdown\/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8","disabled":true,"settings":{}},"custom_liquid_fknPkJ":{"type":"custom_liquid","settings":{"custom_liquid":"<div id='ss-size-guide-2'><\/div>"}},"buy_buttons_Ncar4L":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false,"skip_cart":false,"uppercase_text":true,"icon_scale":120,"icon_spacing":10,"atc_custom_label":"Add To Cart","display_price":false,"enable_custom_color":true,"custom_color":"#1e1e1e","enable_secondary_btn":false,"secondary_btn_label":"Buy Now","secondary_btn_enable_custom_color":true,"secondary_btn_custom_color":"#beae9f","margin_top":12,"margin_bottom":0}},"shipping_checkpoints_xdhcft":{"type":"shipping_checkpoints","disabled":true,"settings":{"icon_1":"add_shopping_cart","filled_icon_1":false,"top_text_1":"<strong>[start_date]<\/strong>","bottom_text_1":"Ordered","min_days_1":0,"max_days_1":0,"icon_2":"local_shipping","filled_icon_2":false,"top_text_2":"<strong>[start_date] - [end_date]<\/strong>","bottom_text_2":"Dispatched","min_days_2":1,"max_days_2":2,"icon_3":"redeem","filled_icon_3":false,"top_text_3":"<strong>[start_date] - [end_date]<\/strong>","bottom_text_3":"Delivered","min_days_3":6,"max_days_3":8,"icon_4":"","filled_icon_4":false,"top_text_4":"","bottom_text_4":"","date_format":"mm_dd","days_labels":"Mon, Tue, Wed, Thu, Fri, Sat, Sun","months_labels":"Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec","color_scheme":"accent-1","margin_top":24,"margin_bottom":18}},"custom_liquid_e4XxPD":{"type":"custom_liquid","settings":{"custom_liquid":"<div id=\"location-shipping-info\">\n  <span id=\"shipping-flag\"><\/span>\n  <span>| Free Shipping to <span id=\"shipping-country\">your location<\/span><\/span>\n<\/div>\n\n<style>\n  #location-shipping-info {\n    text-align: center;\n    font-size: 1.5rem;\n    font-weight: 500;\n    padding: 2px;\n    background-color: #E8E1DB;\n    border-radius: 10px;\n    margin-top: 15px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 6px;\n  }\n  #shipping-country {\n    text-decoration: underline;\n    text-decoration-thickness: 1.5px;\n    font-weight: 600;\n  }\n  #shipping-flag {\n    font-size: 2rem; \/* Makes the flag emoji larger *\/\n    line-height: 1;   \/* Improves vertical alignment *\/\n  }\n<\/style>\n\n<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    const countrySpan = document.getElementById('shipping-country');\n    const flagSpan = document.getElementById('shipping-flag');\n    const fallbackFlag = '🌍';\n\n    function getFlagEmoji(countryCode) {\n      if (!countryCode || countryCode.length !== 2) return fallbackFlag;\n      const codePoints = countryCode\n        .toUpperCase()\n        .split('')\n        .map(char => 127397 + char.charCodeAt());\n      return String.fromCodePoint(...codePoints);\n    }\n\n    fetch('https:\/\/ipapi.co\/json\/')\n      .then(response => response.json())\n      .then(data => {\n        if (data && data.country_name && data.country_code) {\n          flagSpan.textContent = getFlagEmoji(data.country_code);\n          countrySpan.textContent = data.country_name;\n        } else {\n          flagSpan.textContent = fallbackFlag;\n          countrySpan.textContent = \"your location\";\n        }\n      })\n      .catch(error => {\n        console.error('Error fetching location:', error);\n        flagSpan.textContent = fallbackFlag;\n        countrySpan.textContent = \"your location\";\n      });\n  });\n<\/script>"}},"vitals_payment_logos_8mJWBM":{"type":"shopify:\/\/apps\/vitals\/blocks\/payment-logos\/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8","settings":{}},"custom_liquid_riHBD9":{"type":"custom_liquid","settings":{"custom_liquid":"<div id='ss-product-videos'><\/div>"}},"collapsible_tab_CpYcLe":{"type":"collapsible_tab","settings":{"heading":"Free shipping Included","heading_size":"medium","icon":"","filled_icon":false,"collapse_icon":"carret","display_top_border":true,"open":false,"content":"<p><strong>Standard Shipping<\/strong>: Estimated delivery within 7–12 business days. Always free.<\/p><p><strong>Express Shipping<\/strong>: Get it faster with delivery in 4–7 business days.<\/p>","page":"","margin_top":0,"margin_bottom":0}},"collapsible_tab_JCNk4G":{"type":"collapsible_tab","settings":{"heading":"30 Day Money Back Guarantee","heading_size":"medium","icon":"","filled_icon":false,"collapse_icon":"carret","display_top_border":true,"open":false,"content":"<p>Try it for <strong>30 days, completely risk-free<\/strong>.<\/p><p>If you’re not in love, we offer a <strong>100% money-back guarantee — no questions asked<\/strong>.<\/p>","page":"","margin_top":0,"margin_bottom":0}},"sticky_atc_EqYbVP":{"type":"sticky_atc","settings":{"function":"scroll_#ProductInfo-id","display_when":"after_scroll","button_label":"Select size","enable_custom_btn_color":true,"custom_btn_color":"#1e1e1e","color_scheme":"background-1","star_color":"#000000","stars_label":"145 + Reviews","picker_type":"combined","desktop_show_image":false,"desktop_show_title":true,"desktop_rating_stars":true,"desktop_show_price":true,"desktop_show_sale_badge":true,"desktop_variant_picker":false,"desktop_full_button_width":false,"desktop_show_price_in_button":false,"desktop_transparent_bg":false,"mobile_show_image":false,"mobile_show_title":true,"mobile_rating_stars":true,"mobile_show_price":true,"mobile_show_sale_badge":true,"mobile_variant_picker":false,"mobile_full_button_width":false,"mobile_show_price_in_button":false,"mobile_transparent_bg":false}}},"block_order":["loox_reviews_loox_rating_j8MYmj","custom_liquid_bEcCdr","title_7jDqjh","price_qNHwht","divider_p68xiN","variant_picker_hPVAgi","quantity_selector_cbWtRX","vitals_countdown_HVUDPn","custom_liquid_fknPkJ","buy_buttons_Ncar4L","shipping_checkpoints_xdhcft","custom_liquid_e4XxPD","vitals_payment_logos_8mJWBM","custom_liquid_riHBD9","collapsible_tab_CpYcLe","collapsible_tab_JCNk4G","sticky_atc_EqYbVP"],"custom_css":[".price,.price-item,.price-item--regular,.product-single__price {font-size: 15px !important;}",".color-swatch__image {height: 6rem !important;}"],"settings":{"display_id":false,"enable_sticky_info":true,"display_variant_image_first":false,"disable_prepend":false,"hide_variants":false,"variant_image_filtering":"none","image_zoom":"none","thumbnails_ratio":"square","arrows_color_scheme":"inverse","transparent_arrows":true,"dots_color_scheme":"inverse","video_player":"play_btn","enable_video_looping":true,"autoplay_videos_pause_btn":false,"video_sound_btn":false,"video_timeline":false,"play_btn_color_scheme":"inverse","sound_btn_color_scheme":"inverse","timeline_color":"accent-1","media_size":"medium","media_position":"left","gallery_layout":"thumbnail_slider","desktop_thumbnails_position":"left","desktop_thumbnails_count":4,"desktop_vertical_thumbnails_width":16,"desktop_vertical_thumbnails_hide_arrows":true,"constrain_to_viewport":true,"media_fit":"contain","desktop_arrows_position":"sides","mobile_media_corner_radius":0,"mobile_spacing_pixels":0,"mobile_arrows_position":"sides","mobile_pagination":"numeric","mobile_thumbnails_position":"bottom","mobile_thumbnails_count":4,"mobile_vertical_thumbnails_width":22,"mobile_vertical_thumbnails_hide_arrows":true,"mobile_scroll_padding_percentage":2,"mobile_scroll_padding_pixels":16,"enable_mobile_outher_spacing":true,"mobile_slides_container_width":100,"mobile_slides_inner_width":90,"trust_badge":"shopify:\/\/shop_images\/Offer_Tag11.png","trust_badge_position":"top-left","trust_badge_size":"large","mobile_padding_top":0,"mobile_padding_bottom":0,"desktop_padding_top":16,"desktop_padding_bottom":24}},"ss_product_vidoes_9xMy3t":{"type":"ss-product-vidoes","blocks":{"video_NiTjFf":{"type":"video","settings":{"video":"shopify:\/\/files\/videos\/snaptik_7403692587674062113 copy.mp4","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","modal_heading":"","modal_text":""}},"video_bzCQik":{"type":"video","settings":{"video":"shopify:\/\/files\/videos\/page vid new.mp4","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","modal_heading":"","modal_text":""}},"video_gRLKam":{"type":"video","settings":{"video":"shopify:\/\/files\/videos\/page vid .mp4","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","modal_heading":"","modal_text":""}}},"block_order":["video_NiTjFf","video_bzCQik","video_gRLKam"],"name":"SS - Product Videos","settings":{"videos_position":"above_description","use_metafield":false,"heading":"<h2>Join the 2K+ women just like you in our community<\/h2>","heading_custom":false,"heading_font":"josefin_sans_n4","heading_size":18,"heading_size_mobile":18,"heading_height":130,"heading_align":"center","heading_align_mobile":"center","slider_view":3,"slider_view_mobile":3,"slider_gap":16,"slider_gap_mobile":16,"slider_mt":20,"card_radius":10,"card_border_thickness":0,"card_shadow":true,"video_ratio":"portrait","video_ratio_mobile":"portrait","video_overlay":0.3,"icon_size":34,"icon_size_mobile":34,"icon_border_thickness":1,"icon_position_mobile":"bottom_left","icon_position":"bottom_left","hide_icon":false,"arrow_size":35,"arrow_size_mobile":35,"arrow_radius":5,"arrow_border_thickness":0,"arrow_hover_shadow":true,"arrow_show_desktop":true,"arrow_show_mobile":true,"show_content":false,"modal_width":30,"modal_width_mobile":95,"modal_padding_vertical":0,"modal_padding_vertical_mobile":0,"modal_padding_horizontal":0,"modal_padding_horizontal_mobile":0,"modal_radius":16,"modal_border_thickness":0,"modal_overlay":50,"close_size":42,"close_size_mobile":42,"close_radius":8,"close_border_thickness":0,"buttons_size":48,"buttons_size_mobile":48,"buttons_radius":8,"buttons_border_thickness":0,"modal_video_radius":0,"modal_video_border_thickness":0,"modal_video_ratio":"portrait","modal_video_ratio_mobile":"portrait","modal_heading_custom":false,"modal_heading_font":"josefin_sans_n4","modal_heading_size":28,"modal_heading_size_mobile":28,"modal_heading_height":130,"modal_heading_align":"center","modal_heading_align_mobile":"center","modal_text_custom":false,"modal_text_font":"josefin_sans_n4","modal_text_size":16,"modal_text_size_mobile":16,"modal_text_height":130,"modal_text_align":"center","modal_text_align_mobile":"center","modal_text_mt":16,"card_bg_color":"#ffffff","card_border_color":"#000000","card_shadow_color":"#000000","video_overlay_color":"#000000","icon_bg_color":"#000000","icon_border_color":"#ffffff","icon_color":"#ffffff","arrow_bg_color":"#ffffff","arrow_bg_hover_color":"#ffffff","arrow_border_color":"#000000","arrow_border_hover_color":"#000000","arrow_icon_color":"#1c1c1c","arrow_icon_hover_color":"#1c1c1c","modal_bg_color":"#ffffff","modal_border_color":"#000000","close_bg_color":"#ffffff","close_border_color":"#000000","close_icon_color":"#ffffff","buttons_bg_color":"#ffffff","buttons_border_color":"#000000","buttons_icon_color":"#ffffff","modal_video_border_color":"#000000","modal_content_bg_color":"#ffffff","modal_content_border_color":"#000000","modal_heading_color":"#000000","modal_text_color":"#000000","heading_color":"#000000","background_color":"#ffffff","background_gradient":"","border_color":"#000000","margin_top":0,"margin_bottom":0,"padding_top":36,"padding_bottom":20,"padding_horizontal":0,"padding_horizontal_mobile":0,"border_thickness":0,"lazy":true}},"logo_list_8QhwxE":{"type":"logo-list","blocks":{"logo_KVfxV3":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/vogue_mini.png","link":"","target_blank":false}},"logo_3Gc8CG":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/forbes_logo.png","link":"","target_blank":false}},"logo_EVHQtt":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/new_elle_logo.png","link":"","target_blank":false}},"logo_JwCJCr":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/in-style-logo_c5df8a7f-4957-4d6b.png","link":"","target_blank":false}},"logo_cwbET9":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/images_3.png","link":"","target_blank":false}},"logo_zmPrX7":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/Glamour_New.png","link":"","target_blank":false}}},"block_order":["logo_KVfxV3","logo_3Gc8CG","logo_EVHQtt","logo_JwCJCr","logo_cwbET9","logo_zmPrX7"],"settings":{"display_id":false,"visibility":"mobile-hidden","title":"","title_highlight_color":"#6d388b","heading_size":"h2","gray_logos":false,"color_scheme":"custom","layout":"horizontal","desktop_logo_height":40,"columns_mobile":2,"mobile_logo_height":40,"mobile_slider":true,"autoplay":true,"autoplay_speed":5,"show_dots":false,"padding_top":0,"padding_bottom":0,"custom_colors_background":"#fffcf5","custom_gradient_background":"","custom_colors_text":"#121212"}},"logo_list_XLhUcG":{"type":"logo-list","blocks":{"logo_4NfVhe":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/vogue_mini.png","link":"","target_blank":false}},"logo_dh9mcN":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/forbes_logo.png","link":"","target_blank":false}},"logo_jFKzcK":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/new_elle_logo.png","link":"","target_blank":false}},"logo_YeAcLM":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/in-style-logo_c5df8a7f-4957-4d6b.png","link":"","target_blank":false}},"logo_3ErCJi":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/images_3.png","link":"","target_blank":false}},"logo_93PBJD":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/Glamour_New.png","link":"","target_blank":false}}},"block_order":["logo_4NfVhe","logo_dh9mcN","logo_jFKzcK","logo_YeAcLM","logo_3ErCJi","logo_93PBJD"],"settings":{"display_id":false,"visibility":"desktop-hidden","title":"","title_highlight_color":"#6d388b","heading_size":"h2","gray_logos":false,"color_scheme":"custom","layout":"horizontal","desktop_logo_height":40,"columns_mobile":2,"mobile_logo_height":40,"mobile_slider":true,"autoplay":true,"autoplay_speed":5,"show_dots":false,"padding_top":0,"padding_bottom":0,"custom_colors_background":"#fffcf5","custom_gradient_background":"","custom_colors_text":"#121212"}},"featured_collection_AXpz3x":{"type":"featured-collection","settings":{"display_id":false,"visibility":"always-display","title":"You may also like","title_highlight_color":"#6d388b","heading_size":"h2","description":"","show_description":false,"description_style":"body","color_scheme":"background-1","collection":"summer-sale","products_to_show":4,"stretch_cards":true,"show_view_all":false,"view_all_style":"outline","cards_color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":true,"badges":"custom","show_vendor":false,"show_rating":true,"enable_quick_add":false,"swatches_option_name":"Color","swatches_position":"bottom","swatches_desktop_size":24,"swatches_mobile_size":16,"type":"slide","autoplay":false,"autoplay_speed":5,"arrows_color_scheme":"inverse","transparent_arrows":true,"dots_color_scheme":"inverse","desktop_full_page":false,"columns_desktop":4,"slider_desktop":true,"per_move_desktop":1,"desktop_spacing":28,"desktop_side_padding":0,"desktop_padding_calc":true,"desktop_adaptive_height":false,"desktop_dots_position":"hidden","desktop_arrows_position":"sides","columns_mobile":"2","slider_mobile":true,"enable_mobile_preview":false,"mobile_adaptive_height":false,"mobile_dots_position":"hidden","mobile_arrows_position":"sides","padding_top":20,"padding_bottom":8,"custom_colors_background":"#000000","custom_gradient_background":"","custom_colors_text":"#2e2a39","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#1e1e1e"}},"section_divider_BpRE46":{"type":"section-divider","name":"Section divider","settings":{"visibility":"always-display","shape":"waves_1","flip_horizontal":false,"flip_vertical":false,"shape_color":"accent-2","custom_shape_color":"#fffdf5","background_color":"background-1","custom_background_color":"#ffffff","padding_top":0,"padding_bottom":0}},"image_with_text_6PRF63":{"type":"image-with-text","blocks":{"heading_EfAjQJ":{"type":"heading","settings":{"title":"Reduce waistline appearance by up to 2 inches \/ 5 cm","title_highlight_color":"#ffffff","heading_size":"h2"}}},"block_order":["heading_EfAjQJ"],"name":"t:sections.image-with-text.presets.name","settings":{"display_id":false,"visibility":"always-display","image":"shopify:\/\/shop_images\/Slice_337_66cd0b5b-9351-43c7-9001-c465aae71bd9.jpg","video_autoplay":true,"video_loop":true,"height":"adapt","color_scheme":"accent-2","section_color_scheme":"accent-2","full_desktop_width":false,"content_layout":"no-overlap","desktop_media_width":40,"layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"center","mobile_full_media_width":false,"mobile_direction":"reverse","mobile_image_quanlity":"2","mobile_content_alignment":"center","mobile_padding_top":12,"mobile_padding_bottom":0,"desktop_padding_top":16,"desktop_padding_bottom":0,"custom_colors_background":"#fffdf5","custom_gradient_background":"","custom_colors_text":"#ffffff","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff","custom_colors_outline_button":"#dd1d1d","custom_section_colors_background":"#fffdf5","custom_section_gradient_background":""}},"image_with_text_eDYiyL":{"type":"image-with-text","blocks":{"heading_YxQ3tE":{"type":"heading","settings":{"title":"<strong>Designed to be invisible under jeans, dresses, or leggings<\/strong>","title_highlight_color":"#ffffff","heading_size":"h2"}}},"block_order":["heading_YxQ3tE"],"name":"t:sections.image-with-text.presets.name","settings":{"display_id":false,"visibility":"always-display","image":"shopify:\/\/shop_images\/Slice_336_e6ad0920-b202-4c4d-ac74-b355cd05c483.jpg","video_autoplay":true,"video_loop":true,"height":"adapt","color_scheme":"accent-2","section_color_scheme":"accent-2","full_desktop_width":false,"content_layout":"no-overlap","desktop_media_width":40,"layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"center","mobile_full_media_width":false,"mobile_direction":"reverse","mobile_image_quanlity":"2","mobile_content_alignment":"center","mobile_padding_top":0,"mobile_padding_bottom":0,"desktop_padding_top":0,"desktop_padding_bottom":16,"custom_colors_background":"#fffdf5","custom_gradient_background":"","custom_colors_text":"#ffffff","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff","custom_colors_outline_button":"#dd1d1d","custom_section_colors_background":"#fffdf5","custom_section_gradient_background":""}},"section_divider_MhAGLV":{"type":"section-divider","name":"Section divider","settings":{"visibility":"always-display","shape":"waves_1","flip_horizontal":true,"flip_vertical":true,"shape_color":"accent-2","custom_shape_color":"#cdb864","background_color":"background-1","custom_background_color":"#ffffff","padding_top":0,"padding_bottom":0}},"icon_bar_9GhNa9":{"type":"icon-bar","blocks":{"column_3qEJCq":{"type":"column","settings":{"icon":"security","filled_icon":false,"title":"","text":"<p>Instant Waist Slimming<\/p>"}},"column_xN6PYL":{"type":"column","settings":{"icon":"eco","filled_icon":false,"title":"","text":"<p>Natural Butt Lift<\/p>"}},"column_pHicwA":{"type":"column","settings":{"icon":"air","filled_icon":false,"title":"","text":"<p>All-Day Breathable Comfort<\/p>"}},"column_B9fWGF":{"type":"column","settings":{"icon":"wc","filled_icon":false,"title":"","text":"<p>Easy Bathroom Access<\/p>"}}},"block_order":["column_3qEJCq","column_xN6PYL","column_pHicwA","column_B9fWGF"],"settings":{"display_id":false,"visibility":"always-display","title":"Benefits","title_highlight_color":"#6d388b","heading_size":"h1","text":"","color_scheme":"custom","icon_layout":"vertical","icon_size":"medium","icon_color":"accent-2","cards_color_scheme":"custom","type":"loop","autoplay":false,"autoplay_speed":5,"arrows_color_scheme":"inverse","transparent_arrows":true,"dots_color_scheme":"inverse","desktop_full_page":true,"columns_desktop":4,"slider_desktop":false,"per_move_desktop":1,"desktop_spacing":20,"desktop_side_padding":0,"desktop_padding_calc":true,"desktop_adaptive_height":false,"desktop_dots_position":"under","desktop_arrows_position":"sides","columns_mobile":"1","slider_mobile":true,"enable_mobile_preview":false,"mobile_adaptive_height":false,"mobile_dots_position":"hidden","mobile_arrows_position":"sides","padding_top":0,"padding_bottom":16,"custom_colors_background":"#fefcf5","custom_gradient_background":"","custom_colors_text":"#2e2a39","custom_cards_colors_background":"#fefcf5","custom_cards_gradient_background":"","custom_cards_colors_text":"#2e2a39"}},"ss_size_guide_2_JjExLg":{"type":"ss-size-guide-2","blocks":{"size_chart_hCcJKm":{"type":"size_chart","settings":{"toggle_text":"INCH","size_chart_page":"laced-shape-briefs-with-zip-size-chart-inch","text":"<p>Size chart content<\/p>"}},"size_chart_MpA8dt":{"type":"size_chart","settings":{"toggle_text":"CM","size_chart_page":"laced-shape-briefs-with-zip-size-chart-cm","text":"<p>Size chart content<\/p>"}}},"block_order":["size_chart_hCcJKm","size_chart_MpA8dt"],"settings":{"guide_position":"above_buy","toggle":"Size Guide","toggle_custom":false,"toggle_font":"josefin_sans_n4","toggle_size":17,"toggle_size_mobile":17,"toggle_height":200,"toggle_align":"right","toggle_align_mobile":"right","icon_size":14,"icon_size_mobile":14,"hide_icon":false,"modal_width":100,"modal_width_mobile":100,"modal_padding_vertical":40,"modal_padding_vertical_mobile":40,"modal_padding_horizontal":40,"modal_padding_horizontal_mobile":20,"modal_radius":8,"modal_border_thickness":0,"modal_overlay":0.3,"close_icon_size":24,"close_icon_size_mobile":18,"body_gap":40,"body_gap_mobile":10,"body_mt":20,"body_mt_mobile":20,"heading":"<h2>Size Guide<\/h2>","heading_custom":false,"heading_font":"josefin_sans_n4","heading_size":32,"heading_size_mobile":24,"heading_height":130,"heading_align":"center","heading_align_mobile":"center","title":"Body measurements","title_custom":false,"title_font":"josefin_sans_n4","title_size":24,"title_size_mobile":18,"title_height":130,"title_mt":40,"title_mt_mobile":40,"switch_custom":false,"switch_font":"josefin_sans_n4","switch_size":15,"switch_size_mobile":15,"switch_height":100,"switch_radius":100,"text":"<p>This product needs to be hand washed with warm water at 10°C-35°C. Do not use boiling water to scald it.<\/p>","text_custom":false,"text_font":"josefin_sans_n4","text_size":14,"text_size_mobile":12,"text_height":130,"text_mt":20,"text_mt_mobile":20,"text_align":"center","text_align_mobile":"center","use_scrollbar":false,"modal_image":"shopify:\/\/shop_images\/Add_a_subheading_3bdb6407-d441-4c34-b4ba-127cbab1d7f0.png","modal_image_radius":0,"hide_modal_image":false,"modal_overlay_color":"#000000","modal_bg_color":"#fefcf5","modal_border_color":"#000000","close_icon_color":"#000000","heading_color":"#000000","title_color":"#000000","text_color":"#000000","switch_color":"#000000","switch_active_color":"#ffffff","switch_bg_active_color":"#000000","switches_border_color":"#000000","toggle_color":"#000000","toggle_hover_color":"#555555","background_color":"","background_gradient":"","border_color":"#000000","margin_top":0,"margin_bottom":-12,"padding_top":0,"padding_bottom":0,"padding_horizontal":0,"padding_horizontal_mobile":0,"border_thickness":0,"lazy":true}},"1743408848d7e389c4":{"type":"apps","blocks":{"loox_reviews_loox_dynamic_section_eMNgLt":{"type":"shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","settings":{"only_photos":false,"aggregated":false,"limit":3,"hide_thumbnails":false,"maxwidth":1080,"is_sample":true}}},"block_order":["loox_reviews_loox_dynamic_section_eMNgLt"],"settings":{"display_id":false,"include_margins":true}},"related-products":{"type":"related-products","disabled":true,"settings":{"display_id":false,"title":"You may also like","title_highlight_color":"#6d388b","heading_size":"h2","products_to_show":4,"stretch_cards":false,"columns_desktop":4,"color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","padding_top":36,"padding_bottom":24}},"collapsible_content_MBkcQr":{"type":"collapsible-content","blocks":{"collapsible_row_UGJ3Ey":{"type":"collapsible_row","settings":{"heading":"What is your return policy?","icon":"","filled_icon":false,"row_content":"<p>We offer a 30-day free trial with a 100% money-back guarantee. If you’re not satisfied, contact our customer service for assistance.<\/p>","page":""}},"collapsible_row_q9ae8E":{"type":"collapsible_row","settings":{"heading":"Will it show under my clothes?","icon":"","filled_icon":false,"row_content":"<p>No, the seamless design and smooth edges make it virtually invisible under most clothing, including tight-fitting dresses and tops.<\/p>","page":""}},"collapsible_row_79PQWa":{"type":"collapsible_row","settings":{"heading":"What is the zipper crotch feature?","icon":"","filled_icon":false,"row_content":"<p>The convenient zipper crotch allows for easy bathroom breaks without having to remove the entire garment, making it perfect for all-day wear and special events.<\/p>","page":""}},"collapsible_row_cUGHxf":{"type":"collapsible_row","settings":{"heading":" How much compression does this provide?","icon":"","filled_icon":false,"row_content":"<p>This is a high-compression garment designed for serious body shaping. It provides firm tummy control and butt lifting. If you're new to shapewear, you may want to start with a larger size.<\/p>","page":""}},"collapsible_row_EyKbci":{"type":"collapsible_row","settings":{"heading":"Can I wear this all day?","icon":"","filled_icon":false,"row_content":"<p>Yes, many customers wear it comfortably for extended periods. The breathable fabric and practical zipper design make it suitable for all-day wear.<\/p>","page":""}},"collapsible_row_NNW8BH":{"type":"collapsible_row","settings":{"heading":"How do I care for it?","icon":"","filled_icon":false,"row_content":"<p>Hand wash in cold water and air dry to maintain the garment's shape and compression. Avoid bleach and fabric softeners.<\/p>","page":""}},"collapsible_row_XNMMNH":{"type":"collapsible_row","settings":{"heading":"Is this suitable for postpartum use?","icon":"","filled_icon":false,"row_content":"<p>Many new mothers find this helpful for postpartum support, but please consult with your healthcare provider before use, especially if you've had a C-section.<\/p>","page":""}},"collapsible_row_RPGbnR":{"type":"collapsible_row","settings":{"heading":"How is this different from regular shapewear?","icon":"","filled_icon":false,"row_content":"<p>This offers Colombian-style high compression for dramatic body shaping, plus the convenient zipper crotch feature that most shapewear lacks.<\/p>","page":""}},"collapsible_row_bwkDLg":{"type":"collapsible_row","settings":{"heading":"Does it help with back support?","icon":"","filled_icon":false,"row_content":"<p>While primarily designed for body shaping, many customers report improved posture and some back support due to the firm compression around the torso.<\/p>","page":""}}},"block_order":["collapsible_row_UGJ3Ey","collapsible_row_q9ae8E","collapsible_row_79PQWa","collapsible_row_cUGHxf","collapsible_row_EyKbci","collapsible_row_NNW8BH","collapsible_row_XNMMNH","collapsible_row_RPGbnR","collapsible_row_bwkDLg"],"settings":{"display_id":false,"visibility":"always-display","caption":"","title":"Frequently Asked Questions","title_highlight_color":"#dd1d1d","heading_size":"h2","heading_alignment":"center","layout":"section","color_scheme":"background-1","container_color_scheme":"background-1","open_first_collapsible_row":false,"video_muted_autoplay":true,"image_ratio":"adapt","desktop_layout":"image_second","row_heading_size":"small","collapse_icon":"carret","display_top_border":true,"padding_top":12,"padding_bottom":0,"custom_colors_background":"#f0f1f5","custom_gradient_background":"linear-gradient(13deg, rgba(255, 255, 255, 1), rgba(170, 248, 219, 1) 86%)","custom_colors_text":"#2e2a39","custom_contaner_colors_background":"#ffffff","custom_container_gradient_background":"radial-gradient(rgba(215, 204, 250, 1) 100%, rgba(247, 197, 204, 1) 100%)","custom_contaner_colors_text":"#2e2a39"}},"section_divider_rVHz7c":{"type":"section-divider","settings":{"visibility":"always-display","shape":"waves_3","flip_horizontal":false,"flip_vertical":false,"shape_color":"accent-2","custom_shape_color":"#808080","background_color":"background-1","custom_background_color":"#ffffff","padding_top":0,"padding_bottom":0}}},"order":["main","ss_product_vidoes_9xMy3t","logo_list_8QhwxE","logo_list_XLhUcG","featured_collection_AXpz3x","section_divider_BpRE46","image_with_text_6PRF63","image_with_text_eDYiyL","section_divider_MhAGLV","icon_bar_9GhNa9","ss_size_guide_2_JjExLg","1743408848d7e389c4","related-products","collapsible_content_MBkcQr","section_divider_rVHz7c"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "loox_reviews_loox_rating_j8MYmj": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "[rating] | ([count] + Reviews)",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "#1e1e1e",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": true,
+            "emptyRatingWidget": false
+          }
+        },
+        "custom_liquid_bEcCdr": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.cart-progress {\n  display: block !important;\n}\n</style>"
+          }
+        },
+        "title_7jDqjh": {
+          "type": "title",
+          "settings": {
+            "text_size": "h2",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "price_qNHwht": {
+          "type": "price",
+          "settings": {
+            "layout": "price_first",
+            "price_color": "text",
+            "compare_price_color": "text",
+            "displayed_badge": "custom",
+            "icon_scale": 125,
+            "custom_badge_text": " [icon_1]ADD 2, PAY FOR ONE!",
+            "icon_1": "sell",
+            "filled_icon_1": true,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "margin_top": 6,
+            "margin_bottom": 6
+          }
+        },
+        "divider_p68xiN": {
+          "type": "divider",
+          "settings": {
+            "color": "#e1e1e1",
+            "height": 1,
+            "width": 100,
+            "Full_mobile_width": false,
+            "alignment": "center",
+            "border_radius": 0,
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "variant_picker_hPVAgi": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_types": "swatches, pills",
+            "custom_labels": "",
+            "skip_unavailable": false,
+            "swatches_size": "medium",
+            "swatches_custom_colors": "disabled",
+            "swatches_custom_colors_list": "purple, #000000, grey, beige,",
+            "full_width_dropdowns": false,
+            "breaks_style": "normal",
+            "breaks_headline": "BUNDLE & SAVE",
+            "breaks_display_selected_indicator": true,
+            "breaks_border_radius": 4,
+            "breaks_border_width": 2,
+            "breaks_color_scheme": "accent-1",
+            "breaks_badges": "[empty], Most popular, [empty]",
+            "breaks_badge_style": "1",
+            "breaks_badge_color": "accent-1",
+            "breaks_displayed_images": "none",
+            "breaks_custom_images": "",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_vertical_images_position": "top",
+            "breaks_vertical_prices_layout": "vertical",
+            "breaks_labels": "[name], [name], [name]",
+            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
+            "breaks_benefit_position": "top",
+            "breaks_benefit_style": "outlined",
+            "breaks_benefit_color": "accent-1",
+            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
+            "breaks_price_texts": "[price], [price], [price]",
+            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
+            "margin_top": 18,
+            "margin_bottom": 18
+          }
+        },
+        "quantity_selector_cbWtRX": {
+          "type": "quantity_selector",
+          "settings": {
+            "full_width_classic": false,
+            "atc_append": "right",
+            "atc_append_heights": "stretch-quantity",
+            "enable_quantity_discounts": false,
+            "style": "compact",
+            "headline": "BUNDLE & SAVE",
+            "preselected": "option_1",
+            "display_selected_indicator": true,
+            "border_radius": 20,
+            "border_width": 1,
+            "color_scheme": "accent-1",
+            "enable_variant_selectors": true,
+            "enable_variant_selectors_on_quantity_of_1": false,
+            "update_prices": false,
+            "skip_unavailable": false,
+            "full_width_pickers": false,
+            "hide_pickers_overlay": true,
+            "pickers_label": "",
+            "image_width": 70,
+            "space_images": true,
+            "vertical_images_position": "top",
+            "vertical_prices_layout": "vertical",
+            "option_1_quantity": 1,
+            "option_1_badge": "",
+            "option_1_badge_style": "1",
+            "option_1_badge_color": "accent-1",
+            "option_1_label": "Buy [quantity]",
+            "option_1_benefit": "",
+            "option_1_benefit_position": "top",
+            "option_1_benefit_style": "outlined",
+            "option_1_benefit_color": "accent-1",
+            "option_1_caption": "You save [amount_saved]",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "0",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "compare_price",
+            "option_1_compare_price_text": "[compare_price]",
+            "option_2_quantity": 2,
+            "option_2_badge": "",
+            "option_2_badge_style": "1",
+            "option_2_badge_color": "accent-1",
+            "option_2_label": "Buy [quantity]",
+            "option_2_benefit": "",
+            "option_2_benefit_position": "top",
+            "option_2_benefit_style": "outlined",
+            "option_2_benefit_color": "accent-1",
+            "option_2_caption": "You save [amount_saved]",
+            "option_2_percentage_off_text": "0",
+            "option_2_fixed_amount_off": "0",
+            "option_2_price_text": "[price]",
+            "option_2_compare_price": "compare_price",
+            "option_2_compare_price_text": "[compare_price]",
+            "option_3_quantity": 3,
+            "option_3_badge": "",
+            "option_3_badge_style": "1",
+            "option_3_badge_color": "accent-1",
+            "option_3_label": "Buy [quantity]",
+            "option_3_benefit": "",
+            "option_3_benefit_position": "top",
+            "option_3_benefit_style": "outlined",
+            "option_3_benefit_color": "accent-1",
+            "option_3_caption": "You save [amount_saved]",
+            "option_3_percentage_off_text": "0",
+            "option_3_fixed_amount_off": "0",
+            "option_3_price_text": "[price]",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 4,
+            "option_4_badge": "",
+            "option_4_badge_style": "1",
+            "option_4_badge_color": "accent-1",
+            "option_4_label": "Buy [quantity]",
+            "option_4_benefit": "",
+            "option_4_benefit_position": "top",
+            "option_4_benefit_style": "outlined",
+            "option_4_benefit_color": "accent-1",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "vitals_countdown_HVUDPn": {
+          "type": "shopify://apps/vitals/blocks/countdown/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
+          "disabled": true,
+          "settings": {}
+        },
+        "custom_liquid_fknPkJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id='ss-size-guide-2'></div>"
+          }
+        },
+        "buy_buttons_Ncar4L": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "atc_custom_label": "Add To Cart",
+            "display_price": false,
+            "enable_custom_color": true,
+            "custom_color": "#1e1e1e",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy Now",
+            "secondary_btn_enable_custom_color": true,
+            "secondary_btn_custom_color": "#beae9f",
+            "margin_top": 12,
+            "margin_bottom": 0
+          }
+        },
+        "shipping_checkpoints_xdhcft": {
+          "type": "shipping_checkpoints",
+          "disabled": true,
+          "settings": {
+            "icon_1": "add_shopping_cart",
+            "filled_icon_1": false,
+            "top_text_1": "<strong>[start_date]</strong>",
+            "bottom_text_1": "Ordered",
+            "min_days_1": 0,
+            "max_days_1": 0,
+            "icon_2": "local_shipping",
+            "filled_icon_2": false,
+            "top_text_2": "<strong>[start_date] - [end_date]</strong>",
+            "bottom_text_2": "Dispatched",
+            "min_days_2": 1,
+            "max_days_2": 2,
+            "icon_3": "redeem",
+            "filled_icon_3": false,
+            "top_text_3": "<strong>[start_date] - [end_date]</strong>",
+            "bottom_text_3": "Delivered",
+            "min_days_3": 6,
+            "max_days_3": 8,
+            "icon_4": "",
+            "filled_icon_4": false,
+            "top_text_4": "",
+            "bottom_text_4": "",
+            "date_format": "mm_dd",
+            "days_labels": "Mon, Tue, Wed, Thu, Fri, Sat, Sun",
+            "months_labels": "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+            "color_scheme": "accent-1",
+            "margin_top": 24,
+            "margin_bottom": 18
+          }
+        },
+        "custom_liquid_e4XxPD": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"location-shipping-info\">\n  <span id=\"shipping-flag\"></span>\n  <span>| Free Shipping to <span id=\"shipping-country\">your location</span></span>\n</div>\n\n<style>\n  #location-shipping-info {\n    text-align: center;\n    font-size: 1.5rem;\n    font-weight: 500;\n    padding: 2px;\n    background-color: #E8E1DB;\n    border-radius: 10px;\n    margin-top: 15px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 6px;\n  }\n  #shipping-country {\n    text-decoration: underline;\n    text-decoration-thickness: 1.5px;\n    font-weight: 600;\n  }\n  #shipping-flag {\n    font-size: 2rem; /* Makes the flag emoji larger */\n    line-height: 1;   /* Improves vertical alignment */\n  }\n</style>\n\n<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    const countrySpan = document.getElementById('shipping-country');\n    const flagSpan = document.getElementById('shipping-flag');\n    const fallbackFlag = '🌍';\n\n    function getFlagEmoji(countryCode) {\n      if (!countryCode || countryCode.length !== 2) return fallbackFlag;\n      const codePoints = countryCode\n        .toUpperCase()\n        .split('')\n        .map(char => 127397 + char.charCodeAt());\n      return String.fromCodePoint(...codePoints);\n    }\n\n    fetch('https://ipapi.co/json/')\n      .then(response => response.json())\n      .then(data => {\n        if (data && data.country_name && data.country_code) {\n          flagSpan.textContent = getFlagEmoji(data.country_code);\n          countrySpan.textContent = data.country_name;\n        } else {\n          flagSpan.textContent = fallbackFlag;\n          countrySpan.textContent = \"your location\";\n        }\n      })\n      .catch(error => {\n        console.error('Error fetching location:', error);\n        flagSpan.textContent = fallbackFlag;\n        countrySpan.textContent = \"your location\";\n      });\n  });\n</script>"
+          }
+        },
+        "vitals_payment_logos_8mJWBM": {
+          "type": "shopify://apps/vitals/blocks/payment-logos/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
+          "settings": {}
+        },
+        "custom_liquid_riHBD9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id='ss-product-videos'></div>"
+          }
+        },
+        "collapsible_tab_CpYcLe": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Free shipping Included",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p><strong>Standard Shipping</strong>: Estimated delivery within 7–12 business days. Always free.</p><p><strong>Express Shipping</strong>: Get it faster with delivery in 4–7 business days.</p>",
+            "page": "",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_JCNk4G": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "30 Day Money Back Guarantee",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Try it for <strong>30 days, completely risk-free</strong>.</p><p>If you’re not in love, we offer a <strong>100% money-back guarantee — no questions asked</strong>.</p>",
+            "page": "",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "sticky_atc_EqYbVP": {
+          "type": "sticky_atc",
+          "settings": {
+            "function": "scroll_#ProductInfo-id",
+            "display_when": "after_scroll",
+            "button_label": "Select size",
+            "enable_custom_btn_color": true,
+            "custom_btn_color": "#1e1e1e",
+            "color_scheme": "background-1",
+            "star_color": "#000000",
+            "stars_label": "126 + Reviews",
+            "picker_type": "combined",
+            "desktop_show_image": false,
+            "desktop_show_title": true,
+            "desktop_rating_stars": true,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": true,
+            "desktop_variant_picker": false,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_rating_stars": true,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": true,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_rating_j8MYmj",
+        "custom_liquid_bEcCdr",
+        "title_7jDqjh",
+        "price_qNHwht",
+        "divider_p68xiN",
+        "variant_picker_hPVAgi",
+        "quantity_selector_cbWtRX",
+        "vitals_countdown_HVUDPn",
+        "custom_liquid_fknPkJ",
+        "buy_buttons_Ncar4L",
+        "shipping_checkpoints_xdhcft",
+        "custom_liquid_e4XxPD",
+        "vitals_payment_logos_8mJWBM",
+        "custom_liquid_riHBD9",
+        "collapsible_tab_CpYcLe",
+        "collapsible_tab_JCNk4G",
+        "sticky_atc_EqYbVP"
+      ],
+      "custom_css": [
+        ".price,.price-item,.price-item--regular,.product-single__price {font-size: 15px !important;}",
+        ".color-swatch__image {height: 6rem !important;}"
+      ],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": false,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "thumbnails_ratio": "square",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": true,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "inverse",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_position": "left",
+        "desktop_thumbnails_count": 4,
+        "desktop_vertical_thumbnails_width": 16,
+        "desktop_vertical_thumbnails_hide_arrows": true,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "sides",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "numeric",
+        "mobile_thumbnails_position": "bottom",
+        "mobile_thumbnails_count": 4,
+        "mobile_vertical_thumbnails_width": 22,
+        "mobile_vertical_thumbnails_hide_arrows": true,
+        "mobile_scroll_padding_percentage": 2,
+        "mobile_scroll_padding_pixels": 16,
+        "enable_mobile_outher_spacing": true,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 90,
+        "trust_badge": "shopify://shop_images/Offer_Tag11.png",
+        "trust_badge_position": "top-left",
+        "trust_badge_size": "large",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 24
+      }
+    },
+    "ss_product_vidoes_9xMy3t": {
+      "type": "ss-product-vidoes",
+      "blocks": {
+        "video_NiTjFf": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/snaptik_7403692587674062113 copy.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "",
+            "modal_text": ""
+          }
+        },
+        "video_bzCQik": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/page vid new.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "",
+            "modal_text": ""
+          }
+        },
+        "video_gRLKam": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/page vid .mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "",
+            "modal_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_NiTjFf",
+        "video_bzCQik",
+        "video_gRLKam"
+      ],
+      "name": "SS - Product Videos",
+      "settings": {
+        "videos_position": "above_description",
+        "use_metafield": false,
+        "heading": "<h2>Join the 2K+ women just like you in our community</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "slider_view": 3,
+        "slider_view_mobile": 3,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "slider_mt": 20,
+        "card_radius": 10,
+        "card_border_thickness": 0,
+        "card_shadow": true,
+        "video_ratio": "portrait",
+        "video_ratio_mobile": "portrait",
+        "video_overlay": 0.3,
+        "icon_size": 34,
+        "icon_size_mobile": 34,
+        "icon_border_thickness": 1,
+        "icon_position_mobile": "bottom_left",
+        "icon_position": "bottom_left",
+        "hide_icon": false,
+        "arrow_size": 35,
+        "arrow_size_mobile": 35,
+        "arrow_radius": 5,
+        "arrow_border_thickness": 0,
+        "arrow_hover_shadow": true,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "show_content": false,
+        "modal_width": 30,
+        "modal_width_mobile": 95,
+        "modal_padding_vertical": 0,
+        "modal_padding_vertical_mobile": 0,
+        "modal_padding_horizontal": 0,
+        "modal_padding_horizontal_mobile": 0,
+        "modal_radius": 16,
+        "modal_border_thickness": 0,
+        "modal_overlay": 50,
+        "close_size": 42,
+        "close_size_mobile": 42,
+        "close_radius": 8,
+        "close_border_thickness": 0,
+        "buttons_size": 48,
+        "buttons_size_mobile": 48,
+        "buttons_radius": 8,
+        "buttons_border_thickness": 0,
+        "modal_video_radius": 0,
+        "modal_video_border_thickness": 0,
+        "modal_video_ratio": "portrait",
+        "modal_video_ratio_mobile": "portrait",
+        "modal_heading_custom": false,
+        "modal_heading_font": "josefin_sans_n4",
+        "modal_heading_size": 28,
+        "modal_heading_size_mobile": 28,
+        "modal_heading_height": 130,
+        "modal_heading_align": "center",
+        "modal_heading_align_mobile": "center",
+        "modal_text_custom": false,
+        "modal_text_font": "josefin_sans_n4",
+        "modal_text_size": 16,
+        "modal_text_size_mobile": 16,
+        "modal_text_height": 130,
+        "modal_text_align": "center",
+        "modal_text_align_mobile": "center",
+        "modal_text_mt": 16,
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "video_overlay_color": "#000000",
+        "icon_bg_color": "#000000",
+        "icon_border_color": "#ffffff",
+        "icon_color": "#ffffff",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "arrow_icon_color": "#1c1c1c",
+        "arrow_icon_hover_color": "#1c1c1c",
+        "modal_bg_color": "#ffffff",
+        "modal_border_color": "#000000",
+        "close_bg_color": "#ffffff",
+        "close_border_color": "#000000",
+        "close_icon_color": "#ffffff",
+        "buttons_bg_color": "#ffffff",
+        "buttons_border_color": "#000000",
+        "buttons_icon_color": "#ffffff",
+        "modal_video_border_color": "#000000",
+        "modal_content_bg_color": "#ffffff",
+        "modal_content_border_color": "#000000",
+        "modal_heading_color": "#000000",
+        "modal_text_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 20,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "logo_list_8QhwxE": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_KVfxV3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vogue_mini.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_3Gc8CG": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/forbes_logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_EVHQtt": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/new_elle_logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_JwCJCr": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/in-style-logo_c5df8a7f-4957-4d6b.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_cwbET9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/images_3.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_zmPrX7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Glamour_New.png",
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_KVfxV3",
+        "logo_3Gc8CG",
+        "logo_EVHQtt",
+        "logo_JwCJCr",
+        "logo_cwbET9",
+        "logo_zmPrX7"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "mobile-hidden",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "gray_logos": false,
+        "color_scheme": "custom",
+        "layout": "horizontal",
+        "desktop_logo_height": 40,
+        "columns_mobile": 2,
+        "mobile_logo_height": 40,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_dots": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#fffcf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "logo_list_XLhUcG": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_4NfVhe": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vogue_mini.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_dh9mcN": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/forbes_logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_jFKzcK": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/new_elle_logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_YeAcLM": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/in-style-logo_c5df8a7f-4957-4d6b.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_3ErCJi": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/images_3.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_93PBJD": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Glamour_New.png",
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_4NfVhe",
+        "logo_dh9mcN",
+        "logo_jFKzcK",
+        "logo_YeAcLM",
+        "logo_3ErCJi",
+        "logo_93PBJD"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "desktop-hidden",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "gray_logos": false,
+        "color_scheme": "custom",
+        "layout": "horizontal",
+        "desktop_logo_height": 40,
+        "columns_mobile": 2,
+        "mobile_logo_height": 40,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_dots": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#fffcf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "featured_collection_AXpz3x": {
+      "type": "featured-collection",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "color_scheme": "background-1",
+        "collection": "summer-sale",
+        "products_to_show": 4,
+        "stretch_cards": true,
+        "show_view_all": false,
+        "view_all_style": "outline",
+        "cards_color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "badges": "custom",
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "swatches_option_name": "Color",
+        "swatches_position": "bottom",
+        "swatches_desktop_size": 24,
+        "swatches_mobile_size": 16,
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 4,
+        "slider_desktop": true,
+        "per_move_desktop": 1,
+        "desktop_spacing": 28,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "2",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "sides",
+        "padding_top": 20,
+        "padding_bottom": 8,
+        "custom_colors_background": "#000000",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#1e1e1e"
+      }
+    },
+    "section_divider_BpRE46": {
+      "type": "section-divider",
+      "name": "Section divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_1",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "accent-2",
+        "custom_shape_color": "#fffdf5",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_6PRF63": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EfAjQJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Reduce waistline appearance by up to 2 inches / 5 cm",
+            "title_highlight_color": "#ffffff",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EfAjQJ"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/Slice_337_66cd0b5b-9351-43c7-9001-c465aae71bd9.jpg",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "accent-2",
+        "section_color_scheme": "accent-2",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 40,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_full_media_width": false,
+        "mobile_direction": "reverse",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "center",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 0,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 0,
+        "custom_colors_background": "#fffdf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#fffdf5",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "image_with_text_eDYiyL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YxQ3tE": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Designed to be invisible under jeans, dresses, or leggings</strong>",
+            "title_highlight_color": "#ffffff",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YxQ3tE"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/Slice_336_e6ad0920-b202-4c4d-ac74-b355cd05c483.jpg",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "accent-2",
+        "section_color_scheme": "accent-2",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 40,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_full_media_width": false,
+        "mobile_direction": "reverse",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "center",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#fffdf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#fffdf5",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "section_divider_MhAGLV": {
+      "type": "section-divider",
+      "name": "Section divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_1",
+        "flip_horizontal": true,
+        "flip_vertical": true,
+        "shape_color": "accent-2",
+        "custom_shape_color": "#cdb864",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "icon_bar_9GhNa9": {
+      "type": "icon-bar",
+      "blocks": {
+        "column_3qEJCq": {
+          "type": "column",
+          "settings": {
+            "icon": "security",
+            "filled_icon": false,
+            "title": "",
+            "text": "<p>Instant Waist Slimming</p>"
+          }
+        },
+        "column_xN6PYL": {
+          "type": "column",
+          "settings": {
+            "icon": "eco",
+            "filled_icon": false,
+            "title": "",
+            "text": "<p>Natural Butt Lift</p>"
+          }
+        },
+        "column_pHicwA": {
+          "type": "column",
+          "settings": {
+            "icon": "air",
+            "filled_icon": false,
+            "title": "",
+            "text": "<p>All-Day Breathable Comfort</p>"
+          }
+        },
+        "column_B9fWGF": {
+          "type": "column",
+          "settings": {
+            "icon": "wc",
+            "filled_icon": false,
+            "title": "",
+            "text": "<p>Easy Bathroom Access</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_3qEJCq",
+        "column_xN6PYL",
+        "column_pHicwA",
+        "column_B9fWGF"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Benefits",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "custom",
+        "icon_layout": "vertical",
+        "icon_size": "medium",
+        "icon_color": "accent-2",
+        "cards_color_scheme": "custom",
+        "type": "loop",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": true,
+        "columns_desktop": 4,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 20,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "sides",
+        "padding_top": 0,
+        "padding_bottom": 16,
+        "custom_colors_background": "#fefcf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#fefcf5",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    },
+    "ss_size_guide_2_JjExLg": {
+      "type": "ss-size-guide-2",
+      "blocks": {
+        "size_chart_hCcJKm": {
+          "type": "size_chart",
+          "settings": {
+            "toggle_text": "INCH",
+            "size_chart_page": "laced-shape-briefs-with-zip-size-chart-inch",
+            "text": "<p>Size chart content</p>"
+          }
+        },
+        "size_chart_MpA8dt": {
+          "type": "size_chart",
+          "settings": {
+            "toggle_text": "CM",
+            "size_chart_page": "laced-shape-briefs-with-zip-size-chart-cm",
+            "text": "<p>Size chart content</p>"
+          }
+        }
+      },
+      "block_order": [
+        "size_chart_hCcJKm",
+        "size_chart_MpA8dt"
+      ],
+      "settings": {
+        "guide_position": "above_buy",
+        "toggle": "Size Guide",
+        "toggle_custom": false,
+        "toggle_font": "josefin_sans_n4",
+        "toggle_size": 17,
+        "toggle_size_mobile": 17,
+        "toggle_height": 200,
+        "toggle_align": "right",
+        "toggle_align_mobile": "right",
+        "icon_size": 14,
+        "icon_size_mobile": 14,
+        "hide_icon": false,
+        "modal_width": 100,
+        "modal_width_mobile": 100,
+        "modal_padding_vertical": 40,
+        "modal_padding_vertical_mobile": 40,
+        "modal_padding_horizontal": 40,
+        "modal_padding_horizontal_mobile": 20,
+        "modal_radius": 8,
+        "modal_border_thickness": 0,
+        "modal_overlay": 0.3,
+        "close_icon_size": 24,
+        "close_icon_size_mobile": 18,
+        "body_gap": 40,
+        "body_gap_mobile": 10,
+        "body_mt": 20,
+        "body_mt_mobile": 20,
+        "heading": "<h2>Size Guide</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 32,
+        "heading_size_mobile": 24,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "title": "Body measurements",
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 24,
+        "title_size_mobile": 18,
+        "title_height": 130,
+        "title_mt": 40,
+        "title_mt_mobile": 40,
+        "switch_custom": false,
+        "switch_font": "josefin_sans_n4",
+        "switch_size": 15,
+        "switch_size_mobile": 15,
+        "switch_height": 100,
+        "switch_radius": 100,
+        "text": "<p>This product needs to be hand washed with warm water at 10°C-35°C. Do not use boiling water to scald it.</p>",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 14,
+        "text_size_mobile": 12,
+        "text_height": 130,
+        "text_mt": 20,
+        "text_mt_mobile": 20,
+        "text_align": "center",
+        "text_align_mobile": "center",
+        "use_scrollbar": false,
+        "modal_image": "shopify://shop_images/Add_a_subheading_3bdb6407-d441-4c34-b4ba-127cbab1d7f0.png",
+        "modal_image_radius": 0,
+        "hide_modal_image": false,
+        "modal_overlay_color": "#000000",
+        "modal_bg_color": "#fefcf5",
+        "modal_border_color": "#000000",
+        "close_icon_color": "#000000",
+        "heading_color": "#000000",
+        "title_color": "#000000",
+        "text_color": "#000000",
+        "switch_color": "#000000",
+        "switch_active_color": "#ffffff",
+        "switch_bg_active_color": "#000000",
+        "switches_border_color": "#000000",
+        "toggle_color": "#000000",
+        "toggle_hover_color": "#555555",
+        "background_color": "",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": -12,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "1743408848d7e389c4": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_eMNgLt": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 3,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_eMNgLt"
+      ],
+      "settings": {
+        "display_id": false,
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "stretch_cards": false,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "collapsible_content_MBkcQr": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_UGJ3Ey": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>We offer a 30-day free trial with a 100% money-back guarantee. If you’re not satisfied, contact our customer service for assistance.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_q9ae8E": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will it show under my clothes?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>No, the seamless design and smooth edges make it virtually invisible under most clothing, including tight-fitting dresses and tops.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_79PQWa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the zipper crotch feature?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The convenient zipper crotch allows for easy bathroom breaks without having to remove the entire garment, making it perfect for all-day wear and special events.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cUGHxf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": " How much compression does this provide?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>This is a high-compression garment designed for serious body shaping. It provides firm tummy control and butt lifting. If you're new to shapewear, you may want to start with a larger size.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EyKbci": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I wear this all day?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Yes, many customers wear it comfortably for extended periods. The breathable fabric and practical zipper design make it suitable for all-day wear.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NNW8BH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I care for it?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Hand wash in cold water and air dry to maintain the garment's shape and compression. Avoid bleach and fabric softeners.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XNMMNH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this suitable for postpartum use?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Many new mothers find this helpful for postpartum support, but please consult with your healthcare provider before use, especially if you've had a C-section.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RPGbnR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How is this different from regular shapewear?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>This offers Colombian-style high compression for dramatic body shaping, plus the convenient zipper crotch feature that most shapewear lacks.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bwkDLg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does it help with back support?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>While primarily designed for body shaping, many customers report improved posture and some back support due to the firm compression around the torso.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_UGJ3Ey",
+        "collapsible_row_q9ae8E",
+        "collapsible_row_79PQWa",
+        "collapsible_row_cUGHxf",
+        "collapsible_row_EyKbci",
+        "collapsible_row_NNW8BH",
+        "collapsible_row_XNMMNH",
+        "collapsible_row_RPGbnR",
+        "collapsible_row_bwkDLg"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "caption": "",
+        "title": "Frequently Asked Questions",
+        "title_highlight_color": "#dd1d1d",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": false,
+        "video_muted_autoplay": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "row_heading_size": "small",
+        "collapse_icon": "carret",
+        "display_top_border": true,
+        "padding_top": 12,
+        "padding_bottom": 0,
+        "custom_colors_background": "#f0f1f5",
+        "custom_gradient_background": "linear-gradient(13deg, rgba(255, 255, 255, 1), rgba(170, 248, 219, 1) 86%)",
+        "custom_colors_text": "#2e2a39",
+        "custom_contaner_colors_background": "#ffffff",
+        "custom_container_gradient_background": "radial-gradient(rgba(215, 204, 250, 1) 100%, rgba(247, 197, 204, 1) 100%)",
+        "custom_contaner_colors_text": "#2e2a39"
+      }
+    },
+    "section_divider_rVHz7c": {
+      "type": "section-divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "accent-2",
+        "custom_shape_color": "#808080",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ss_product_vidoes_9xMy3t",
+    "logo_list_8QhwxE",
+    "logo_list_XLhUcG",
+    "featured_collection_AXpz3x",
+    "section_divider_BpRE46",
+    "image_with_text_6PRF63",
+    "image_with_text_eDYiyL",
+    "section_divider_MhAGLV",
+    "icon_bar_9GhNa9",
+    "ss_size_guide_2_JjExLg",
+    "1743408848d7e389c4",
+    "related-products",
+    "collapsible_content_MBkcQr",
+    "section_divider_rVHz7c"
+  ]
+}
