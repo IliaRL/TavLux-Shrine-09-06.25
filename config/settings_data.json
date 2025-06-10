@@ -711,15 +711,16 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "/* General Product Page Styles */.product-form__input input[type=\"radio\"]+label {border: 0.7px solid rgba(var(--color-foreground), 0.3) !important; border-radius: 0 !important; padding: 6px 15px !important;}",
-      ".product-form__input input[type=\"radio\"]+label:hover {border-color: rgba(var(--color-foreground), 0.5) !important;}",
+      "/* General Product Page Styles */.product-form__input input[type=\"radio\"] + label {border: 0.7px solid rgba(var(--color-foreground), 0.3) !important; border-radius: 0 !important; padding: 6px 15px !important;}",
+      ".product-form__input input[type=\"radio\"] + label:hover {border-color: rgba(var(--color-foreground), 0.5) !important;}",
       ".product-page-price .price__regular .price-item--regular {font-size: 18px;}",
       ".color-swatches-container {--transparent-border-size: 0.3rem !important; --selected-border-size: 0.1rem !important;}",
       ".payment-badges-block {--margin-bottom: 1.5rem !important;}",
-      "/* Main Quantity Input Styles */quantity-input.quantity.main-quantity {max-width: 10rem !important; gap: 0 !important; justify-content: space-between !important; border: 0.2px solid rgba(var(--color-foreground), 0.5) !important; border-radius: 5px !important; overflow: hidden !important;}",
+      " /* Main Quantity Input Styles */quantity-input.quantity.main-quantity {max-width: 10rem !important; gap: 0 !important; justify-content: space-between !important; border: 0.2px solid rgba(var(--color-foreground), 0.5) !important; border-radius: 5px !important; overflow: hidden !important;}",
       "quantity-input.quantity.main-quantity .quantity__button,quantity-input.quantity.main-quantity .quantity__input {width: 3.2rem !important; height: 4.4rem !important; font-size: 1.4rem !important;}",
-      "/* Cart Styles */.cart-progress {display: none;}",
-      "/* Responsive Styles for Mobile (max-width: 749px) */@media (max-width: 749px) {.cart-drawer .cart__checkout-button {font-size: 1.5rem !important; padding-block: 1.2rem !important; height: 45px !important; min-height: 45px !important; } .shopify-payment-button__button {height: 45px !important; min-height: 45px !important; } .shipping-checkpoints {--icon-size: 2rem; }}"
+      " /* Cart Styles */.cart-progress {display: none;}",
+      " /* Responsive Styles for Mobile (max-width: 749px) */@media (max-width: 749px) {.cart-drawer .cart__checkout-button {font-size: 1.5rem !important; padding-block: 1.2rem !important; height: 45px !important; min-height: 45px !important; } .shopify-payment-button__button {height: 45px !important; min-height: 45px !important; } .shipping-checkpoints {--icon-size: 2rem; }}",
+      ".card-wrapper .color-swatch,.card-wrapper .color-swatch__image {border-radius: 100% !important; border: 1px solid transparent !important;}"
     ]
   }
 }
