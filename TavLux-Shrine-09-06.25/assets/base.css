@@ -30,8 +30,24 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 
 /* Part 3: Adjust size for desktop */
 @media screen and (min-width: 769px) {
-  .product-media__trust-badge {
+  .product-media__trust-badge 
     width: 180px !important; /* Desktop size */
   }
 
 /* --- END: Custom code --- */
+.card-wrapper .color-swatch,
+.card-wrapper .color-swatch__image,
+.card-wrapper .color-swatch__image img,
+.card-wrapper .color-swatch__custom-color {
+  border-radius: 50% !important;
+}
+
+.card-wrapper .color-swatch__image {
+  box-shadow: none !important;
+  border: 1.5px solid transparent !important;
+}
+
+.card-wrapper .color-swatch input:checked + .color-swatch__image {
+  border-color: rgba(var(--color-foreground), 0.85) !important;
+  box-shadow: none !important;
+}
