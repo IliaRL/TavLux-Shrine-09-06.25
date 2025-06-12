@@ -28,12 +28,6 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   width: 120px !important; /* Mobile size */
 }
 
-/* Part 3: Adjust size for desktop */
-@media screen and (min-width: 769px) {
-  .product-media__trust-badge {
-    width: 180px !important; /* Desktop size */
-  }
-
   .product-card-wrapper .color-swatch,
 .collection-card-wrapper .color-swatch,
 .product-card-wrapper .color-swatch__image,
@@ -52,20 +46,14 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   border-radius: 50% !important;
 }
 
-/* Adds a transparent border to prevent layout shifts when the swatch is selected */
 .product-card-wrapper .color-swatch__image,
 .collection-card-wrapper .color-swatch__image {
   border: 1px solid transparent !important;
   border-radius: 50% !important;
 }
 
-/*
- * --- THIS IS THE MODIFIED PART ---
- * Creates the 'border with a gap' effect for the selected swatch using box-shadow.
-*/
 .product-card-wrapper .color-swatch input:checked + .color-swatch__image,
 .collection-card-wrapper .color-swatch input:checked + .color-swatch__image {
-  /* This part is new: Create the gap using a multi-layered box-shadow */
   box-shadow: 
     /* Layer 1: The inner "gap" (2px wide, using the page background color) */
     0 0 0 2px rgb(var(--color-background)),
