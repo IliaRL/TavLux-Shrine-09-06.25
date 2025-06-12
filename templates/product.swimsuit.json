@@ -794,22 +794,6 @@
         "custom_colors_solid_button_text": "#1e1e1e"
       }
     },
-    "section_divider_BpRE46": {
-      "type": "section-divider",
-      "name": "Section divider",
-      "settings": {
-        "visibility": "always-display",
-        "shape": "waves_1",
-        "flip_horizontal": false,
-        "flip_vertical": false,
-        "shape_color": "accent-2",
-        "custom_shape_color": "#fffdf5",
-        "background_color": "background-1",
-        "custom_background_color": "#ffffff",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "facebook_testimonials_8Gr3jn": {
       "type": "facebook-testimonials",
       "blocks": {
@@ -1147,6 +1131,22 @@
         "custom_colors_background": "#F3F3F3",
         "custom_gradient_background": "",
         "custom_colors_text": "#2E2A39"
+      }
+    },
+    "section_divider_BpRE46": {
+      "type": "section-divider",
+      "name": "Section divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_1",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "accent-2",
+        "custom_shape_color": "#fffdf5",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_with_text_6PRF63": {
@@ -1666,8 +1666,8 @@
     "ss_product_vidoes_9xMy3t",
     "logo_list_8QhwxE",
     "logo_list_XLhUcG",
-    "featured_collection_AXpz3x",
     "facebook_testimonials_8Gr3jn",
+    "featured_collection_AXpz3x",
     "section_divider_BpRE46",
     "image_with_text_6PRF63",
     "image_with_text_eDYiyL",
