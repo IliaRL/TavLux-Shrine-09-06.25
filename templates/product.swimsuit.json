@@ -813,27 +813,6 @@
     "facebook_testimonials_8Gr3jn": {
       "type": "facebook-testimonials",
       "blocks": {
-        "column_TicD4i": {
-          "type": "column",
-          "settings": {
-            "post_author": "Katie C",
-            "post_author_verified": false,
-            "post_time": "06.07.2025",
-            "post_text": "<p>Absolutely gorgeous! I am 5’3 175lbs 38D and it has Perfect coverage up top! The side tie is functional. The sewn in bra pads are genius!</p>",
-            "post_image": "shopify://shop_images/71II7MaXmHL.jpg",
-            "post_reactions": "like, love, care",
-            "post_reactions_text": "1.1k",
-            "post_comments_text": "26 Comments",
-            "comment_1_author": "Comment author",
-            "comment_1_author_verified": false,
-            "comment_1_time": "2h ago",
-            "comment_1_text": "",
-            "comment_2_author": "Comment author",
-            "comment_2_author_verified": false,
-            "comment_2_time": "3h ago",
-            "comment_2_text": ""
-          }
-        },
         "column_ACwXYf": {
           "type": "column",
           "settings": {
@@ -855,14 +834,14 @@
             "comment_2_text": ""
           }
         },
-        "column_M8LKae": {
+        "column_WwJXtU": {
           "type": "column",
           "settings": {
-            "post_author": "Mary G",
+            "post_author": "Brooke M",
             "post_author_verified": false,
-            "post_time": "04.07.2025",
-            "post_text": "<p>I’m 5’6” 150 lbs. it is very comfortable with good coverage. I got a size L. I got the black and the orange floral. At age 63 it’s hard to find a swim suit that is flattering. This one fits the bill.</p>",
-            "post_image": "shopify://shop_images/71YwjKVkINL.jpg",
+            "post_time": "04.09.2025",
+            "post_text": "<p>I get so many compliments on this! The color is bright and perfect for us young moms. Love that the bra cups are built-in and won't disappear in the wash. Great coverage, quality fabric that's not see-through in the pool. Definitely buying more!</p>",
+            "post_image": "shopify://shop_images/710XuSI_u1L.jpg",
             "post_reactions": "like, love, care",
             "post_reactions_text": "1.1k",
             "post_comments_text": "26 Comments",
@@ -876,14 +855,14 @@
             "comment_2_text": ""
           }
         },
-        "column_WwJXtU": {
+        "column_M8LKae": {
           "type": "column",
           "settings": {
-            "post_author": "Brooke M",
+            "post_author": "Mary G",
             "post_author_verified": false,
-            "post_time": "04.09.2025",
-            "post_text": "<p>I get so many compliments on this! The color is bright and perfect for us young moms. Love that the bra cups are built-in and won't disappear in the wash. Great coverage, quality fabric that's not see-through in the pool. Definitely buying more!</p>",
-            "post_image": "shopify://shop_images/710XuSI_u1L.jpg",
+            "post_time": "04.07.2025",
+            "post_text": "<p>I’m 5’6” 150 lbs. it is very comfortable with good coverage. I got a size L. I got the black and the orange floral. At age 63 it’s hard to find a swim suit that is flattering. This one fits the bill.</p>",
+            "post_image": "shopify://shop_images/71YwjKVkINL.jpg",
             "post_reactions": "like, love, care",
             "post_reactions_text": "1.1k",
             "post_comments_text": "26 Comments",
@@ -947,6 +926,27 @@
             "post_time": "05.17.2025",
             "post_text": "<p>Perfect suit for this summer! I’m 5’9 and have a mom pouch and this suit is everything that I have been wanting. Tummy control, tummy coverage and doesn’t let the arm fat by the bra area roll over! Also has adjustable straps for us tall girls! 10/10</p>",
             "post_image": "shopify://shop_images/71b_xcORtWL.jpg",
+            "post_reactions": "like, love, care",
+            "post_reactions_text": "1.1k",
+            "post_comments_text": "26 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_TicD4i": {
+          "type": "column",
+          "settings": {
+            "post_author": "Katie C",
+            "post_author_verified": false,
+            "post_time": "06.07.2025",
+            "post_text": "<p>Absolutely gorgeous! I am 5’3 175lbs 38D and it has Perfect coverage up top! The side tie is functional. The sewn in bra pads are genius!</p>",
+            "post_image": "shopify://shop_images/71II7MaXmHL.jpg",
             "post_reactions": "like, love, care",
             "post_reactions_text": "1.1k",
             "post_comments_text": "26 Comments",
@@ -1088,13 +1088,13 @@
         }
       },
       "block_order": [
-        "column_TicD4i",
         "column_ACwXYf",
-        "column_M8LKae",
         "column_WwJXtU",
+        "column_M8LKae",
         "column_TEnwER",
         "column_7Qt8rK",
         "column_aambfb",
+        "column_TicD4i",
         "column_yVqfmz",
         "column_3RnrAL",
         "column_qF6WnG",
