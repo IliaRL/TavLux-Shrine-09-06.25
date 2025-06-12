@@ -398,7 +398,7 @@
         "button_yaABWx"
       ],
       "settings": {
-        "display_id": true,
+        "display_id": false,
         "visibility": "always-display",
         "desktop_content_position": "left",
         "content_alignment": "left",
