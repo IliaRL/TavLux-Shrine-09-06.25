@@ -1,0 +1,612 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1736338722a880d070": {
+      "type": "apps",
+      "settings": {
+        "display_id": false,
+        "include_margins": true
+      }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_banner_3BRegR": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_qPGm8d": {
+          "type": "heading",
+          "settings": {
+            "title": "Tavlux Confidence Layers",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h0"
+          }
+        },
+        "text_TL8gxE": {
+          "type": "text",
+          "settings": {
+            "text": "Feel Fierce, Feel Free",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_3JwztC": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections/summer-sale",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qPGm8d",
+        "text_TL8gxE",
+        "buttons_3JwztC"
+      ],
+      "custom_css": [
+        "@media (min-width: 750px) {.banner {position: relative; } .banner__box {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 85%; background: rgba(0, 0, 0, 0.2) !important; padding: 1rem; border-radius: 10px; text-align: center; } .banner__box * {color: #fff !important; } .banner__box .button {opacity: 1 !important; } .banner__box .button:hover {background-color: #fff !important; color: #000 !important; opacity: 1 !important; }}"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "mobile-hidden",
+        "image": "shopify://shop_images/new_home_page_banner_upscayl_2x_ultramix-balanced-4x.webp",
+        "image_1_visibility": "always-display",
+        "image_2_visibility": "always-display",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "url": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_banner_Acjthj": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_CR8TTd": {
+          "type": "heading",
+          "settings": {
+            "title": "Tavlux Confidence Layer",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1"
+          }
+        },
+        "text_Rqp4i9": {
+          "type": "text",
+          "settings": {
+            "text": "Feel Fierce, Feel Free",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_mpCgya": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections/summer-sale",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CR8TTd",
+        "text_Rqp4i9",
+        "buttons_mpCgya"
+      ],
+      "custom_css": [
+        "@media (max-width: 749px) {.banner {position: relative; } .banner__box {position: absolute; top: 90%; left: 50%; transform: translate(-50%, -120%) scale(0.9); max-width: 80%; background: rgba(0, 0, 0, 0.2) !important; padding: 1rem; border-radius: 10px; text-align: center; } .banner__box * {color: #fff !important; } .banner__box .button {opacity: 1 !important; } .banner__box .button:hover {background-color: #fff !important; color: #000 !important; opacity: 1 !important; }}"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "desktop-hidden",
+        "image": "shopify://shop_images/new_home_page_banner_upscayl_2x_ultramix-balanced-4x.webp",
+        "image_1_visibility": "always-display",
+        "image_2_visibility": "always-display",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "url": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "logo_list_Dzz7KG": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_4wULbr": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vogue_mini.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_jymrdK": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/2560px-Self_magazine_logo_svg.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_nagUfh": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/new_elle_logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_HDbEN3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/in-style-logo_c5df8a7f-4957-4d6b.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_67cbWn": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/images_3.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_bBxqUU": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Glamour_New.png",
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_4wULbr",
+        "logo_jymrdK",
+        "logo_nagUfh",
+        "logo_HDbEN3",
+        "logo_67cbWn",
+        "logo_bBxqUU"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "desktop-hidden",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "gray_logos": false,
+        "color_scheme": "custom",
+        "layout": "horizontal",
+        "desktop_logo_height": 40,
+        "columns_mobile": 2,
+        "mobile_logo_height": 40,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 4.5,
+        "show_dots": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#fefcf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "logo_list_whzwjt": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_bhm6JD": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vogue_mini.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_idbfmc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/2560px-Self_magazine_logo_svg.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_bhCPRp": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/new_elle_logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_xRrych": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/in-style-logo_c5df8a7f-4957-4d6b.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_wVMzGG": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/images_3.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_YVFM3h": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Glamour_New.png",
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_bhm6JD",
+        "logo_idbfmc",
+        "logo_bhCPRp",
+        "logo_xRrych",
+        "logo_wVMzGG",
+        "logo_YVFM3h"
+      ],
+      "custom_css": [
+        "h2 {font-size: 20px;}"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "mobile-hidden",
+        "title": "As seen in",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "gray_logos": false,
+        "color_scheme": "custom",
+        "layout": "horizontal",
+        "desktop_logo_height": 40,
+        "columns_mobile": 2,
+        "mobile_logo_height": 30,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_dots": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#fefcf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "featured_collection_8YHwUr": {
+      "type": "featured-collection",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Summer Sale!",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "description": "<p>Buy 1 & add any other Item to Your cart for FREE!</p>",
+        "show_description": false,
+        "description_style": "body",
+        "color_scheme": "background-1",
+        "collection": "summer-sale",
+        "products_to_show": 9,
+        "stretch_cards": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "cards_color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "badges": "custom",
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "swatches_option_name": "Color",
+        "swatches_position": "bottom",
+        "swatches_desktop_size": 22,
+        "swatches_mobile_size": 18,
+        "type": "loop",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "accent-1",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 4,
+        "slider_desktop": true,
+        "per_move_desktop": 1,
+        "desktop_spacing": 20,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "2",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "sides",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    },
+    "rich_text_e8xWQL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VFDQ6a": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQ",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h2"
+          }
+        },
+        "text_LH6i9W": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Need help with your order or have a question about one of our products? Please get in touch with our support team via info@tavlux.store </p><p>Our customer support is available everyday. Average answer time: 1-2 business days.</p>"
+          }
+        },
+        "button_yaABWx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get in touch!",
+            "button_link": "shopify://pages/contact-us",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VFDQ6a",
+        "text_LH6i9W",
+        "button_yaABWx"
+      ],
+      "settings": {
+        "display_id": true,
+        "visibility": "always-display",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "full_width": true,
+        "mobile_narrow_width": false,
+        "color_scheme": "custom",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#f6f4ee",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#000000",
+        "custom_colors_solid_button_background": "#1e1e1e",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#0d0c0c"
+      }
+    },
+    "section_group_tEwTTk": {
+      "type": "section-group",
+      "settings": {
+        "visibility": "always-display",
+        "color_scheme": "background-1",
+        "custom_background_color": "#ffffff",
+        "section_1_id": "#shopify-section-template--25228620464460__rich_text_e8xWQL",
+        "mobile_reverse_grid": false,
+        "section_2_id": "#shopify-section-template--25228620464460__collapsible_content_FTXxtr",
+        "desktop_page_width": "normal",
+        "spacing_desktop": 80,
+        "mobile_full_page": false,
+        "spacing_mobile": 50,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_FTXxtr": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_4fBB8Q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you ship overseas?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Yes, we ship all over the world. We provide free worldwide shipping. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YpYfWR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will it take to get my order?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7 to 12 days. Delivery details will be provided in your confirmation email.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MeYyNH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Need help with your order?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Our team is here to help you, get in touch with us via info@herstudio.store </p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_4fBB8Q",
+        "collapsible_row_YpYfWR",
+        "collapsible_row_MeYyNH"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "caption": "",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "custom",
+        "container_color_scheme": "custom",
+        "open_first_collapsible_row": false,
+        "video_muted_autoplay": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "row_heading_size": "medium",
+        "collapse_icon": "carret",
+        "display_top_border": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#fefcf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#1e1e1e",
+        "custom_contaner_colors_background": "#fefcf5",
+        "custom_container_gradient_background": "",
+        "custom_contaner_colors_text": "#2e2a39"
+      }
+    },
+    "icon_bar_zY99U3": {
+      "type": "icon-bar",
+      "blocks": {
+        "column_Br8zF7": {
+          "type": "column",
+          "settings": {
+            "icon": "package 2",
+            "filled_icon": true,
+            "title": "Free shipping",
+            "text": "<p>We offer free world-wide shipping on all orders & a paid express shipping option.</p><p></p><p></p>"
+          }
+        },
+        "column_GUyEYA": {
+          "type": "column",
+          "settings": {
+            "icon": "chat",
+            "filled_icon": false,
+            "title": "Need help?",
+            "text": "<p>Our team is here to help you, get in touch with us via info@tavlux.store </p>"
+          }
+        },
+        "column_FWHrbd": {
+          "type": "column",
+          "settings": {
+            "icon": "verified user",
+            "filled_icon": false,
+            "title": "Secure payment",
+            "text": "<p></p><p>Pay securely via PayPal, Creditcard, Apple Pay, ShopPay, Google Pay, Master or Visa.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_Br8zF7",
+        "column_GUyEYA",
+        "column_FWHrbd"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "icon_layout": "vertical",
+        "icon_size": "medium",
+        "icon_color": "accent-2",
+        "cards_color_scheme": "background-1",
+        "type": "loop",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    },
+    "section_divider_d3gQCE": {
+      "type": "section-divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "curved_4",
+        "flip_horizontal": true,
+        "flip_vertical": false,
+        "shape_color": "accent-2",
+        "custom_shape_color": "#dd1d1d",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "1736338722a880d070",
+    "pagefly-home",
+    "image_banner_3BRegR",
+    "image_banner_Acjthj",
+    "logo_list_Dzz7KG",
+    "logo_list_whzwjt",
+    "featured_collection_8YHwUr",
+    "rich_text_e8xWQL",
+    "section_group_tEwTTk",
+    "collapsible_content_FTXxtr",
+    "icon_bar_zY99U3",
+    "section_divider_d3gQCE"
+  ]
+}
