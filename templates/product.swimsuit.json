@@ -1522,80 +1522,90 @@
         "collapsible_row_q9ae8E": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Will it show under my clothes?",
+            "heading": "Does this swimsuit really help with tummy control?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No, the seamless design and smooth edges make it virtually invisible under most clothing, including tight-fitting dresses and tops.</p>",
+            "row_content": "<p>Yes! It has a built-in tummy panel that smooths and supports without feeling tight or uncomfortable.</p>",
             "page": ""
           }
         },
         "collapsible_row_79PQWa": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is the zipper crotch feature?",
+            "heading": "Are the straps adjustable?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>The convenient zipper crotch allows for easy bathroom breaks without having to remove the entire garment, making it perfect for all-day wear and special events.</p>",
+            "row_content": "<p>Absolutely. You can easily adjust the straps to get the perfect fit for your body.</p>",
             "page": ""
           }
         },
         "collapsible_row_cUGHxf": {
           "type": "collapsible_row",
           "settings": {
-            "heading": " How much compression does this provide?",
+            "heading": "Is the skirt attached or separate?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>This is a high-compression garment designed for serious body shaping. It provides firm tummy control and butt lifting. If you're new to shapewear, you may want to start with a larger size.</p>",
+            "row_content": "<p>The skirt is attached and provides modest coverage while still looking cute and flattering.</p>",
             "page": ""
           }
         },
         "collapsible_row_EyKbci": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I wear this all day?",
+            "heading": "How supportive is the built-in bra?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Yes, many customers wear it comfortably for extended periods. The breathable fabric and practical zipper design make it suitable for all-day wear.</p>",
+            "row_content": "<p>The sewn-in bra pads give great support and shape, so no need for an extra bra.</p>",
             "page": ""
           }
         },
         "collapsible_row_NNW8BH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How do I care for it?",
+            "heading": "Will this swimsuit cover my problem areas?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Hand wash in cold water and air dry to maintain the garment's shape and compression. Avoid bleach and fabric softeners.</p>",
+            "row_content": "<p>It’s designed to cover and flatter your tummy and hips while giving you a smooth silhouette.</p>",
             "page": ""
           }
         },
         "collapsible_row_XNMMNH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is this suitable for postpartum use?",
+            "heading": "Is the material stretchy and comfortable?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Many new mothers find this helpful for postpartum support, but please consult with your healthcare provider before use, especially if you've had a C-section.</p>",
+            "row_content": "<p>Yes, it’s made from soft, stretchy fabric that moves with you and dries quickly.</p>",
             "page": ""
           }
         },
         "collapsible_row_RPGbnR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How is this different from regular shapewear?",
+            "heading": "Can I wear this for active water activities?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>This offers Colombian-style high compression for dramatic body shaping, plus the convenient zipper crotch feature that most shapewear lacks.</p>",
+            "row_content": "<p>Definitely! It stays in place well and is perfect for swimming or playing with kids.</p>",
             "page": ""
           }
         },
         "collapsible_row_bwkDLg": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Does it help with back support?",
+            "heading": "How do I know what size to get?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>While primarily designed for body shaping, many customers report improved posture and some back support due to the firm compression around the torso.</p>",
+            "row_content": "<p>Check our size chart and consider your usual swimsuit size. The adjustable straps also help fine-tune the fit.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CyKyaV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I care for this swimdress?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>We recommend hand washing with cold water and air drying to keep it looking great.</p>",
             "page": ""
           }
         }
@@ -1609,7 +1619,8 @@
         "collapsible_row_NNW8BH",
         "collapsible_row_XNMMNH",
         "collapsible_row_RPGbnR",
-        "collapsible_row_bwkDLg"
+        "collapsible_row_bwkDLg",
+        "collapsible_row_CyKyaV"
       ],
       "settings": {
         "display_id": false,
