@@ -71,7 +71,7 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
     0 0 0 2px rgb(var(--color-background)),
     
     /* Layer 2: The outer "border" (1px wide, using your original color) */
-    0 0 0 1px rgba(var(--color-foreground), 0.85)
+    0 0 0 3px rgba(var(--color-foreground), 0.85)
     !important;
 }
 
