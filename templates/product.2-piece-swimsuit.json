@@ -152,6 +152,7 @@
         },
         "shipping_checkpoints_xdhcft": {
           "type": "shipping_checkpoints",
+          "disabled": true,
           "settings": {
             "icon_1": "add_shopping_cart",
             "filled_icon_1": false,
@@ -502,7 +503,7 @@
         "show_description": false,
         "description_style": "body",
         "color_scheme": "background-1",
-        "collection": "shapewear",
+        "collection": "summer-sale",
         "products_to_show": 4,
         "stretch_cards": true,
         "show_view_all": false,
@@ -514,7 +515,7 @@
         "show_vendor": false,
         "show_rating": true,
         "enable_quick_add": false,
-        "swatches_option_name": "",
+        "swatches_option_name": "Color",
         "swatches_position": "bottom",
         "swatches_desktop_size": 20,
         "swatches_mobile_size": 14,
@@ -526,7 +527,7 @@
         "dots_color_scheme": "inverse",
         "desktop_full_page": false,
         "columns_desktop": 4,
-        "slider_desktop": false,
+        "slider_desktop": true,
         "per_move_desktop": 1,
         "desktop_spacing": 28,
         "desktop_side_padding": 0,
@@ -541,7 +542,7 @@
         "mobile_dots_position": "hidden",
         "mobile_arrows_position": "sides",
         "padding_top": 20,
-        "padding_bottom": 0,
+        "padding_bottom": 28,
         "custom_colors_background": "#000000",
         "custom_gradient_background": "",
         "custom_colors_text": "#2e2a39",
@@ -747,30 +748,30 @@
         "collapsible_row_cUGHxf": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Will the shapewear roll down during workouts?",
+            "heading": "Are the straps adjustable?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Our design features an anti-roll waistband that stays securely in place, even during high-intensity exercises like burpees.</p>",
+            "row_content": "<p>Absolutely! Both the crop top straps are fully adjustable for a perfect, customized fit.</p>",
             "page": ""
           }
         },
         "collapsible_row_EyKbci": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is the material breathable?",
+            "heading": "How high-waisted are the bottoms?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Yes, the 4D stretch fabric is moisture-wicking and breathable, preventing discomfort during workouts. </p>",
+            "row_content": "<p>The bottoms sit nicely at the waist, providing good tummy coverage while still being flattering.</p>",
             "page": ""
           }
         },
         "collapsible_row_NNW8BH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How do I care for my shapewear?",
+            "heading": "Does this work for different body types?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Hand wash only with warm water (10°C-35°C). Avoid using boiling water to maintain fabric integrity.</p>",
+            "row_content": "<p>Definitely! The adjustable straps and high-waisted design flatter many different figures.</p>",
             "page": ""
           }
         },
@@ -787,50 +788,20 @@
         "collapsible_row_XNMMNH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How long does shipping take?",
+            "heading": "Does it stay in place when swimming?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Standard shipping takes 6-8 days, while express shipping delivers within 5-8 business days.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_RPGbnR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I wear this shapewear daily?",
-            "icon": "",
-            "filled_icon": false,
-            "row_content": "<p>Yes, our shapewear is designed for daily wear, providing comfort and support throughout the day.</p>",
+            "row_content": "<p>Yes, the adjustable straps and secure fit keep everything in place during water activities.</p>",
             "page": ""
           }
         },
         "collapsible_row_q9ae8E": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Will it show under my clothes?",
+            "heading": "Does the fabric become see-through when wet?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>The seamless design ensures minimal visibility under clothing, giving you a smooth silhouette. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_bM7m7A": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Is the shapewear suitable for postpartum use?",
-            "icon": "",
-            "filled_icon": false,
-            "row_content": "<p>Many customers have found our shapewear beneficial for postpartum support. However, consult with your healthcare provider before use.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_bwkDLg": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What if I experience discomfort or skin irritation?",
-            "icon": "",
-            "filled_icon": false,
-            "row_content": "<p>Ensure you’re wearing the correct size and not exceeding recommended wear times. If irritation persists, discontinue use and consult a healthcare professional.</p>",
+            "row_content": "<p>No, the fabric is designed to maintain good coverage when wet. The material is thick enough to prevent transparency, so you can swim and be active without worrying about the suit becoming see-through.</p>",
             "page": ""
           }
         }
@@ -842,10 +813,7 @@
         "collapsible_row_NNW8BH",
         "collapsible_row_UGJ3Ey",
         "collapsible_row_XNMMNH",
-        "collapsible_row_RPGbnR",
-        "collapsible_row_q9ae8E",
-        "collapsible_row_bM7m7A",
-        "collapsible_row_bwkDLg"
+        "collapsible_row_q9ae8E"
       ],
       "settings": {
         "display_id": false,
