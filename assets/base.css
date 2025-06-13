@@ -28,6 +28,9 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   width: 120px !important; /* Mobile size */
 }
 
+/* ========================================================================= */
+/* PART 1: Your original CSS for perfect swatch appearance (No changes)      */
+/* ========================================================================= */
 .product-card-wrapper .color-swatch,
 .collection-card-wrapper .color-swatch,
 .product-card-wrapper .color-swatch__image,
@@ -60,30 +63,27 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 }
 
 /* ========================================================================= */
-/* PART 2: Fixed styles for layout and the '+N' indicator                  */
+/* PART 2: New logic for layout and the '+N' indicator (with original sizing) */
 /* ========================================================================= */
 
-/* This new wrapper fixes the layout, putting swatches and text in a row */
+/* This wrapper aligns the swatches and the '+N' text in a row */
 .card-swatch-wrapper {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  /* Uses your theme's alignment setting */
+  /* Uses your theme's alignment setting for text */
   justify-content: var(--text-alignment, left);
-  gap: 8px; /* Space between last swatch and '+N' text */
+  gap: 8px; /* Adjusts space between last swatch and '+N' text */
 }
 
-/* This fixes the '+N' text to have no circle or underline */
+/* This styles the '+N' text to be plain, without a circle or underline */
 .color-swatch-plus-more {
   background: none !important;
   border: none !important;
   box-shadow: none !important;
   text-decoration: none !important;
   color: inherit !important;
-  width: auto;
-  height: auto;
-  border-radius: 0;
-  font-size: 1.3rem; /* A little bigger to match swatch size */
+  font-size: 1.3rem; /* You can adjust this size if needed */
   font-weight: 400;
   line-height: 1;
   padding: 0;
@@ -91,13 +91,14 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   flex-shrink: 0; /* Prevents the '+N' from shrinking */
 }
 
-/* We need this to keep the swatches themselves grouped together */
+/* This keeps the swatches themselves grouped together */
 .card__swatches-container {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
 }
 
+/* By default, hide both '+N' indicators */
 .plus-more-desktop { display: none !important; }
 .plus-more-mobile { display: none !important; }
 
