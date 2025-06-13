@@ -152,6 +152,7 @@
         },
         "shipping_checkpoints_xdhcft": {
           "type": "shipping_checkpoints",
+          "disabled": true,
           "settings": {
             "icon_1": "add_shopping_cart",
             "filled_icon_1": false,
@@ -747,30 +748,30 @@
         "collapsible_row_cUGHxf": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Will the shapewear roll down during workouts?",
+            "heading": "Does this swimsuit have adjustable straps?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Our design features an anti-roll waistband that stays securely in place, even during high-intensity exercises like burpees.</p>",
+            "row_content": "<p>Yes! The side straps are adjustable so you can customize the fit perfectly for your body.</p>",
             "page": ""
           }
         },
         "collapsible_row_EyKbci": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is the material breathable?",
+            "heading": "Is this good for daily swimming?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Yes, the 4D stretch fabric is moisture-wicking and breathable, preventing discomfort during workouts. </p>",
+            "row_content": "<p>Absolutely! It's designed as a simple, comfortable suit perfect for everyday pool use.</p>",
             "page": ""
           }
         },
         "collapsible_row_NNW8BH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How do I care for my shapewear?",
+            "heading": "How is the coverage?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Hand wash only with warm water (10°C-35°C). Avoid using boiling water to maintain fabric integrity.</p>",
+            "row_content": "<p>The coverage is modest and comfortable - not too high cut but still flattering.</p>",
             "page": ""
           }
         },
@@ -787,50 +788,50 @@
         "collapsible_row_XNMMNH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How long does shipping take?",
+            "heading": "Is the material good quality?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Standard shipping takes 6-8 days, while express shipping delivers within 5-8 business days.</p>",
+            "row_content": "<p>Yes, the material feels soft and durable. It's comfortable against the skin and holds up well.</p>",
             "page": ""
           }
         },
         "collapsible_row_RPGbnR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I wear this shapewear daily?",
+            "heading": "Does it run true to size?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Yes, our shapewear is designed for daily wear, providing comfort and support throughout the day.</p>",
+            "row_content": "<p>Most customers find it fits true to size, with the adjustable sides helping perfect the fit.</p>",
             "page": ""
           }
         },
         "collapsible_row_q9ae8E": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Will it show under my clothes?",
+            "heading": "Is this suitable for curvier figures?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>The seamless design ensures minimal visibility under clothing, giving you a smooth silhouette. </p>",
+            "row_content": "<p>Yes! Many curvier customers love how the adjustable sides and design flatter their shape.</p>",
             "page": ""
           }
         },
         "collapsible_row_bM7m7A": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is the shapewear suitable for postpartum use?",
+            "heading": "How long does it take to dry?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Many customers have found our shapewear beneficial for postpartum support. However, consult with your healthcare provider before use.</p>",
+            "row_content": "<p>It may take a bit longer to dry than some suits, but the quality material is worth it.</p>",
             "page": ""
           }
         },
         "collapsible_row_bwkDLg": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What if I experience discomfort or skin irritation?",
+            "heading": "Can I wear this for beach activities?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Ensure you’re wearing the correct size and not exceeding recommended wear times. If irritation persists, discontinue use and consult a healthcare professional.</p>",
+            "row_content": "<p>Perfect for both pool and beach! The simple design works great for any water activity.</p>",
             "page": ""
           }
         }

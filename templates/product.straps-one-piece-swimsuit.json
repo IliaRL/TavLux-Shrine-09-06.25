@@ -225,7 +225,7 @@
             "custom_btn_color": "#000000",
             "color_scheme": "background-1",
             "star_color": "#000000",
-            "stars_label": "170 + Reviews",
+            "stars_label": "85 + Reviews",
             "picker_type": "combined",
             "desktop_show_image": false,
             "desktop_show_title": true,
@@ -731,10 +731,10 @@
         "padding_bottom": 24
       }
     },
-    "collapsible_content_MBkcQr": {
+    "collapsible_content_dzEGUn": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_79PQWa": {
+        "collapsible_row_GWPpjF": {
           "type": "collapsible_row",
           "settings": {
             "heading": "How do I choose the right size?",
@@ -744,37 +744,37 @@
             "page": ""
           }
         },
-        "collapsible_row_cUGHxf": {
+        "collapsible_row_AhqEBL": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Will the shapewear roll down during workouts?",
+            "heading": "Does this swimsuit have adjustable straps?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Our design features an anti-roll waistband that stays securely in place, even during high-intensity exercises like burpees.</p>",
+            "row_content": "<p>Yes! The side straps are adjustable so you can customize the fit perfectly for your body.</p>",
             "page": ""
           }
         },
-        "collapsible_row_EyKbci": {
+        "collapsible_row_kwqHCx": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is the material breathable?",
+            "heading": "Is this good for daily swimming?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Yes, the 4D stretch fabric is moisture-wicking and breathable, preventing discomfort during workouts. </p>",
+            "row_content": "<p>Absolutely! It's designed as a simple, comfortable suit perfect for everyday pool use.</p>",
             "page": ""
           }
         },
-        "collapsible_row_NNW8BH": {
+        "collapsible_row_jBccxX": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How do I care for my shapewear?",
+            "heading": "How is the coverage?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Hand wash only with warm water (10°C-35°C). Avoid using boiling water to maintain fabric integrity.</p>",
+            "row_content": "<p>The coverage is modest and comfortable - not too high cut but still flattering.</p>",
             "page": ""
           }
         },
-        "collapsible_row_UGJ3Ey": {
+        "collapsible_row_Lp7Hhr": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What is your return policy?",
@@ -784,68 +784,68 @@
             "page": ""
           }
         },
-        "collapsible_row_XNMMNH": {
+        "collapsible_row_FrtKdn": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How long does shipping take?",
+            "heading": "Is the material good quality?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Standard shipping takes 6-8 days, while express shipping delivers within 5-8 business days.</p>",
+            "row_content": "<p>Yes, the material feels soft and durable. It's comfortable against the skin and holds up well.</p>",
             "page": ""
           }
         },
-        "collapsible_row_RPGbnR": {
+        "collapsible_row_FxnXqk": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I wear this shapewear daily?",
+            "heading": "Does it run true to size?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Yes, our shapewear is designed for daily wear, providing comfort and support throughout the day.</p>",
+            "row_content": "<p>Most customers find it fits true to size, with the adjustable sides helping perfect the fit.</p>",
             "page": ""
           }
         },
-        "collapsible_row_q9ae8E": {
+        "collapsible_row_zmdURy": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Will it show under my clothes?",
+            "heading": "Is this suitable for curvier figures?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>The seamless design ensures minimal visibility under clothing, giving you a smooth silhouette. </p>",
+            "row_content": "<p>Yes! Many curvier customers love how the adjustable sides and design flatter their shape.</p>",
             "page": ""
           }
         },
-        "collapsible_row_bM7m7A": {
+        "collapsible_row_NRQNfe": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is the shapewear suitable for postpartum use?",
+            "heading": "How long does it take to dry?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Many customers have found our shapewear beneficial for postpartum support. However, consult with your healthcare provider before use.</p>",
+            "row_content": "<p>It may take a bit longer to dry than some suits, but the quality material is worth it.</p>",
             "page": ""
           }
         },
-        "collapsible_row_bwkDLg": {
+        "collapsible_row_YkkUcT": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What if I experience discomfort or skin irritation?",
+            "heading": "Is this swimsuit see-through when wet?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Ensure you’re wearing the correct size and not exceeding recommended wear times. If irritation persists, discontinue use and consult a healthcare professional.</p>",
+            "row_content": "<p>No, the material is thick enough to provide good coverage even when wet.</p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "collapsible_row_79PQWa",
-        "collapsible_row_cUGHxf",
-        "collapsible_row_EyKbci",
-        "collapsible_row_NNW8BH",
-        "collapsible_row_UGJ3Ey",
-        "collapsible_row_XNMMNH",
-        "collapsible_row_RPGbnR",
-        "collapsible_row_q9ae8E",
-        "collapsible_row_bM7m7A",
-        "collapsible_row_bwkDLg"
+        "collapsible_row_GWPpjF",
+        "collapsible_row_AhqEBL",
+        "collapsible_row_kwqHCx",
+        "collapsible_row_jBccxX",
+        "collapsible_row_Lp7Hhr",
+        "collapsible_row_FrtKdn",
+        "collapsible_row_FxnXqk",
+        "collapsible_row_zmdURy",
+        "collapsible_row_NRQNfe",
+        "collapsible_row_YkkUcT"
       ],
       "settings": {
         "display_id": false,
@@ -899,7 +899,7 @@
     "ss_size_guide_2_JjExLg",
     "1743408848d7e389c4",
     "related-products",
-    "collapsible_content_MBkcQr",
+    "collapsible_content_dzEGUn",
     "section_divider_rVHz7c"
   ]
 }
