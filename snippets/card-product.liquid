@@ -316,6 +316,22 @@
                         </div>
                       {%- endfor -%}
                     </div>
+                  {%- liquid
+  assign color_option = product.options_with_values | where: 'name', 'Color' | first
+  if color_option == nil
+    assign color_option = product.options_with_values | where: 'name', 'Colour' | first
+  endif
+
+  if color_option and color_option.values.size > 2
+    assign remaining_count_mobile = color_option.values.size | minus: 2
+    echo '<a href="' | append: product.url | append: '" class="color-swatch-plus-more plus-more-mobile">+' | append: remaining_count_mobile | append: '</a>'
+  endif
+
+  if color_option and color_option.values.size > 3
+    assign remaining_count_desktop = color_option.values.size | minus: 3
+    echo '<a href="' | append: product.url | append: '" class="color-swatch-plus-more plus-more-desktop">+' | append: remaining_count_desktop | append: '</a>'
+  endif
+-%}
                   {% when 'pills' %}
                     {% render 'product-variant-options',
                       product: card_product,
