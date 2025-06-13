@@ -31,13 +31,14 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 /* ========================================================================= */
 /* PART 1: Your original CSS for perfect swatch appearance (No changes)      */
 /* ========================================================================= */
-.product-card-wrapper .color-swatch,
+  .product-card-wrapper .color-swatch,
 .collection-card-wrapper .color-swatch,
 .product-card-wrapper .color-swatch__image,
 .collection-card-wrapper .color-swatch__image {
   border-radius: 50% !important;
 }
 
+/* Aggressively resets all borders and shadows to ensure circular shape wins */
 .product-card-wrapper .color-swatch,
 .collection-card-wrapper .color-swatch,
 .product-card-wrapper .color-swatch *,
@@ -56,13 +57,15 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 
 .product-card-wrapper .color-swatch input:checked + .color-swatch__image,
 .collection-card-wrapper .color-swatch input:checked + .color-swatch__image {
-  box-shadow:
-    0 0 0 1px rgb(var(--color-background)),
-    0 0 0 2px rgba(var(--color-foreground), 0.85)
+  box-shadow: 
+    /* Layer 1: The inner "gap" (2px wide, using the page background color) */
+    0 0 0 2px rgb(var(--color-background)),
+    
+    /* Layer 2: The outer "border" (1px wide, using your original color) */
+    0 0 0 3px rgba(var(--color-foreground), 0.85)
     !important;
 }
 
-/* ========================================================================= */
 /* PART 2: New logic for layout and the '+N' indicator (with original sizing) */
 /* ========================================================================= */
 
