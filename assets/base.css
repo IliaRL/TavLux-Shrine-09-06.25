@@ -28,14 +28,13 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   width: 120px !important; /* Mobile size */
 }
 
-  .product-card-wrapper .color-swatch,
+.product-card-wrapper .color-swatch,
 .collection-card-wrapper .color-swatch,
 .product-card-wrapper .color-swatch__image,
 .collection-card-wrapper .color-swatch__image {
   border-radius: 50% !important;
 }
 
-/* Aggressively resets all borders and shadows to ensure circular shape wins */
 .product-card-wrapper .color-swatch,
 .collection-card-wrapper .color-swatch,
 .product-card-wrapper .color-swatch *,
@@ -54,13 +53,54 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 
 .product-card-wrapper .color-swatch input:checked + .color-swatch__image,
 .collection-card-wrapper .color-swatch input:checked + .color-swatch__image {
-  box-shadow: 
-    /* Layer 1: The inner "gap" (2px wide, using the page background color) */
+  box-shadow:
     0 0 0 2px rgb(var(--color-background)),
-    
-    /* Layer 2: The outer "border" (1px wide, using your original color) */
     0 0 0 3px rgba(var(--color-foreground), 0.85)
     !important;
 }
 
-/* --- END: Custom code --- */
+/* ========================================================================= */
+/* PART 2: New styles for the '+N' indicator and visibility logic          */
+/* ========================================================================= */
+.color-swatch-plus-more {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: rgb(var(--color-background-button));
+  color: rgb(var(--color-text-button));
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  border: 1px solid rgba(var(--color-foreground), 0.1);
+  margin-left: 4px;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.plus-more-desktop { display: none !important; }
+.plus-more-mobile { display: none !important; }
+
+/* --- Logic for Mobile (<= 749px) --- */
+@media screen and (max-width: 749px) {
+  /* Hide the 3rd swatch and any after it */
+  .card__swatches-container .color-swatch:nth-child(n + 3) {
+    display: none !important;
+  }
+  .plus-more-mobile {
+    display: inline-flex !important;
+  }
+}
+
+/* --- Logic for Desktop (>= 750px) --- */
+@media screen and (min-width: 750px) {
+  /* Hide the 4th swatch and any after it */
+  .card__swatches-container .color-swatch:nth-child(n + 4) {
+    display: none !important;
+  }
+  .plus-more-desktop {
+    display: inline-flex !important;
+  }
+}
