@@ -31,14 +31,16 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 /* ========================================================================= */
 /* PART 1: Your original CSS for perfect swatch appearance (No changes)      */
 /* ========================================================================= */
-  .product-card-wrapper .color-swatch,
+/* ========================================================================= */
+/* PART 1: Your original CSS for perfect swatch appearance (No changes)      */
+/* ========================================================================= */
+.product-card-wrapper .color-swatch,
 .collection-card-wrapper .color-swatch,
 .product-card-wrapper .color-swatch__image,
 .collection-card-wrapper .color-swatch__image {
   border-radius: 50% !important;
 }
 
-/* Aggressively resets all borders and shadows to ensure circular shape wins */
 .product-card-wrapper .color-swatch,
 .collection-card-wrapper .color-swatch,
 .product-card-wrapper .color-swatch *,
@@ -57,16 +59,14 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 
 .product-card-wrapper .color-swatch input:checked + .color-swatch__image,
 .collection-card-wrapper .color-swatch input:checked + .color-swatch__image {
-  box-shadow: 
-    /* Layer 1: The inner "gap" (2px wide, using the page background color) */
+  box-shadow:
     0 0 0 2px rgb(var(--color-background)),
-    
-    /* Layer 2: The outer "border" (1px wide, using your original color) */
     0 0 0 3px rgba(var(--color-foreground), 0.85)
     !important;
 }
 
-/* PART 2: New logic for layout and the '+N' indicator (with original sizing) */
+/* ========================================================================= */
+/* PART 2: New logic for layout and the '+N' indicator (with sizing fix)   */
 /* ========================================================================= */
 
 /* This wrapper aligns the swatches and the '+N' text in a row */
@@ -77,6 +77,7 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   /* Uses your theme's alignment setting for text */
   justify-content: var(--text-alignment, left);
   gap: 8px; /* Adjusts space between last swatch and '+N' text */
+  margin-top: 0.5rem; /* Adds a little space above the swatches */
 }
 
 /* This styles the '+N' text to be plain, without a circle or underline */
@@ -86,7 +87,7 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   box-shadow: none !important;
   text-decoration: none !important;
   color: inherit !important;
-  font-size: 1.3rem; /* You can adjust this size if needed */
+  font-size: 1.2rem; /* Adjusted size */
   font-weight: 400;
   line-height: 1;
   padding: 0;
@@ -99,7 +100,17 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+  gap: 6px; /* Adds a small space between each swatch */
 }
+
+/* --- SIZING FIX --- */
+/* This is the new rule to force the swatches to be smaller */
+.card__swatches-container .color-swatch,
+.card__swatches-container .color-swatch__image {
+  width: 22px !important; /* You can adjust this value */
+  height: 22px !important; /* You can adjust this value */
+}
+
 
 /* By default, hide both '+N' indicators */
 .plus-more-desktop { display: none !important; }
@@ -124,3 +135,4 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
     display: inline !important;
   }
 }
+
