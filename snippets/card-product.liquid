@@ -316,54 +316,6 @@
                         </div>
                       {%- endfor -%}
                     </div>
-                  .color-swatch-plus-more {
-  width: 28px; /* <-- Adjust to match your swatch width */
-  height: 28px; /* <-- Adjust to match your swatch height */
-  border-radius: 50%;
-  background-color: rgb(var(--color-background-button));
-  color: rgb(var(--color-text-button));
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 1;
-  border: 1px solid rgba(var(--color-foreground), 0.1);
-  margin-left: 4px; /* Space between last swatch and indicator */
-  vertical-align: middle;
-  text-decoration: none;
-}
-
-/* By default, hide both indicators. We'll show the correct one with media queries. */
-.plus-more-desktop { display: none !important; }
-.plus-more-mobile { display: none !important; }
-
-/* --- Mobile Logic (Applies to screens 749px wide or less) --- */
-@media screen and (max-width: 749px) {
-  /* Find the swatch list and hide the 3rd swatch and any after it */
-  .card__swatch-list .color-swatch:nth-of-type(n + 3) {
-    display: none !important;
-  }
-
-  /* Show the mobile-specific '+N' indicator */
-  .plus-more-mobile {
-    display: inline-flex !important;
-  }
-}
-
-/* --- Desktop Logic (Applies to screens 750px wide or more) --- */
-@media screen and (min-width: 750px) {
-  /* Find the swatch list and hide the 4th swatch and any after it */
-  .card__swatch-list .color-swatch:nth-of-type(n + 4) {
-    display: none !important;
-  }
-
-  /* Show the desktop-specific '+N' indicator */
-  .plus-more-desktop {
-    display: inline-flex !important;
-  }
-}
-
                   {% when 'pills' %}
                     {% render 'product-variant-options',
                       product: card_product,
