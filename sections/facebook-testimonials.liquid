@@ -28,80 +28,7 @@
         --gradient-background: url('{{ section.settings.custom_mobile_image_background | img_url: 'master' }}') center center / cover no-repeat;
         {% # theme-check-enable %}
       }
-    }@media screen and (max-width: 750px) {
-  .fb-post__content__image {
-    max-height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .fb-post__content {
-    margin: 8px 0;
-  }
-  
-  .fb-post__content__text {
-    font-size: 14px;
-    line-height: 1.4;
-    margin-bottom: 8px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .fb-post__profile-picture {
-    width: 36px;
-    height: 36px;
-  }
-  
-  .fb-post__author {
-    font-size: 14px;
-    margin-bottom: 2px;
-  }
-  
-  .fb-post__time {
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .fb-post__reactions {
-    padding: 6px 0;
-    font-size: 12px;
-  }
-  
-  .fb-post__ctas {
-    padding: 8px 0;
-  }
-  
-  .fb-post__ctas__btn {
-    padding: 6px 8px;
-    font-size: 12px;
-  }
-  
-  .fb-post__ctas__btn svg {
-    width: 14px;
-    height: 14px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .fb-post__comment__avatar {
-    width: 32px;
-    height: 32px;
-  }
-  
-  .fb-post__comment__box {
-    font-size: 13px;
-  }
-  
-  .fb-post__comment__ctas {
-    font-size: 11px;
-    margin-top: 4px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .facebook-testimonials-{{ section.id }} {
-    --gap-mobile: 0.8rem;
-  }
-}
-
+    }
   {% endif %}
 
   .facebook-testimonials-{{ section.id }} .fb-post {
@@ -113,13 +40,6 @@
     --border-thickness: {{ section.settings.border_width }}px;
     --border-opacity: 1;
   }
-  @media screen and (max-width: 750px) {
-  .facebook-testimonials-{{ section.id }} .fb-post {
-    padding: 12px 16px;
-    margin-bottom: 16px;
-  }
-}
-
 {%- endstyle -%}
 
 <div class="color-scheme-{{ section.id }} color-{{ section.settings.color_scheme }} gradient{% if section.settings.title == blank %} no-heading{% endif %} content-for-grouping animate-section animate--hidden {{ section.settings.visibility }}">
@@ -263,9 +183,9 @@
                         750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %}, calc(100vw - 30px)
                       {%- endcapture -%}
                       <div
-  class="media media--transparent ratio"
-  style="--ratio-percent: {% if block.settings.post_image %}{% assign mobile_ratio = 60 %}{{ mobile_ratio }}{% else %}{{ 1 | divided_by: block.settings.post_image.aspect_ratio | times: 100 }}{% endif %}%"
->
+                        class="media media--transparent ratio"
+                        style="--ratio-percent: {{ 1 | divided_by: block.settings.post_image.aspect_ratio | times: 100 }}%"
+                      >
                         {{
                           block.settings.post_image
                           | image_url: width: 1420
