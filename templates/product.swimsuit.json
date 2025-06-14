@@ -1397,7 +1397,7 @@
         "toggle_align": "right",
         "toggle_align_mobile": "right",
         "icon_size": 14,
-        "icon_size_mobile": 14,
+        "icon_size_mobile": 4,
         "hide_icon": false,
         "modal_width": 100,
         "modal_width_mobile": 100,
