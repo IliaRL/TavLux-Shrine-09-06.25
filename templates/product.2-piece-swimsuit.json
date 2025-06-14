@@ -550,29 +550,20 @@
         "custom_colors_solid_button_text": "#1e1e1e"
       }
     },
-    "ss_size_guide_2_JjExLg": {
+    "ss_size_guide_2_HNymBr": {
       "type": "ss-size-guide-2",
       "blocks": {
-        "size_chart_hCcJKm": {
+        "size_chart_PpKMP4": {
           "type": "size_chart",
           "settings": {
-            "toggle_text": "INCH",
-            "size_chart_page": "sizing-chart",
-            "text": "<p>Size chart content</p>"
-          }
-        },
-        "size_chart_MpA8dt": {
-          "type": "size_chart",
-          "settings": {
-            "toggle_text": "CM",
-            "size_chart_page": "sizing-chart-cm",
+            "toggle_text": "US",
+            "size_chart_page": "2pcs-swimsuit-size-chart",
             "text": "<p>Size chart content</p>"
           }
         }
       },
       "block_order": [
-        "size_chart_hCcJKm",
-        "size_chart_MpA8dt"
+        "size_chart_PpKMP4"
       ],
       "settings": {
         "guide_position": "above_buy",
@@ -590,18 +581,18 @@
         "modal_width": 100,
         "modal_width_mobile": 100,
         "modal_padding_vertical": 40,
-        "modal_padding_vertical_mobile": 40,
+        "modal_padding_vertical_mobile": 16,
         "modal_padding_horizontal": 40,
-        "modal_padding_horizontal_mobile": 20,
+        "modal_padding_horizontal_mobile": 16,
         "modal_radius": 8,
         "modal_border_thickness": 0,
         "modal_overlay": 0.3,
         "close_icon_size": 24,
         "close_icon_size_mobile": 18,
-        "body_gap": 40,
-        "body_gap_mobile": 10,
+        "body_gap": 38,
+        "body_gap_mobile": 0,
         "body_mt": 20,
-        "body_mt_mobile": 20,
+        "body_mt_mobile": 0,
         "heading": "<h2>Size Guide</h2>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
@@ -616,26 +607,26 @@
         "title_size": 24,
         "title_size_mobile": 18,
         "title_height": 130,
-        "title_mt": 40,
-        "title_mt_mobile": 40,
+        "title_mt": 28,
+        "title_mt_mobile": 14,
         "switch_custom": false,
         "switch_font": "josefin_sans_n4",
         "switch_size": 15,
-        "switch_size_mobile": 15,
-        "switch_height": 100,
-        "switch_radius": 36,
-        "text": "<p>This product needs to be hand washed with warm water at 10°C-35°C. Do not use boiling water to scald it.</p>",
+        "switch_size_mobile": 12,
+        "switch_height": 60,
+        "switch_radius": 100,
+        "text": "<p>Hand wash in cold water with mild detergent, rinse well, and lay flat to dry out of sunlight. Avoid machines, strong detergents, and sun drying.</p>",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 14,
         "text_size_mobile": 12,
         "text_height": 130,
-        "text_mt": 20,
-        "text_mt_mobile": 20,
+        "text_mt": 12,
+        "text_mt_mobile": 0,
         "text_align": "center",
         "text_align_mobile": "center",
         "use_scrollbar": false,
-        "modal_image": "shopify://shop_images/Add_a_subheading_8e011fd3-ab71-4fbb-b431-f430fee36820.png",
+        "modal_image": "shopify://shop_images/Add_a_subheading_d85d694b-9231-4c11-a0b3-ee0a777f814c.png",
         "modal_image_radius": 0,
         "hide_modal_image": false,
         "modal_overlay_color": "#000000",
@@ -655,7 +646,7 @@
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
-        "margin_bottom": -12,
+        "margin_bottom": -16,
         "padding_top": 0,
         "padding_bottom": 0,
         "padding_horizontal": 0,
@@ -864,7 +855,7 @@
     "logo_list_8QhwxE",
     "logo_list_4nMwTN",
     "featured_collection_AXpz3x",
-    "ss_size_guide_2_JjExLg",
+    "ss_size_guide_2_HNymBr",
     "1743408848d7e389c4",
     "related-products",
     "collapsible_content_MBkcQr",
