@@ -399,7 +399,7 @@
         "media_fit": "contain",
         "desktop_arrows_position": "sides",
         "mobile_media_corner_radius": 0,
-        "mobile_spacing_pixels": 0,
+        "mobile_spacing_pixels": 8,
         "mobile_arrows_position": "sides",
         "mobile_pagination": "numeric",
         "mobile_thumbnails_position": "bottom",
