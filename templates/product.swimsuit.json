@@ -1368,7 +1368,7 @@
           "type": "size_chart",
           "settings": {
             "toggle_text": "INCH",
-            "size_chart_page": "laced-shape-briefs-with-zip-size-chart-inch",
+            "size_chart_page": "swimsuit-1-size-chart-inch",
             "text": "<p>Size chart content</p>"
           }
         },
@@ -1376,7 +1376,7 @@
           "type": "size_chart",
           "settings": {
             "toggle_text": "CM",
-            "size_chart_page": "laced-shape-briefs-with-zip-size-chart-cm",
+            "size_chart_page": "swimsuit-1-size-chart-cm",
             "text": "<p>Size chart content</p>"
           }
         }
@@ -1446,7 +1446,7 @@
         "text_align": "center",
         "text_align_mobile": "center",
         "use_scrollbar": false,
-        "modal_image": "shopify://shop_images/Add_a_subheading_3bdb6407-d441-4c34-b4ba-127cbab1d7f0.png",
+        "modal_image": "shopify://shop_images/Add_a_subheading_d85d694b-9231-4c11-a0b3-ee0a777f814c.png",
         "modal_image_radius": 0,
         "hide_modal_image": false,
         "modal_overlay_color": "#000000",
