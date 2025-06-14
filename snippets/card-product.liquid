@@ -328,8 +328,8 @@
       assign color_option = card_product.options_with_values | where: 'name', 'Colour' | first
     endif
 
-    if color_option and color_option.values.size > 3
-      assign remaining_count_mobile = color_option.values.size | minus: 3
+    if color_option and color_option.values.size > 2
+      assign remaining_count_mobile = color_option.values.size | minus: 2
       echo '<a href="' | append: card_product.url | append: '" class="color-swatch-plus-more plus-more-mobile">+' | append: remaining_count_mobile | append: '</a>'
     endif
 
