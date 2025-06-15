@@ -46,9 +46,9 @@
         "price_qNHwht": {
           "type": "price",
           "settings": {
-            "layout": "price_first",
+            "layout": "price_second",
             "price_color": "text",
-            "compare_price_color": "text",
+            "compare_price_color": "accent-2",
             "displayed_badge": "custom",
             "icon_scale": 125,
             "custom_badge_text": " [icon_1]ADD 2, PAY FOR ONE!",
