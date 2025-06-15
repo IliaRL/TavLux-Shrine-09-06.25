@@ -370,6 +370,47 @@
               "margin_bottom": 15
             }
           },
+          "gift_VbGcBF": {
+            "type": "gift",
+            "settings": {
+              "position": "footer",
+              "display": "globally",
+              "display_product_handles": "",
+              "accent_color": "accent-1",
+              "color_scheme": "background-2",
+              "product": "lux-coverage-pushup-straps",
+              "product_desc": "Write a short description about your product",
+              "goal_type": "subtotal",
+              "requirement": "80",
+              "locked_progress_text": "Spend [amount] to receive for FREE!",
+              "unlocked_progress_text": "Congrats! You unlocked a free gift!🎉",
+              "progress_mobile_text_size": 13,
+              "progress_desktop_text_size": 15,
+              "show_image_locked_overlay": true,
+              "show_image": true,
+              "image_size": "5",
+              "image_corner_radius": 2,
+              "title_size": "1.4",
+              "desc_size": "1.2",
+              "price_position": "separate",
+              "displayed_price": "text",
+              "displayed_price_text": "FREE",
+              "price_size": "1.4",
+              "hide_compare_price": false,
+              "show_variant_picker": true,
+              "corner_radius": 6,
+              "show_box_shadow": false,
+              "show_border": true,
+              "regular_border_color": "#d7d7d7",
+              "selected_border_color": "#d7d7d7",
+              "border_width": "0.1",
+              "show_custom_bg": false,
+              "regular_bg_color": "#f2f2f2",
+              "selected_bg_color": "#f2f2f2",
+              "margin_top": 15,
+              "margin_bottom": 15
+            }
+          },
           "checkout_btn_QAipiM": {
             "type": "checkout_btn",
             "settings": {
@@ -516,6 +557,7 @@
         },
         "block_order": [
           "progress_bar_MghMew",
+          "gift_VbGcBF",
           "checkout_btn_QAipiM",
           "product_upsells_GdfCpV",
           "subtotals_nKdEaW",
@@ -593,11 +635,6 @@
       },
       "11532412952436166569": {
         "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-        "disabled": false,
-        "settings": {}
-      },
-      "2118589882331710876": {
-        "type": "shopify://apps/essential-trust-badges/blocks/app-embed/0ff65b25-07e1-408e-950f-f54dd3d1751b",
         "disabled": false,
         "settings": {}
       },
