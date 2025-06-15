@@ -374,8 +374,8 @@
             "type": "gift",
             "settings": {
               "position": "footer",
-              "display": "globally",
-              "display_product_handles": "",
+              "display": "specific_products",
+              "display_product_handles": "one-piece-lux-tummy-control-swimsuit, tavlux-shaper-with-zipper, tavlux-adjustable-one-piece, tavlux-wrap-bikini-set, tavlux-sculpt-one-piece",
               "accent_color": "accent-1",
               "color_scheme": "background-2",
               "product": "lux-coverage-pushup-straps",
