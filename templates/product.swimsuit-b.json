@@ -1,0 +1,1702 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "loox_reviews_loox_rating_j8MYmj": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "[rating] | ([count] + Reviews)",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "#1e1e1e",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": true,
+            "emptyRatingWidget": false
+          }
+        },
+        "custom_liquid_bEcCdr": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.cart-progress {\n  display: block !important;\n}\n</style>"
+          }
+        },
+        "title_7jDqjh": {
+          "type": "title",
+          "settings": {
+            "text_size": "h2",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "price_qNHwht": {
+          "type": "price",
+          "settings": {
+            "layout": "price_first",
+            "price_color": "text",
+            "compare_price_color": "text",
+            "displayed_badge": "custom",
+            "icon_scale": 125,
+            "custom_badge_text": " [icon_1]ADD 2, PAY FOR ONE!",
+            "icon_1": "sell",
+            "filled_icon_1": true,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "margin_top": 6,
+            "margin_bottom": 6
+          }
+        },
+        "divider_p68xiN": {
+          "type": "divider",
+          "settings": {
+            "color": "#e1e1e1",
+            "height": 1,
+            "width": 100,
+            "Full_mobile_width": false,
+            "alignment": "center",
+            "border_radius": 0,
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "variant_picker_hPVAgi": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_types": "swatches, pills",
+            "custom_labels": "",
+            "skip_unavailable": false,
+            "swatches_size": "medium",
+            "swatches_custom_colors": "disabled",
+            "swatches_custom_colors_list": "purple, #000000, grey, beige,",
+            "full_width_dropdowns": false,
+            "breaks_style": "normal",
+            "breaks_headline": "BUNDLE & SAVE",
+            "breaks_display_selected_indicator": true,
+            "breaks_border_radius": 4,
+            "breaks_border_width": 2,
+            "breaks_color_scheme": "accent-1",
+            "breaks_badges": "[empty], Most popular, [empty]",
+            "breaks_badge_style": "1",
+            "breaks_badge_color": "accent-1",
+            "breaks_displayed_images": "none",
+            "breaks_custom_images": "",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_vertical_images_position": "top",
+            "breaks_vertical_prices_layout": "vertical",
+            "breaks_labels": "[name], [name], [name]",
+            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
+            "breaks_benefit_position": "top",
+            "breaks_benefit_style": "outlined",
+            "breaks_benefit_color": "accent-1",
+            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
+            "breaks_price_texts": "[price], [price], [price]",
+            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
+            "margin_top": 18,
+            "margin_bottom": 18
+          }
+        },
+        "quantity_selector_cbWtRX": {
+          "type": "quantity_selector",
+          "settings": {
+            "full_width_classic": false,
+            "atc_append": "right",
+            "atc_append_heights": "stretch-quantity",
+            "enable_quantity_discounts": false,
+            "style": "compact",
+            "headline": "BUNDLE & SAVE",
+            "preselected": "option_1",
+            "display_selected_indicator": true,
+            "border_radius": 20,
+            "border_width": 1,
+            "color_scheme": "accent-1",
+            "enable_variant_selectors": true,
+            "enable_variant_selectors_on_quantity_of_1": false,
+            "update_prices": false,
+            "skip_unavailable": false,
+            "full_width_pickers": false,
+            "hide_pickers_overlay": true,
+            "pickers_label": "",
+            "image_width": 70,
+            "space_images": true,
+            "vertical_images_position": "top",
+            "vertical_prices_layout": "vertical",
+            "option_1_quantity": 1,
+            "option_1_badge": "",
+            "option_1_badge_style": "1",
+            "option_1_badge_color": "accent-1",
+            "option_1_label": "Buy [quantity]",
+            "option_1_benefit": "",
+            "option_1_benefit_position": "top",
+            "option_1_benefit_style": "outlined",
+            "option_1_benefit_color": "accent-1",
+            "option_1_caption": "You save [amount_saved]",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "0",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "compare_price",
+            "option_1_compare_price_text": "[compare_price]",
+            "option_2_quantity": 2,
+            "option_2_badge": "",
+            "option_2_badge_style": "1",
+            "option_2_badge_color": "accent-1",
+            "option_2_label": "Buy [quantity]",
+            "option_2_benefit": "",
+            "option_2_benefit_position": "top",
+            "option_2_benefit_style": "outlined",
+            "option_2_benefit_color": "accent-1",
+            "option_2_caption": "You save [amount_saved]",
+            "option_2_percentage_off_text": "0",
+            "option_2_fixed_amount_off": "0",
+            "option_2_price_text": "[price]",
+            "option_2_compare_price": "compare_price",
+            "option_2_compare_price_text": "[compare_price]",
+            "option_3_quantity": 3,
+            "option_3_badge": "",
+            "option_3_badge_style": "1",
+            "option_3_badge_color": "accent-1",
+            "option_3_label": "Buy [quantity]",
+            "option_3_benefit": "",
+            "option_3_benefit_position": "top",
+            "option_3_benefit_style": "outlined",
+            "option_3_benefit_color": "accent-1",
+            "option_3_caption": "You save [amount_saved]",
+            "option_3_percentage_off_text": "0",
+            "option_3_fixed_amount_off": "0",
+            "option_3_price_text": "[price]",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 4,
+            "option_4_badge": "",
+            "option_4_badge_style": "1",
+            "option_4_badge_color": "accent-1",
+            "option_4_label": "Buy [quantity]",
+            "option_4_benefit": "",
+            "option_4_benefit_position": "top",
+            "option_4_benefit_style": "outlined",
+            "option_4_benefit_color": "accent-1",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "vitals_countdown_HVUDPn": {
+          "type": "shopify://apps/vitals/blocks/countdown/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
+          "disabled": true,
+          "settings": {}
+        },
+        "custom_liquid_fknPkJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id='ss-size-guide-2'></div>"
+          }
+        },
+        "buy_buttons_Ncar4L": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "atc_custom_label": "Add To Cart",
+            "display_price": false,
+            "enable_custom_color": true,
+            "custom_color": "#1e1e1e",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy Now",
+            "secondary_btn_enable_custom_color": true,
+            "secondary_btn_custom_color": "#beae9f",
+            "margin_top": 12,
+            "margin_bottom": 0
+          }
+        },
+        "shipping_checkpoints_xdhcft": {
+          "type": "shipping_checkpoints",
+          "disabled": true,
+          "settings": {
+            "icon_1": "add_shopping_cart",
+            "filled_icon_1": false,
+            "top_text_1": "<strong>[start_date]</strong>",
+            "bottom_text_1": "Ordered",
+            "min_days_1": 0,
+            "max_days_1": 0,
+            "icon_2": "local_shipping",
+            "filled_icon_2": false,
+            "top_text_2": "<strong>[start_date] - [end_date]</strong>",
+            "bottom_text_2": "Dispatched",
+            "min_days_2": 1,
+            "max_days_2": 2,
+            "icon_3": "redeem",
+            "filled_icon_3": false,
+            "top_text_3": "<strong>[start_date] - [end_date]</strong>",
+            "bottom_text_3": "Delivered",
+            "min_days_3": 6,
+            "max_days_3": 8,
+            "icon_4": "",
+            "filled_icon_4": false,
+            "top_text_4": "",
+            "bottom_text_4": "",
+            "date_format": "mm_dd",
+            "days_labels": "Mon, Tue, Wed, Thu, Fri, Sat, Sun",
+            "months_labels": "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+            "color_scheme": "accent-1",
+            "margin_top": 24,
+            "margin_bottom": 18
+          }
+        },
+        "custom_liquid_e4XxPD": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"location-shipping-info\">\n  <span id=\"shipping-flag\"></span>\n  <span>| Free Shipping to <span id=\"shipping-country\">your location</span></span>\n</div>\n\n<style>\n  #location-shipping-info {\n    text-align: center;\n    font-size: 1.5rem;\n    font-weight: 500;\n    padding: 2px;\n    background-color: #E8E1DB;\n    border-radius: 10px;\n    margin-top: 15px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 6px;\n  }\n  #shipping-country {\n    text-decoration: underline;\n    text-decoration-thickness: 1.5px;\n    font-weight: 600;\n  }\n  #shipping-flag {\n    font-size: 2rem; /* Makes the flag emoji larger */\n    line-height: 1;   /* Improves vertical alignment */\n  }\n</style>\n\n<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    const countrySpan = document.getElementById('shipping-country');\n    const flagSpan = document.getElementById('shipping-flag');\n    const fallbackFlag = '🌍';\n\n    function getFlagEmoji(countryCode) {\n      if (!countryCode || countryCode.length !== 2) return fallbackFlag;\n      const codePoints = countryCode\n        .toUpperCase()\n        .split('')\n        .map(char => 127397 + char.charCodeAt());\n      return String.fromCodePoint(...codePoints);\n    }\n\n    fetch('https://ipapi.co/json/')\n      .then(response => response.json())\n      .then(data => {\n        if (data && data.country_name && data.country_code) {\n          flagSpan.textContent = getFlagEmoji(data.country_code);\n          countrySpan.textContent = data.country_name;\n        } else {\n          flagSpan.textContent = fallbackFlag;\n          countrySpan.textContent = \"your location\";\n        }\n      })\n      .catch(error => {\n        console.error('Error fetching location:', error);\n        flagSpan.textContent = fallbackFlag;\n        countrySpan.textContent = \"your location\";\n      });\n  });\n</script>"
+          }
+        },
+        "vitals_payment_logos_8mJWBM": {
+          "type": "shopify://apps/vitals/blocks/payment-logos/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
+          "settings": {}
+        },
+        "custom_liquid_riHBD9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id='ss-product-videos'></div>"
+          }
+        },
+        "collapsible_tab_CpYcLe": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Free shipping Included",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p><strong>Standard Shipping</strong>: Estimated delivery within 7–12 business days. Always free.</p><p><strong>Express Shipping</strong>: Get it faster with delivery in 4–7 business days.</p>",
+            "page": "",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_JCNk4G": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "30 Day Money Back Guarantee",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Try it for <strong>30 days, completely risk-free</strong>.</p><p>If you’re not in love, we offer a <strong>100% money-back guarantee — no questions asked</strong>.</p>",
+            "page": "",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "sticky_atc_EqYbVP": {
+          "type": "sticky_atc",
+          "settings": {
+            "function": "scroll_#ProductInfo-id",
+            "display_when": "after_scroll",
+            "button_label": "Select size",
+            "enable_custom_btn_color": true,
+            "custom_btn_color": "#1e1e1e",
+            "color_scheme": "background-1",
+            "star_color": "#000000",
+            "stars_label": "142 + Reviews",
+            "picker_type": "combined",
+            "desktop_show_image": false,
+            "desktop_show_title": true,
+            "desktop_rating_stars": true,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": true,
+            "desktop_variant_picker": false,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_rating_stars": true,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": true,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_rating_j8MYmj",
+        "custom_liquid_bEcCdr",
+        "title_7jDqjh",
+        "price_qNHwht",
+        "divider_p68xiN",
+        "variant_picker_hPVAgi",
+        "quantity_selector_cbWtRX",
+        "vitals_countdown_HVUDPn",
+        "custom_liquid_fknPkJ",
+        "buy_buttons_Ncar4L",
+        "shipping_checkpoints_xdhcft",
+        "custom_liquid_e4XxPD",
+        "vitals_payment_logos_8mJWBM",
+        "custom_liquid_riHBD9",
+        "collapsible_tab_CpYcLe",
+        "collapsible_tab_JCNk4G",
+        "sticky_atc_EqYbVP"
+      ],
+      "custom_css": [
+        ".price,.price-item,.price-item--regular,.product-single__price {font-size: 15px !important;}",
+        ".color-swatch__image {height: 6rem !important;}"
+      ],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "thumbnails_ratio": "original",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": true,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "inverse",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_position": "left",
+        "desktop_thumbnails_count": 4,
+        "desktop_vertical_thumbnails_width": 16,
+        "desktop_vertical_thumbnails_hide_arrows": true,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "sides",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 8,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "numeric",
+        "mobile_thumbnails_position": "bottom",
+        "mobile_thumbnails_count": 4,
+        "mobile_vertical_thumbnails_width": 20,
+        "mobile_vertical_thumbnails_hide_arrows": true,
+        "mobile_scroll_padding_percentage": 2,
+        "mobile_scroll_padding_pixels": 16,
+        "enable_mobile_outher_spacing": true,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 90,
+        "trust_badge": "shopify://shop_images/Offer_Tag11.png",
+        "trust_badge_position": "top-left",
+        "trust_badge_size": "large",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 24
+      }
+    },
+    "ss_product_vidoes_9xMy3t": {
+      "type": "ss-product-vidoes",
+      "blocks": {
+        "video_NiTjFf": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Swimsuit Page Vid 3.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "",
+            "modal_text": ""
+          }
+        },
+        "video_bzCQik": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Swimsuit Page Vid 2.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "",
+            "modal_text": ""
+          }
+        },
+        "video_gRLKam": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Bathing suit Video 1.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "",
+            "modal_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_NiTjFf",
+        "video_bzCQik",
+        "video_gRLKam"
+      ],
+      "settings": {
+        "videos_position": "above_description",
+        "use_metafield": false,
+        "heading": "<h2>Join the 2K+ women just like you in our community</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "slider_view": 3,
+        "slider_view_mobile": 3,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "slider_mt": 20,
+        "card_radius": 10,
+        "card_border_thickness": 0,
+        "card_shadow": true,
+        "video_ratio": "portrait",
+        "video_ratio_mobile": "portrait",
+        "video_overlay": 0.3,
+        "icon_size": 34,
+        "icon_size_mobile": 34,
+        "icon_border_thickness": 1,
+        "icon_position_mobile": "bottom_left",
+        "icon_position": "bottom_left",
+        "hide_icon": false,
+        "arrow_size": 35,
+        "arrow_size_mobile": 35,
+        "arrow_radius": 5,
+        "arrow_border_thickness": 0,
+        "arrow_hover_shadow": true,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "show_content": false,
+        "modal_width": 30,
+        "modal_width_mobile": 95,
+        "modal_padding_vertical": 0,
+        "modal_padding_vertical_mobile": 0,
+        "modal_padding_horizontal": 0,
+        "modal_padding_horizontal_mobile": 0,
+        "modal_radius": 16,
+        "modal_border_thickness": 0,
+        "modal_overlay": 50,
+        "close_size": 42,
+        "close_size_mobile": 42,
+        "close_radius": 8,
+        "close_border_thickness": 0,
+        "buttons_size": 48,
+        "buttons_size_mobile": 48,
+        "buttons_radius": 8,
+        "buttons_border_thickness": 0,
+        "modal_video_radius": 0,
+        "modal_video_border_thickness": 0,
+        "modal_video_ratio": "portrait",
+        "modal_video_ratio_mobile": "portrait",
+        "modal_heading_custom": false,
+        "modal_heading_font": "josefin_sans_n4",
+        "modal_heading_size": 28,
+        "modal_heading_size_mobile": 28,
+        "modal_heading_height": 130,
+        "modal_heading_align": "center",
+        "modal_heading_align_mobile": "center",
+        "modal_text_custom": false,
+        "modal_text_font": "josefin_sans_n4",
+        "modal_text_size": 16,
+        "modal_text_size_mobile": 16,
+        "modal_text_height": 130,
+        "modal_text_align": "center",
+        "modal_text_align_mobile": "center",
+        "modal_text_mt": 16,
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "video_overlay_color": "#000000",
+        "icon_bg_color": "#000000",
+        "icon_border_color": "#ffffff",
+        "icon_color": "#ffffff",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "arrow_icon_color": "#1c1c1c",
+        "arrow_icon_hover_color": "#1c1c1c",
+        "modal_bg_color": "#ffffff",
+        "modal_border_color": "#000000",
+        "close_bg_color": "#ffffff",
+        "close_border_color": "#000000",
+        "close_icon_color": "#ffffff",
+        "buttons_bg_color": "#ffffff",
+        "buttons_border_color": "#000000",
+        "buttons_icon_color": "#ffffff",
+        "modal_video_border_color": "#000000",
+        "modal_content_bg_color": "#ffffff",
+        "modal_content_border_color": "#000000",
+        "modal_heading_color": "#000000",
+        "modal_text_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 20,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "logo_list_8QhwxE": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_KVfxV3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vogue_mini.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_3Gc8CG": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/forbes_logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_EVHQtt": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/new_elle_logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_JwCJCr": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/in-style-logo_c5df8a7f-4957-4d6b.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_cwbET9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/images_3.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_zmPrX7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Glamour_New.png",
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_KVfxV3",
+        "logo_3Gc8CG",
+        "logo_EVHQtt",
+        "logo_JwCJCr",
+        "logo_cwbET9",
+        "logo_zmPrX7"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "mobile-hidden",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "gray_logos": false,
+        "color_scheme": "custom",
+        "layout": "horizontal",
+        "desktop_logo_height": 40,
+        "columns_mobile": 2,
+        "mobile_logo_height": 40,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_dots": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#fffcf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "logo_list_XLhUcG": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_4NfVhe": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vogue_mini.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_dh9mcN": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/forbes_logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_jFKzcK": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/new_elle_logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_YeAcLM": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/in-style-logo_c5df8a7f-4957-4d6b.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_3ErCJi": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/images_3.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_93PBJD": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Glamour_New.png",
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_4NfVhe",
+        "logo_dh9mcN",
+        "logo_jFKzcK",
+        "logo_YeAcLM",
+        "logo_3ErCJi",
+        "logo_93PBJD"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "desktop-hidden",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "gray_logos": false,
+        "color_scheme": "custom",
+        "layout": "horizontal",
+        "desktop_logo_height": 40,
+        "columns_mobile": 2,
+        "mobile_logo_height": 40,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_dots": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#fffcf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "facebook_testimonials_8Gr3jn": {
+      "type": "facebook-testimonials",
+      "blocks": {
+        "column_ACwXYf": {
+          "type": "column",
+          "settings": {
+            "post_author": "Adrienne L",
+            "post_author_avatar": "shopify://shop_images/Group_47.jpg",
+            "post_author_verified": false,
+            "post_time": "04.23.2025",
+            "post_text": "<p>I'm expecting my 4th child (girl) in 4 months and needed a modest, comfortable suit for my growing belly. This one is very flattering, easy to breastfeed in, and covers everything I want covered. The adjustable straps and length give great coverage. I'm 5'1\" and it fits really well. Highly recommend!</p>",
+            "post_image": "shopify://shop_images/Group_35.jpg",
+            "post_reactions": "like, love, wow",
+            "post_reactions_text": "3.1k",
+            "post_comments_text": "65 Comments",
+            "comment_1_author": "Jules A",
+            "comment_1_author_avatar": "shopify://shop_images/e57d80c3-2943-4653-9a0a-2590f96f.png",
+            "comment_1_author_verified": false,
+            "comment_1_time": "04.23.2025",
+            "comment_1_text": "<p>I just had my second daughter and this is the BEST! Thank you!!🥰</p>",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_aambfb": {
+          "type": "column",
+          "settings": {
+            "post_author": "Cory K",
+            "post_author_avatar": "shopify://shop_images/pfp_6.jpg",
+            "post_author_verified": false,
+            "post_time": "05.17.2025",
+            "post_text": "<p>Perfect suit for this summer! I’m 5’9 and have a mom pouch and this suit is everything that I have been wanting. Tummy control, tummy coverage and doesn’t let the arm fat by the bra area roll over! Also has adjustable straps for us tall girls! 10/10</p>",
+            "post_image": "shopify://shop_images/Group_39.jpg",
+            "post_reactions": "like, love,",
+            "post_reactions_text": "498",
+            "post_comments_text": "15 Comments",
+            "comment_1_author": "Anna C",
+            "comment_1_author_avatar": "shopify://shop_images/646babaf-e3d3-4298-bff6-68ac3c35.jpg",
+            "comment_1_author_verified": false,
+            "comment_1_time": "05.17.2025",
+            "comment_1_text": "<p>The tummy control is so goood! 🤌</p>",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_WwJXtU": {
+          "type": "column",
+          "settings": {
+            "post_author": "Brooke M",
+            "post_author_verified": false,
+            "post_time": "04.09.2025",
+            "post_text": "<p>I get so many compliments on this! The color is bright and perfect for us young moms. Love that the bra cups are built-in and won't disappear in the wash. Great coverage, quality fabric that's not see-through in the pool. Definitely buying more!</p>",
+            "post_image": "shopify://shop_images/Group_42.jpg",
+            "post_reactions": "like, love, care",
+            "post_reactions_text": "734",
+            "post_comments_text": "32 Comments",
+            "comment_1_author": "Amelia H",
+            "comment_1_author_avatar": "shopify://shop_images/98de297d-98c0-41ca-b6ee-c870a7de.webp",
+            "comment_1_author_verified": false,
+            "comment_1_time": "04.09.2025",
+            "comment_1_text": "<p>Looking good Brooke!</p>",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_7Qt8rK": {
+          "type": "column",
+          "settings": {
+            "post_author": "Anonymous Healthcare Worker",
+            "post_author_verified": false,
+            "post_time": "03.27.2025",
+            "post_text": "<p>Great coverage swimsuit. Felt confident chasing around baby and walking to and from beachfront hotel. I weigh somewhere between 150-160, am 5’8” tall, and got a medium. It fits well.</p>",
+            "post_image": "shopify://shop_images/Group_45.jpg",
+            "post_reactions": "like, love, care",
+            "post_reactions_text": "302",
+            "post_comments_text": "12 Comments",
+            "comment_1_author": "Emily",
+            "comment_1_author_verified": false,
+            "comment_1_time": "03.27.2025",
+            "comment_1_text": "<p>😍😍😍😍</p>",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_3RnrAL": {
+          "type": "column",
+          "settings": {
+            "post_author": "Laura C",
+            "post_author_avatar": "shopify://shop_images/pfp_5.jpg",
+            "post_author_verified": false,
+            "post_time": "03.18.2025",
+            "post_text": "<p>Mom bod friendly. Saw an influencer share this dress and loved it. The fabric is great, good coverage, and the colors are so pretty! I would have never picked this out unless I saw it on someone else so had to share!</p>",
+            "post_image": "shopify://shop_images/Group_44.jpg",
+            "post_reactions": "like, love, care",
+            "post_reactions_text": "1.4k",
+            "post_comments_text": "34 Comments",
+            "comment_1_author": "Leona E",
+            "comment_1_author_avatar": "shopify://shop_images/bc516be3-c889-4a17-bfc6-c84584af.png",
+            "comment_1_author_verified": false,
+            "comment_1_time": "03.18.2025",
+            "comment_1_text": "<p>Same here! I fell in love 🥰</p>",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_RjXawk": {
+          "type": "column",
+          "settings": {
+            "post_author": "Halrey C",
+            "post_author_verified": false,
+            "post_time": "05.20.2025",
+            "post_text": "<p>Very flattering, love it! 4 months post partum, 5’4” and 170lbs. Got a size large. One of the only things i actually feel cute in these days! I wear it as a sundress and a swimsuit</p>",
+            "post_image": "shopify://shop_images/Group_41.jpg",
+            "post_reactions": "like, love, care",
+            "post_reactions_text": "145",
+            "post_comments_text": "4 Comments",
+            "comment_1_author": "Catherine S",
+            "comment_1_author_verified": false,
+            "comment_1_time": "05.20.2025",
+            "comment_1_text": "<p>I'm 5'5\" and 190lbs. Got a size xl and it's perfect!! 😁</p>",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_M8LKae": {
+          "type": "column",
+          "settings": {
+            "post_author": "Mary G",
+            "post_author_avatar": "shopify://shop_images/pfp_4.jpg",
+            "post_author_verified": false,
+            "post_time": "04.07.2025",
+            "post_text": "<p>I’m 5’6” 150 lbs. it is very comfortable with good coverage. I got a size L. I got the black and the orange floral. At age 63 it’s hard to find a swim suit that is flattering. This one fits the bill.</p>",
+            "post_image": "shopify://shop_images/Group_43.jpg",
+            "post_reactions": "like, love, wow",
+            "post_reactions_text": "84",
+            "post_comments_text": "8 Comments",
+            "comment_1_author": "June M",
+            "comment_1_author_avatar": "shopify://shop_images/181a9934-c87a-41c5-b3aa-d0468030.webp",
+            "comment_1_author_verified": false,
+            "comment_1_time": "04.07.2025",
+            "comment_1_text": "<p>WOW! Didn't know you could look so good ;)</p>",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_TicD4i": {
+          "type": "column",
+          "settings": {
+            "post_author": "Katie C",
+            "post_author_verified": false,
+            "post_time": "06.07.2025",
+            "post_text": "<p>Absolutely gorgeous! I am 5’3 175lbs 38D and it has Perfect coverage up top! The side tie is functional. The sewn in bra pads are genius!</p>",
+            "post_image": "shopify://shop_images/Group_40_6b15b6dc-afa2-469b-8177-952853e4f3d9.jpg",
+            "post_reactions": "like, love,",
+            "post_reactions_text": "120",
+            "post_comments_text": "3 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_TEnwER": {
+          "type": "column",
+          "settings": {
+            "post_author": "Kathleen R",
+            "post_author_verified": false,
+            "post_time": "04.29.2025",
+            "post_text": "<p>Super cute and well made. I love that it's not too short for me. I'm 178 lbs and 5 ft 9 and got an xl.</p>",
+            "post_image": "shopify://shop_images/Group_38.jpg",
+            "post_reactions": "like, love,",
+            "post_reactions_text": "654",
+            "post_comments_text": "4 Comments",
+            "comment_1_author": "Maria J",
+            "comment_1_author_verified": false,
+            "comment_1_time": "04.29.2025",
+            "comment_1_text": "<p>I got one too. Thanks!!</p>",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_qyfL3F": {
+          "type": "column",
+          "settings": {
+            "post_author": "Seritha H",
+            "post_author_avatar": "shopify://shop_images/pfp_1.jpg",
+            "post_author_verified": false,
+            "post_time": "05.25.2025",
+            "post_text": "<p>Love it! This swim suit was perfect for what I wanted.</p>",
+            "post_image": "shopify://shop_images/Group_32.jpg",
+            "post_reactions": "like, love, wow",
+            "post_reactions_text": "2.4k",
+            "post_comments_text": "45 Comments",
+            "comment_1_author": "Sarah S",
+            "comment_1_author_avatar": "shopify://shop_images/3c30516f-a31b-44d9-87a5-82f135bb.webp",
+            "comment_1_author_verified": false,
+            "comment_1_time": "05.25.2025",
+            "comment_1_text": "<p>Looking gorgeous😘! Wheres the swimsuit from?</p>",
+            "comment_2_author": "Seritha H",
+            "comment_2_author_avatar": "shopify://shop_images/pfp_1.jpg",
+            "comment_2_author_verified": false,
+            "comment_2_time": "05.25.2025",
+            "comment_2_text": "<p>Thanks Sarah 🩷 Got it from TavLux!!</p>"
+          }
+        },
+        "column_qF6WnG": {
+          "type": "column",
+          "settings": {
+            "post_author": "Lauren N",
+            "post_author_avatar": "shopify://shop_images/Group_46.jpg",
+            "post_author_verified": false,
+            "post_time": "04.22.2025",
+            "post_text": "<p>Super flattering! I’m 5’7” 120lbs and 32C. I ordered size small. This was super cute and flattering! The straps are thick and good quality.</p>",
+            "post_image": "shopify://shop_images/Group_33_614fa396-dbeb-49f1-84fa-1277807bd5a7.jpg",
+            "post_reactions": "like, love, care",
+            "post_reactions_text": "1.2k",
+            "post_comments_text": "54 Comments",
+            "comment_1_author": "Luke M",
+            "comment_1_author_avatar": "shopify://shop_images/30b80355-531d-49a4-9f8a-73377e3b.webp",
+            "comment_1_author_verified": false,
+            "comment_1_time": "04.22.2025",
+            "comment_1_text": "<p>Looking good honey 😍</p>",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_xacbKz": {
+          "type": "column",
+          "settings": {
+            "post_author": "Madison B",
+            "post_author_verified": false,
+            "post_time": "05.08.2025",
+            "post_text": "<p>Love love love! This is so flattering for big girlies! Tummy control ✅ cute design ✅ coverage✅ can not say enough good things. Can’t wait to wear this for my cruise.</p>",
+            "post_image": "shopify://shop_images/Group_37.jpg",
+            "post_reactions": "like, love,",
+            "post_reactions_text": "864",
+            "post_comments_text": "26 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_yVqfmz": {
+          "type": "column",
+          "settings": {
+            "post_author": "Rose",
+            "post_author_verified": false,
+            "post_time": "05.18.2025",
+            "post_text": "<p>Didn't have high hopes.. I have never found a one piece that I liked besides of a monokini. I love this it's beautiful and makes me look beautiful and it's so supportive.</p>",
+            "post_image": "shopify://shop_images/Group_36.jpg",
+            "post_reactions": "like, love, haha",
+            "post_reactions_text": "394",
+            "post_comments_text": "24 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ACwXYf",
+        "column_aambfb",
+        "column_WwJXtU",
+        "column_7Qt8rK",
+        "column_3RnrAL",
+        "column_RjXawk",
+        "column_M8LKae",
+        "column_TicD4i",
+        "column_TEnwER",
+        "column_qyfL3F",
+        "column_qF6WnG",
+        "column_xacbKz",
+        "column_yVqfmz"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Facebook testimonials",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "type": "loop",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": true,
+        "per_move_desktop": 1,
+        "desktop_spacing": 24,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "sides",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "sides",
+        "post_bg_color": "#ffffff",
+        "post_text_color": "#101010",
+        "comments_bg_color": "#f0f2f5",
+        "separators_color": "#a4b0be",
+        "post_border_color": "#dfdfdf",
+        "border_width": 1,
+        "like_label": "Like",
+        "comment_label": "Comment",
+        "reply_label": "Reply",
+        "share_label": "Share",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#f3f3f3",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39"
+      }
+    },
+    "featured_collection_AXpz3x": {
+      "type": "featured-collection",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "color_scheme": "background-1",
+        "collection": "swim-wear",
+        "products_to_show": 22,
+        "stretch_cards": true,
+        "show_view_all": false,
+        "view_all_style": "outline",
+        "cards_color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "badges": "custom",
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "swatches_option_name": "Color",
+        "swatches_position": "bottom",
+        "swatches_desktop_size": 24,
+        "swatches_mobile_size": 16,
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 4,
+        "slider_desktop": true,
+        "per_move_desktop": 1,
+        "desktop_spacing": 28,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "2",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "sides",
+        "padding_top": 20,
+        "padding_bottom": 8,
+        "custom_colors_background": "#000000",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#1e1e1e"
+      }
+    },
+    "section_divider_BpRE46": {
+      "type": "section-divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_1",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "accent-2",
+        "custom_shape_color": "#fffdf5",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_6PRF63": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EfAjQJ": {
+          "type": "heading",
+          "settings": {
+            "title": "The Swim Dress That Makes Moms Feel Like Goddesses Again",
+            "title_highlight_color": "#ffffff",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EfAjQJ"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/Slice_3_300kb.png",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "accent-2",
+        "section_color_scheme": "accent-2",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 40,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_full_media_width": false,
+        "mobile_direction": "reverse",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "center",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 0,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 0,
+        "custom_colors_background": "#fffdf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#fffdf5",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "image_with_text_eDYiyL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YxQ3tE": {
+          "type": "heading",
+          "settings": {
+            "title": "\"You can wear it as a sundress around town\" - A Mother of 3",
+            "title_highlight_color": "#ffffff",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YxQ3tE"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/Slice_4_1.png",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "accent-2",
+        "section_color_scheme": "accent-2",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 40,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_full_media_width": false,
+        "mobile_direction": "reverse",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "center",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#fffdf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#fffdf5",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "section_divider_MhAGLV": {
+      "type": "section-divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_1",
+        "flip_horizontal": true,
+        "flip_vertical": true,
+        "shape_color": "accent-2",
+        "custom_shape_color": "#cdb864",
+        "background_color": "background-2",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "icon_bar_9GhNa9": {
+      "type": "icon-bar",
+      "blocks": {
+        "column_3qEJCq": {
+          "type": "column",
+          "settings": {
+            "icon": "security",
+            "filled_icon": false,
+            "title": "",
+            "text": "<p>Instant Waist Slimming</p>"
+          }
+        },
+        "column_xN6PYL": {
+          "type": "column",
+          "settings": {
+            "icon": "eco",
+            "filled_icon": false,
+            "title": "",
+            "text": "<p>Natural Butt Lift</p>"
+          }
+        },
+        "column_pHicwA": {
+          "type": "column",
+          "settings": {
+            "icon": "air",
+            "filled_icon": false,
+            "title": "",
+            "text": "<p>All-Day Breathable Comfort</p>"
+          }
+        },
+        "column_B9fWGF": {
+          "type": "column",
+          "settings": {
+            "icon": "wc",
+            "filled_icon": false,
+            "title": "",
+            "text": "<p>Easy Bathroom Access</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_3qEJCq",
+        "column_xN6PYL",
+        "column_pHicwA",
+        "column_B9fWGF"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Benefits",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "custom",
+        "icon_layout": "vertical",
+        "icon_size": "medium",
+        "icon_color": "accent-2",
+        "cards_color_scheme": "custom",
+        "type": "loop",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": true,
+        "columns_desktop": 4,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 20,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "sides",
+        "padding_top": 0,
+        "padding_bottom": 16,
+        "custom_colors_background": "#fefcf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#fefcf5",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    },
+    "ss_size_guide_2_JjExLg": {
+      "type": "ss-size-guide-2",
+      "blocks": {
+        "size_chart_hCcJKm": {
+          "type": "size_chart",
+          "settings": {
+            "toggle_text": "INCH",
+            "size_chart_page": "swimsuit-1-size-chart-inch",
+            "text": "<p>Size chart content</p>"
+          }
+        },
+        "size_chart_MpA8dt": {
+          "type": "size_chart",
+          "settings": {
+            "toggle_text": "CM",
+            "size_chart_page": "swimsuit-1-size-chart-cm",
+            "text": "<p>Size chart content</p>"
+          }
+        }
+      },
+      "block_order": [
+        "size_chart_hCcJKm",
+        "size_chart_MpA8dt"
+      ],
+      "custom_css": [],
+      "settings": {
+        "guide_position": "above_buy",
+        "toggle": "Size Guide",
+        "toggle_custom": false,
+        "toggle_font": "josefin_sans_n4",
+        "toggle_size": 17,
+        "toggle_size_mobile": 17,
+        "toggle_height": 200,
+        "toggle_align": "right",
+        "toggle_align_mobile": "right",
+        "icon_size": 14,
+        "icon_size_mobile": 4,
+        "hide_icon": false,
+        "modal_width": 100,
+        "modal_width_mobile": 100,
+        "modal_padding_vertical": 40,
+        "modal_padding_vertical_mobile": 16,
+        "modal_padding_horizontal": 40,
+        "modal_padding_horizontal_mobile": 16,
+        "modal_radius": 8,
+        "modal_border_thickness": 0,
+        "modal_overlay": 0.3,
+        "close_icon_size": 24,
+        "close_icon_size_mobile": 18,
+        "body_gap": 38,
+        "body_gap_mobile": 0,
+        "body_mt": 20,
+        "body_mt_mobile": 0,
+        "heading": "<h2>Size Guide</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 32,
+        "heading_size_mobile": 24,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "title": "Body measurements",
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 24,
+        "title_size_mobile": 18,
+        "title_height": 130,
+        "title_mt": 28,
+        "title_mt_mobile": 14,
+        "switch_custom": false,
+        "switch_font": "josefin_sans_n4",
+        "switch_size": 15,
+        "switch_size_mobile": 12,
+        "switch_height": 60,
+        "switch_radius": 100,
+        "text": "<p>Hand wash in cold water with mild detergent, rinse well, and lay flat to dry out of sunlight. Avoid machines, strong detergents, and sun drying.</p>",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 14,
+        "text_size_mobile": 12,
+        "text_height": 130,
+        "text_mt": 12,
+        "text_mt_mobile": 20,
+        "text_align": "center",
+        "text_align_mobile": "center",
+        "use_scrollbar": false,
+        "modal_image": "shopify://shop_images/Add_a_subheading_d85d694b-9231-4c11-a0b3-ee0a777f814c.png",
+        "modal_image_radius": 0,
+        "hide_modal_image": false,
+        "modal_overlay_color": "#000000",
+        "modal_bg_color": "#fefcf5",
+        "modal_border_color": "#000000",
+        "close_icon_color": "#000000",
+        "heading_color": "#000000",
+        "title_color": "#000000",
+        "text_color": "#000000",
+        "switch_color": "#000000",
+        "switch_active_color": "#ffffff",
+        "switch_bg_active_color": "#000000",
+        "switches_border_color": "#000000",
+        "toggle_color": "#000000",
+        "toggle_hover_color": "#555555",
+        "background_color": "",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": -16,
+        "padding_top": 0,
+        "padding_bottom": 4,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "1743408848d7e389c4": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_eMNgLt": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 3,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_eMNgLt"
+      ],
+      "settings": {
+        "display_id": false,
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "stretch_cards": false,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "collapsible_content_MBkcQr": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_UGJ3Ey": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>We offer a 30-day free trial with a 100% money-back guarantee. If you’re not satisfied, contact our customer service for assistance.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_q9ae8E": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does this swimsuit really help with tummy control?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Yes! It has a built-in tummy panel that smooths and supports without feeling tight or uncomfortable.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_79PQWa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the straps adjustable?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Absolutely. You can easily adjust the straps to get the perfect fit for your body.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cUGHxf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the skirt attached or separate?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The skirt is attached and provides modest coverage while still looking cute and flattering.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EyKbci": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How supportive is the built-in bra?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The sewn-in bra pads give great support and shape, so no need for an extra bra.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NNW8BH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will this swimsuit cover my problem areas?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>It’s designed to cover and flatter your tummy and hips while giving you a smooth silhouette.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XNMMNH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the material stretchy and comfortable?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Yes, it’s made from soft, stretchy fabric that moves with you and dries quickly.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RPGbnR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I wear this for active water activities?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Definitely! It stays in place well and is perfect for swimming or playing with kids.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bwkDLg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I know what size to get?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Check our size chart and consider your usual swimsuit size. The adjustable straps also help fine-tune the fit.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CyKyaV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I care for this swimdress?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>We recommend hand washing with cold water and air drying to keep it looking great.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_UGJ3Ey",
+        "collapsible_row_q9ae8E",
+        "collapsible_row_79PQWa",
+        "collapsible_row_cUGHxf",
+        "collapsible_row_EyKbci",
+        "collapsible_row_NNW8BH",
+        "collapsible_row_XNMMNH",
+        "collapsible_row_RPGbnR",
+        "collapsible_row_bwkDLg",
+        "collapsible_row_CyKyaV"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "caption": "",
+        "title": "Frequently Asked Questions",
+        "title_highlight_color": "#dd1d1d",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": false,
+        "video_muted_autoplay": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "row_heading_size": "small",
+        "collapse_icon": "carret",
+        "display_top_border": true,
+        "padding_top": 12,
+        "padding_bottom": 0,
+        "custom_colors_background": "#f0f1f5",
+        "custom_gradient_background": "linear-gradient(13deg, rgba(255, 255, 255, 1), rgba(170, 248, 219, 1) 86%)",
+        "custom_colors_text": "#2e2a39",
+        "custom_contaner_colors_background": "#ffffff",
+        "custom_container_gradient_background": "radial-gradient(rgba(215, 204, 250, 1) 100%, rgba(247, 197, 204, 1) 100%)",
+        "custom_contaner_colors_text": "#2e2a39"
+      }
+    },
+    "section_divider_rVHz7c": {
+      "type": "section-divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "accent-2",
+        "custom_shape_color": "#808080",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ss_product_vidoes_9xMy3t",
+    "logo_list_8QhwxE",
+    "logo_list_XLhUcG",
+    "facebook_testimonials_8Gr3jn",
+    "featured_collection_AXpz3x",
+    "section_divider_BpRE46",
+    "image_with_text_6PRF63",
+    "image_with_text_eDYiyL",
+    "section_divider_MhAGLV",
+    "icon_bar_9GhNa9",
+    "ss_size_guide_2_JjExLg",
+    "1743408848d7e389c4",
+    "related-products",
+    "collapsible_content_MBkcQr",
+    "section_divider_rVHz7c"
+  ]
+}
