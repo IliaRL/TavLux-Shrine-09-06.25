@@ -655,11 +655,6 @@
           "storefrontAccessToken": ""
         }
       },
-      "1656560654682496077": {
-        "type": "shopify://apps/instant-section-page-builder/blocks/instant_core/927e19d9-4e68-41db-99c7-d8debdc1f80d",
-        "disabled": true,
-        "settings": {}
-      },
       "776302416715791028": {
         "type": "shopify://apps/bucks/blocks/app-embed/4f0a9b06-9da4-4a49-b378-2de9d23a3af3",
         "disabled": false,
