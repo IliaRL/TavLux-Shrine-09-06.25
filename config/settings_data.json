@@ -402,11 +402,11 @@
               "show_box_shadow": false,
               "show_border": true,
               "regular_border_color": "#cfc3b4",
-              "selected_border_color": "#d7d7d7",
+              "selected_border_color": "#cebba3",
               "border_width": "0.1",
               "show_custom_bg": true,
               "regular_bg_color": "#fefcf5",
-              "selected_bg_color": "#f2f2f2",
+              "selected_bg_color": "#f1ecdd",
               "margin_top": 6,
               "margin_bottom": 15
             }
