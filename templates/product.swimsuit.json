@@ -371,10 +371,10 @@
       "settings": {
         "display_id": false,
         "enable_sticky_info": true,
-        "display_variant_image_first": false,
-        "disable_prepend": false,
+        "display_variant_image_first": true,
+        "disable_prepend": true,
         "hide_variants": false,
-        "variant_image_filtering": "none",
+        "variant_image_filtering": "option1",
         "image_zoom": "none",
         "thumbnails_ratio": "original",
         "arrows_color_scheme": "inverse",
