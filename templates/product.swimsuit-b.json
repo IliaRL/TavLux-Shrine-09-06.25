@@ -51,7 +51,7 @@
             "compare_price_color": "accent-2",
             "displayed_badge": "custom",
             "icon_scale": 125,
-            "custom_badge_text": " [icon_1]ADD 2, PAY FOR ONE!",
+            "custom_badge_text": "[icon_1] SAVE [amount]",
             "icon_1": "sell",
             "filled_icon_1": true,
             "icon_2": "check_circle",
