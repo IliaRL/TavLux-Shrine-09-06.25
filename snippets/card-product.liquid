@@ -1,3 +1,13 @@
+{%- liquid
+  assign tag_to_check = 'hides-handle-' | append: card_product.handle
+  assign should_hide_product = false
+
+  if product and product.tags contains tag_to_check
+    assign should_hide_product = true
+  endif
+-%}
+{% unless should_hide_product %}
+
 {% comment %}
   Renders a product card
 
@@ -97,9 +107,7 @@
                 height="{{ card_product.featured_media.height }}"
                 id='{{ product_form_id }}-image'
               >
-              {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
-
-              {%- if card_product.media[1] != null and show_secondary_image -%}
+              {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}... {%- if card_product.media[1] != null and show_secondary_image -%}
                 <img
                   srcset="
                     {%- if card_product.media[1].width >= 165 -%}{{ card_product.media[1] | image_url: width: 165 }} 165w,{%- endif -%}
@@ -248,7 +256,6 @@
                 </span>
               </p>
             {%- endif -%}
-
             <div class="loox-rating" data-id="{{ card_product.id }}" data-rating="{{ card_product.metafields.loox.avg_rating }}" data-raters="{{ card_product.metafields.loox.num_reviews }}"></div>
 {% render 'price', product: card_product, price_class: '', hide_currency_code: true %}
           </div>
@@ -339,9 +346,7 @@
     endif
   -%}
 
-</div> <!-- 4. This closes the new wrapper div. -->
-
-                  {% when 'pills' %}
+</div> <!-- 4. This closes the new wrapper div. -->... {% when 'pills' %}
                     {% render 'product-variant-options',
                       product: card_product,
                       option: option, 
@@ -557,3 +562,5 @@
     </div>
   </div>
 {%- endif -%}
+
+{% endunless %}
