@@ -1,21 +1,4 @@
 {% comment %}
-  ** SHRINE THEME: CONDITIONAL HIDING LOGIC **
-  This code checks if the main product page being viewed has a tag
-  that is meant to hide the current product card in the collection loop.
-{% endcomment %}
-{%- liquid
-  assign tag_to_check = 'hides-handle-' | append: card_product.handle
-  assign should_hide_product = false
-
-  if product and product.tags contains tag_to_check
-    assign should_hide_product = true
-  endif
--%}
-
-{% unless should_hide_product %}
-
-  {% comment %}
-  {% comment %}
   Renders a product card
 
   Accepts:
@@ -574,9 +557,3 @@
     </div>
   </div>
 {%- endif -%}
-
-  {% endcomment %}
-
-
-
-{% endunless %}
