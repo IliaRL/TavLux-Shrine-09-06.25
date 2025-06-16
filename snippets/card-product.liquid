@@ -97,9 +97,7 @@
                 height="{{ card_product.featured_media.height }}"
                 id='{{ product_form_id }}-image'
               >
-              {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
-
-              {%- if card_product.media[1] != null and show_secondary_image -%}
+              {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}... {%- if card_product.media[1] != null and show_secondary_image -%}
                 <img
                   srcset="
                     {%- if card_product.media[1].width >= 165 -%}{{ card_product.media[1] | image_url: width: 165 }} 165w,{%- endif -%}
@@ -248,7 +246,6 @@
                 </span>
               </p>
             {%- endif -%}
-
             <div class="loox-rating" data-id="{{ card_product.id }}" data-rating="{{ card_product.metafields.loox.avg_rating }}" data-raters="{{ card_product.metafields.loox.num_reviews }}"></div>
 {% render 'price', product: card_product, price_class: '', hide_currency_code: true %}
           </div>
@@ -339,9 +336,7 @@
     endif
   -%}
 
-</div> <!-- 4. This closes the new wrapper div. -->
-
-                  {% when 'pills' %}
+</div> <!-- 4. This closes the new wrapper div. -->... {% when 'pills' %}
                     {% render 'product-variant-options',
                       product: card_product,
                       option: option, 
@@ -453,8 +448,7 @@
                       disabled
                     {% endif %}
                   >
-                    <span class='main-atc__label__text'>
-                      {%- if card_product.selected_or_first_available_variant.available -%}
+                    <span class='main-atc__label__text'>... {%- if card_product.selected_or_first_available_variant.available -%}
                         {{ 'products.product.add_to_cart' | t }}
                       {%- else -%}
                         {{ 'products.product.sold_out' | t }}
