@@ -119,7 +119,6 @@
     },
     "featured_collection_j9ataL": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "display_id": false,
         "visibility": "always-display",
