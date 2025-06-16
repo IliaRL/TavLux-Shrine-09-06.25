@@ -1353,7 +1353,7 @@
         "mobile_dots_position": "hidden",
         "mobile_arrows_position": "sides",
         "padding_top": 0,
-        "padding_bottom": 16,
+        "padding_bottom": 60,
         "custom_colors_background": "#fefcf5",
         "custom_gradient_background": "",
         "custom_colors_text": "#2e2a39",
