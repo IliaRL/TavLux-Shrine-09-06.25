@@ -739,6 +739,7 @@
       "blocks": {
         "column_ACwXYf": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "post_author": "Adrienne L",
             "post_author_avatar": "shopify://shop_images/Group_47.jpg",
