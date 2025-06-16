@@ -1,15 +1,3 @@
-{%- liquid
-  assign tag_to_check = 'hides-handle-' | append: card_product.handle
-  assign should_hide_product = false
-
-  if product and product.tags contains tag_to_check
-    assign should_hide_product = true
-  endif
--%}
-
-{% unless should_hide_product %}
-
-  {% comment %}
 {% comment %}
   Renders a product card
 
@@ -569,7 +557,3 @@
     </div>
   </div>
 {%- endif -%}
-
-  {% endcomment %}
-
-{% endunless %}
