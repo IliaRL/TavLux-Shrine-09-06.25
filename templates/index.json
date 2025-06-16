@@ -316,7 +316,7 @@
         "show_description": false,
         "description_style": "body",
         "color_scheme": "background-1",
-        "collection": "summer-sale",
+        "collection": "swim-wear",
         "products_to_show": 9,
         "stretch_cards": false,
         "show_view_all": false,
@@ -365,6 +365,7 @@
     },
     "featured_collection_JNtHaV": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "display_id": false,
         "visibility": "always-display",
