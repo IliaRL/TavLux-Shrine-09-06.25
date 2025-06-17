@@ -449,12 +449,32 @@
             "modal_heading": "",
             "modal_text": ""
           }
+        },
+        "video_xcQ8wk": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Swimsuit Page Vid 3.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_3mCyjt": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/0617.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
         }
       },
       "block_order": [
         "video_NiTjFf",
         "video_bzCQik",
-        "video_gRLKam"
+        "video_gRLKam",
+        "video_xcQ8wk",
+        "video_3mCyjt"
       ],
       "settings": {
         "videos_position": "above_description",
