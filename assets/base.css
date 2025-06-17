@@ -125,7 +125,7 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 
 /* --- Logic for Desktop (>= 750px) --- */
 @media screen and (min-width: 750px) {
-  .card__swatches-container .color-swatch:nth-child(n + 4) {
+  .card__swatches-container .color-swatch:nth-child(n + 5) {
     display: none !important;
   }
   .plus-more-desktop {
