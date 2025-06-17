@@ -132,10 +132,3 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
     display: inline !important;
   }
 }
-.price,
-.price-item,
-.price-item--regular,
-.product-single__price {
-  font-size: 15px !important;
-  font-weight: 200;
-}
