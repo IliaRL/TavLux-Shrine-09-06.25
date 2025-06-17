@@ -727,7 +727,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".product-form__input input[type=\"radio\"] + label {border: 0.7px solid rgba(var(--color-foreground), 0.3) !important; border-radius: 0 !important; padding: 6px 15px !important;}",
+      ".product-form__input input[type=\"radio\"] + label {border: 1px solid rgba(var(--color-foreground), 0.3) !important; border-radius: 0 !important; padding: 6px 15px !important;}",
       ".product-form__input input[type=\"radio\"] + label:hover {border-color: rgba(var(--color-foreground), 0.5) !important;}",
       ".product-page-price .price__regular .price-item--regular {font-size: 18px;}",
       ".cart-progress {display: none;}",
