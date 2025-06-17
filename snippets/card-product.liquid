@@ -76,27 +76,22 @@
           <div class="card__media">
             <div class="media media--transparent media--hover-effect">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
-              <img
-                srcset="
-                  {%- if card_product.featured_media.width >= 165 -%}{{ card_product.featured_media | image_url: width: 165 }} 165w,{%- endif -%}
-                  {%- if card_product.featured_media.width >= 360 -%}{{ card_product.featured_media | image_url: width: 360 }} 360w,{%- endif -%}
-                  {%- if card_product.featured_media.width >= 533 -%}{{ card_product.featured_media | image_url: width: 533 }} 533w,{%- endif -%}
-                  {%- if card_product.featured_media.width >= 720 -%}{{ card_product.featured_media | image_url: width: 720 }} 720w,{%- endif -%}
-                  {%- if card_product.featured_media.width >= 940 -%}{{ card_product.featured_media | image_url: width: 940 }} 940w,{%- endif -%}
-                  {%- if card_product.featured_media.width >= 1066 -%}{{ card_product.featured_media | image_url: width: 1066 }} 1066w,{%- endif -%}
-                  {{ card_product.featured_media | image_url }} {{ card_product.featured_media.width }}w
-                "
-                src="{{ card_product.featured_media | image_url: width: 533 }}"
-                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                alt="{{ card_product.featured_media.alt | escape }}"
-                class="motion-reduce"
-                {% unless lazy_load == false %}
-                  loading="lazy"
-                {% endunless %}
-                width="{{ card_product.featured_media.width }}"
-                height="{{ card_product.featured_media.height }}"
-                id='{{ product_form_id }}-image'
-              >
+<img
+  srcset="
+    ...
+  "
+  src="{{ card_product.featured_media | image_url: width: 533 }}"
+  sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+  alt="{{ card_product.featured_media.alt | escape }}"
+  class="motion-reduce"
+  data-main-card-image
+  {% unless lazy_load == false %}
+    loading="lazy"
+  {% endunless %}
+  width="{{ card_product.featured_media.width }}"
+  height="{{ card_product.featured_media.height }}"
+  id='{{ product_form_id }}-image'
+>
               {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
 
               {%- if card_product.media[1] != null and show_secondary_image -%}
@@ -277,27 +272,29 @@
                 {% case type %}
                   {% when 'swatches' %}
                   
+<!-- 1. Add this new wrapper div. The 'style' attribute fixes the alignment. -->
 <div class="card-swatch-wrapper" style="--text-alignment: {{ settings.card_text_alignment }}">
 
-  <!-- 2. Your existing swatch container goes inside. Notice the class has been slightly simplified. -->
+  <!-- 2. Your existing swatch container goes inside. -->
   <div class='card__swatches-container color-swatches-container--size-small'>
     {%- for value in option.values -%}
-      {% liquid
+      {%- liquid
         assign hex_value = ''
-        
         for color in predefined_colors
           assign color_line = color | remove: '<p>' | remove: '</p>'
           assign color_parts = color_line | split: '='
           assign option_name = color_parts[0] | strip
           assign option_hex = color_parts[1] | strip
-      
           if value == option_name
             assign hex_value = option_hex
             assign current_option_name = option_name
             assign option_value_index = option_value_index | plus: 1
           endif
         endfor
-      %}
+
+        # NEW: Find the variant that matches this color swatch
+        assign matched_variant = card_product.variants | where: 'options', current_option_name | first
+      -%}
 
       <div class="color-swatch{% if hex_value == blank %} hidden{% endif %}">
         <input
@@ -306,10 +303,11 @@
           name="{{ swatches_option_name }}{{ custom_name_identifier }}"
           value="{{ current_option_name | escape }}"
           form="{{ product_form_id }}"
-          {% if option_value_index == 1 %}
-            checked
-          {% endif %}
-          class="visually-hidden{% if option_disabled %} disabled{% endif %}"
+          {% if forloop.first %}checked{% endif %}
+          class="visually-hidden card-swatch-input{% if option_disabled %} disabled{% endif %}"
+          
+          {% comment %} NEW: Add the variant image URL as a data attribute {% endcomment %}
+          data-variant-image="{{ matched_variant.featured_image | image_url: width: 800 }}"
         >
         <div class="color-swatch__image">
           <div class="color-swatch__custom-color" style="--bg-color: {{ hex_value }}">&nbsp</div>
@@ -321,13 +319,14 @@
     {%- endfor -%}
   </div>
 
-  <!-- 3. The new, corrected Liquid snippet also goes inside the wrapper. -->
+  <!-- 3. The corrected Liquid snippet for the '+N' goes inside the wrapper. -->
   {%- liquid
     assign color_option = card_product.options_with_values | where: 'name', 'Color' | first
     if color_option == nil
       assign color_option = card_product.options_with_values | where: 'name', 'Colour' | first
     endif
 
+    # CORRECTED: The limit for mobile is 2, not 3.
     if color_option and color_option.values.size > 2
       assign remaining_count_mobile = color_option.values.size | minus: 2
       echo '<a href="' | append: card_product.url | append: '" class="color-swatch-plus-more plus-more-mobile">+' | append: remaining_count_mobile | append: '</a>'
@@ -338,8 +337,7 @@
       echo '<a href="' | append: card_product.url | append: '" class="color-swatch-plus-more plus-more-desktop">+' | append: remaining_count_desktop | append: '</a>'
     endif
   -%}
-
-</div> <!-- 4. This closes the new wrapper div. -->
+</div>
 
                   {% when 'pills' %}
                     {% render 'product-variant-options',
@@ -557,3 +555,37 @@
     </div>
   </div>
 {%- endif -%}
+{%- comment -%}
+  NEW JAVASCRIPT: This script handles the image swapping.
+  ...
+{%- endcomment -%}
+<script>
+  if (!window.productCardSwatchListener) {
+    const initProductCardSwatchListener = () => {
+      document.querySelectorAll('.card-swatch-input').forEach(input => {
+        input.addEventListener('change', function() {
+          const newImageSrc = this.dataset.variantImage;
+          if (!newImageSrc) return;
+
+          const productCard = this.closest('.card-wrapper');
+          if (!productCard) return;
+
+          const mainImage = productCard.querySelector('[data-main-card-image]');
+          if (mainImage) {
+            mainImage.src = newImageSrc;
+            mainImage.srcset = newImageSrc; // Update srcset as well for responsive images
+          }
+        });
+      });
+    };
+
+    // Run the script once the page is loaded
+    document.addEventListener('DOMContentLoaded', initProductCardSwatchListener);
+
+    // Also run if the theme uses sections (for dynamic loading)
+    document.addEventListener('shopify:section:load', initProductCardSwatchListener);
+
+    // Mark as initialized to prevent re-running
+    window.productCardSwatchListener = true;
+  }
+</script>
