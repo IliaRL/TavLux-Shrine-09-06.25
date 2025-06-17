@@ -248,7 +248,6 @@
                 </span>
               </p>
             {%- endif -%}
-
             <div class="loox-rating" data-id="{{ card_product.id }}" data-rating="{{ card_product.metafields.loox.avg_rating }}" data-raters="{{ card_product.metafields.loox.num_reviews }}"></div>
 {% render 'price', product: card_product, price_class: '', hide_currency_code: true %}
           </div>
@@ -257,7 +256,7 @@
           {% assign quick_add_skip_index = 1 %}
           
           <card-variant-selects
-            if='card-variant-selects-{{ product_form_id }}'
+            id='card-variant-selects-{{ product_form_id }}'
             data-section="{{ product_form_id }}"
             data-url="{{ card_product.url }}"
             class='no-js-hidden display-block'
@@ -340,7 +339,6 @@
   -%}
 
 </div> <!-- 4. This closes the new wrapper div. -->
-
                   {% when 'pills' %}
                     {% render 'product-variant-options',
                       product: card_product,
