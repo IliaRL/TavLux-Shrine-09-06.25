@@ -42,7 +42,7 @@
       assign predefined_colors = settings.swatches_predefined_colors_list | split: '</p><p>'
       assign swatches_product_option_index = -1
       assign option_value_index = 0
-      assign custom_name_identifier = '-' | append: section_id | append: card_product.id
+      assign = custom_name_identifier = '-' | append: section_id | append: card_product.id
   
       for option in card_product.options_with_values
         if option.name == swatches_option_name
@@ -98,6 +98,7 @@
                 id='{{ product_form_id }}-image'
               >
               {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
+
               {%- if card_product.media[1] != null and show_secondary_image -%}
                 <img
                   srcset="
@@ -247,6 +248,7 @@
                 </span>
               </p>
             {%- endif -%}
+
             <div class="loox-rating" data-id="{{ card_product.id }}" data-rating="{{ card_product.metafields.loox.avg_rating }}" data-raters="{{ card_product.metafields.loox.num_reviews }}"></div>
 {% render 'price', product: card_product, price_class: '', hide_currency_code: true %}
           </div>
@@ -255,7 +257,7 @@
           {% assign quick_add_skip_index = 1 %}
           
           <card-variant-selects
-            id='card-variant-selects-{{ product_form_id }}'
+            if='card-variant-selects-{{ product_form_id }}'
             data-section="{{ product_form_id }}"
             data-url="{{ card_product.url }}"
             class='no-js-hidden display-block'
@@ -326,8 +328,8 @@
       assign color_option = card_product.options_with_values | where: 'name', 'Colour' | first
     endif
 
-    if color_option and color_option.values.size > 2
-      assign remaining_count_mobile = color_option.values.size | minus: 2
+    if color_option and color_option.values.size > 3
+      assign remaining_count_mobile = color_option.values.size | minus: 3
       echo '<a href="' | append: card_product.url | append: '" class="color-swatch-plus-more plus-more-mobile">+' | append: remaining_count_mobile | append: '</a>'
     endif
 
@@ -338,6 +340,7 @@
   -%}
 
 </div> <!-- 4. This closes the new wrapper div. -->
+
                   {% when 'pills' %}
                     {% render 'product-variant-options',
                       product: card_product,
@@ -431,7 +434,7 @@
                   data-type: 'add-to-cart-form'
                 -%}
                   <input
-                    id='{{ product_form_id }}-variant-id'
+                    if='{{ product_form_id }}-variant-id'
                     type="hidden"
                     name="id"
                     value="{{ card_product.selected_or_first_available_variant.id }}"
