@@ -115,7 +115,7 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 
 /* --- Logic for Mobile (<= 749px) --- */
 @media screen and (max-width: 749px) {
-  .card__swatches-container .color-swatch:nth-child(n + 3) {
+  .card__swatches-container .color-swatch:nth-child(n + 4) {
     display: none !important;
   }
   .plus-more-mobile {
