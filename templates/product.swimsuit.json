@@ -1087,65 +1087,6 @@
         "custom_colors_text": "#2e2a39"
       }
     },
-    "featured_collection_AXpz3x": {
-      "type": "featured-collection",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "Browse Our Buy 1, Get 1 FREE SUMMER SALE!",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "color_scheme": "background-1",
-        "collection": "best-sellers",
-        "products_to_show": 22,
-        "stretch_cards": true,
-        "show_view_all": false,
-        "view_all_style": "outline",
-        "cards_color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "badges": "custom",
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": false,
-        "swatches_option_name": "Color",
-        "swatches_position": "bottom",
-        "swatches_desktop_size": 24,
-        "swatches_mobile_size": 16,
-        "type": "loop",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "arrows_color_scheme": "inverse",
-        "transparent_arrows": true,
-        "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
-        "columns_desktop": 4,
-        "slider_desktop": true,
-        "per_move_desktop": 1,
-        "desktop_spacing": 28,
-        "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
-        "desktop_adaptive_height": false,
-        "desktop_dots_position": "hidden",
-        "desktop_arrows_position": "sides",
-        "columns_mobile": "2",
-        "slider_mobile": true,
-        "enable_mobile_preview": false,
-        "mobile_adaptive_height": false,
-        "mobile_dots_position": "hidden",
-        "mobile_arrows_position": "sides",
-        "padding_top": 20,
-        "padding_bottom": 8,
-        "custom_colors_background": "#000000",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#1e1e1e"
-      }
-    },
     "section_divider_BpRE46": {
       "type": "section-divider",
       "settings": {
@@ -1167,7 +1108,7 @@
         "heading_EfAjQJ": {
           "type": "heading",
           "settings": {
-            "title": "Feel amazing whether you're swimming, lounging, or beach walking.",
+            "title": "Feel confident whether you're swimming, lounging, or beach walking.",
             "title_highlight_color": "#ffffff",
             "heading_size": "h2"
           }
@@ -1215,7 +1156,7 @@
         "heading_YxQ3tE": {
           "type": "heading",
           "settings": {
-            "title": "\"Game changer! Smooths my mom belly without feeling tight, perfect for chasing kids!\" Mom of 3",
+            "title": "\"Great coverage without feeling tight, perfect for confident pool days!\" - Mom of 3",
             "title_highlight_color": "#ffffff",
             "heading_size": "h2"
           }
@@ -1281,7 +1222,7 @@
             "icon": "security",
             "filled_icon": false,
             "title": "",
-            "text": "<p>Instant Waist Slimming</p>"
+            "text": "<p>Tummy Control</p>"
           }
         },
         "column_xN6PYL": {
@@ -1290,7 +1231,7 @@
             "icon": "eco",
             "filled_icon": false,
             "title": "",
-            "text": "<p>Natural Butt Lift</p>"
+            "text": "<p>Modest</p>"
           }
         },
         "column_pHicwA": {
@@ -1299,7 +1240,7 @@
             "icon": "air",
             "filled_icon": false,
             "title": "",
-            "text": "<p>All-Day Breathable Comfort</p>"
+            "text": "<p>All-Day Comfort</p>"
           }
         },
         "column_B9fWGF": {
@@ -1308,7 +1249,7 @@
             "icon": "wc",
             "filled_icon": false,
             "title": "",
-            "text": "<p>Easy Bathroom Access</p>"
+            "text": "<p>Parent Friendly</p>"
           }
         }
       },
@@ -1522,6 +1463,65 @@
         "padding_bottom": 24
       }
     },
+    "featured_collection_AXpz3x": {
+      "type": "featured-collection",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Browse Our Buy 1, Get 1 FREE SUMMER SALE!",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "color_scheme": "background-1",
+        "collection": "best-sellers",
+        "products_to_show": 22,
+        "stretch_cards": true,
+        "show_view_all": false,
+        "view_all_style": "outline",
+        "cards_color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "badges": "custom",
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "swatches_option_name": "Color",
+        "swatches_position": "bottom",
+        "swatches_desktop_size": 24,
+        "swatches_mobile_size": 16,
+        "type": "loop",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 4,
+        "slider_desktop": true,
+        "per_move_desktop": 1,
+        "desktop_spacing": 28,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "2",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "sides",
+        "padding_top": 20,
+        "padding_bottom": 8,
+        "custom_colors_background": "#000000",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#1e1e1e"
+      }
+    },
     "collapsible_content_MBkcQr": {
       "type": "collapsible-content",
       "blocks": {
@@ -1688,7 +1688,6 @@
     "logo_list_8QhwxE",
     "logo_list_XLhUcG",
     "facebook_testimonials_8Gr3jn",
-    "featured_collection_AXpz3x",
     "section_divider_BpRE46",
     "image_with_text_6PRF63",
     "image_with_text_eDYiyL",
@@ -1697,6 +1696,7 @@
     "ss_size_guide_2_JjExLg",
     "1743408848d7e389c4",
     "related-products",
+    "featured_collection_AXpz3x",
     "collapsible_content_MBkcQr",
     "section_divider_rVHz7c"
   ]
