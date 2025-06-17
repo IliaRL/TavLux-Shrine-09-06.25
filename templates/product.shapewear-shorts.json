@@ -541,7 +541,7 @@
         "mobile_dots_position": "hidden",
         "mobile_arrows_position": "sides",
         "padding_top": 20,
-        "padding_bottom": 0,
+        "padding_bottom": 48,
         "custom_colors_background": "#000000",
         "custom_gradient_background": "",
         "custom_colors_text": "#2e2a39",
