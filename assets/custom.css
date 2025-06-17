@@ -82,6 +82,7 @@ quantity-input.quantity.main-quantity {
 }
 .product-form__submit {
     font-size: 1.2rem;
-    font-weight: 500 !important;
+    font-weight: 500 
+  letter-spacing: .1rem;
 }
 
