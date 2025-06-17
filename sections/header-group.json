@@ -159,7 +159,7 @@
         "highlight_active_link": true,
         "highlighted_link_color_scheme": "background-2",
         "products_mega_menu_links": "Shop",
-        "products_mega_menu_display_collection_products": true,
+        "products_mega_menu_display_collection_products": false,
         "products_mega_menu_display_collection_images": false,
         "products_mega_menu_display_collection_images_on_mobile": false,
         "mobile_menu_title": "Menu",
