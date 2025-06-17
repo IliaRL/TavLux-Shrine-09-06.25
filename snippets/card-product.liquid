@@ -276,71 +276,62 @@
                 <div class="visually-hidden product-form__input__type" data-type="{{ type }}">&nbsp</div>
                 {% case type %}
                   {% when 'swatches' %}
+                    <div class='card__swatches-container color-swatches-container color-swatches-container--size-small flex-justify-{{ settings.card_text_alignment }}'>
+                      {%- for value in option.values -%}
+                        {% liquid
+                          assign hex_value = ''
+                          
+                          for color in predefined_colors
+                            assign color_line = color | remove: '<p>' | remove: '</p>'
+                            assign color_parts = color_line | split: '='
+                            assign option_name = color_parts[0] | strip
+                            assign option_hex = color_parts[1] | strip
+                        
+                            if value == option_name
+                              assign hex_value = option_hex
+                              assign current_option_name = option_name
+                              assign option_value_index = option_value_index | plus: 1
+                            endif
+                          endfor
+                        %}
                   
-<div class="card-swatch-wrapper" style="--text-alignment: {{ settings.card_text_alignment }}">
+                        <div class="color-swatch{% if hex_value == blank %} hidden{% endif %}">
+                          <input
+                            type="radio"
+                            id="{{ product_form_id }}-{{ current_option_name }}-{{ option_value_index }}"
+                            name="{{ swatches_option_name }}{{ custom_name_identifier }}"
+                            value="{{ current_option_name | escape }}"
+                            form="{{ product_form_id }}"
+                            {% if option_value_index == 1 %}
+                              checked
+                            {% endif %}
+                            class="visually-hidden{% if option_disabled %} disabled{% endif %}"
+                          >
+                          <div class="color-swatch__image">
+                            <div class="color-swatch__custom-color" style="--bg-color: {{ hex_value }}">&nbsp</div>
+                          </div>
+                          <label class="color-swatch_hidden-label" for="{{ product_form_id }}-{{ current_option_name }}-{{ option_value_index }}">
+                          </label>
+                          <span class="color-swatch__label">{{ current_option_name }}</span>
+                        </div>
+                      {%- endfor -%}
+                    </div>
+                  {%- liquid
+  assign color_option = product.options_with_values | where: 'name', 'Color' | first
+  if color_option == nil
+    assign color_option = product.options_with_values | where: 'name', 'Colour' | first
+  endif
 
-  <!-- 2. Your existing swatch container goes inside. Notice the class has been slightly simplified. -->
-  <div class='card__swatches-container color-swatches-container--size-small'>
-    {%- for value in option.values -%}
-      {% liquid
-        assign hex_value = ''
-        
-        for color in predefined_colors
-          assign color_line = color | remove: '<p>' | remove: '</p>'
-          assign color_parts = color_line | split: '='
-          assign option_name = color_parts[0] | strip
-          assign option_hex = color_parts[1] | strip
-      
-          if value == option_name
-            assign hex_value = option_hex
-            assign current_option_name = option_name
-            assign option_value_index = option_value_index | plus: 1
-          endif
-        endfor
-      %}
+  if color_option and color_option.values.size > 2
+    assign remaining_count_mobile = color_option.values.size | minus: 2
+    echo '<a href="' | append: product.url | append: '" class="color-swatch-plus-more plus-more-mobile">+' | append: remaining_count_mobile | append: '</a>'
+  endif
 
-      <div class="color-swatch{% if hex_value == blank %} hidden{% endif %}">
-        <input
-          type="radio"
-          id="{{ product_form_id }}-{{ current_option_name }}-{{ option_value_index }}"
-          name="{{ swatches_option_name }}{{ custom_name_identifier }}"
-          value="{{ current_option_name | escape }}"
-          form="{{ product_form_id }}"
-          {% if option_value_index == 1 %}
-            checked
-          {% endif %}
-          class="visually-hidden{% if option_disabled %} disabled{% endif %}"
-        >
-        <div class="color-swatch__image">
-          <div class="color-swatch__custom-color" style="--bg-color: {{ hex_value }}">&nbsp</div>
-        </div>
-        <label class="color-swatch_hidden-label" for="{{ product_form_id }}-{{ current_option_name }}-{{ option_value_index }}">
-        </label>
-        <span class="color-swatch__label">{{ current_option_name }}</span>
-      </div>
-    {%- endfor -%}
-  </div>
-
-  <!-- 3. The new, corrected Liquid snippet also goes inside the wrapper. -->
-  {%- liquid
-    assign color_option = card_product.options_with_values | where: 'name', 'Color' | first
-    if color_option == nil
-      assign color_option = card_product.options_with_values | where: 'name', 'Colour' | first
-    endif
-
-    if color_option and color_option.values.size > 2
-      assign remaining_count_mobile = color_option.values.size | minus: 2
-      echo '<a href="' | append: card_product.url | append: '" class="color-swatch-plus-more plus-more-mobile">+' | append: remaining_count_mobile | append: '</a>'
-    endif
-
-    if color_option and color_option.values.size > 3
-      assign remaining_count_desktop = color_option.values.size | minus: 3
-      echo '<a href="' | append: card_product.url | append: '" class="color-swatch-plus-more plus-more-desktop">+' | append: remaining_count_desktop | append: '</a>'
-    endif
-  -%}
-
-</div> <!-- 4. This closes the new wrapper div. -->
-
+  if color_option and color_option.values.size > 3
+    assign remaining_count_desktop = color_option.values.size | minus: 3
+    echo '<a href="' | append: product.url | append: '" class="color-swatch-plus-more plus-more-desktop">+' | append: remaining_count_desktop | append: '</a>'
+  endif
+-%}
                   {% when 'pills' %}
                     {% render 'product-variant-options',
                       product: card_product,
