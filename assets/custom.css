@@ -125,3 +125,8 @@ quantity-input.quantity.main-quantity .quantity__input {
     --icon-size: 2rem !important;
   }
 }
+.product-form__info-container .price--on-sale .price-item--compare,
+.product-card-wrapper .price--on-sale .price-item--regular {
+  color: #951515 !important;
+  font-weight: 800 !important;
+}
