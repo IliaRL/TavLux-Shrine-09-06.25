@@ -232,3 +232,17 @@ quantity-input.quantity.main-quantity .quantity__input {
     --icon-size: 2rem !important;
   }
 }
+.collapsible-content__heading {
+  font-size: 1.8rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1rem !important;
+}
+
+/* This rule controls the title of EACH INDIVIDUAL collapsible row */
+.accordion__title {
+  font-size: 1.4rem !important;
+  font-weight: 500 !important;
+  text-transform: none !important; /* Change to 'uppercase' if desired */
+  letter-spacing: 0.05rem !important;
+}
