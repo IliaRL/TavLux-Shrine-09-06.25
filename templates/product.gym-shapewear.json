@@ -15,7 +15,7 @@
         "loox_reviews_loox_rating_j8MYmj": {
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "contentSize": 18,
+            "contentSize": 13,
             "pattern": "[rating] | ([count] + Reviews)",
             "hideText": false,
             "alignment": "left",
@@ -856,7 +856,7 @@
         "mobile_adaptive_height": false,
         "mobile_dots_position": "hidden",
         "mobile_arrows_position": "sides",
-        "padding_top": 20,
+        "padding_top": 32,
         "padding_bottom": 16,
         "custom_colors_background": "#000000",
         "custom_gradient_background": "",
@@ -1171,8 +1171,8 @@
         "arrows_style": "classic",
         "before_image": "shopify://shop_images/Group_33_1.jpg",
         "after_image": "shopify://shop_images/Group_40_27901e93-683f-4c3f-ad21-721618662ab3.jpg",
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_colors_text": "#2e2a39",

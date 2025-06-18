@@ -15,7 +15,7 @@
         "loox_reviews_loox_rating_j8MYmj": {
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "contentSize": 16,
+            "contentSize": 13,
             "pattern": "[rating] | ([count] + Reviews)",
             "hideText": false,
             "alignment": "",
@@ -593,8 +593,8 @@
         "mobile_adaptive_height": false,
         "mobile_dots_position": "hidden",
         "mobile_arrows_position": "sides",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 32,
+        "padding_bottom": 20,
         "custom_colors_background": "#000000",
         "custom_gradient_background": "",
         "custom_colors_text": "#2e2a39",
