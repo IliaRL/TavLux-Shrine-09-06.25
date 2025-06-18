@@ -581,19 +581,19 @@
         "custom_colors_text": "#121212"
       }
     },
-    "featured_collection_B4aMCK": {
+    "featured_collection_BmDEJj": {
       "type": "featured-collection",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Browse Our Lux Leggings Collection",
+        "title": "Browse Our Buy 1, Get 1 FREE SUMMER SALE!",
         "title_highlight_color": "#6d388b",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "color_scheme": "background-1",
-        "collection": "leggings",
+        "collection": "summer-sale",
         "products_to_show": 26,
         "stretch_cards": true,
         "show_view_all": false,
@@ -619,7 +619,7 @@
         "columns_desktop": 4,
         "slider_desktop": true,
         "per_move_desktop": 1,
-        "desktop_spacing": 16,
+        "desktop_spacing": 28,
         "desktop_side_padding": 0,
         "desktop_padding_calc": true,
         "desktop_adaptive_height": false,
@@ -986,7 +986,7 @@
     "main",
     "logo_list_8QhwxE",
     "logo_list_4nMwTN",
-    "featured_collection_B4aMCK",
+    "featured_collection_BmDEJj",
     "ss_size_guide_2_JjExLg",
     "1743408848d7e389c4",
     "related-products",
