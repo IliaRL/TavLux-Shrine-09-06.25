@@ -120,7 +120,7 @@
             "margin_bottom": 18
           }
         },
-        "vitals_countdown_fqVhbY": {
+        "vitals_countdown_JYRFMD": {
           "type": "shopify://apps/vitals/blocks/countdown/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
           "settings": {}
         },
@@ -130,7 +130,7 @@
             "custom_liquid": "<div id='ss-size-guide-2'></div>"
           }
         },
-        "quantity_selector_HMma3x": {
+        "quantity_selector_Ptrfdy": {
           "type": "quantity_selector",
           "settings": {
             "full_width_classic": false,
@@ -239,13 +239,13 @@
             "margin_bottom": 0
           }
         },
-        "custom_liquid_fEWtN3": {
+        "custom_liquid_aXEx3P": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<div id=\"location-shipping-info\">\n  <span id=\"shipping-flag\"></span>\n  <span>| Free Shipping to <span id=\"shipping-country\">your location</span></span>\n</div>\n\n<style>\n  #location-shipping-info {\n    text-align: center;\n    font-size: 1.5rem;\n    font-weight: 500;\n    padding: 2px;\n    background-color: #E8E1DB;\n    border-radius: 10px;\n    margin-top: 15px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 6px;\n  }\n  #shipping-country {\n    text-decoration: underline;\n    text-decoration-thickness: 1.5px;\n    font-weight: 600;\n  }\n  #shipping-flag {\n    font-size: 2rem; /* Makes the flag emoji larger */\n    line-height: 1;   /* Improves vertical alignment */\n  }\n</style>\n\n<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    const countrySpan = document.getElementById('shipping-country');\n    const flagSpan = document.getElementById('shipping-flag');\n    const fallbackFlag = '🌍';\n\n    function getFlagEmoji(countryCode) {\n      if (!countryCode || countryCode.length !== 2) return fallbackFlag;\n      const codePoints = countryCode\n        .toUpperCase()\n        .split('')\n        .map(char => 127397 + char.charCodeAt());\n      return String.fromCodePoint(...codePoints);\n    }\n\n    fetch('https://ipapi.co/json/')\n      .then(response => response.json())\n      .then(data => {\n        if (data && data.country_name && data.country_code) {\n          flagSpan.textContent = getFlagEmoji(data.country_code);\n          countrySpan.textContent = data.country_name;\n        } else {\n          flagSpan.textContent = fallbackFlag;\n          countrySpan.textContent = \"your location\";\n        }\n      })\n      .catch(error => {\n        console.error('Error fetching location:', error);\n        flagSpan.textContent = fallbackFlag;\n        countrySpan.textContent = \"your location\";\n      });\n  });\n</script>"
           }
         },
-        "vitals_payment_logos_cRAD4P": {
+        "vitals_payment_logos_QyFjTV": {
           "type": "shopify://apps/vitals/blocks/payment-logos/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
           "settings": {}
         },
@@ -291,7 +291,7 @@
             "custom_btn_color": "#000000",
             "color_scheme": "background-1",
             "star_color": "#000000",
-            "stars_label": "124 + Reviews",
+            "stars_label": "244 + Reviews",
             "picker_type": "combined",
             "desktop_show_image": false,
             "desktop_show_title": true,
@@ -321,17 +321,20 @@
         "price_qNHwht",
         "divider_p68xiN",
         "variant_picker_hPVAgi",
-        "vitals_countdown_fqVhbY",
+        "vitals_countdown_JYRFMD",
         "custom_liquid_fknPkJ",
-        "quantity_selector_HMma3x",
+        "quantity_selector_Ptrfdy",
         "buy_buttons_Ncar4L",
-        "custom_liquid_fEWtN3",
-        "vitals_payment_logos_cRAD4P",
+        "custom_liquid_aXEx3P",
+        "vitals_payment_logos_QyFjTV",
         "collapsible_tab_JCNk4G",
         "collapsible_tab_CpYcLe",
         "sticky_atc_EqYbVP"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".price,.price-item,.price-item--regular,.product-single__price {font-size: 15px !important;}",
+        ".color-swatch__image {height: 6rem !important;}"
+      ],
       "settings": {
         "display_id": false,
         "enable_sticky_info": true,
@@ -358,7 +361,7 @@
         "desktop_thumbnails_position": "bottom",
         "desktop_thumbnails_count": 5,
         "desktop_vertical_thumbnails_width": 16,
-        "desktop_vertical_thumbnails_hide_arrows": true,
+        "desktop_vertical_thumbnails_hide_arrows": false,
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "desktop_arrows_position": "sides",
@@ -376,7 +379,7 @@
         "mobile_slides_container_width": 100,
         "mobile_slides_inner_width": 100,
         "trust_badge_position": "top-left",
-        "trust_badge_size": "large",
+        "trust_badge_size": "small",
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 0,
         "desktop_padding_top": 16,
@@ -397,7 +400,7 @@
         "logo_3Gc8CG": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/2560px-Self_magazine_logo_svg.png",
+            "image": "shopify://shop_images/forbes_logo.png",
             "link": "",
             "target_blank": false
           }
@@ -466,7 +469,93 @@
         "custom_colors_text": "#121212"
       }
     },
-    "featured_collection_7hcigD": {
+    "logo_list_4nMwTN": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_WHXmMd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vogue_mini.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_6UCDUm": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/2560px-Self_magazine_logo_svg.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_LKiBiM": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/new_elle_logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_RBrRdW": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/in-style-logo_c5df8a7f-4957-4d6b.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_7LkVTe": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/images_3.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_6FaYMY": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Glamour_New.png",
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_WHXmMd",
+        "logo_6UCDUm",
+        "logo_LKiBiM",
+        "logo_RBrRdW",
+        "logo_7LkVTe",
+        "logo_6FaYMY"
+      ],
+      "custom_css": [
+        "h2 {font-size: 20px;}"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "mobile-hidden",
+        "title": "As seen in",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "gray_logos": false,
+        "color_scheme": "custom",
+        "layout": "horizontal",
+        "desktop_logo_height": 40,
+        "columns_mobile": 2,
+        "mobile_logo_height": 50,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_dots": false,
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "custom_colors_background": "#fffcf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "featured_collection_G78AVk": {
       "type": "featured-collection",
       "settings": {
         "display_id": false,
@@ -494,7 +583,7 @@
         "swatches_position": "top",
         "swatches_desktop_size": 20,
         "swatches_mobile_size": 14,
-        "type": "loop",
+        "type": "slide",
         "autoplay": false,
         "autoplay_speed": 5,
         "arrows_color_scheme": "inverse",
@@ -726,7 +815,7 @@
             "heading": "Do they run true to size?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Our leggings fit snug for optimal support. If you prefer daily comfort, size up. For maximum compression, stick to your usual size. Most customers find our sizing chart accurate for their needs.</p>",
+            "row_content": "<p>For the most flattering fit, select your size based on our measurement chart rather than your usual clothing size. If between sizes, size up for daily comfort or stay true for maximum compression.</p>",
             "page": ""
           }
         },
@@ -736,7 +825,7 @@
             "heading": "Will these fit my curvy/plus-size body?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Absolutely! Designed for real bodies with inclusive sizing, our leggings contour curves without squeezing. The high waistband smooths the midsection, and stretchy fabric moves with you-no awkward gaps or pinching.</p>",
+            "row_content": "<p>Absolutely! Our leggings are designed for real bodies with inclusive sizing from S-2XL. The 4-way stretch fabric adapts to your unique curves while providing consistent support where you need it most.</p>",
             "page": ""
           }
         },
@@ -746,7 +835,7 @@
             "heading": "What fabric are they made from?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Premium 90% Polyamide + 10% Elastane blend-soft, breathable, and squat-proof. Designed to stay in place during high-intensity workouts while maintaining shape through multiple washes.</p>",
+            "row_content": "<p>Our premium fabric blend (90% Polyamide, 10% Elastane) delivers the perfect balance of structure and stretch. This high-quality compression material offers superior support without restricting movement.</p>",
             "page": ""
           }
         },
@@ -756,7 +845,7 @@
             "heading": "Are they squat-proof/opaque?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>100% squat-proof. Our reinforced fabric stays opaque during lunges, squats, or yoga poses-no more worrying about transparency. Exercise with complete confidence in any position.</p>",
+            "row_content": "<p>Yes, our leggings are 100% squat-proof with premium opacity testing. The reinforced fabric maintains coverage during all movements so you can focus on your workout, not your wardrobe.</p>",
             "page": ""
           }
         },
@@ -766,7 +855,7 @@
             "heading": "What makes these different from regular leggings?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Unlike basic leggings, ours feature medical-grade compression, anti-roll waistbands, and sweat-wicking fabric. They sculpt your silhouette while boosting workout performance.</p>",
+            "row_content": "<p>Our leggings feature strategic Y-shaped seams, an anti-roll waistband, and targeted compression zones. Unlike regular leggings, they provide confidence-boosting support while enhancing your natural shape.</p>",
             "page": ""
           }
         },
@@ -776,7 +865,7 @@
             "heading": "How do they support my fitness journey?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>By eliminating wardrobe anxiety, you can focus on progress, not your reflection. 87% of customers report feeling confident enough to try new gym classes after wearing our leggings.</p>",
+            "row_content": "<p>By eliminating wardrobe anxiety, our leggings give you the confidence to focus on your workout, not your appearance. The supportive compression improves circulation and reduces muscle fatigue during exercise.</p>",
             "page": ""
           }
         },
@@ -796,7 +885,7 @@
             "heading": "How do I wash/care for these?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Machine wash cold, gentle cycle. Avoid fabric softeners and dryers-air dry to maintain compression and shape. Proper care extends their life by up to 50%.</p>",
+            "row_content": "<p>Hand wash with warm water (10°C-35°C) or machine wash on gentle cycle. Avoid harsh detergents, fabric softeners, and high heat to maintain compression integrity. Air dry for best results.</p>",
             "page": ""
           }
         },
@@ -806,7 +895,7 @@
             "heading": "What's your return policy?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Try risk-free for 30 days. If unsatisfied, return for a full refund-no questions asked. We stand behind our quality.</p>",
+            "row_content": "<p>We offer a 30-day free trial with a 100% money-back guarantee. If you're not completely satisfied, contact our customer service for a hassle-free return or exchange.</p>",
             "page": ""
           }
         },
@@ -816,7 +905,7 @@
             "heading": "How quickly will my order ship?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Orders ship within 24 hours. Standard delivery takes 5-8 days (EU) or 7-10 days (global). Track your order through our convenient shipping updates.</p>",
+            "row_content": "<p>Standard shipping takes 6-8 days, while express shipping delivers within 5-8 business days. All orders include tracking information so you can monitor your delivery.</p>",
             "page": ""
           }
         },
@@ -826,7 +915,7 @@
             "heading": "Can I try these risk-free?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Yes! Our 30-day guarantee lets you test them during workouts, walks, or daily wear. Love them or get a full refund. We're confident you'll feel the difference immediately.</p>",
+            "row_content": "<p>Absolutely! Your purchase is protected by our 30-day guarantee. Try them for your workouts, daily activities, or just around the house-if they don't boost your confidence, we'll refund you fully.</p>",
             "page": ""
           }
         }
@@ -892,7 +981,8 @@
   "order": [
     "main",
     "logo_list_8QhwxE",
-    "featured_collection_7hcigD",
+    "logo_list_4nMwTN",
+    "featured_collection_G78AVk",
     "ss_size_guide_2_JjExLg",
     "1743408848d7e389c4",
     "related-products",

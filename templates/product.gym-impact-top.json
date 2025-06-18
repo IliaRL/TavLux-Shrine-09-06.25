@@ -12,22 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "rating_stars_Gr8TB7": {
-          "type": "rating_stars",
-          "disabled": true,
-          "settings": {
-            "rating": 4.7,
-            "star_color": "#000000",
-            "bg_stars_style": "outlined",
-            "bg_star_color": "#000000",
-            "label": "<strong>100 + Reviews</strong>",
-            "size": 12,
-            "alignment": "flex-start",
-            "scroll_id": "",
-            "margin_top": 0,
-            "margin_bottom": 0
-          }
-        },
         "loox_reviews_loox_rating_j8MYmj": {
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
@@ -41,6 +25,12 @@
             "showAllReviews": false,
             "looxOpenFloatingWidget": true,
             "emptyRatingWidget": false
+          }
+        },
+        "custom_liquid_jEbxNq": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.cart-progress {\n  display: block !important;\n}\n</style>"
           }
         },
         "title_7jDqjh": {
@@ -59,11 +49,11 @@
             "layout": "price_first",
             "price_color": "text",
             "compare_price_color": "text",
-            "displayed_badge": "sale",
+            "displayed_badge": "custom",
             "icon_scale": 140,
-            "custom_badge_text": "[percentage] OFF",
-            "icon_1": "redeem",
-            "filled_icon_1": false,
+            "custom_badge_text": " [icon_1]ADD 2, PAY FOR ONE!",
+            "icon_1": "sell",
+            "filled_icon_1": true,
             "icon_2": "check_circle",
             "filled_icon_2": false,
             "margin_top": 6,
@@ -97,7 +87,7 @@
             "breaks_headline": "BUNDLE & SAVE",
             "breaks_display_selected_indicator": true,
             "breaks_border_radius": 4,
-            "breaks_border_width": 2,
+            "breaks_border_width": 1,
             "breaks_color_scheme": "accent-1",
             "breaks_badges": "[empty], Most popular, [empty]",
             "breaks_badge_style": "1",
@@ -120,7 +110,7 @@
             "margin_bottom": 18
           }
         },
-        "vitals_countdown_fqVhbY": {
+        "vitals_countdown_7UMmFL": {
           "type": "shopify://apps/vitals/blocks/countdown/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
           "settings": {}
         },
@@ -130,7 +120,7 @@
             "custom_liquid": "<div id='ss-size-guide-2'></div>"
           }
         },
-        "quantity_selector_HMma3x": {
+        "quantity_selector_w8MRgw": {
           "type": "quantity_selector",
           "settings": {
             "full_width_classic": false,
@@ -239,13 +229,13 @@
             "margin_bottom": 0
           }
         },
-        "custom_liquid_fEWtN3": {
+        "custom_liquid_wa8EiC": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<div id=\"location-shipping-info\">\n  <span id=\"shipping-flag\"></span>\n  <span>| Free Shipping to <span id=\"shipping-country\">your location</span></span>\n</div>\n\n<style>\n  #location-shipping-info {\n    text-align: center;\n    font-size: 1.5rem;\n    font-weight: 500;\n    padding: 2px;\n    background-color: #E8E1DB;\n    border-radius: 10px;\n    margin-top: 15px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 6px;\n  }\n  #shipping-country {\n    text-decoration: underline;\n    text-decoration-thickness: 1.5px;\n    font-weight: 600;\n  }\n  #shipping-flag {\n    font-size: 2rem; /* Makes the flag emoji larger */\n    line-height: 1;   /* Improves vertical alignment */\n  }\n</style>\n\n<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    const countrySpan = document.getElementById('shipping-country');\n    const flagSpan = document.getElementById('shipping-flag');\n    const fallbackFlag = '🌍';\n\n    function getFlagEmoji(countryCode) {\n      if (!countryCode || countryCode.length !== 2) return fallbackFlag;\n      const codePoints = countryCode\n        .toUpperCase()\n        .split('')\n        .map(char => 127397 + char.charCodeAt());\n      return String.fromCodePoint(...codePoints);\n    }\n\n    fetch('https://ipapi.co/json/')\n      .then(response => response.json())\n      .then(data => {\n        if (data && data.country_name && data.country_code) {\n          flagSpan.textContent = getFlagEmoji(data.country_code);\n          countrySpan.textContent = data.country_name;\n        } else {\n          flagSpan.textContent = fallbackFlag;\n          countrySpan.textContent = \"your location\";\n        }\n      })\n      .catch(error => {\n        console.error('Error fetching location:', error);\n        flagSpan.textContent = fallbackFlag;\n        countrySpan.textContent = \"your location\";\n      });\n  });\n</script>"
           }
         },
-        "vitals_payment_logos_cRAD4P": {
+        "vitals_payment_logos_jH8pGm": {
           "type": "shopify://apps/vitals/blocks/payment-logos/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
           "settings": {}
         },
@@ -291,7 +281,7 @@
             "custom_btn_color": "#000000",
             "color_scheme": "background-1",
             "star_color": "#000000",
-            "stars_label": "124 + Reviews",
+            "stars_label": "194 + Reviews",
             "picker_type": "combined",
             "desktop_show_image": false,
             "desktop_show_title": true,
@@ -315,18 +305,18 @@
         }
       },
       "block_order": [
-        "rating_stars_Gr8TB7",
         "loox_reviews_loox_rating_j8MYmj",
+        "custom_liquid_jEbxNq",
         "title_7jDqjh",
         "price_qNHwht",
         "divider_p68xiN",
         "variant_picker_hPVAgi",
-        "vitals_countdown_fqVhbY",
+        "vitals_countdown_7UMmFL",
         "custom_liquid_fknPkJ",
-        "quantity_selector_HMma3x",
+        "quantity_selector_w8MRgw",
         "buy_buttons_Ncar4L",
-        "custom_liquid_fEWtN3",
-        "vitals_payment_logos_cRAD4P",
+        "custom_liquid_wa8EiC",
+        "vitals_payment_logos_jH8pGm",
         "collapsible_tab_JCNk4G",
         "collapsible_tab_CpYcLe",
         "sticky_atc_EqYbVP"
@@ -358,7 +348,7 @@
         "desktop_thumbnails_position": "bottom",
         "desktop_thumbnails_count": 5,
         "desktop_vertical_thumbnails_width": 16,
-        "desktop_vertical_thumbnails_hide_arrows": true,
+        "desktop_vertical_thumbnails_hide_arrows": false,
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "desktop_arrows_position": "sides",
@@ -375,8 +365,9 @@
         "enable_mobile_outher_spacing": true,
         "mobile_slides_container_width": 100,
         "mobile_slides_inner_width": 100,
+        "trust_badge": "shopify://shop_images/Offer_Tag11.png",
         "trust_badge_position": "top-left",
-        "trust_badge_size": "large",
+        "trust_badge_size": "medium",
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 0,
         "desktop_padding_top": 16,
@@ -466,19 +457,105 @@
         "custom_colors_text": "#121212"
       }
     },
-    "featured_collection_7hcigD": {
+    "logo_list_4nMwTN": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_WHXmMd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vogue_mini.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_6UCDUm": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/2560px-Self_magazine_logo_svg.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_LKiBiM": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/new_elle_logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_RBrRdW": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/in-style-logo_c5df8a7f-4957-4d6b.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_7LkVTe": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/images_3.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_6FaYMY": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Glamour_New.png",
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_WHXmMd",
+        "logo_6UCDUm",
+        "logo_LKiBiM",
+        "logo_RBrRdW",
+        "logo_7LkVTe",
+        "logo_6FaYMY"
+      ],
+      "custom_css": [
+        "h2 {font-size: 15px;}"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "mobile-hidden",
+        "title": "As seen in",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "gray_logos": false,
+        "color_scheme": "custom",
+        "layout": "horizontal",
+        "desktop_logo_height": 40,
+        "columns_mobile": 2,
+        "mobile_logo_height": 50,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_dots": false,
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "custom_colors_background": "#fffcf5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "featured_collection_Kim7tN": {
       "type": "featured-collection",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Browse Our Lux Shapewear Collection",
+        "title": "Browse Our Lux Leggings Collection",
         "title_highlight_color": "#6d388b",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "color_scheme": "background-1",
-        "collection": "best-sellers",
+        "collection": "leggings",
         "products_to_show": 26,
         "stretch_cards": true,
         "show_view_all": false,
@@ -531,23 +608,14 @@
         "size_chart_hCcJKm": {
           "type": "size_chart",
           "settings": {
-            "toggle_text": "INCH",
-            "size_chart_page": "pocket-leggings-size-chart",
-            "text": "<p>Size chart content</p>"
-          }
-        },
-        "size_chart_MpA8dt": {
-          "type": "size_chart",
-          "settings": {
-            "toggle_text": "CM",
-            "size_chart_page": "pocket-leggings-size-chart-1",
+            "toggle_text": "",
+            "size_chart_page": "impact-gym-top-size-chart",
             "text": "<p>Size chart content</p>"
           }
         }
       },
       "block_order": [
-        "size_chart_hCcJKm",
-        "size_chart_MpA8dt"
+        "size_chart_hCcJKm"
       ],
       "settings": {
         "guide_position": "above_buy",
@@ -564,19 +632,19 @@
         "hide_icon": false,
         "modal_width": 100,
         "modal_width_mobile": 100,
-        "modal_padding_vertical": 20,
-        "modal_padding_vertical_mobile": 22,
-        "modal_padding_horizontal": 14,
-        "modal_padding_horizontal_mobile": 16,
+        "modal_padding_vertical": 40,
+        "modal_padding_vertical_mobile": 40,
+        "modal_padding_horizontal": 40,
+        "modal_padding_horizontal_mobile": 20,
         "modal_radius": 8,
         "modal_border_thickness": 0,
         "modal_overlay": 0.3,
-        "close_icon_size": 18,
+        "close_icon_size": 24,
         "close_icon_size_mobile": 18,
-        "body_gap": 6,
-        "body_gap_mobile": 24,
-        "body_mt": 8,
-        "body_mt_mobile": 14,
+        "body_gap": 40,
+        "body_gap_mobile": 10,
+        "body_mt": 20,
+        "body_mt_mobile": 20,
         "heading": "<h2>Size Guide</h2>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
@@ -585,21 +653,21 @@
         "heading_height": 130,
         "heading_align": "center",
         "heading_align_mobile": "center",
-        "title": "Body measurements",
+        "title": "Clothing measurements",
         "title_custom": false,
         "title_font": "josefin_sans_n4",
-        "title_size": 20,
+        "title_size": 24,
         "title_size_mobile": 18,
-        "title_height": 80,
-        "title_mt": 32,
+        "title_height": 130,
+        "title_mt": 40,
         "title_mt_mobile": 40,
         "switch_custom": false,
         "switch_font": "josefin_sans_n4",
-        "switch_size": 13,
+        "switch_size": 15,
         "switch_size_mobile": 15,
-        "switch_height": 80,
-        "switch_radius": 10,
-        "text": "<p>*Depending on your body type and dressing habits, the above sizes are for reference only.</p>",
+        "switch_height": 100,
+        "switch_radius": 100,
+        "text": "<p>This product needs to be hand washed with warm water at 10°C-35°C. Do not use boiling water to scald it.</p>",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 14,
@@ -610,7 +678,7 @@
         "text_align": "center",
         "text_align_mobile": "center",
         "use_scrollbar": false,
-        "modal_image": "shopify://shop_images/leggings_size_photo.png",
+        "modal_image": "shopify://shop_images/Add_a_subheading.png",
         "modal_image_radius": 0,
         "hide_modal_image": false,
         "modal_overlay_color": "#000000",
@@ -713,137 +781,115 @@
         "collapsible_row_79PQWa": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How do I find my perfect size?",
+            "heading": "How do I choose my size?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Measure your waist at its narrowest point and compare with our size chart. For optimal shaping, choose a size that feels secure but not restrictive. 93% of our customers report finding their perfect fit on the first try.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_EyKbci": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Do they run true to size?",
-            "icon": "",
-            "filled_icon": false,
-            "row_content": "<p>Our leggings fit snug for optimal support. If you prefer daily comfort, size up. For maximum compression, stick to your usual size. Most customers find our sizing chart accurate for their needs.</p>",
+            "row_content": "<p>For the best fit, click the <strong>“Size Chart”</strong> near the size options on the product page. This top has a stretchy, body-hugging fit—if you’re between sizes, we suggest sizing down for a more supportive feel, or up if you prefer a bit more room.</p>",
             "page": ""
           }
         },
         "collapsible_row_cUGHxf": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Will these fit my curvy/plus-size body?",
+            "heading": " Does this top have a built-in bra?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Absolutely! Designed for real bodies with inclusive sizing, our leggings contour curves without squeezing. The high waistband smooths the midsection, and stretchy fabric moves with you-no awkward gaps or pinching.</p>",
+            "row_content": "<p>Yes! It features a built-in bra with removable cups for customizable support.</p>",
             "page": ""
           }
         },
-        "collapsible_row_bwkDLg": {
+        "collapsible_row_EyKbci": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What fabric are they made from?",
+            "heading": " Is it suitable for high-impact workouts?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Premium 90% Polyamide + 10% Elastane blend-soft, breathable, and squat-proof. Designed to stay in place during high-intensity workouts while maintaining shape through multiple washes.</p>",
+            "row_content": "<p>This top is best for low to medium-impact workouts like yoga, Pilates, and weight training. For high-impact cardio, you might want extra support underneath.</p>",
             "page": ""
           }
         },
-        "collapsible_row_RPGbnR": {
+        "collapsible_row_NNW8BH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Are they squat-proof/opaque?",
+            "heading": "What kind of fabric is it made from?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>100% squat-proof. Our reinforced fabric stays opaque during lunges, squats, or yoga poses-no more worrying about transparency. Exercise with complete confidence in any position.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_q9ae8E": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What makes these different from regular leggings?",
-            "icon": "",
-            "filled_icon": false,
-            "row_content": "<p>Unlike basic leggings, ours feature medical-grade compression, anti-roll waistbands, and sweat-wicking fabric. They sculpt your silhouette while boosting workout performance.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_bM7m7A": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do they support my fitness journey?",
-            "icon": "",
-            "filled_icon": false,
-            "row_content": "<p>By eliminating wardrobe anxiety, you can focus on progress, not your reflection. 87% of customers report feeling confident enough to try new gym classes after wearing our leggings.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_XYk9Qi": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Will they show sweat marks?",
-            "icon": "",
-            "filled_icon": false,
-            "row_content": "<p>Our advanced fabric technology minimizes visible sweat marks, maintaining your confidence throughout your workout. The quick-drying material keeps you comfortable from warm-up to cool-down.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_LcL8zg": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I wash/care for these?",
-            "icon": "",
-            "filled_icon": false,
-            "row_content": "<p>Machine wash cold, gentle cycle. Avoid fabric softeners and dryers-air dry to maintain compression and shape. Proper care extends their life by up to 50%.</p>",
+            "row_content": "<p> It’s crafted from a smooth, stretchy nylon-spandex blend that’s breathable, sweat-wicking, and soft on the skin.</p>",
             "page": ""
           }
         },
         "collapsible_row_UGJ3Ey": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What's your return policy?",
+            "heading": "What is your return policy?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Try risk-free for 30 days. If unsatisfied, return for a full refund-no questions asked. We stand behind our quality.</p>",
+            "row_content": "<p>We offer a 30-day free trial with a 100% money-back guarantee. If you’re not satisfied, contact our customer service for assistance.</p>",
             "page": ""
           }
         },
         "collapsible_row_XNMMNH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How quickly will my order ship?",
+            "heading": "How should I wash it?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Orders ship within 24 hours. Standard delivery takes 5-8 days (EU) or 7-10 days (global). Track your order through our convenient shipping updates.</p>",
+            "row_content": "<p> Hand wash or use a gentle cold cycle. Avoid bleach and tumble drying to keep it looking new.</p>",
             "page": ""
           }
         },
-        "collapsible_row_Tm7qiY": {
+        "collapsible_row_RPGbnR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I try these risk-free?",
+            "heading": "Is the fit true to size?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Yes! Our 30-day guarantee lets you test them during workouts, walks, or daily wear. Love them or get a full refund. We're confident you'll feel the difference immediately.</p>",
+            "row_content": "<p>Yes, most customers say it fits true to size. If you’re between sizes or prefer a snug fit, consider sizing down slightly.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_q9ae8E": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will it show under my clothes?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The seamless design ensures minimal visibility under clothing, giving you a smooth silhouette. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bM7m7A": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the straps adjustable?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The thin criss-cross straps are not adjustable, but the stretchy material offers a secure and comfy hold.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bwkDLg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I remove the padding?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Absolutely! The built-in bra has removable cups so you can adjust to your comfort.</p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "collapsible_row_79PQWa",
-        "collapsible_row_EyKbci",
         "collapsible_row_cUGHxf",
-        "collapsible_row_bwkDLg",
+        "collapsible_row_EyKbci",
+        "collapsible_row_NNW8BH",
+        "collapsible_row_UGJ3Ey",
+        "collapsible_row_XNMMNH",
         "collapsible_row_RPGbnR",
         "collapsible_row_q9ae8E",
         "collapsible_row_bM7m7A",
-        "collapsible_row_XYk9Qi",
-        "collapsible_row_LcL8zg",
-        "collapsible_row_UGJ3Ey",
-        "collapsible_row_XNMMNH",
-        "collapsible_row_Tm7qiY"
+        "collapsible_row_bwkDLg"
       ],
       "settings": {
         "display_id": false,
@@ -892,7 +938,8 @@
   "order": [
     "main",
     "logo_list_8QhwxE",
-    "featured_collection_7hcigD",
+    "logo_list_4nMwTN",
+    "featured_collection_Kim7tN",
     "ss_size_guide_2_JjExLg",
     "1743408848d7e389c4",
     "related-products",
