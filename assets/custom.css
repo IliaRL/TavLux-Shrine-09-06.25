@@ -106,3 +106,6 @@ quantity-input.quantity.main-quantity {
   
   box-shadow: 0 0 8px rgba(var(--color-foreground), 0.25) !important;
 }
+.color-swatch__image {
+  height: 6rem !important;
+}
