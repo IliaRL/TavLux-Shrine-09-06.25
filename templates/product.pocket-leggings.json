@@ -530,7 +530,7 @@
         "custom_colors_text": "#121212"
       }
     },
-    "featured_collection_R6XKJg": {
+    "featured_collection_N789aH": {
       "type": "featured-collection",
       "settings": {
         "display_id": false,
@@ -558,7 +558,7 @@
         "swatches_position": "top",
         "swatches_desktop_size": 20,
         "swatches_mobile_size": 14,
-        "type": "loop",
+        "type": "slide",
         "autoplay": false,
         "autoplay_speed": 5,
         "arrows_color_scheme": "inverse",
@@ -957,7 +957,7 @@
     "main",
     "logo_list_8QhwxE",
     "logo_list_4nMwTN",
-    "featured_collection_R6XKJg",
+    "featured_collection_N789aH",
     "ss_size_guide_2_JjExLg",
     "1743408848d7e389c4",
     "related-products",
