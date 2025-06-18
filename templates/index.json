@@ -365,6 +365,7 @@
     },
     "featured_collection_JVrzc8": {
       "type": "featured-collection",
+      "custom_css": [],
       "settings": {
         "display_id": false,
         "visibility": "always-display",
