@@ -54,7 +54,7 @@ h2 {
 /* This rule styles the COMPARE-AT price on a product card */
 .product-card-wrapper .price--on-sale .price-item:first-child {
   color: #951515 !important;
-  font-weight: 700 !important; /* Edit this for the compare-at price */
+  font-weight: 200 !important; /* Edit this for the compare-at price */
   font-size: 1.4rem !important;
 }
 
