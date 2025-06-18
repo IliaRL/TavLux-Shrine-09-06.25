@@ -156,3 +156,9 @@ quantity-input.quantity.main-quantity .quantity__input {
 h2 {
   font-size: calc(var(--font-heading-scale) * 1.7rem);
 }
+
+.card-wrapper .card__heading {
+  font-size: 1.4rem !important; 
+  font-weight: 500 !important; 
+  letter-spacing: 0.05rem !important;
+}
