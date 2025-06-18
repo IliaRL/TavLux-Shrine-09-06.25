@@ -146,3 +146,13 @@ quantity-input.quantity.main-quantity .quantity__input {
   /* This sets the top border to your color and the other sides to transparent */
   border-color: #cfc3b4 transparent transparent transparent !important;
 }
+.product__title {
+  font-size: 0.3rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.05rem !important;
+  text-transform: none !important;
+}
+.h2,
+h2 {
+  font-size: calc(var(--font-heading-scale) * 1.7rem);
+}
