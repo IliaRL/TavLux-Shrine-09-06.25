@@ -530,7 +530,7 @@
         "custom_colors_text": "#121212"
       }
     },
-    "featured_collection_ymEk7Y": {
+    "featured_collection_R6XKJg": {
       "type": "featured-collection",
       "settings": {
         "display_id": false,
@@ -548,11 +548,11 @@
         "show_view_all": false,
         "view_all_style": "outline",
         "cards_color_scheme": "background-1",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "badges": "custom",
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
         "enable_quick_add": false,
         "swatches_option_name": "Color",
         "swatches_position": "top",
@@ -580,8 +580,8 @@
         "mobile_adaptive_height": false,
         "mobile_dots_position": "hidden",
         "mobile_arrows_position": "sides",
-        "padding_top": 20,
-        "padding_bottom": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "custom_colors_background": "#000000",
         "custom_gradient_background": "",
         "custom_colors_text": "#2e2a39",
@@ -957,7 +957,7 @@
     "main",
     "logo_list_8QhwxE",
     "logo_list_4nMwTN",
-    "featured_collection_ymEk7Y",
+    "featured_collection_R6XKJg",
     "ss_size_guide_2_JjExLg",
     "1743408848d7e389c4",
     "related-products",
