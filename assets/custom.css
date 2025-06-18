@@ -109,3 +109,20 @@ quantity-input.quantity.main-quantity {
 .color-swatch__image {
   height: 6rem !important;
 }
+quantity-input.quantity.main-quantity {
+  height: 4rem !important;
+  min-height: auto !important;
+}
+
+quantity-input.quantity.main-quantity .quantity__button,
+quantity-input.quantity.main-quantity .quantity__input {
+  height: 100% !important;
+  width: 3.2rem !important;
+  font-size: 1.4rem !important;
+}
+
+.product-form__submit {
+  height: 4rem !important;
+  min-height: auto !important;
+}
+
