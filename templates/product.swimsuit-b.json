@@ -391,7 +391,7 @@
         "desktop_thumbnails_position": "left",
         "desktop_thumbnails_count": 5,
         "desktop_vertical_thumbnails_width": 16,
-        "desktop_vertical_thumbnails_hide_arrows": true,
+        "desktop_vertical_thumbnails_hide_arrows": false,
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "desktop_arrows_position": "sides",
