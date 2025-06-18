@@ -143,5 +143,6 @@ quantity-input.quantity.main-quantity .quantity__input {
   padding: 4px 10px !important;
 }
 .card-wrapper .color-swatch:hover .color-swatch__label::after {
-  border-top-color: #cfc3b4 !important;
+  /* This sets the top border to your color and the other sides to transparent */
+  border-color: #cfc3b4 transparent transparent transparent !important;
 }
