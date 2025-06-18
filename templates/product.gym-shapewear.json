@@ -550,65 +550,6 @@
         "custom_colors_text": "#121212"
       }
     },
-    "featured_collection_DCB3gf": {
-      "type": "featured-collection",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "Browse Our Buy 1, Get 1 FREE SUMMER SALE!",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "color_scheme": "background-1",
-        "collection": "leggings",
-        "products_to_show": 26,
-        "stretch_cards": true,
-        "show_view_all": false,
-        "view_all_style": "outline",
-        "cards_color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "badges": "custom",
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": false,
-        "swatches_option_name": "Color",
-        "swatches_position": "top",
-        "swatches_desktop_size": 20,
-        "swatches_mobile_size": 14,
-        "type": "loop",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "arrows_color_scheme": "inverse",
-        "transparent_arrows": true,
-        "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
-        "columns_desktop": 4,
-        "slider_desktop": true,
-        "per_move_desktop": 1,
-        "desktop_spacing": 16,
-        "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
-        "desktop_adaptive_height": false,
-        "desktop_dots_position": "hidden",
-        "desktop_arrows_position": "sides",
-        "columns_mobile": "2",
-        "slider_mobile": true,
-        "enable_mobile_preview": false,
-        "mobile_adaptive_height": false,
-        "mobile_dots_position": "hidden",
-        "mobile_arrows_position": "sides",
-        "padding_top": 20,
-        "padding_bottom": 16,
-        "custom_colors_background": "#000000",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#1e1e1e"
-      }
-    },
     "ss_shoppable_video_x6Kt8A": {
       "type": "ss-shoppable-video",
       "blocks": {
@@ -865,20 +806,63 @@
         "lazy": true
       }
     },
-    "section_divider_gnp4Ab": {
-      "type": "section-divider",
-      "disabled": true,
+    "featured_collection_DCB3gf": {
+      "type": "featured-collection",
       "settings": {
+        "display_id": false,
         "visibility": "always-display",
-        "shape": "waves_1",
-        "flip_horizontal": false,
-        "flip_vertical": true,
-        "shape_color": "accent-2",
-        "custom_shape_color": "#dd1d1d",
-        "background_color": "background-1",
-        "custom_background_color": "#ffffff",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "title": "Browse Our Buy 1, Get 1 FREE SUMMER SALE!",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "color_scheme": "background-1",
+        "collection": "summer-sale",
+        "products_to_show": 26,
+        "stretch_cards": true,
+        "show_view_all": false,
+        "view_all_style": "outline",
+        "cards_color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "badges": "custom",
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "swatches_option_name": "Color",
+        "swatches_position": "top",
+        "swatches_desktop_size": 20,
+        "swatches_mobile_size": 14,
+        "type": "loop",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 4,
+        "slider_desktop": true,
+        "per_move_desktop": 1,
+        "desktop_spacing": 16,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "2",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "sides",
+        "padding_top": 20,
+        "padding_bottom": 16,
+        "custom_colors_background": "#000000",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#1e1e1e"
       }
     },
     "ss_size_guide_2_JjExLg": {
@@ -1163,83 +1147,6 @@
         "lazy": true
       }
     },
-    "ss_scrolling_logo_cloud_BmW4WV": {
-      "type": "ss-scrolling-logo-cloud",
-      "blocks": {
-        "slide_UnPnbc": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/vogue_logo.png",
-            "link": ""
-          }
-        },
-        "slide_BGrtJM": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/2560px-Glamour_logo_svg.png",
-            "link": ""
-          }
-        },
-        "slide_9aFafD": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/elle_3.png",
-            "link": ""
-          }
-        },
-        "slide_DwfJpU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/in-style-logo_c5df8a7f-4957-4d6b.png",
-            "link": ""
-          }
-        },
-        "slide_JDTB3A": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/images.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_UnPnbc",
-        "slide_BGrtJM",
-        "slide_9aFafD",
-        "slide_DwfJpU",
-        "slide_JDTB3A"
-      ],
-      "disabled": true,
-      "settings": {
-        "ss-title": "",
-        "heading_custom": false,
-        "heading_font": "assistant_n4",
-        "header_size": 30,
-        "header_align": "center",
-        "scrolling_velocity": 45,
-        "pause_hover": false,
-        "shadow": false,
-        "sliders_mt": 0,
-        "logo_padding_top": 0,
-        "logo_padding_bottom": 0,
-        "slider_gap": 30,
-        "slider_gap_mobile": 30,
-        "slider_direction": "left",
-        "icon_width": 200,
-        "header_color": "#121212",
-        "border_color": "#ffffff",
-        "background-color": "#ffffff",
-        "slider-background-color": "#ffffff",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
     "comparison_slider_pPHGHK": {
       "type": "comparison-slider",
       "settings": {
@@ -1354,22 +1261,6 @@
         "include_margins": true
       }
     },
-    "section_divider_8EqH4F": {
-      "type": "section-divider",
-      "disabled": true,
-      "settings": {
-        "visibility": "always-display",
-        "shape": "waves_1",
-        "flip_horizontal": false,
-        "flip_vertical": true,
-        "shape_color": "accent-2",
-        "custom_shape_color": "#dd1d1d",
-        "background_color": "background-1",
-        "custom_background_color": "#ffffff",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "icon_bar_9GhNa9": {
       "type": "icon-bar",
       "blocks": {
@@ -1458,236 +1349,6 @@
         "custom_cards_colors_background": "#fefcf5",
         "custom_cards_gradient_background": "",
         "custom_cards_colors_text": "#2e2a39"
-      }
-    },
-    "custom_columns_wHyJF7": {
-      "type": "custom-columns",
-      "blocks": {
-        "image_zzC6jV": {
-          "type": "image",
-          "settings": {
-            "column": "col_1",
-            "visibility": "always-display",
-            "image": "shopify://shop_images/Frame_24_1ba971a3-fbf6-4745-aca7-02f98562d918.png",
-            "width": 100,
-            "alignment": "center",
-            "mobile_alignment": "center",
-            "border_radius": 0,
-            "margin_top": 20,
-            "margin_bottom": 20
-          }
-        },
-        "heading_ebcQAh": {
-          "type": "heading",
-          "settings": {
-            "column": "col_1",
-            "visibility": "always-display",
-            "heading": "We Do It Better",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h1",
-            "alignment": "center",
-            "mobile_alignment": "mobile-center",
-            "margin_top": 20,
-            "margin_bottom": 20
-          }
-        },
-        "icon_with_text_JrQEDC": {
-          "type": "icon_with_text",
-          "settings": {
-            "column": "col_2",
-            "visibility": "always-display",
-            "icon": "lock",
-            "filled_icon": false,
-            "icon_size": "l",
-            "icon_position": "above",
-            "icon_color": "accent-1",
-            "icon_heading_size": "h3",
-            "icon_text_alignment": "center",
-            "title": "Reinforced Anti-Roll Waistband",
-            "text": "<p><strong>Stays Put During Burpees</strong></p><p>96% stay-put rating. No slip, thanks to double-layer elastic + medical-grade boning.</p>",
-            "margin_top": 20,
-            "margin_bottom": 30
-          }
-        },
-        "icon_with_text_F7yCUL": {
-          "type": "icon_with_text",
-          "settings": {
-            "column": "col_2",
-            "visibility": "always-display",
-            "icon": "spa",
-            "filled_icon": false,
-            "icon_size": "l",
-            "icon_position": "above",
-            "icon_color": "accent-1",
-            "icon_heading_size": "h3",
-            "icon_text_alignment": "center",
-            "title": "Cellulite-Smoothing Compression",
-            "text": "<p><strong>Squat-Proof Confidence</strong></p><p>87% opaque. 4D stretch smooths without squeezing or cutting off circulation.</p>",
-            "margin_top": 20,
-            "margin_bottom": 20
-          }
-        },
-        "icon_with_text_qhyE7F": {
-          "type": "icon_with_text",
-          "settings": {
-            "column": "col_3",
-            "visibility": "always-display",
-            "icon": "air",
-            "filled_icon": false,
-            "icon_size": "l",
-            "icon_position": "above",
-            "icon_color": "accent-1",
-            "icon_heading_size": "h3",
-            "icon_text_alignment": "center",
-            "title": "Airflow Mesh Tech",
-            "text": "<p><strong>No Sweat Swamp Feeling</strong></p><p>Breathable panels target heat zones. 2X faster moisture evaporation.</p>",
-            "margin_top": 20,
-            "margin_bottom": 30
-          }
-        },
-        "icon_with_text_yQ7ChW": {
-          "type": "icon_with_text",
-          "settings": {
-            "column": "col_3",
-            "visibility": "always-display",
-            "icon": "straighten",
-            "filled_icon": false,
-            "icon_size": "l",
-            "icon_position": "above",
-            "icon_color": "accent-1",
-            "icon_heading_size": "h3",
-            "icon_text_alignment": "center",
-            "title": "Size-Inclusive Engineering",
-            "text": "<p><strong>Fits Real Bodies</strong></p><p>Adjustable waist tabs. “Finally a brand that gets my curves!” – 2.2K+ reviews.</p>",
-            "margin_top": 20,
-            "margin_bottom": 20
-          }
-        }
-      },
-      "block_order": [
-        "image_zzC6jV",
-        "heading_ebcQAh",
-        "icon_with_text_JrQEDC",
-        "icon_with_text_F7yCUL",
-        "icon_with_text_qhyE7F",
-        "icon_with_text_yQ7ChW"
-      ],
-      "disabled": true,
-      "settings": {
-        "display_id": false,
-        "visibility": "desktop-hidden",
-        "color_scheme": "background-1",
-        "columns_count": 4,
-        "desktop_page_width": "normal",
-        "column_gap_desktop": 24,
-        "row_gap_desktop": 28,
-        "desktop_vertical_alignment": "center",
-        "mobile_full_page": false,
-        "column_gap_mobile": 20,
-        "row_gap_mobile": 30,
-        "mobile_vertical_alignment": "center",
-        "col_1_desktop_width": 12,
-        "col_1_mobile_width": 4,
-        "col_1_visibility": "always-display",
-        "col_2_desktop_width": 3,
-        "col_2_mobile_width": 4,
-        "col_2_visibility": "always-display",
-        "col_3_desktop_width": 3,
-        "col_3_mobile_width": 4,
-        "col_3_visibility": "always-display",
-        "col_4_desktop_width": 6,
-        "col_4_mobile_width": 4,
-        "col_4_visibility": "always-display",
-        "col_5_desktop_width": 3,
-        "col_5_mobile_width": 4,
-        "col_5_visibility": "always-display",
-        "col_6_desktop_width": 3,
-        "col_6_mobile_width": 4,
-        "col_6_visibility": "always-display",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d"
-      }
-    },
-    "results_HTqfqf": {
-      "type": "results",
-      "blocks": {
-        "row_BzWiJ4": {
-          "type": "row",
-          "settings": {
-            "percentage": 93,
-            "row_text": "<p><strong>93% of our customers report feeling more confident immediately after trying our shapewear</strong></p>"
-          }
-        },
-        "row_KMRR64": {
-          "type": "row",
-          "settings": {
-            "percentage": 96,
-            "row_text": "<p><strong>96% of customers say our inclusive sizing made them feel represented and valued as customers</strong></p>"
-          }
-        },
-        "row_NqTCjw": {
-          "type": "row",
-          "settings": {
-            "percentage": 84,
-            "row_text": "<p><strong>84% of first-time buyers say our shapewear was more comfortable for all-day wear than competitors' products</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "row_BzWiJ4",
-        "row_KMRR64",
-        "row_NqTCjw"
-      ],
-      "disabled": true,
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h2",
-        "text": "",
-        "video_muted_autoplay": true,
-        "color_scheme": "background-1",
-        "layout": "results_second",
-        "results_headline": "",
-        "results_title_highlight_color": "#6d388b",
-        "results_headline_size": "h2",
-        "results_text": "",
-        "results_headline_alignment": "left",
-        "caption": "<p>Based on verified customer surveys and independent product testing, these results demonstrate the real impact of our shapewear technology on daily comfort and confidence.</p>",
-        "button_label": "",
-        "link": "",
-        "button_style_secondary": false,
-        "atc_button_label": "",
-        "atc_product": "",
-        "atc_skip_cart": false,
-        "padding_top": 0,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_colors_accent": "#f1dabf",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d"
-      }
-    },
-    "custom_liquid_MxWDhC": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "custom_liquid": "<div class=\"ig-highlights-container\">\n  <h3 class=\"ig-title\">Follow Along Our IG Highlights</h3>\n  <div class=\"ig-highlights\">\n    <a href=\"https://www.instagram.com/stories/highlights/18054365963133608/\" target=\"_blank\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0862/9970/5676/files/4_a6c29bae-d447-4e8e-976e-464a4dbae161.png?v=1741725494\" alt=\"Highlight 1\">\n    </a>\n    <a href=\"https://www.instagram.com/stories/highlights/17936584043996340/\" target=\"_blank\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0862/9970/5676/files/6_10215bfa-3cba-4b80-a94d-9ec8649ece6c.png?v=1741725494\" alt=\"Highlight 2\">\n    </a>\n    <a href=\"https://www.instagram.com/stories/highlights/18027352337355741/\" target=\"_blank\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0862/9970/5676/files/2_9b34647c-bfb9-4c08-be20-70d82fd78b62.png?v=1741725494\" alt=\"Highlight 3\">\n    </a>\n    <a href=\"https://www.instagram.com/stories/highlights/17880143361164754/\" target=\"_blank\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0862/9970/5676/files/3_7b3a6970-7eec-4752-bab1-6aca312e24f0.png?v=1741725494\" alt=\"Highlight 4\">\n    </a>\n    <a href=\"https://www.instagram.com/stories/highlights/18039807971386526/\" target=\"_blank\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0862/9970/5676/files/1_135abfb9-83c6-4f41-8e28-3a5d1ee0a81b.png?v=1741725494\" alt=\"Highlight 5\">\n    </a>\n    <a href=\"https://www.instagram.com/stories/highlights/17885289393230255/\" target=\"_blank\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0862/9970/5676/files/5_88d677cb-a524-4f16-aa92-5867a1ba5db6.png?v=1741725494\" alt=\"Highlight 6\">\n    </a>\n  </div>\n</div>\n\n<style>\n  .ig-highlights-container {\n    text-align: center;\n  }\n  .ig-title {\n    font-size: 16px;\n    font-weight: bold;\n    margin-bottom: 10px;\n  }\n  .ig-highlights {\n    display: flex;\n    justify-content: center;\n    gap: 8px;\n  }\n  .ig-highlights a img {\n    width: 50px;\n    height: 50px;\n    border-radius: 50%;\n    object-fit: cover;\n    transition: transform 0.2s ease-in-out;\n  }\n  .ig-highlights a img:hover {\n    transform: scale(1.1);\n  }\n  \n  /* Increase image size for desktop */\n  @media (min-width: 768px) {\n    .ig-highlights a img {\n      width: 80px;\n      height: 80px;\n    }\n  }\n</style>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "related-products": {
@@ -1939,20 +1600,14 @@
     "main",
     "logo_list_8QhwxE",
     "logo_list_4nMwTN",
-    "featured_collection_DCB3gf",
     "ss_shoppable_video_x6Kt8A",
-    "section_divider_gnp4Ab",
+    "featured_collection_DCB3gf",
     "ss_size_guide_2_JjExLg",
     "ss_product_vidoes_nQiDQt",
-    "ss_scrolling_logo_cloud_BmW4WV",
     "comparison_slider_pPHGHK",
     "comparison_slider_46fQUN",
     "1743408848d7e389c4",
-    "section_divider_8EqH4F",
     "icon_bar_9GhNa9",
-    "custom_columns_wHyJF7",
-    "results_HTqfqf",
-    "custom_liquid_MxWDhC",
     "related-products",
     "results_EDzQxA",
     "collapsible_content_MBkcQr",

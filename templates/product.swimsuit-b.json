@@ -364,9 +364,7 @@
         "collapsible_tab_JCNk4G",
         "sticky_atc_EqYbVP"
       ],
-      "custom_css": [
-        ".color-swatch__image {height: 6rem !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "display_id": false,
         "enable_sticky_info": true,
@@ -391,7 +389,7 @@
         "media_position": "left",
         "gallery_layout": "thumbnail_slider",
         "desktop_thumbnails_position": "left",
-        "desktop_thumbnails_count": 4,
+        "desktop_thumbnails_count": 5,
         "desktop_vertical_thumbnails_width": 16,
         "desktop_vertical_thumbnails_hide_arrows": true,
         "constrain_to_viewport": true,
@@ -403,7 +401,7 @@
         "mobile_pagination": "numeric",
         "mobile_thumbnails_position": "bottom",
         "mobile_thumbnails_count": 5,
-        "mobile_vertical_thumbnails_width": 18,
+        "mobile_vertical_thumbnails_width": 16,
         "mobile_vertical_thumbnails_hide_arrows": true,
         "mobile_scroll_padding_percentage": 0,
         "mobile_scroll_padding_pixels": 0,
