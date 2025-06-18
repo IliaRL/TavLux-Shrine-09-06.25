@@ -31,7 +31,7 @@
 
 .product-form__input input[type="radio"]+label {
   border: 1px solid rgba(var(--color-foreground), 0.3) !important;
-  border-radius: 10px !important; /* Consolidated from 0 and 10 */
+  border-radius: 3px !important; /* Consolidated from 0 and 10 */
   padding: 6px 15px !important;
   background-color: transparent !important;
   transition: border-color 0.2s ease, box-shadow 0.2s ease, border-width 0.2s ease !important;
