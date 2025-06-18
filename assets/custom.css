@@ -20,7 +20,7 @@
 .badge {
   font-size: 1rem;
   font-weight: 800;
-  padding: 4px 8px !important; /* Increases the space inside the badge */
+  padding: 4px 6px !important; /* Increases the space inside the badge */
   min-width: 40px !important;   /* Ensures a minimum width */
   text-align: center !important;  /* Centers the text inside */
   line-height: 1.2 !important;  /* Improves vertical text alignment */
