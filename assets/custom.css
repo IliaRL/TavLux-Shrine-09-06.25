@@ -132,6 +132,16 @@ quantity-input.quantity.main-quantity .quantity__input {
 .list-payment__item svg {
   max-height: 24px !important;
 }
+.cart-item__old-price {
+  color: #951515 !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+}
+
+.regular-price {
+  font-weight: 300 !important;
+  font-size: 15px !important;
+}
 
 /* --- Mobile Specific Styles --- */
 @media (max-width: 749px) {
