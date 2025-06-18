@@ -342,7 +342,7 @@
         "columns_desktop": 4,
         "slider_desktop": true,
         "per_move_desktop": 1,
-        "desktop_spacing": 16,
+        "desktop_spacing": 8,
         "desktop_side_padding": 0,
         "desktop_padding_calc": true,
         "desktop_adaptive_height": false,
