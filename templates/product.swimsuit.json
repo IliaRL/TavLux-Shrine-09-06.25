@@ -403,7 +403,7 @@
         "mobile_thumbnails_count": 6,
         "mobile_vertical_thumbnails_width": 20,
         "mobile_vertical_thumbnails_hide_arrows": false,
-        "mobile_scroll_padding_percentage": 2,
+        "mobile_scroll_padding_percentage": 0,
         "mobile_scroll_padding_pixels": 0,
         "enable_mobile_outher_spacing": true,
         "mobile_slides_container_width": 100,
