@@ -49,7 +49,7 @@
             "layout": "price_first",
             "price_color": "text",
             "compare_price_color": "accent-2",
-            "displayed_badge": "custom",
+            "displayed_badge": "none",
             "icon_scale": 125,
             "custom_badge_text": "[icon_1] ADD 2, PAY FOR !",
             "icon_1": "sell",
