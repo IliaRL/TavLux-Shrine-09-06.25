@@ -100,7 +100,7 @@ quantity-input.quantity.main-quantity {
 .product-form__input input[type="radio"]:checked + label {
   background-color: transparent !important; 
   border-color: rgb(var(--color-foreground)) !important; 
-  border-width: 2px !important; 
+  border-width: 1.7px !important; 
   color: rgb(var(--color-foreground)) !important; 
   
   box-shadow: 0 0 8px rgba(var(--color-foreground), 0.25) !important;
