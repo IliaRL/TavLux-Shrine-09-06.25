@@ -1,40 +1,77 @@
+/* ========================================================================= */
+/* --- Headings & Titles --- */
+/* ========================================================================= */
+
+/* Main Product Title on Product Page */
+.product__title,
+.h2,
+h2 {
+  font-size: 1.7rem !important; /* This was controlled by .h2, h2 */
+  font-weight: 600 !important;
+  letter-spacing: 0.05rem !important;
+  text-transform: none !important;
+}
+
+/* Product Titles on Cards */
+.card-wrapper .card__heading {
+  font-size: 1.4rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.05rem !important;
+}
+
+/* ========================================================================= */
+/* --- Price Styling --- */
+/* ========================================================================= */
+
+/* General Price Styles */
 .price,
 .price-item,
 .price-item--regular,
 .product-single__price {
   font-size: 15px !important;
-  font-weight: 400 !important;
+  font-weight: 400 !important; /* Base weight */
   font-family: sans-serif !important;
 }
 
-.price .main-comapre-price {
+/* Compare-at Price on Product Page */
+.product-form__info-container .price--on-sale .price-item--compare {
   font-weight: 800 !important;
   color: #951515 !important;
 }
 
-.card-wrapper .price .price-item--compare {
-  font-weight: 800 !important;
+/* Compare-at Price on Product Cards */
+.product-card-wrapper .price--on-sale .price-item--regular {
   color: #951515 !important;
+  font-weight: 700 !important;
 }
 
-.badge {
-  font-size: 1rem;
-  font-weight: 800;
-  padding: 4px 6px !important; /* Increases the space inside the badge */
-  min-width: 40px !important;   /* Ensures a minimum width */
-  text-align: center !important;  /* Centers the text inside */
-  line-height: 1.2 !important;  /* Improves vertical text alignment */
+/* Regular Price on Product Cards */
+.card-information .price:not(.price--on-sale) .price-item--regular,
+.card-information .price--on-sale .price-item--regular:last-child {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
 }
 
-.payment-badges-block {
-  --margin-bottom: 1.5rem !important;
+/* Struck-through Old Price in Cart */
+.cart-item__old-price {
+  color: #951515 !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
 }
 
-/* --- Variant Picker (Size & Color) Styles --- */
+/* Regular Final Price in Cart */
+.regular-price {
+  font-weight: 300 !important;
+  font-size: 15px !important;
+}
+
+/* ========================================================================= */
+/* --- Variant Pickers & Swatches --- */
+/* ========================================================================= */
 
 .product-form__input input[type="radio"]+label {
   border: 1px solid rgba(var(--color-foreground), 0.3) !important;
-  border-radius: 3px !important; /* Consolidated from 0 and 10 */
+  border-radius: 3px !important; /* Final value */
   padding: 6px 15px !important;
   background-color: transparent !important;
   transition: border-color 0.2s ease, box-shadow 0.2s ease, border-width 0.2s ease !important;
@@ -52,6 +89,7 @@
   box-shadow: 0 0 8px rgba(var(--color-foreground), 0.25) !important;
 }
 
+/* Product Card Color Swatches */
 .color-swatches-container {
   --transparent-border-size: 0.35rem !important;
   --selected-border-size: 0.1rem !important;
@@ -61,8 +99,29 @@
   height: 6rem !important;
 }
 
-/* --- Quantity Selector & Buttons --- */
+/* Product Card Swatch Hover Tooltip */
+.card-wrapper .color-swatch .color-swatch__label {
+  transition: opacity 0.2s ease, transform 0.2s ease !important;
+}
 
+.card-wrapper .color-swatch:hover .color-swatch__label {
+  background-color: #cfc3b4 !important;
+  color: #ffffff !important;
+  font-weight: 500;
+  border-radius: 5px !important;
+  padding: 4px 10px !important;
+}
+
+.card-wrapper .color-swatch:hover .color-swatch__label::after {
+  border-color: #cfc3b4 transparent transparent transparent !important;
+}
+
+
+/* ========================================================================= */
+/* --- Quantity, Buttons & Badges --- */
+/* ========================================================================= */
+
+/* Product Page Quantity Selector */
 quantity-input.quantity.main-quantity {
   max-width: 10rem !important;
   max-height: 4rem !important;
@@ -78,10 +137,11 @@ quantity-input.quantity.main-quantity {
 quantity-input.quantity.main-quantity .quantity__button,
 quantity-input.quantity.main-quantity .quantity__input {
   width: 3.2rem !important;
-  font-size: 1.4rem !important; 
-  height: 100% !important; 
+  font-size: 1.4rem !important;
+  height: 100% !important;
 }
 
+/* Product Page Add to Cart Button */
 .product-form__submit {
   font-size: 1.2rem;
   font-weight: 300 !important;
@@ -90,7 +150,25 @@ quantity-input.quantity.main-quantity .quantity__input {
   min-height: auto !important;
 }
 
-/* --- Cart Drawer Styles --- */
+/* Sale Badges */
+.badge {
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 4px 6px !important;
+  min-width: 40px !important;
+  text-align: center !important;
+  line-height: 1.2 !important;
+}
+
+/* Payment Badges */
+.payment-badges-block {
+  --margin-bottom: 1.5rem !important;
+}
+
+
+/* ========================================================================= */
+/* --- Cart Drawer --- */
+/* ========================================================================= */
 
 .cart-progress {
   display: none !important;
@@ -106,44 +184,31 @@ quantity-input.quantity.main-quantity .quantity__input {
   width: 1rem !important;
   height: 2rem !important;
 }
-.cart-drawer__totals__row--spaced {
-  --text-size: 1.2rem !important;
-}
+
 .cart-drawer__totals {
-  --spacing: 1rem !important;
+  --spacing: 0.8rem !important; /* Final value */
 }
-.cart-drawer__footer {
-  --margin-top: 0.3rem !important;
-  --margin-bottom: 1rem !important;
-}
+
 .cart-drawer__totals__row--spaced {
-  --text-size: 1.7rem !important;
+  --text-size: 1.7rem !important; /* Final value */
 }
-.cart-drawer__totals {
-  --spacing: 0.8rem !important;
-}
+
 .cart-drawer__footer {
-  --margin-top: 1rem !important;
-  --margin-bottom: 1rem !important;
+  --margin-top: 1rem !important; /* Final value */
+  --margin-bottom: 1rem !important; /* Final value */
 }
+
 .list-payment__item {
   padding: 0.3rem !important;
 }
+
 .list-payment__item svg {
   max-height: 24px !important;
 }
-.cart-item__old-price {
-  color: #951515 !important;
-  font-weight: 700 !important;
-  font-size: 15px !important;
-}
 
-.regular-price {
-  font-weight: 300 !important;
-  font-size: 15px !important;
-}
-
-/* --- Mobile Specific Styles --- */
+/* ========================================================================= */
+/* --- Mobile Specific Styles (max-width: 749px) --- */
+/* ========================================================================= */
 @media (max-width: 749px) {
   .cart-drawer .cart__checkout-button {
     font-size: 1.5rem !important;
@@ -160,46 +225,4 @@ quantity-input.quantity.main-quantity .quantity__input {
   .shipping-checkpoints {
     --icon-size: 2rem !important;
   }
-}
-.product-form__info-container .price--on-sale .price-item--compare,
-.product-card-wrapper .price--on-sale .price-item--regular {
-  color: #951515 !important;
-  font-weight: 700 !important;
-}
-.card-information .price:not(.price--on-sale) .price-item--regular,
-.card-information .price--on-sale .price-item--regular:last-child {
-  font-size: 1.5rem !important; 
-  font-weight: 700 !important;  
-}
-.card-wrapper .color-swatch .color-swatch__label {
-  transition: opacity 0.2s ease, transform 0.2s ease !important;
-}
-
-/* This styles the label that appears on hover */
-.card-wrapper .color-swatch:hover .color-swatch__label {
-  background-color: #cfc3b4 !important;
-  color: #ffffff !important;
-  font-weight: 500;
-  border-radius: 5px !important;
-  padding: 4px 10px !important;
-}
-.card-wrapper .color-swatch:hover .color-swatch__label::after {
-  /* This sets the top border to your color and the other sides to transparent */
-  border-color: #cfc3b4 transparent transparent transparent !important;
-}
-.product__title {
-  font-size: 0.3rem !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.05rem !important;
-  text-transform: none !important;
-}
-.h2,
-h2 {
-  font-size: calc(var(--font-heading-scale) * 1.7rem);
-}
-
-.card-wrapper .card__heading {
-  font-size: 1.4rem !important; 
-  font-weight: 500 !important; 
-  letter-spacing: 0.05rem !important;
 }
