@@ -130,3 +130,14 @@ quantity-input.quantity.main-quantity .quantity__input {
   color: #951515 !important;
   font-weight: 800 !important;
 }
+.card-wrapper .color-swatch .color-swatch__label {
+  transition: opacity 0.2s ease, transform 0.2s ease !important;
+}
+
+/* This styles the label that appears on hover */
+.card-wrapper .color-swatch:hover .color-swatch__label {
+  background-color: #cfc3b4 !important;
+  color: #000000 !important;
+  border-radius: 5px !important;
+  padding: 4px 10px !important;
+}
