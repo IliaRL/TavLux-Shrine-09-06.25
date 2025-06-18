@@ -1,27 +1,64 @@
-.product-form__input input[type="radio"]+label {
-  border: 1px solid rgba(var(--color-foreground), 0.3) !important;
-  border-radius: 10 !important;
-  padding: 6px 15px !important;
-}
-
-.product-form__input input[type="radio"]+label:hover {
-  border-color: rgba(var(--color-foreground), 0.5) !important;
+.price,
+.price-item,
+.price-item--regular,
+.product-single__price {
+  font-size: 15px !important;
+  font-weight: 300 !important;
 }
 
 .product-page-price .price__regular .price-item--regular {
   font-size: 18px !important;
 }
 
-.cart-progress {
-  display: none !important;
+.price .main-comapre-price {
+  font-weight: 800 !important;
 }
 
-quantity-input.quantity.main-quantity .quantity__button,
-quantity-input.quantity.main-quantity .quantity__input {
-  width: 3.2rem !important;
-  height: 4rem !important;
-  font-size: 1.6rem !important;
+.card-wrapper .price .price-item--compare {
+  font-weight: 800 !important;
 }
+
+.badge {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.payment-badges-block {
+  --margin-bottom: 1.5rem !important;
+}
+
+/* --- Variant Picker (Size & Color) Styles --- */
+
+.product-form__input input[type="radio"]+label {
+  border: 1px solid rgba(var(--color-foreground), 0.3) !important;
+  border-radius: 10px !important; /* Consolidated from 0 and 10 */
+  padding: 6px 15px !important;
+  background-color: transparent !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, border-width 0.2s ease !important;
+}
+
+.product-form__input input[type="radio"]+label:hover {
+  border-color: rgba(var(--color-foreground), 0.5) !important;
+}
+
+.product-form__input input[type="radio"]:checked+label {
+  background-color: transparent !important;
+  border-color: rgb(var(--color-foreground)) !important;
+  border-width: 1.7px !important;
+  color: rgb(var(--color-foreground)) !important;
+  box-shadow: 0 0 8px rgba(var(--color-foreground), 0.25) !important;
+}
+
+.color-swatches-container {
+  --transparent-border-size: 0.35rem !important;
+  --selected-border-size: 0.1rem !important;
+}
+
+.color-swatch__image {
+  height: 6rem !important;
+}
+
+/* --- Quantity Selector & Buttons --- */
 
 quantity-input.quantity.main-quantity {
   max-width: 10rem !important;
@@ -31,12 +68,43 @@ quantity-input.quantity.main-quantity {
   border: 0.2px solid rgba(var(--color-foreground), 0.5) !important;
   border-radius: 5px !important;
   overflow: hidden !important;
+  height: 4rem !important;
+  min-height: auto !important;
 }
 
-.payment-badges-block {
-  --margin-bottom: 1.5rem !important;
+quantity-input.quantity.main-quantity .quantity__button,
+quantity-input.quantity.main-quantity .quantity__input {
+  width: 3.2rem !important;
+  font-size: 1.4rem !important; 
+  height: 100% !important; 
 }
 
+.product-form__submit {
+  font-size: 1.2rem;
+  font-weight: 300 !important;
+  letter-spacing: .2rem;
+  height: 4rem !important;
+  min-height: auto !important;
+}
+
+/* --- Cart Drawer Styles --- */
+
+.cart-progress {
+  display: none !important;
+}
+
+.cart-drawer-item .quantity__button,
+.cart-drawer-item .quantity__input {
+  width: 1.5rem !important;
+  height: 1.3em !important;
+}
+
+.cart-drawer-item .quantity__button svg {
+  width: 1rem !important;
+  height: 2rem !important;
+}
+
+/* --- Mobile Specific Styles --- */
 @media (max-width: 749px) {
   .cart-drawer .cart__checkout-button {
     font-size: 1.5rem !important;
@@ -54,75 +122,3 @@ quantity-input.quantity.main-quantity {
     --icon-size: 2rem !important;
   }
 }
-
-.color-swatches-container {
-  --transparent-border-size: 0.35rem !important;
-  --selected-border-size: 0.1rem !important;
-}
-
-.cart-drawer-item .quantity__button svg {
-  width: 1rem !important;
-  height: 2rem !important;
-}
-
-.cart-drawer-item .quantity__button,
-.cart-drawer-item .quantity__input {
-  width: 1.5rem !important;
-  height: 1.3em !important;
-}
-
-.price,
-.price-item,
-.price-item--regular,
-.product-single__price {
-  font-size: 15px !important;
-  font-weight: 300 !important;
-}
-.price .main-comapre-price {
-  font-weight: 800 !important;
-}
-.product-form__submit {
-    font-size: 1.2rem;
-    font-weight: 300 !important;
-  letter-spacing: .2rem;
-}
-.card-wrapper .price .price-item--compare {
-  font-weight: 800 !important;
-}
-.badge {font-size: 1rem;
-        font-weight:800;
-       }
-.product-form__input input[type="radio"] + label {
-  background-color: transparent !important;
-
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, border-width 0.2s ease !important;
-}
-
-.product-form__input input[type="radio"]:checked + label {
-  background-color: transparent !important; 
-  border-color: rgb(var(--color-foreground)) !important; 
-  border-width: 1.7px !important; 
-  color: rgb(var(--color-foreground)) !important; 
-  
-  box-shadow: 0 0 8px rgba(var(--color-foreground), 0.25) !important;
-}
-.color-swatch__image {
-  height: 6rem !important;
-}
-quantity-input.quantity.main-quantity {
-  height: 4rem !important;
-  min-height: auto !important;
-}
-
-quantity-input.quantity.main-quantity .quantity__button,
-quantity-input.quantity.main-quantity .quantity__input {
-  height: 100% !important;
-  width: 3.2rem !important;
-  font-size: 1.4rem !important;
-}
-
-.product-form__submit {
-  height: 4rem !important;
-  min-height: auto !important;
-}
-
