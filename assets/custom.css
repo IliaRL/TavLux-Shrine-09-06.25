@@ -2,13 +2,9 @@
 .price-item,
 .price-item--regular,
 .product-single__price {
-  font-size: 14px !important;
+  font-size: 15px !important;
   font-weight: 400 !important;
   font-family: sans-serif !important;
-}
-
-.product-page-price .price__regular .price-item--regular {
-  font-size: 14px !important;
 }
 
 .price .main-comapre-price {
