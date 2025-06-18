@@ -56,6 +56,7 @@
       "custom_css": [
         "@media (min-width: 750px) {.banner {position: relative; } .banner__box {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 85%; background: rgba(0, 0, 0, 0.4) !important; padding: 1rem; border-radius: 10px; text-align: center; } .banner__box * {color: #fff !important; } .banner__box .button {opacity: 1 !important; } .banner__box .button:hover {background-color: #fff !important; color: #000 !important; opacity: 1 !important; }}"
       ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "mobile-hidden",
@@ -113,6 +114,7 @@
       "custom_css": [
         "@media (max-width: 749px) {.banner {position: relative; } .banner__box {position: absolute; top: 100%; left: 50%; transform: translate(-50%, -120%) scale(0.9); max-width: 90%; background: rgba(0, 0, 0, 0.3) !important; padding: 1rem; border-radius: 10px; text-align: center; } .banner__box * {color: #fff !important; } .banner__box .button {opacity: 1 !important; } .banner__box .button:hover {background-color: #fff !important; color: #000 !important; opacity: 1 !important; }}"
       ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "desktop-hidden",
@@ -195,6 +197,7 @@
       "custom_css": [
         "h2 {font-size: 20px;}"
       ],
+      "name": "Featured on",
       "settings": {
         "display_id": false,
         "visibility": "desktop-hidden",
@@ -281,6 +284,7 @@
       "custom_css": [
         "h2 {font-size: 20px;}"
       ],
+      "name": "Featured on",
       "settings": {
         "display_id": false,
         "visibility": "mobile-hidden",
@@ -310,7 +314,7 @@
         "heading_Xfedk7": {
           "type": "heading",
           "settings": {
-            "title": "Swimsuits",
+            "title": "Shapewear",
             "title_highlight_color": "#6d388b",
             "heading_size": "h1"
           }
@@ -319,6 +323,7 @@
       "block_order": [
         "heading_Xfedk7"
       ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
@@ -340,6 +345,7 @@
     "featured_collection_MJQpCR": {
       "type": "featured-collection",
       "disabled": true,
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
@@ -418,7 +424,7 @@
         "enable_sorting": true,
         "columns_mobile": "2",
         "padding_top": 0,
-        "padding_bottom": 24
+        "padding_bottom": 0
       }
     },
     "page_RmEdhe": {
