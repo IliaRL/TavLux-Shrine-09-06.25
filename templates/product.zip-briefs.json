@@ -731,7 +731,7 @@
         "custom_colors_text": "#121212"
       }
     },
-    "featured_collection_XFAxch": {
+    "featured_collection_n6NJBq": {
       "type": "featured-collection",
       "settings": {
         "display_id": false,
@@ -743,13 +743,13 @@
         "show_description": false,
         "description_style": "body",
         "color_scheme": "background-1",
-        "collection": "best-sellers",
+        "collection": "summer-sale",
         "products_to_show": 26,
         "stretch_cards": true,
         "show_view_all": false,
         "view_all_style": "outline",
         "cards_color_scheme": "background-1",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "badges": "custom",
         "show_vendor": false,
@@ -769,7 +769,7 @@
         "columns_desktop": 4,
         "slider_desktop": true,
         "per_move_desktop": 1,
-        "desktop_spacing": 28,
+        "desktop_spacing": 16,
         "desktop_side_padding": 0,
         "desktop_padding_calc": true,
         "desktop_adaptive_height": false,
@@ -781,8 +781,8 @@
         "mobile_adaptive_height": false,
         "mobile_dots_position": "hidden",
         "mobile_arrows_position": "sides",
-        "padding_top": 20,
-        "padding_bottom": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "custom_colors_background": "#000000",
         "custom_gradient_background": "",
         "custom_colors_text": "#2e2a39",
@@ -1319,7 +1319,7 @@
     "ss_product_vidoes_9xMy3t",
     "logo_list_8QhwxE",
     "logo_list_XLhUcG",
-    "featured_collection_XFAxch",
+    "featured_collection_n6NJBq",
     "section_divider_BpRE46",
     "image_with_text_6PRF63",
     "image_with_text_eDYiyL",
