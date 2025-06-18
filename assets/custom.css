@@ -1,6 +1,6 @@
 .product-form__input input[type="radio"]+label {
   border: 1px solid rgba(var(--color-foreground), 0.3) !important;
-  border-radius: 10 !important;
+  border-radius: 0 !important;
   padding: 6px 15px !important;
 }
 
