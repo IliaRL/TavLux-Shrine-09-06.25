@@ -42,14 +42,14 @@ h2 {
 /* Compare-at Price on Product Cards */
 .product-card-wrapper .price--on-sale .price-item--regular {
   color: #951515 !important;
-  font-weight: 700 !important;
+  font-weight: 800 !important;
 }
 
 /* Regular Price on Product Cards */
 .card-information .price:not(.price--on-sale) .price-item--regular,
 .card-information .price--on-sale .price-item--regular:last-child {
   font-size: 1.5rem !important;
-  font-weight: 700 !important;
+  font-weight: 300 !important;
 }
 
 /* Struck-through Old Price in Cart */
