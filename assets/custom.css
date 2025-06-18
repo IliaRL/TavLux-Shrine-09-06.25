@@ -137,7 +137,8 @@ quantity-input.quantity.main-quantity .quantity__input {
 /* This styles the label that appears on hover */
 .card-wrapper .color-swatch:hover .color-swatch__label {
   background-color: #cfc3b4 !important;
-  color: #000000 !important;
+  color: #ffffff !important;
+  font-weight: 500;
   border-radius: 5px !important;
   padding: 4px 10px !important;
 }
