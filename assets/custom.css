@@ -48,8 +48,14 @@ h2 {
 /* Regular Price on Product Cards */
 .card-information .price:not(.price--on-sale) .price-item--regular,
 .card-information .price--on-sale .price-item--regular:last-child {
-  font-size: 1.5rem !important;
+  font-size: 1.3rem !important;
   font-weight: 200 !important;
+}
+/* This rule styles the COMPARE-AT price on a product card */
+.product-card-wrapper .price--on-sale .price-item:first-child {
+  color: #951515 !important;
+  font-weight: 700 !important; /* Edit this for the compare-at price */
+  font-size: 1.3rem !important;
 }
 
 /* Struck-through Old Price in Cart */
