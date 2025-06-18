@@ -4,6 +4,7 @@
 .product-single__price {
   font-size: 14px !important;
   font-weight: 300 !important;
+  font-family: sans-serif !important;
 }
 
 .product-page-price .price__regular .price-item--regular {
