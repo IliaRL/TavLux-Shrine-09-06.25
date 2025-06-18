@@ -483,16 +483,7 @@
           "cart_items_8iGnKD",
           "payment_badges_FgAiPw"
         ],
-        "custom_css": [
-          ".cart-drawer__totals__row--spaced {--text-size: 1.2rem !important;}",
-          ".cart-drawer__totals {--spacing: 1rem !important;}",
-          ".cart-drawer__footer {--margin-top: 0.3rem !important; --margin-bottom: 1rem !important;}",
-          ".cart-drawer__totals__row--spaced {--text-size: 1.7rem !important;}",
-          ".cart-drawer__totals {--spacing: 0.8rem !important;}",
-          ".cart-drawer__footer {--margin-top: 1rem !important; --margin-bottom: 1rem !important;}",
-          ".list-payment__item {padding: 0.3rem !important;}",
-          ".list-payment__item svg {max-height: 24px !important;}"
-        ],
+        "custom_css": [],
         "settings": {
           "test_mode": false,
           "heading_text": "Cart • [count]",
