@@ -87,7 +87,7 @@ quantity-input.quantity.main-quantity {
   letter-spacing: .2rem;
 }
 .card-wrapper .price .price-item--compare {
-  font-weight: 500 !important;
+  font-weight: 800 !important;
 }
 .badge {font-size: 1rem;
         font-weight:800;
