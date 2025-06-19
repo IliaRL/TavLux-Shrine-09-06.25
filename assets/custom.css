@@ -298,7 +298,7 @@ quantity-input.quantity.main-quantity .quantity__input {
   gap: 1.5rem; /* Adds space between the info and the button */
 }
 
-/* --- This rule fixes the layout for the left-side content --- */
+/* --- NEW: This rule fixes the layout for the left-side content --- */
 .sticky-atc__info {
   flex-grow: 1 !important; /* Allows this container to grow and fill available space */
   min-width: 0 !important;  /* Prevents text overflow issues */
@@ -349,15 +349,5 @@ quantity-input.quantity.main-quantity .quantity__input {
   letter-spacing: 0.1rem !important;
 }
 
-/* --- CORRECTED: Mobile Layout Rules --- */
-@media (max-width: 749px) {
-  .sticky-atc {
-    flex-direction: column !important; /* Stacks items vertically */
-    align-items: stretch !important;   /* Makes items fill the full width */
-  }
+/* --- Mobile-specific Button Margin --- */
 
-  /* We no longer need the margin-top on the button */
-  .sticky-atc .button {
-    width: 100% !important; /* Makes the button full width on mobile */
-  }
-}
