@@ -371,6 +371,7 @@
           },
           "gift_UgFwhr": {
             "type": "gift",
+            "disabled": true,
             "settings": {
               "position": "body",
               "display": "globally",
