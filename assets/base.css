@@ -133,18 +133,39 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   }
 }
 /* Add this to your base.css file */
-.sticky-atc__title {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 200px;
-  font-size: 0.95rem;
-  line-height: 1.1;
+.sticky-atc-container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 8px 16px;
 }
 
-@media screen and (max-width: 749px) {
-  .sticky-atc__title {
-    max-width: 150px;
-    font-size: 0.9rem;
-  }
+.sticky-atc__left {
+  min-width: 0;
+}
+
+.sticky-atc__left__content {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: nowrap;
+}
+
+.sticky-atc__title {
+  white-space: nowrap;
+  font-size: 0.9rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.rating-stars-and-text {
+  white-space: nowrap;
+  font-size: 0.7rem !important;
+  flex-shrink: 0;
+}
+
+.sticky-atc__price {
+  order: 3;
+  margin-left: auto;
 }
