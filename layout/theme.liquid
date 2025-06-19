@@ -459,6 +459,46 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+    
+    <script>
+const ORIGINAL_URL = '/products/one-piece-lux-tummy-control-swimsuit';
+const TEST_URL = '/products/one-piece-tummy-control-swimsuit-lux';
+const TEST_COOKIE_NAME = 'split_test_variant';
+
+function getCookie(name) {
+  try {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  } catch(e) {
+    return null;
+  }
+  return null;
+}
+
+function setCookie(name, value, days) {
+  try {
+    const expires = new Date();
+    expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+    document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/`;
+  } catch(e) {
+    // Fallback for cookie-disabled browsers
+    sessionStorage.setItem(name, value);
+  }
+}
+
+// Execute immediately, don't wait for DOM
+if (window.location.pathname === ORIGINAL_URL) {
+  let variant = getCookie(TEST_COOKIE_NAME) || sessionStorage.getItem(TEST_COOKIE_NAME);
+  if (!variant) {
+    variant = Math.random() < 0.5 ? 'A' : 'B';
+    setCookie(TEST_COOKIE_NAME, variant, 30);
+  }
+  if (variant === 'B') {
+    window.location.replace(TEST_URL); // Use replace instead of href
+  }
+}
+</script>
 
 </head>
 
