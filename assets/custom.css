@@ -356,8 +356,8 @@ quantity-input.quantity.main-quantity .quantity__input {
 /* It targets the last price item in a sale container. */
 .card-information .price--on-sale .price-item:last-child {
   color: #000000;      /* Edit this for the card's sale price color */
-  font-weight: 700;     /* Edit this for the card's sale price weight */
-  font-size: 16px;      /* Edit this for the card's sale price size */
+  font-weight: 300;     /* Edit this for the card's sale price weight */
+  font-size: 14px;      /* Edit this for the card's sale price size */
 }
 
 /* This styles the COMPARE-AT price on a product card (the crossed-out one). */
