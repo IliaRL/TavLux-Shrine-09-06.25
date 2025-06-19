@@ -213,68 +213,6 @@ quantity-input.quantity.main-quantity .quantity__input {
   text-transform: none !important; /* Change to 'uppercase' if desired */
   letter-spacing: 0.05rem !important;
 }
-.sticky-atc .product-title {
-  font-size: 1rem !important;
-  font-weight: 400 !important;
-  color: rgb(var(--color-foreground)) !important;
-  letter-spacing: 0.1rem !important;
-}
-
-/* --- Regular & Sale Price --- */
-.sticky-atc .price:not(.price--on-sale) .price-item,
-.sticky-atc .price--on-sale .price__sale .price-item {
-  font-size: 1.6rem !important;
-  font-weight: 200 !important;
-  color: rgb(var(--color-foreground)) !important;
-}
-
-/* --- Compare-at Price --- */
-.sticky-atc .price--on-sale .price__regular .price-item {
-  font-size: 1.5rem !important;
-  font-weight: 200 !important;
-  color: #951515 !important;
-}
-
-/* --- Button Container & Size --- */
-.sticky-atc .button {
-  height: 4.5rem !important;
-  min-height: auto !important;
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
-  font-size: 1.3rem !important;
-  font-weight: 300 !important;
-}
-
-/* --- Button Label (Text) --- */
-.sticky-atc .button .button__label {
-  font-size: 1.3rem !important;
-  font-weight: 300 !important;
-  letter-spacing: 0.1rem !important;
-}
-
-
-.sticky-atc {
-  width: 100% !important;
-  padding: 1rem 1.5rem !important;
-  bottom: 0 !important;
-  left: 0 !important;
-  box-sizing: border-box !important;
-}
-
-.sticky-atc__info {
-  min-width: 0 !important;
-}
-
-/* --- Product Title --- */
-.sticky-atc .product-title {
-  font-size: 1rem !important;
-  font-weight: 400 !important;
-  color: rgb(var(--color-foreground)) !important;
-  letter-spacing: 0.1rem !important;
-  white-space: nowrap !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
-}
 
 /* --- Prices --- */
 .sticky-atc .price:not(.price--on-sale) .price-item,
@@ -298,7 +236,6 @@ quantity-input.quantity.main-quantity .quantity__input {
   padding-right: 2rem !important;
   font-size: 1.3rem !important;
   font-weight: 300 !important;
-  flex-shrink: 0;
 }
 
 .sticky-atc .button .button__label {
@@ -307,79 +244,27 @@ quantity-input.quantity.main-quantity .quantity__input {
   letter-spacing: 0.1rem !important;
 }
 
-/* --- MOBILE Layout Rules (749px and narrower) --- */
-@media (max-width: 749px) {
-   .sticky-atc {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    gap: 1.5rem; /* Adds space between the info and the button */
-  }
-      flex-direction: column !important; /* Stacks items vertically */
-    align-items: stretch !important;   /* Makes items fill the full width */
-  
-  
-  .sticky-atc .button {
-    width: 100% !important; /* Makes the button full width on mobile */
-    margin-top: 1rem !important; /* Adds some space between info and button */
-  }
+
+
+
+
+/* This rule styles product cards */
+
+.product-card-wrapper .price--on-sale .price-item:last-child {
+  color: #951515 !important; /* Edit this for the normal/sale price color */
+  font-weight: 900 !important; /* Edit this for the normal/sale price weight */
+  font-size: 14px !important; /* Edit this for the normal/sale price size */
 }
 
-/* This styles the main SALE price on the product page. */
-/* It targets the last price item when the product is marked as on-sale. */
-.product-single__price.price--on-sale .price-item:last-child {
-  color: #000000;      /* Edit this for the sale price color */
-  font-weight: 300;     /* Edit this for the sale price weight (e.g., 700 is bold) */
-  font-size: 15px;      /* Edit this for the sale price size */
+/* Not on sale cards */
+.card-wrapper .price-item--regular,
+.product-single__price {
+  font-size: 15px !important;
+  font-weight: 300 !important;}
+
+.product-card-wrapper .price--on-sale .price-item,
+.price-item--regular {
+  font-weight: 300 !important;
+  font-size: 15px !important;
 }
 
-/* This styles the COMPARE-AT price on the product page (the original, crossed-out price). */
-/* It targets the first price item when the product is on sale. */
-.product-single__price.price--on-sale .price-item:first-child {
-  color: #951515;      /* Edit this for the compare-at price color */
-  font-weight: 700;     /* Edit this for the compare-at price weight (e.g., 400 is normal) */
-  font-size: 14px;      /* Edit this for the compare-at price size */
-  /* Note: The theme usually adds the line-through style automatically. */
-}
-
-/* This styles the REGULAR price on the product page (when the item is NOT on sale). */
-.product-single__price:not(.price--on-sale) .price-item {
-  color: #000000;      /* Edit this for the regular price color */
-  font-weight: 300;     /* Edit this for the regular price weight */
-  font-size: 24px;      /* Edit this for the regular price size */
-}
-
-
-/* --- 2. PRODUCT CARD STYLING (for Collections, Featured Products, etc.) --- */
-
-/* This styles the final SALE price on a product card. */
-/* It targets the last price item in a sale container. */
-.card-information .price--on-sale .price-item:last-child {
-  color: #000000;      /* Edit this for the card's sale price color */
-  font-weight: 700;     /* Edit this for the card's sale price weight */
-  font-size: 16px;      /* Edit this for the card's sale price size */
-}
-
-/* This styles the COMPARE-AT price on a product card (the crossed-out one). */
-/* It targets the first price item in a sale container. */
-.card-information .price--on-sale .price-item:first-child {
-  color: #951515;      /* Edit this for the card's compare-at price color */
-  font-weight: 800;     /* Edit this for the card's compare-at price weight */
-  font-size: 14px;      /* Edit this for the card's compare-at price size */
-}
-
-/* This styles the REGULAR price on a product card (when NOT on sale). */
-/* It targets any price inside a container that is NOT on sale. */
-.card-information .price:not(.price--on-sale) .price-item {
-  color: #000000;      /* Edit this for the card's regular price color */
-  font-weight: 300;     /* Edit this for the card's regular price weight */
-  font-size: 16px;      /* Edit this for the card's regular price size */
-}
-
-
-/* --- 3. Optional Base Font --- */
-/* You can set a default font-family for all prices. This is safer */
-/* than your original rule that used !important. */
-.price, .price .price-item {
-  font-family: sans-serif; /* Change this to your desired font */
-}
