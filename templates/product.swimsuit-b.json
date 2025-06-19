@@ -1063,7 +1063,7 @@
         "visibility": "always-display",
         "title": "Facebook testimonials",
         "title_highlight_color": "#6d388b",
-        "heading_size": "h1",
+        "heading_size": "h0",
         "text": "",
         "color_scheme": "background-1",
         "type": "loop",
