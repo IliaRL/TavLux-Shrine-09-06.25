@@ -68,15 +68,15 @@
         "heading_tCWGfV": {
           "type": "heading",
           "settings": {
-            "title": "BUY 1, GET 1 FREE SUMMER SALE!",
+            "title": "Browse Our Summer Sale & Choose The Perfect Modest Outfit For You!",
             "title_highlight_color": "#6d388b",
-            "heading_size": "h2"
+            "heading_size": "hxl"
           }
         },
         "text_rrjpx9": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Buy Any Item + Choose Your FREE Second Piece From Our Entire</strong></p><p><strong> Lux Shapewear & Swimwear Collections.</strong></p>"
+            "text": ""
           }
         }
       },
@@ -92,8 +92,8 @@
         "full_width": true,
         "mobile_narrow_width": false,
         "color_scheme": "background-1",
-        "padding_top": 20,
-        "padding_bottom": 20,
+        "padding_top": 40,
+        "padding_bottom": 40,
         "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_colors_text": "#2e2a39",
