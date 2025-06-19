@@ -270,8 +270,8 @@ quantity-input.quantity.main-quantity .quantity__input {
 /* This rule styles product cards */
 
 .product-card-wrapper .price--on-sale .price-item:last-child {
-  color: #951515 !important; /* Edit this for the normal/sale price color */
-  font-weight: 900 !important; /* Edit this for the normal/sale price weight */
+  color: #000000 !important; /* Edit this for the normal/sale price color */
+  font-weight: 300 !important; /* Edit this for the normal/sale price weight */
   font-size: 14px !important; /* Edit this for the normal/sale price size */
 }
 
@@ -279,11 +279,13 @@ quantity-input.quantity.main-quantity .quantity__input {
 .card-wrapper .price-item--regular,
 .product-single__price {
   font-size: 15px !important;
-  font-weight: 300 !important;}
+  font-weight: 600 !important;}
+color: #951515 !important;
 
 .product-card-wrapper .price--on-sale .price-item,
 .price-item--regular {
   font-weight: 300 !important;
   font-size: 15px !important;
+  color: #951515 !important;
 }
 
