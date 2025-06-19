@@ -40,6 +40,27 @@
         "show_text_below": false
       }
     },
+    "image_banner_9JqExz": {
+      "type": "image-banner",
+      "settings": {
+        "display_id": false,
+        "visibility": "desktop-hidden",
+        "image": "shopify://shop_images/Frame_11_compressed_d9cd4cf2-0254-412d-b687-3446d1486709.jpg",
+        "image_1_visibility": "always-display",
+        "image_2_visibility": "always-display",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "url": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "image_banner_yYgJVP": {
       "type": "image-banner",
       "blocks": {
@@ -75,13 +96,14 @@
         "heading_96jMwQ",
         "buttons_J3cKpC"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 749px) {.banner {position: relative; } .banner__box {position: absolute; top: 100%; left: 50%; transform: translate(-50%, -120%) scale(0.9); max-width: 90%; background: rgba(0, 0, 0, 0.3) !important; padding: 1rem; border-radius: 10px; text-align: center; } .banner__box * {color: #fff !important; } .banner__box .button {opacity: 1 !important; } .banner__box .button:hover {background-color: #fff !important; color: #000 !important; opacity: 1 !important; }}"
       ],
       "settings": {
         "display_id": false,
         "visibility": "desktop-hidden",
-        "image": "shopify://shop_images/shapewear_page_img_upscayl_2x_ultramix-balanced-4x.webp",
+        "image": "shopify://shop_images/Frame_11_compressed_d9cd4cf2-0254-412d-b687-3446d1486709.jpg",
         "image_1_visibility": "always-display",
         "image_2_visibility": "always-display",
         "image_overlay_opacity": 0,
@@ -441,6 +463,7 @@
   "order": [
     "main-collection-banner",
     "image_banner_fUrJ7F",
+    "image_banner_9JqExz",
     "image_banner_yYgJVP",
     "logo_list_DJiFVA",
     "logo_list_iU9LQq",
