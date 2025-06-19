@@ -230,6 +230,12 @@ quantity-input.quantity.main-quantity .quantity__input {
 
 /* --- Button --- */
 .sticky-atc .button {
+  /* Outline Styles */
+  background-color: transparent !important;
+  border: px solid #000000 !important; /* Edit border color */
+  color: #000000 !important;            /* Edit text/label color */
+
+  /* Original Styles */
   height: 4.5rem !important;
   min-height: auto !important;
   padding-left: 2rem !important;
