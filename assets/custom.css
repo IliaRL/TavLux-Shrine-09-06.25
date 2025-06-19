@@ -332,14 +332,14 @@ quantity-input.quantity.main-quantity .quantity__input {
 .product-single__price.price--on-sale .price-item:last-child {
   color: #000000 !important;      /* Edit this for the sale price color */
   font-weight: 300 !important;     /* Edit this for the sale price weight (e.g., 700 is bold) */
-  font-size: 15px !important;      /* Edit this for the sale price size */
+  font-size: 14px !important;      /* Edit this for the sale price size */
 }
 
 /* This styles the COMPARE-AT price on the product page (the original, crossed-out price). */
 /* It targets the first price item when the product is on sale. */
 .product-single__price.price--on-sale .price-item:first-child {
   color: #951515 !important;      /* Edit this for the compare-at price color */
-  font-weight: 600 !important;     /* Edit this for the compare-at price weight (e.g., 400 is normal) */
+  font-weight: 300 !important;     /* Edit this for the compare-at price weight (e.g., 400 is normal) */
   font-size: 14px !important;      /* Edit this for the compare-at price size */
   /* Note: The theme usually adds the line-through style automatically. */
 }
