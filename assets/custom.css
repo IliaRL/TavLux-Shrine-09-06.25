@@ -347,11 +347,6 @@ quantity-input.quantity.main-quantity .quantity__input {
   font-family: sans-serif !important;
 }
 
-/* Compare-at Price on Product Page */
-.product-form__info-container .price--on-sale .price-item--compare {
-  font-weight: 800 !important;
-  color: #951515 !important;
-}
 
 /* Compare-at Price on Product Cards */
 .product-card-wrapper .price--on-sale .price-item--regular {
