@@ -298,7 +298,6 @@ quantity-input.quantity.main-quantity .quantity__input {
   padding-right: 2rem !important;
   font-size: 1.3rem !important;
   font-weight: 300 !important;
-  flex-shrink: 0;
 }
 
 .sticky-atc .button .button__label {
@@ -307,35 +306,7 @@ quantity-input.quantity.main-quantity .quantity__input {
   letter-spacing: 0.1rem !important;
 }
 
-/* --- MOBILE Layout Rules (749px and narrower) --- */
-@media (max-width: 749px) {
-   .sticky-atc {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    gap: 1.5rem; /* Adds space between the info and the button */
-  }
-      flex-direction: column !important; /* Stacks items vertically */
-    align-items: stretch !important;   /* Makes items fill the full width */
-  
-  
-  .sticky-atc .button {
-    width: 100% !important; /* Makes the button full width on mobile */
-    margin-top: 1rem !important; /* Adds some space between info and button */
-  }
-}
 
-/* --- 2. PRODUCT CARD STYLING (for Collections, Featured Products, etc.) --- */
-
-/*
- * Styles the COMPARE-AT price on a product card.
- * Targets the '.price-item--regular' class specifically on product cards.
-*/
-.card-information .price--on-sale .price-item.price-item--regular {
-  color: #951515 !important;      /* Edit this for the card's compare-at price color */
-  font-weight: 600 !important;     /* Edit this for the card's compare-at price weight */
-  font-size: 14px !important;      /* Edit this for the card's compare-at price size */
-}
 
 /* General Price Styles */
 .price,
