@@ -89,7 +89,6 @@ h2 {
   border-color: #cfc3b4 transparent transparent transparent !important;
 }
 
-
 /* ========================================================================= */
 /* --- Quantity, Buttons & Badges --- */
 /* ========================================================================= */
@@ -199,6 +198,9 @@ quantity-input.quantity.main-quantity .quantity__input {
     --icon-size: 2rem !important;
   }
 }
+
+/* Collapsible Content */
+
 .collapsible-content__heading {
   font-size: 1.8rem !important;
   font-weight: 600 !important;
@@ -214,7 +216,7 @@ quantity-input.quantity.main-quantity .quantity__input {
   letter-spacing: 0.05rem !important;
 }
 
-/* --- Prices --- */
+/* Sticky Add To Cart */
 
 .sticky-atc__price .price--on-sale .price-item:last-child {
   font-size: 14px !important;
