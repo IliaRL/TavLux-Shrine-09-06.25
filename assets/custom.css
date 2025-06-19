@@ -59,7 +59,7 @@ h2 {
   border-color: rgb(var(--color-foreground)) !important;
   border-width: 1.7px !important;
   color: rgb(var(--color-foreground)) !important;
-  box-shadow: 0 0 8px rgba(var(--color-foreground), 0.25) !important;
+  box-shadow: 0 0 6px rgba(var(--color-foreground), 0.2) !important;
 }
 
 /* Product Card Color Swatches */
