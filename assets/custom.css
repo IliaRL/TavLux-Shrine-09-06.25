@@ -349,9 +349,16 @@ quantity-input.quantity.main-quantity .quantity__input {
 
 /* --- MOBILE Layout Rules (749px and narrower) --- */
 @media (max-width: 749px) {
-  .sticky-atc {
-    display: block !important; /* Reverts to default block layout */
+   .sticky-atc {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 1.5rem; /* Adds space between the info and the button */
   }
+  .sticky-atc__info {
+     flex-grow: 1 !important; /* Allows info container to take up space */
+  }
+}
   
   .sticky-atc .button {
     width: 100% !important; /* Makes the button full width on mobile */
