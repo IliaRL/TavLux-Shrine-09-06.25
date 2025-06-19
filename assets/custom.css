@@ -325,41 +325,6 @@ quantity-input.quantity.main-quantity .quantity__input {
   }
 }
 
-/* --- 1. PRODUCT PAGE STYLING --- */
-
-/*
- * Styles the COMPARE-AT price on the product page (e.g., the original, crossed-out price).
- * It specifically targets the element with the class '.price-item--regular'
- * inside a container marked as '.price--on-sale'.
-*/
-.product-single__price.price--on-sale .price-item.price-item--regular {
-  color: #951515 !important;      /* Edit this for the compare-at price color */
-  font-weight: 300 !important;     /* Edit this for the compare-at price weight */
-  font-size: 14px !important;      /* Edit this for the compare-at price size */
-}
-
-/*
- * Styles the main SALE price on the product page.
- * It targets the last price item in a sale container, ensuring it's not the
- * compare-at price, giving you specific control over the final price.
-*/
-.product-single__price.price--on-sale .price-item:not(.price-item--regular) {
-  color: #000000 !important;      /* Edit this for the sale price color */
-  font-weight: 300 !important;     /* Edit this for the sale price weight (e.g., 700 is bold) */
-  font-size: 15px !important;      /* Edit this for the sale price size */
-}
-
-/*
- * Styles the REGULAR price on the product page (when the item is NOT on sale).
- * This only applies if the price container does not have the '.price--on-sale' class.
-*/
-.product-single__price:not(.price--on-sale) .price-item {
-  color: #000000 !important;      /* Edit this for the regular price color */
-  font-weight: 300 !important;     /* Edit this for the regular price weight */
-  font-size: 15px !important;      /* Edit this for the regular price size */
-}
-
-
 /* --- 2. PRODUCT CARD STYLING (for Collections, Featured Products, etc.) --- */
 
 /*
@@ -372,30 +337,39 @@ quantity-input.quantity.main-quantity .quantity__input {
   font-size: 14px !important;      /* Edit this for the card's compare-at price size */
 }
 
-/*
- * Styles the final SALE price on a product card.
- * It targets the last price item that is not the compare-at price.
-*/
-.card-information .price--on-sale .price-item:not(.price-item--regular) {
-  color: #000000 !important;      /* Edit this for the card's sale price color */
-  font-weight: 300 !important;     /* Edit this for the card's sale price weight */
-  font-size: 14px !important;      /* Edit this for the card's sale price size */
+/* General Price Styles */
+.price,
+.price-item,
+.price-item--regular,
+.product-single__price {
+  font-size: 15px !important;
+  font-weight: 400 !important; /* Base weight */
+  font-family: sans-serif !important;
 }
 
-/*
- * Styles the REGULAR price on a product card (when NOT on sale).
-*/
-.card-information .price:not(.price--on-sale) .price-item {
-  color: #000000 !important;      /* Edit this for the card's regular price color */
-  font-weight: 300 !important;     /* Edit this for the card's regular price weight */
-  font-size: 15px !important;      /* Edit this for the card's regular price size */
+/* Compare-at Price on Product Page */
+.product-form__info-container .price--on-sale .price-item--compare {
+  font-weight: 800 !important;
+  color: #951515 !important;
+}
+
+/* Compare-at Price on Product Cards */
+.product-card-wrapper .price--on-sale .price-item--regular {
+  color: #951515 !important;
+  font-weight: 200 !important;
+}
+
+/* Regular Price on Product Cards */
+.card-information .price:not(.price--on-sale) .price-item--regular,
+.card-information .price--on-sale .price-item--regular:last-child {
+  font-size: 1.4rem !important;
+  font-weight: 200 !important;
+}
+/* This rule styles the COMPARE-AT price on a product card */
+.product-card-wrapper .price--on-sale .price-item:first-child {
+  color: #951515 !important;
+  font-weight: 200 !important; /* Edit this for the compare-at price */
+  font-size: 1.4rem !important;
 }
 
 
-/* --- 3. Optional Base Font --- */
-/*
- * Sets a default font-family for all price elements.
-*/
-.price, .price .price-item {
-  font-family: sans-serif !important; /* Change this to your desired font */
-}
