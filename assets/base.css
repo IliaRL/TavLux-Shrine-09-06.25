@@ -132,3 +132,19 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
     display: inline !important;
   }
 }
+/* Add this to your base.css file */
+.sticky-atc__title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  font-size: 0.95rem;
+  line-height: 1.1;
+}
+
+@media screen and (max-width: 749px) {
+  .sticky-atc__title {
+    max-width: 150px;
+    font-size: 0.9rem;
+  }
+}
