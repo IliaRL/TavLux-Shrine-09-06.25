@@ -210,7 +210,7 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 @media only screen and (max-width: 767px) {
   .sticky-atc__button button {
     background-color: transparent !important;
-    border: 1px solid #333 !important;
+    border: 0.5px solid #333 !important;
     color: #333 !important; /* Keep text dark and readable */
     padding: 8px !important;
     font-size: 0.9rem !important;
