@@ -30,6 +30,7 @@ h2 {
   color: #000000 !important;
   font-weight: 300 !important;
   font-size: 14px !important;
+  font-family: sans-serif !important;
 }
 
 /* Regular Final Price in Cart */
@@ -37,6 +38,7 @@ h2 {
   font-weight: 600 !important;
   font-size: 15px !important;
   color: #951515 !important;
+  font-family: sans-serif !important;
 }
 
 /* ========================================================================= */
