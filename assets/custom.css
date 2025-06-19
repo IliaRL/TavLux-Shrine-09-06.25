@@ -218,8 +218,8 @@ quantity-input.quantity.main-quantity .quantity__input {
 
 .sticky-atc__price .price--on-sale .price-item:last-child {
   font-size: 14px !important;
-  color: #951515 !important;
-  font-weight: 600 !important; /* Bolder than compare-at */
+  color: #000000 !important;
+  font-weight: 300 !important; /* Bolder than compare-at */
  /* Edit normal price color */
 }
 
@@ -228,6 +228,13 @@ quantity-input.quantity.main-quantity .quantity__input {
   font-weight: 600 !important;
   font-size: 15px !important;
   color: #951515 !important;
+}
+
+.sticky-atc__price .price-item--regular,
+.product-single__price {
+  font-size: 15px !important;
+  font-weight: 300 !important;
+  color: #000000 !important;
 }
 
 /* --- Button --- */
