@@ -244,9 +244,20 @@ quantity-input.quantity.main-quantity .quantity__input {
   letter-spacing: 0.1rem !important;
 }
 
-
-
-
+/* General Price Styles */
+.price,
+.price-item,
+.price-item--regular,
+.product-single__price {
+  font-size: 15px !important;
+  font-weight: 300 !important; /* Base weight */
+  font-family: sans-serif !important;
+}
+.price .main-comapre-price {
+  color: #951515 !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+}
 
 /* This rule styles product cards */
 
