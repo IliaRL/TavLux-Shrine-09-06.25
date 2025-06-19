@@ -668,6 +668,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      ".title-wrapper--no-top-margin,.title-wrapper--no-top-margin > .title {margin-top: 10;}"
+    ]
   }
 }
