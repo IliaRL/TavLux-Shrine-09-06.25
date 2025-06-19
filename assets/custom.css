@@ -323,11 +323,13 @@ quantity-input.quantity.main-quantity .quantity__input {
                            }
 
 
-/* This rule styles the COMPARE-AT price on a product card */
-.product-card-wrapper .price--on-sale .price-item:first-child {
-  color: #951515 !important;
-  font-weight: 900 !important; /* Edit this for the compare-at price */
-  font-size: 14px !important;
+/* This rule styles product cards */
+
+
+.product-card-wrapper .price--on-sale .price-item:last-child {
+  color: #951515 !important; /* Edit this for the normal/sale price color */
+  font-weight: 900 !important; /* Edit this for the normal/sale price weight */
+  font-size: 14px !important; /* Edit this for the normal/sale price size */
 }
 
 
