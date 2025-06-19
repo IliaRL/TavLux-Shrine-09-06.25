@@ -27,15 +27,16 @@ h2 {
 
 /* Struck-through Old Price in Cart */
 .cart-item__old-price {
-  color: #951515 !important;
-  font-weight: 700 !important;
-  font-size: 15px !important;
+  color: #000000 !important;
+  font-weight: 300 !important;
+  font-size: 14px !important;
 }
 
 /* Regular Final Price in Cart */
 .regular-price {
-  font-weight: 300 !important;
+  font-weight: 600 !important;
   font-size: 15px !important;
+  color: #951515 !important;
 }
 
 /* ========================================================================= */
