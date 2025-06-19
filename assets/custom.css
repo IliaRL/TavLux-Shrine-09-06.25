@@ -319,26 +319,15 @@ quantity-input.quantity.main-quantity .quantity__input {
 }
 .price .main-comapre-price { color: #951515 !important;
   font-weight: 600 !important; 
-  font-size: 14px !important;                          }
+  font-size: 14px !important;
+                           }
 
 
-/* Compare-at Price on Product Cards */
-.product-card-wrapper .price--on-sale .price-item--regular {
-  color: #951515 !important;
-  font-weight: 200 !important;
-}
-
-/* Regular Price on Product Cards */
-.card-information .price:not(.price--on-sale) .price-item--regular,
-.card-information .price--on-sale .price-item--regular:last-child {
-  font-size: 1.4rem !important;
-  font-weight: 200 !important;
-}
 /* This rule styles the COMPARE-AT price on a product card */
 .product-card-wrapper .price--on-sale .price-item:first-child {
   color: #951515 !important;
-  font-weight: 200 !important; /* Edit this for the compare-at price */
-  font-size: 1.4rem !important;
+  font-weight: 900 !important; /* Edit this for the compare-at price */
+  font-size: 14px !important;
 }
 
 
