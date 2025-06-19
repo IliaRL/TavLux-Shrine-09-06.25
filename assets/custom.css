@@ -337,4 +337,9 @@ quantity-input.quantity.main-quantity .quantity__input {
   font-size: 15px !important;
   font-weight: 300 !important;}
 
+.product-card-wrapper .price--on-sale .price-item,
+.price-item--regular {
+  font-weight: 300 !important;
+  font-size: 15px !important;
+}
 
