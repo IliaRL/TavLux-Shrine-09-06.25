@@ -318,4 +318,7 @@ quantity-input.quantity.main-quantity .quantity__input {
 .card-information .loox-rating {
   display: none !important;
 }
+.slideshow__controls {
+  display: none !important;
+}
 
