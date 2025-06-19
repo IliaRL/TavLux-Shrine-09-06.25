@@ -136,6 +136,7 @@ quantity-input.quantity.main-quantity .quantity__input {
 /* Product Page Add to Cart Button */
 .product-form__submit {
   font-size: 1.2rem;
+  font-family: sans-serif !important;
   font-weight: 300 !important;
   letter-spacing: .2rem;
   height: 4rem !important;
