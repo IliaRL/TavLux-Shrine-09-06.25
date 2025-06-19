@@ -270,7 +270,7 @@ quantity-input.quantity.main-quantity .quantity__input {
 
 /* --- Button Container & Size --- */
 .sticky-atc .button {
-  height: 4rem !important;
+  height: 4.5rem !important;
   min-height: auto !important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
