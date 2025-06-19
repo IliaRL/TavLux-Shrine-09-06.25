@@ -128,61 +128,87 @@
         "accessibility_info": ""
       }
     },
-    "image_banner_Acjthj": {
-      "type": "image-banner",
+    "slideshow_67XRKB": {
+      "type": "slideshow",
       "blocks": {
-        "heading_CR8TTd": {
-          "type": "heading",
+        "slide_68ME3G": {
+          "type": "slide",
           "settings": {
-            "title": "Tavlux Confidence Layer",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h1"
+            "image": "shopify://shop_images/Frame_10_1.jpg",
+            "mobile_image": "shopify://shop_images/Frame_10_1.jpg",
+            "image_link": "",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_product": "",
+            "atc_skip_cart": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "transparent_container_color": "white",
+            "text_alignment_mobile": "center",
+            "custom_colors_background": "#FFFFFF",
+            "custom_gradient_background": "",
+            "custom_colors_text": "#2E2A39",
+            "custom_colors_solid_button_background": "#dd1d1d",
+            "custom_colors_solid_button_text": "#ffffff",
+            "custom_colors_outline_button": "#dd1d1d"
           }
         },
-        "text_Rqp4i9": {
-          "type": "text",
+        "slide_JTtwrM": {
+          "type": "slide",
           "settings": {
-            "text": "Feel Fierce, Feel Free",
-            "text_style": "subtitle"
-          }
-        },
-        "buttons_mpCgya": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections/summer-sale",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/Frame_9_1.jpg",
+            "image_link": "",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_product": "",
+            "atc_skip_cart": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "transparent_container_color": "white",
+            "text_alignment_mobile": "center",
+            "custom_colors_background": "#FFFFFF",
+            "custom_gradient_background": "",
+            "custom_colors_text": "#2E2A39",
+            "custom_colors_solid_button_background": "#dd1d1d",
+            "custom_colors_solid_button_text": "#ffffff",
+            "custom_colors_outline_button": "#dd1d1d"
           }
         }
       },
       "block_order": [
-        "heading_CR8TTd",
-        "text_Rqp4i9",
-        "buttons_mpCgya"
+        "slide_68ME3G",
+        "slide_JTtwrM"
       ],
-      "custom_css": [
-        "@media (max-width: 749px) {.banner {position: relative; } .banner__box {position: absolute; top: 90%; left: 50%; transform: translate(-50%, -120%) scale(0.9); max-width: 80%; background: rgba(0, 0, 0, 0.2) !important; padding: 1rem; border-radius: 10px; text-align: center; } .banner__box * {color: #fff !important; } .banner__box .button {opacity: 1 !important; } .banner__box .button:hover {background-color: #fff !important; color: #000 !important; opacity: 1 !important; }}"
-      ],
+      "name": "t:sections.slideshow.presets.name",
       "settings": {
-        "display_id": false,
-        "visibility": "desktop-hidden",
-        "image": "shopify://shop_images/new_home_page_banner_upscayl_2x_ultramix-balanced-4x_1.png",
-        "image_1_visibility": "always-display",
-        "image_2_visibility": "always-display",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "url": "",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "transparent_container_color": "white",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
+        "visibility": "always-display",
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "desktop_pagination_position": "over",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "mobile_pagination_position": "under",
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "logo_list_Dzz7KG": {
@@ -948,7 +974,7 @@
     "pagefly-home",
     "image_banner_3BRegR",
     "slideshow_ct8mjx",
-    "image_banner_Acjthj",
+    "slideshow_67XRKB",
     "logo_list_Dzz7KG",
     "logo_list_whzwjt",
     "featured_collection_J9xP6x",
