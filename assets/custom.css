@@ -23,40 +23,7 @@ h2 {
 /* --- Price Styling --- */
 /* ========================================================================= */
 
-/* General Price Styles */
-.price,
-.price-item,
-.price-item--regular,
-.product-single__price {
-  font-size: 15px !important;
-  font-weight: 400 !important; /* Base weight */
-  font-family: sans-serif !important;
-}
 
-/* Compare-at Price on Product Page */
-.product-form__info-container .price--on-sale .price-item--compare {
-  font-weight: 800 !important;
-  color: #951515 !important;
-}
-
-/* Compare-at Price on Product Cards */
-.product-card-wrapper .price--on-sale .price-item--regular {
-  color: #951515 !important;
-  font-weight: 200 !important;
-}
-
-/* Regular Price on Product Cards */
-.card-information .price:not(.price--on-sale) .price-item--regular,
-.card-information .price--on-sale .price-item--regular:last-child {
-  font-size: 1.4rem !important;
-  font-weight: 200 !important;
-}
-/* This rule styles the COMPARE-AT price on a product card */
-.product-card-wrapper .price--on-sale .price-item:first-child {
-  color: #951515 !important;
-  font-weight: 200 !important; /* Edit this for the compare-at price */
-  font-size: 1.4rem !important;
-}
 
 /* Struck-through Old Price in Cart */
 .cart-item__old-price {
@@ -357,3 +324,63 @@ quantity-input.quantity.main-quantity .quantity__input {
     margin-top: 1rem !important; /* Adds some space between info and button */
   }
 }
+
+/* This styles the main SALE price on the product page. */
+/* It targets the last price item when the product is marked as on-sale. */
+.product-single__price.price--on-sale .price-item:last-child {
+  color: #000000;      /* Edit this for the sale price color */
+  font-weight: 700;     /* Edit this for the sale price weight (e.g., 700 is bold) */
+  font-size: 24px;      /* Edit this for the sale price size */
+}
+
+/* This styles the COMPARE-AT price on the product page (the original, crossed-out price). */
+/* It targets the first price item when the product is on sale. */
+.product-single__price.price--on-sale .price-item:first-child {
+  color: #951515;      /* Edit this for the compare-at price color */
+  font-weight: 400;     /* Edit this for the compare-at price weight (e.g., 400 is normal) */
+  font-size: 18px;      /* Edit this for the compare-at price size */
+  /* Note: The theme usually adds the line-through style automatically. */
+}
+
+/* This styles the REGULAR price on the product page (when the item is NOT on sale). */
+.product-single__price:not(.price--on-sale) .price-item {
+  color: #000000;      /* Edit this for the regular price color */
+  font-weight: 700;     /* Edit this for the regular price weight */
+  font-size: 24px;      /* Edit this for the regular price size */
+}
+
+
+/* --- 2. PRODUCT CARD STYLING (for Collections, Featured Products, etc.) --- */
+
+/* This styles the final SALE price on a product card. */
+/* It targets the last price item in a sale container. */
+.card-information .price--on-sale .price-item:last-child {
+  color: #000000;      /* Edit this for the card's sale price color */
+  font-weight: 700;     /* Edit this for the card's sale price weight */
+  font-size: 16px;      /* Edit this for the card's sale price size */
+}
+
+/* This styles the COMPARE-AT price on a product card (the crossed-out one). */
+/* It targets the first price item in a sale container. */
+.card-information .price--on-sale .price-item:first-child {
+  color: #951515;      /* Edit this for the card's compare-at price color */
+  font-weight: 400;     /* Edit this for the card's compare-at price weight */
+  font-size: 14px;      /* Edit this for the card's compare-at price size */
+}
+
+/* This styles the REGULAR price on a product card (when NOT on sale). */
+/* It targets any price inside a container that is NOT on sale. */
+.card-information .price:not(.price--on-sale) .price-item {
+  color: #000000;      /* Edit this for the card's regular price color */
+  font-weight: 600;     /* Edit this for the card's regular price weight */
+  font-size: 16px;      /* Edit this for the card's regular price size */
+}
+
+
+/* --- 3. Optional Base Font --- */
+/* You can set a default font-family for all prices. This is safer */
+/* than your original rule that used !important. */
+.price, .price .price-item {
+  font-family: sans-serif; /* Change this to your desired font */
+}
+
