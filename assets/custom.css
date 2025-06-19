@@ -20,7 +20,6 @@
     font-weight: 700 !important; /* Edit weight for general headings */
     letter-spacing: 0.05rem !important;
     text-transform: none !important;
-    color: #000000 !important; /* Edit color for general headings */
   }
 }
  h2 {
@@ -28,7 +27,6 @@
     font-weight: 700 !important; /* Edit weight for general headings */
     letter-spacing: 0.05rem !important;
     text-transform: none !important;
-    color: #000000 !important; /* Edit color for general headings */
   }
 
 /* ========================================================================= */
