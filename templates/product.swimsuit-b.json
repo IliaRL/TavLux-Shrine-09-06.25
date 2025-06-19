@@ -645,9 +645,7 @@
         "logo_cwbET9",
         "logo_zmPrX7"
       ],
-      "custom_css": [
-        "h2 {font-size: 1.7rem !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "display_id": false,
         "visibility": "mobile-hidden",
