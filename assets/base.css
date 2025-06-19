@@ -133,21 +133,23 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   }
 }
 /* Make the sticky bar more compact */
-/* Clean sticky add-to-cart - name and price stacked vertically */
+/* Clean sticky add-to-cart - name and price centered together */
 .sticky-atc-container {
   display: flex !important;
   flex-direction: column !important;
   padding: 6px 16px !important;
   gap: 8px !important;
+  align-items: center !important; /* Center everything horizontally */
 }
 
-/* Top section: Product name and price stacked */
+/* Top section: Product name and price stacked and centered */
 .sticky-atc__left {
   display: flex !important;
   flex-direction: column !important;
-  align-items: flex-start !important; /* Left align both elements */
+  align-items: center !important; /* Center both name and price */
   width: 100% !important;
-  gap: 2px !important; /* Small gap between name and price */
+  gap: 2px !important;
+  text-align: center !important; /* Center text within elements */
 }
 
 .sticky-atc__title {
@@ -155,17 +157,17 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   font-weight: 700 !important;
   margin: 0 !important;
   white-space: nowrap !important;
-  width: 100% !important;
+  text-align: center !important;
 }
 
-/* Price section - aligned with product name */
+/* Price section - centered */
 .sticky-atc__price {
   display: flex !important;
   align-items: center !important;
+  justify-content: center !important;
   gap: 6px !important;
   font-size: 0.75rem !important;
   margin: 0 !important;
-  width: 100% !important;
 }
 
 /* Make price elements more compact */
@@ -184,7 +186,7 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   margin-left: 4px !important;
 }
 
-/* Bottom row: Button centered and compact */
+/* Bottom row: Button centered */
 .sticky-atc__button {
   width: 100% !important;
   text-align: center !important;
