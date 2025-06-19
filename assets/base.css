@@ -133,39 +133,12 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   }
 }
 /* Make the sticky bar more compact */
-.sticky-atc {
-  padding: 8px 0 !important;
-}
-
-.sticky-atc-container {
-  padding: 6px 16px !important;
-}
-
-.sticky-atc__left__content {
-  gap: 4px !important;
-}
-
-.sticky-atc__title {
-  white-space: nowrap;
-  font-size: 0.9rem;
-  line-height: 1.1;
-  font-weight: 600;
-  margin: 0 !important;
-}
 /* Clean sticky add-to-cart - name and price on top, button below */
 .sticky-atc-container {
   display: flex !important;
   flex-direction: column !important;
   padding: 8px 16px !important;
-  gap: 8px !important;
-}
-
-/* Clean sticky add-to-cart - name and price on top, button below */
-.sticky-atc-container {
-  display: flex !important;
-  flex-direction: column !important;
-  padding: 8px 16px !important;
-  gap: 8px !important;
+  gap: 12px !important; /* Adjustable space between rows */
 }
 
 /* Top row: Product name and price together */
