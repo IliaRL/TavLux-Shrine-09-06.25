@@ -138,7 +138,7 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   display: flex !important;
   flex-direction: column !important;
   padding: 8px 16px !important;
-  gap: 12px !important; /* Adjustable space between rows */
+  gap: 14px !important; /* Adjustable space between rows */
 }
 
 /* Top row: Product name and price together */
