@@ -202,10 +202,10 @@
         "visibility": "desktop-hidden",
         "layout": "full_bleed",
         "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "desktop_pagination_position": "over",
+        "slider_visual": "counter",
+        "desktop_pagination_position": "under",
         "auto_rotate": true,
-        "change_slides_speed": 5,
+        "change_slides_speed": 3,
         "show_text_below": true,
         "mobile_pagination_position": "under",
         "accessibility_info": "Slideshow about our brand"
