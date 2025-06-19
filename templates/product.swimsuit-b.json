@@ -645,10 +645,13 @@
         "logo_cwbET9",
         "logo_zmPrX7"
       ],
+      "custom_css": [
+        "h2 {font-size: 1.7rem !important;}"
+      ],
       "settings": {
         "display_id": false,
         "visibility": "mobile-hidden",
-        "title": "",
+        "title": "As Seen In",
         "title_highlight_color": "#6d388b",
         "heading_size": "h2",
         "gray_logos": false,
