@@ -153,63 +153,49 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   margin: 0 !important;
 }
 /* Add this to your base.css file */
-/* Clean two-row sticky add-to-cart */
+/* Simple two-row sticky add-to-cart fix */
 .sticky-atc-container {
-  display: grid !important;
-  grid-template-rows: auto auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 8px 16px !important;
   gap: 6px !important;
-  padding: 6px 16px !important;
-  align-items: center !important;
 }
 
 .sticky-atc__title {
-  grid-row: 1 !important;
+  order: 1 !important;
   text-align: center !important;
   font-size: 0.95rem !important;
-  font-weight: 600 !important;
   margin: 0 !important;
   padding: 4px 0 !important;
   white-space: nowrap !important;
 }
 
 .sticky-atc__left {
-  grid-row: 2 !important;
-  width: 100% !important;
-}
-
-.sticky-atc__left__content {
+  order: 2 !important;
   display: flex !important;
   align-items: center !important;
-  justify-content: space-between !important;
+  justify-content: flex-start !important;
   gap: 12px !important;
 }
 
+.sticky-atc__button {
+  order: 3 !important;
+  margin-left: auto !important;
+}
+
+/* Keep everything in one row except title */
+.sticky-atc__left__content {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  flex: 1 !important;
+}
+
 .rating-stars-and-text {
-  font-size: 0.75rem !important;
+  font-size: 0.8rem !important;
   flex-shrink: 0 !important;
 }
 
 .sticky-atc__price {
   flex-shrink: 0 !important;
-}
-
-.sticky-atc__button {
-  grid-row: 2 !important;
-  grid-column: 2 !important;
-  margin-left: auto !important;
-}
-
-/* Mobile adjustments */
-@media screen and (max-width: 749px) {
-  .sticky-atc-container {
-    padding: 4px 12px !important;
-  }
-  
-  .sticky-atc__title {
-    font-size: 0.85rem !important;
-  }
-  
-  .rating-stars-and-text {
-    font-size: 0.7rem !important;
-  }
 }
