@@ -1,0 +1,433 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "image_banner_fUrJ7F": {
+      "type": "image-banner",
+      "blocks": {
+        "text_YY7DRU": {
+          "type": "text",
+          "settings": {
+            "text": "Take back your confidence with our Buy 1 Get 1 Free",
+            "text_style": "subtitle"
+          }
+        },
+        "heading_78j4LH": {
+          "type": "heading",
+          "settings": {
+            "title": "Summer Sale!",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h0"
+          }
+        },
+        "buttons_6gabLP": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Sale",
+            "button_link_1": "shopify://collections/summer-sale",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_YY7DRU",
+        "heading_78j4LH",
+        "buttons_6gabLP"
+      ],
+      "custom_css": [
+        "@media (min-width: 750px) {.banner {position: relative; } .banner__box {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 85%; background: rgba(0, 0, 0, 0.4) !important; padding: 1rem; border-radius: 10px; text-align: center; } .banner__box * {color: #fff !important; } .banner__box .button {opacity: 1 !important; } .banner__box .button:hover {background-color: #fff !important; color: #000 !important; opacity: 1 !important; }}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "mobile-hidden",
+        "image": "shopify://shop_images/all_products_sales_image_upscayl_2x_ultramix-balanced-4x.webp",
+        "image_1_visibility": "always-display",
+        "image_2_visibility": "always-display",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "url": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_banner_HEPYTr": {
+      "type": "image-banner",
+      "blocks": {
+        "text_yYfY4J": {
+          "type": "text",
+          "settings": {
+            "text": "Take back your confidence with our Buy 1 Get 1 Free",
+            "text_style": "subtitle"
+          }
+        },
+        "heading_FGKaAE": {
+          "type": "heading",
+          "settings": {
+            "title": "Summer Sale!",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h0"
+          }
+        },
+        "buttons_fAyxxG": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Sale",
+            "button_link_1": "shopify://collections/summer-sale",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_yYfY4J",
+        "heading_FGKaAE",
+        "buttons_fAyxxG"
+      ],
+      "custom_css": [
+        "@media (max-width: 749px) {.banner {position: relative; } .banner__box {position: absolute; top: 100%; left: 50%; transform: translate(-50%, -120%) scale(0.9); max-width: 90%; background: rgba(0, 0, 0, 0.3) !important; padding: 1rem; border-radius: 10px; text-align: center; } .banner__box * {color: #fff !important; } .banner__box .button {opacity: 1 !important; } .banner__box .button:hover {background-color: #fff !important; color: #000 !important; opacity: 1 !important; }}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "desktop-hidden",
+        "image": "shopify://shop_images/all_products_sales_image_upscayl_2x_ultramix-balanced-4x.webp",
+        "image_1_visibility": "always-display",
+        "image_2_visibility": "always-display",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "url": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "logo_list_DJiFVA": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_feUmR9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vogue_mini.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_7hNpjN": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/2560px-Self_magazine_logo_svg.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_8jeHWQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/new_elle_logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_ePdWrz": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/in-style-logo_c5df8a7f-4957-4d6b.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_Cq4yFx": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/mashable.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_FTDe4m": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Glamour_New.png",
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_feUmR9",
+        "logo_7hNpjN",
+        "logo_8jeHWQ",
+        "logo_ePdWrz",
+        "logo_Cq4yFx",
+        "logo_FTDe4m"
+      ],
+      "custom_css": [
+        "h2 {font-size: 20px;}"
+      ],
+      "name": "Featured on",
+      "settings": {
+        "display_id": false,
+        "visibility": "desktop-hidden",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "gray_logos": false,
+        "color_scheme": "background-2",
+        "layout": "horizontal",
+        "desktop_logo_height": 40,
+        "columns_mobile": 2,
+        "mobile_logo_height": 40,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_dots": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "logo_list_iU9LQq": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_tNJkBw": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vogue_mini.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_ch6Xmj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/2560px-Self_magazine_logo_svg.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_bGHLfR": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/new_elle_logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_xA6DaL": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/in-style-logo_c5df8a7f-4957-4d6b.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_XKaiyz": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/mashable.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_GQ8hKX": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Glamour_New.png",
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_tNJkBw",
+        "logo_ch6Xmj",
+        "logo_bGHLfR",
+        "logo_xA6DaL",
+        "logo_XKaiyz",
+        "logo_GQ8hKX"
+      ],
+      "custom_css": [
+        "h2 {font-size: 20px;}"
+      ],
+      "name": "Featured on",
+      "settings": {
+        "display_id": false,
+        "visibility": "mobile-hidden",
+        "title": "As seen in",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "gray_logos": false,
+        "color_scheme": "background-1",
+        "layout": "horizontal",
+        "desktop_logo_height": 40,
+        "columns_mobile": 2,
+        "mobile_logo_height": 30,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_dots": false,
+        "padding_top": 0,
+        "padding_bottom": 8,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "rich_text_xRaaKW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gEgkmB": {
+          "type": "heading",
+          "settings": {
+            "title": "All Products",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gEgkmB"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "mobile_narrow_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "main-collection-product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "stretch_cards": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "badges": "custom",
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "swatches_option_name": "Color",
+        "swatches_position": "top",
+        "swatches_desktop_size": 20,
+        "swatches_mobile_size": 18,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "page_RmEdhe": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "about-us",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "button_type": "solid",
+        "button_label": "Sign up",
+        "button_style_secondary": false,
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    },
+    "section_divider_gax8ca": {
+      "type": "section-divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_2",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "accent-2",
+        "custom_shape_color": "#dd1d1d",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "image_banner_fUrJ7F",
+    "image_banner_HEPYTr",
+    "logo_list_DJiFVA",
+    "logo_list_iU9LQq",
+    "rich_text_xRaaKW",
+    "main-collection-product-grid",
+    "page_RmEdhe",
+    "newsletter",
+    "section_divider_gax8ca"
+  ]
+}
