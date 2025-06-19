@@ -4,6 +4,9 @@
 
 /* Main Product Title on Product Page */
 
+.product__title>* { 
+  font-size: 1.7rem;
+}
 /* Product Titles on Cards */
 .card-wrapper .card__heading {
   font-size: 1.4rem !important;
