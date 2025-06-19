@@ -223,6 +223,13 @@ quantity-input.quantity.main-quantity .quantity__input {
  /* Edit normal price color */
 }
 
+.sticky-atc__price .price--on-sale .price-item,
+.price-item--regular {
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  color: #951515 !important;
+}
+
 /* --- Button --- */
 .sticky-atc .button {
   /* Outline Styles */
