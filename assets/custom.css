@@ -255,8 +255,9 @@ quantity-input.quantity.main-quantity .quantity__input {
 .price-item--regular,
 .product-single__price {
   font-size: 15px !important;
-  font-weight: 700 !important; /* Base weight */
+  font-weight: 300 !important; /* Base weight */
   font-family: sans-serif !important;
+  color: #ffffff !important;
   
 }
 .price .main-comapre-price {
