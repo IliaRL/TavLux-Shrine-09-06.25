@@ -30,14 +30,14 @@
                           }
 @media (min-width: 749px) { h2 {
     font-size: 2rem !important; /* Edit size for general headings */
-    font-weight: 700 !important; /* Edit weight for general headings */
+    font-weight: 500 !important; /* Edit weight for general headings */
     letter-spacing: 0.05rem !important;
     text-transform: none !important;
   }}
 @media (min-width: 749px) { .product-count__text { 
   font-size: 1.4rem !important;
-  font-weight: 500 !important;
-}
+  font-weight: 300 !important;
+}}
 /* ========================================================================= */
 /* --- Price Styling --- */
 /* ========================================================================= */
