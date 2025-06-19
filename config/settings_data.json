@@ -28,6 +28,7 @@
     "colors_background_2": "#fefcf5",
     "gradient_background_2": "",
     "type_header_font": "montserrat_n4",
+    "custom_header_font_link": "",
     "custom_header_font_weight": 500,
     "heading_scale": 110,
     "heading_line_height": 1.5,
