@@ -22,12 +22,6 @@
     text-transform: none !important;
   }
 }
- h2 {
-    font-size: 2rem !important; /* Edit size for general headings */
-    font-weight: 700 !important; /* Edit weight for general headings */
-    letter-spacing: 0.05rem !important;
-    text-transform: none !important;
-  }
 
 /* ========================================================================= */
 /* --- Price Styling --- */
