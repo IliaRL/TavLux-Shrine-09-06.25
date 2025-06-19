@@ -135,7 +135,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Frame_10_1.jpg",
-            "mobile_image": "shopify://shop_images/Frame_10_1.jpg",
+            "mobile_image": "shopify://shop_images/Frame_18.jpg",
             "image_link": "shopify://collections/summer-sale",
             "image_overlay_opacity": 0,
             "heading": "",
@@ -165,7 +165,7 @@
         "slide_JTtwrM": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Frame_9_1.jpg",
+            "image": "shopify://shop_images/Frame_17.jpg",
             "image_link": "shopify://collections/summer-sale",
             "image_overlay_opacity": 0,
             "heading": "",
