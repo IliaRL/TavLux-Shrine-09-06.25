@@ -242,11 +242,11 @@ quantity-input.quantity.main-quantity .quantity__input {
 
 /* Sticky Add To Cart */
 
-.sticky-atc__title {
+@media (max-width: 749px) {.sticky-atc__title {
   font-size: 1.2rem !important; /* Edit title size */
   font-weight: 500 !important; /* Edit title weight */
   color: #000000 !important; /* Edit title color */
-}
+}}
 
 .sticky-atc__price .price--on-sale .price-item:last-child {
   font-size: 14px !important;
