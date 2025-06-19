@@ -364,16 +364,16 @@ quantity-input.quantity.main-quantity .quantity__input {
 /* It targets the first price item in a sale container. */
 .card-information .price--on-sale .price-item:first-child {
   color: #951515;      /* Edit this for the card's compare-at price color */
-  font-weight: 300;     /* Edit this for the card's compare-at price weight */
-  font-size: 14px;      /* Edit this for the card's compare-at price size */
+  font-weight: 600;     /* Edit this for the card's compare-at price weight */
+  font-size: 15px;      /* Edit this for the card's compare-at price size */
 }
 
 /* This styles the REGULAR price on a product card (when NOT on sale). */
 /* It targets any price inside a container that is NOT on sale. */
 .card-information .price:not(.price--on-sale) .price-item {
   color: #000000;      /* Edit this for the card's regular price color */
-  font-weight: 300;     /* Edit this for the card's regular price weight */
-  font-size: 16px;      /* Edit this for the card's regular price size */
+  font-weight: 200;     /* Edit this for the card's regular price weight */
+  font-size: 14px;      /* Edit this for the card's regular price size */
 }
 
 

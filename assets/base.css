@@ -133,23 +133,15 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   }
 }
 /* Add this to your base.css file */
-.sticky-atc__left__content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: nowrap;
-}
-
 .sticky-atc__title {
   white-space: nowrap;
-  font-size: 0.9rem;
-  margin: 0;
-  flex-shrink: 1;
-  min-width: 0;
+  font-size: 0.85rem;
+  line-height: 1.1;
+  font-weight: 600;
 }
 
-.rating-stars-and-text {
-  flex-shrink: 0;
-  font-size: 0.75rem !important;
+@media screen and (max-width: 749px) {
+  .sticky-atc__title {
+    font-size: 0.8rem;
+  }
 }
