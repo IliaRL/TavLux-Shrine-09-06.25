@@ -20,39 +20,6 @@
     },
     "image_banner_fUrJ7F": {
       "type": "image-banner",
-      "blocks": {
-        "text_YY7DRU": {
-          "type": "text",
-          "settings": {
-            "text": "Take back your confidence with our Buy 1 Get 1 Free",
-            "text_style": "subtitle"
-          }
-        },
-        "heading_78j4LH": {
-          "type": "heading",
-          "settings": {
-            "title": "Summer Sale!",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h0"
-          }
-        },
-        "buttons_6gabLP": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop All",
-            "button_link_1": "shopify://collections/summer-sale",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "text_YY7DRU",
-        "heading_78j4LH",
-        "buttons_6gabLP"
-      ],
       "custom_css": [
         "@media (min-width: 750px) {.banner {position: relative; } .banner__box {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 85%; background: rgba(0, 0, 0, 0.4) !important; padding: 1rem; border-radius: 10px; text-align: center; } .banner__box * {color: #fff !important; } .banner__box .button {opacity: 1 !important; } .banner__box .button:hover {background-color: #fff !important; color: #000 !important; opacity: 1 !important; }}"
       ],
@@ -60,12 +27,12 @@
       "settings": {
         "display_id": false,
         "visibility": "mobile-hidden",
-        "image": "shopify://shop_images/shapewear_page_img_upscayl_2x_ultramix-balanced-4x.webp",
+        "image": "shopify://shop_images/Frame_14_1.jpg",
         "image_1_visibility": "always-display",
         "image_2_visibility": "always-display",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
-        "url": "",
+        "url": "shopify://collections/summer-sale",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
