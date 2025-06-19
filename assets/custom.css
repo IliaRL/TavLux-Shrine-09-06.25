@@ -3,14 +3,6 @@
 /* ========================================================================= */
 
 /* Main Product Title on Product Page */
-.product__title,
-.h2,
-h2 {
-  font-size: 1.7rem !important; /* This was controlled by .h2, h2 */
-  font-weight: 600 !important;
-  letter-spacing: 0.05rem !important;
-  text-transform: none !important;
-}
 
 /* Product Titles on Cards */
 .card-wrapper .card__heading {
