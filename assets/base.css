@@ -28,198 +28,26 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   width: 120px !important; /* Mobile size */
 }
 
-/* ========================================================================= */
-/* PART 1: Your original CSS for perfect swatch appearance (No changes)      */
-/* ========================================================================= */
-.product-card-wrapper .color-swatch,
-.collection-card-wrapper .color-swatch,
-.product-card-wrapper .color-swatch__image,
-.collection-card-wrapper .color-swatch__image {
+/* Part 3: Adjust size for desktop */
+@media screen and (min-width: 769px) {
+  .product-media__trust-badge 
+    width: 180px !important; /* Desktop size */
+  }
+
+/* --- END: Custom code --- */
+.card-wrapper .color-swatch,
+.card-wrapper .color-swatch__image,
+.card-wrapper .color-swatch__image img,
+.card-wrapper .color-swatch__custom-color {
   border-radius: 50% !important;
 }
 
-.product-card-wrapper .color-swatch,
-.collection-card-wrapper .color-swatch,
-.product-card-wrapper .color-swatch *,
-.collection-card-wrapper .color-swatch * {
-  border: none !important;
+.card-wrapper .color-swatch__image {
   box-shadow: none !important;
-  outline: none !important;
-  border-radius: 50% !important;
+  border: 1.5px solid transparent !important;
 }
 
-.product-card-wrapper .color-swatch__image,
-.collection-card-wrapper .color-swatch__image {
-  border: 1px solid transparent !important;
-  border-radius: 50% !important;
-}
-
-.product-card-wrapper .color-swatch input:checked + .color-swatch__image,
-.collection-card-wrapper .color-swatch input:checked + .color-swatch__image {
-  box-shadow:
-    0 0 0 2px rgb(var(--color-background)),
-    0 0 0 3px rgba(var(--color-foreground), 0.85)
-    !important;
-}
-
-/* ========================================================================= */
-/* PART 2: New logic for layout and the '+N' indicator (with sizing fix)   */
-/* ========================================================================= */
-
-/* This wrapper aligns the swatches and the '+N' text in a row */
-.card-swatch-wrapper {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  /* Uses your theme's alignment setting for text */
-  justify-content: var(--text-alignment, left);
-  gap: 8px; /* Adjusts space between last swatch and '+N' text */
-  margin-top: 0.5rem; /* Adds a little space above the swatches */
-}
-
-/* This styles the '+N' text to be plain, without a circle or underline */
-.color-swatch-plus-more {
-  background: none !important;
-  border: none !important;
+.card-wrapper .color-swatch input:checked + .color-swatch__image {
+  border-color: rgba(var(--color-foreground), 0.85) !important;
   box-shadow: none !important;
-  text-decoration: none !important;
-  color: inherit !important;
-  font-size: 1.2rem; /* Adjusted size */
-  font-weight: 400;
-  line-height: 1;
-  padding: 0;
-  margin: 0;
-  flex-shrink: 0; /* Prevents the '+N' from shrinking */
-}
-
-/* This keeps the swatches themselves grouped together */
-.card__swatches-container {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  gap: 6px; /* Adds a small space between each swatch */
-}
-
-/* --- SIZING FIX --- */
-/* This is the new rule to force the swatches to be smaller */
-.card__swatches-container .color-swatch,
-.card__swatches-container .color-swatch__image {
-  width: 22px !important; /* You can adjust this value */
-  height: 22px !important; /* You can adjust this value */
-}
-
-
-/* By default, hide both '+N' indicators */
-.plus-more-desktop { display: none !important; }
-.plus-more-mobile { display: none !important; }
-
-/* --- Logic for Mobile (<= 749px) --- */
-@media screen and (max-width: 749px) {
-  .card__swatches-container .color-swatch:nth-child(n + 5) {
-    display: none !important;
-  }
-  .plus-more-mobile {
-    display: inline !important;
-  }
-}
-
-/* --- Logic for Desktop (>= 750px) --- */
-@media screen and (min-width: 750px) {
-  .card__swatches-container .color-swatch:nth-child(n + 5) {
-    display: none !important;
-  }
-  .plus-more-desktop {
-    display: inline !important;
-  }
-}
-/* Make the sticky bar more compact */
-/* Mobile-only sticky add-to-cart styles */
-@media only screen and (max-width: 767px) {
-  /* Clean sticky add-to-cart - name and price centered together */
-  .sticky-atc-container {
-    display: flex !important;
-    flex-direction: column !important;
-    padding: 6px 16px !important;
-    gap: 8px !important;
-    align-items: center !important;
-  }
-
-  /* Top section: Product name and price stacked and centered */
-  .sticky-atc__left {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    width: 100% !important;
-    gap: 2px !important;
-    text-align: center !important;
-  }
-
-  .sticky-atc__title {
-    font-size: 1.1rem !important;
-    font-weight: 700 !important;
-    margin: 0 !important;
-    white-space: nowrap !important;
-    text-align: center !important;
-  }
-
-  /* Price section - centered */
-  .sticky-atc__price {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    gap: 6px !important;
-    font-size: 0.75rem !important;
-    margin: 0 !important;
-  }
-
-  /* Make price elements more compact */
-  .sticky-atc__price .price__container {
-    display: flex !important;
-    align-items: center !important;
-    gap: 4px !important;
-    line-height: 1 !important;
-  }
-
-  /* Discount badge - smaller and inline */
-  .sticky-atc__price .badge {
-    font-size: 0.6rem !important;
-    padding: 2px 4px !important;
-    line-height: 1 !important;
-    margin-left: 4px !important;
-  }
-
-  /* Bottom row: Button centered */
-  .sticky-atc__button {
-    width: 100% !important;
-    text-align: center !important;
-  }
-
-  .sticky-atc__button button {
-    width: 100% !important;
-    padding: 8px !important;
-    font-size: 0.9rem !important;
-    line-height: 1.2 !important;
-  }
-
-  /* Hide reviews */
-  .rating-stars-and-text {
-    display: none !important;
-  }
-}
-/* Outline-only button for mobile sticky add-to-cart */
-@media only screen and (max-width: 767px) {
-  .sticky-atc__button button {
-    background-color: transparent !important;
-    border: 0.5px solid #333 !important;
-    color: #333 !important; /* Keep text dark and readable */
-    padding: 8px !important;
-    font-size: 0.9rem !important;
-    line-height: 1.2 !important;
-    width: 100% !important;
-  }
-  
-  .sticky-atc__button button:hover {
-    background-color: #333 !important;
-    color: white !important;
-  }
 }

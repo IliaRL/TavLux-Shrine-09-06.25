@@ -274,6 +274,7 @@ quantity-input.quantity.main-quantity .quantity__input {
   white-space: nowrap !important;
   overflow: hidden !important;
   text-overflow: ellipsis !important;
+  bottom-margin: 5px;
 }
 
 /* --- Prices --- */
