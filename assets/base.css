@@ -153,75 +153,63 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   margin: 0 !important;
 }
 /* Add this to your base.css file */
+/* Clean two-row sticky add-to-cart */
 .sticky-atc-container {
-  display: flex;
-  flex-direction: column !important;
-  gap: 8px;
-  padding: 8px 16px !important;
-}
-
-.sticky-atc__left {
-  width: 100%;
-  order: 1;
+  display: grid !important;
+  grid-template-rows: auto auto !important;
+  gap: 6px !important;
+  padding: 6px 16px !important;
+  align-items: center !important;
 }
 
 .sticky-atc__title {
-  text-align: center;
-  font-size: 1rem;
-  font-weight: 600;
+  grid-row: 1 !important;
+  text-align: center !important;
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
   margin: 0 !important;
-  padding: 6px 0;
-  border-bottom: 1px solid #e0e0e0;
+  padding: 4px 0 !important;
+  white-space: nowrap !important;
+}
+
+.sticky-atc__left {
+  grid-row: 2 !important;
+  width: 100% !important;
 }
 
 .sticky-atc__left__content {
-  display: flex;
-  flex-direction: column;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 12px !important;
 }
 
-/* Create bottom row */
-.sticky-atc__left__content > *:not(.sticky-atc__title) {
-  order: 3;
+.rating-stars-and-text {
+  font-size: 0.75rem !important;
+  flex-shrink: 0 !important;
 }
 
-.rating-stars-and-text,
 .sticky-atc__price {
-  display: inline-block;
+  flex-shrink: 0 !important;
 }
 
 .sticky-atc__button {
-  order: 2;
-  margin-top: 8px;
+  grid-row: 2 !important;
+  grid-column: 2 !important;
+  margin-left: auto !important;
 }
 
-/* Bottom row layout */
-@media screen and (min-width: 750px) {
-  .sticky-atc__left__content {
-    display: grid;
-    grid-template-columns: 1fr auto auto;
-    grid-template-rows: auto auto;
-    gap: 8px;
-    align-items: center;
+/* Mobile adjustments */
+@media screen and (max-width: 749px) {
+  .sticky-atc-container {
+    padding: 4px 12px !important;
   }
   
   .sticky-atc__title {
-    grid-column: 1 / -1;
-    grid-row: 1;
+    font-size: 0.85rem !important;
   }
   
   .rating-stars-and-text {
-    grid-column: 1;
-    grid-row: 2;
-  }
-  
-  .sticky-atc__price {
-    grid-column: 2;
-    grid-row: 2;
-  }
-  
-  .sticky-atc__button {
-    grid-column: 3;
-    grid-row: 2;
-    margin-top: 0;
+    font-size: 0.7rem !important;
   }
 }
