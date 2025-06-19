@@ -250,6 +250,10 @@ quantity-input.quantity.main-quantity .quantity__input {
   letter-spacing: 0.1rem !important;
 }
 
+.rating-stars-and-text {
+  display: none !important;
+}
+
 /* General Price Styles */
 .price,
 .price-item,
