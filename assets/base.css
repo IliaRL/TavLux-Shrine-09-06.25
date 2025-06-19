@@ -133,22 +133,11 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   }
 }
 /* Add this to your base.css file */
-.sticky-atc-container {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  gap: 1rem;
-  padding: 8px 16px;
-}
-
-.sticky-atc__left {
-  min-width: 0;
-}
-
 .sticky-atc__left__content {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  gap: 0.8rem;
+  gap: 1rem;
   flex-wrap: nowrap;
 }
 
@@ -156,16 +145,11 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   white-space: nowrap;
   font-size: 0.9rem;
   margin: 0;
-  font-weight: 600;
+  flex-shrink: 1;
+  min-width: 0;
 }
 
 .rating-stars-and-text {
-  white-space: nowrap;
-  font-size: 0.7rem !important;
   flex-shrink: 0;
-}
-
-.sticky-atc__price {
-  order: 3;
-  margin-left: auto;
+  font-size: 0.75rem !important;
 }
