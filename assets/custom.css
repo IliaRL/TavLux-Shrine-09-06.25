@@ -222,12 +222,6 @@ quantity-input.quantity.main-quantity .quantity__input {
   color: rgb(var(--color-foreground)) !important;
 }
 
-.sticky-atc .price--on-sale .price__regular .price-item {
-  font-size: 15px !important;
-  font-weight: 300 !important;
-  color: #951515 !important;
-}
-
 .sticky-atc__price .price--on-sale .price-item:last-child {
   font-size: 14px !important;
   color: #951515 !important;
