@@ -132,16 +132,63 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
     display: inline !important;
   }
 }
-/* Add this to your base.css file */
+/* Make the sticky bar more compact */
+.sticky-atc {
+  padding: 8px 0 !important;
+}
+
+.sticky-atc-container {
+  padding: 6px 16px !important;
+}
+
+.sticky-atc__left__content {
+  gap: 4px !important;
+}
+
 .sticky-atc__title {
   white-space: nowrap;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   line-height: 1.1;
   font-weight: 600;
+  margin: 0 !important;
+}
+
+/* Make rating stars smaller and more compact */
+.rating-stars-and-text {
+  font-size: 0.75rem !important;
+  line-height: 1 !important;
+}
+
+.rating-stars__container svg {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+/* Reduce price section spacing */
+.sticky-atc__price {
+  line-height: 1.1 !important;
+}
+
+.price__container {
+  gap: 4px !important;
+}
+
+/* Make button more compact */
+.sticky-atc__button button {
+  padding: 8px 16px !important;
+  font-size: 0.9rem !important;
 }
 
 @media screen and (max-width: 749px) {
+  .sticky-atc {
+    padding: 6px 0 !important;
+  }
+  
   .sticky-atc__title {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
+  }
+  
+  .rating-stars-and-text {
+    font-size: 0.7rem !important;
   }
 }
