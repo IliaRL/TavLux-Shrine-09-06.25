@@ -284,7 +284,7 @@ quantity-input.quantity.main-quantity .quantity__input {
   font-weight: 300 !important;
   letter-spacing: 0.1rem !important;
 }
-@media (max-width: 749px) { .sticky-atc .button {   margin-top: 4rem !important;}}
+
 
 .sticky-atc {
   display: flex !important;
@@ -350,9 +350,4 @@ quantity-input.quantity.main-quantity .quantity__input {
 }
 
 /* --- Mobile-specific Button Margin --- */
-@media (max-width: 749px) {
-  .sticky-atc .button {
-    margin-top: 4rem !important;
-  }
-}
 
