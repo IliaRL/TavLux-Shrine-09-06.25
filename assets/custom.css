@@ -377,10 +377,16 @@ quantity-input.quantity.main-quantity .quantity__input {
   display: none !important;
 }
 
+/* Featured On */
+
 @media (max-width: 749px) {
   .logo-list-container-horizontal {
     padding-top: 0.05rem !important; /* Adjust this value for top spacing */
     padding-bottom: 0.05rem !important; /* Adjust this value for bottom spacing */
   }
 }
+
+.logo-list-container-horizontal h2 {
+    font-size: 1.7rem !important;
+  }
 
