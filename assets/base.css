@@ -153,49 +153,61 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   margin: 0 !important;
 }
 /* Add this to your base.css file */
-/* Simple two-row sticky add-to-cart fix */
+/* Clean sticky add-to-cart - exactly like your diagram */
 .sticky-atc-container {
   display: flex !important;
   flex-direction: column !important;
   padding: 8px 16px !important;
-  gap: 6px !important;
+  gap: 8px !important;
 }
 
+/* Row 1: Product name at top */
 .sticky-atc__title {
-  order: 1 !important;
   text-align: center !important;
-  font-size: 0.95rem !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
   margin: 0 !important;
-  padding: 4px 0 !important;
+  padding: 6px 0 !important;
   white-space: nowrap !important;
+  border-bottom: 1px solid rgba(0,0,0,0.1) !important;
 }
 
+/* Row 2: Everything else in a horizontal line */
 .sticky-atc__left {
-  order: 2 !important;
   display: flex !important;
   align-items: center !important;
-  justify-content: flex-start !important;
-  gap: 12px !important;
+  justify-content: space-between !important;
+  width: 100% !important;
 }
 
-.sticky-atc__button {
-  order: 3 !important;
-  margin-left: auto !important;
-}
-
-/* Keep everything in one row except title */
 .sticky-atc__left__content {
   display: flex !important;
   align-items: center !important;
-  gap: 12px !important;
+  gap: 16px !important;
   flex: 1 !important;
 }
 
+/* Make sure reviews and price are visible */
 .rating-stars-and-text {
   font-size: 0.8rem !important;
+  display: flex !important;
+  align-items: center !important;
   flex-shrink: 0 !important;
 }
 
 .sticky-atc__price {
+  display: flex !important;
+  align-items: center !important;
   flex-shrink: 0 !important;
+}
+
+/* Button positioning */
+.sticky-atc__button {
+  flex-shrink: 0 !important;
+  margin-left: 16px !important;
+}
+
+.sticky-atc__button button {
+  padding: 8px 16px !important;
+  font-size: 0.9rem !important;
 }
