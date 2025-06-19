@@ -23,51 +23,18 @@
     },
     "image_banner_3BRegR": {
       "type": "image-banner",
-      "blocks": {
-        "heading_qPGm8d": {
-          "type": "heading",
-          "settings": {
-            "title": "Tavlux Confidence Layers",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h0"
-          }
-        },
-        "text_TL8gxE": {
-          "type": "text",
-          "settings": {
-            "text": "Feel Fierce, Feel Free",
-            "text_style": "subtitle"
-          }
-        },
-        "buttons_3JwztC": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections/summer-sale",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_qPGm8d",
-        "text_TL8gxE",
-        "buttons_3JwztC"
-      ],
       "custom_css": [
         "@media (min-width: 750px) {.banner {position: relative; } .banner__box {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 85%; background: rgba(0, 0, 0, 0.2) !important; padding: 1rem; border-radius: 10px; text-align: center; } .banner__box * {color: #fff !important; } .banner__box .button {opacity: 1 !important; } .banner__box .button:hover {background-color: #fff !important; color: #000 !important; opacity: 1 !important; }}"
       ],
       "settings": {
         "display_id": false,
         "visibility": "mobile-hidden",
-        "image": "shopify://shop_images/new_home_page_banner_upscayl_2x_ultramix-balanced-4x.webp",
+        "image": "shopify://shop_images/Frame_9_1.jpg",
         "image_1_visibility": "always-display",
         "image_2_visibility": "always-display",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
-        "url": "",
+        "url": "shopify://collections/summer-sale",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
