@@ -133,20 +133,21 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   }
 }
 /* Make the sticky bar more compact */
-/* Compact sticky add-to-cart - name and price on top, button below */
+/* Clean sticky add-to-cart - name and price stacked vertically */
 .sticky-atc-container {
   display: flex !important;
   flex-direction: column !important;
-  padding: 6px 16px !important; /* Reduced padding for less space */
+  padding: 6px 16px !important;
   gap: 8px !important;
 }
 
-/* Top row: Product name and price together */
+/* Top section: Product name and price stacked */
 .sticky-atc__left {
   display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
+  flex-direction: column !important;
+  align-items: flex-start !important; /* Left align both elements */
   width: 100% !important;
+  gap: 2px !important; /* Small gap between name and price */
 }
 
 .sticky-atc__title {
@@ -154,19 +155,17 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   font-weight: 700 !important;
   margin: 0 !important;
   white-space: nowrap !important;
-  text-align: left !important;
-  flex: 1 !important;
+  width: 100% !important;
 }
 
-/* Price section - better alignment */
+/* Price section - aligned with product name */
 .sticky-atc__price {
   display: flex !important;
   align-items: center !important;
-  justify-content: center !important;
   gap: 6px !important;
   font-size: 0.75rem !important;
-  flex-shrink: 0 !important;
-  margin-left: 12px !important;
+  margin: 0 !important;
+  width: 100% !important;
 }
 
 /* Make price elements more compact */
@@ -177,13 +176,7 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   line-height: 1 !important;
 }
 
-.sticky-atc__price .price__sale,
-.sticky-atc__price .price__regular {
-  margin: 0 !important;
-  line-height: 1 !important;
-}
-
-/* Discount badge - smaller and better positioned */
+/* Discount badge - smaller and inline */
 .sticky-atc__price .badge {
   font-size: 0.6rem !important;
   padding: 2px 4px !important;
@@ -199,31 +192,12 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 
 .sticky-atc__button button {
   width: 100% !important;
-  padding: 8px !important; /* Reduced button padding */
+  padding: 8px !important;
   font-size: 0.9rem !important;
   line-height: 1.2 !important;
 }
 
-/* Hide reviews since you don't want them */
+/* Hide reviews */
 .rating-stars-and-text {
   display: none !important;
-}
-
-/* Mobile adjustments */
-@media screen and (max-width: 749px) {
-  .sticky-atc-container {
-    padding: 4px 12px !important;
-  }
-  
-  .sticky-atc__title {
-    font-size: 1rem !important;
-  }
-  
-  .sticky-atc__price {
-    font-size: 0.7rem !important;
-  }
-  
-  .sticky-atc__price .badge {
-    font-size: 0.55rem !important;
-  }
 }
