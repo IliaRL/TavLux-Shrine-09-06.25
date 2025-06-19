@@ -23,11 +23,24 @@
   }
 }
 
+@media (max-width: 749px) { .product-count__text { 
+  font-size: 1.4rem !important;
+  font-weight: 500 !important;
+}
+                          }
+@media (min-width: 749px) { h2 {
+    font-size: 2rem !important; /* Edit size for general headings */
+    font-weight: 700 !important; /* Edit weight for general headings */
+    letter-spacing: 0.05rem !important;
+    text-transform: none !important;
+  }}
+@media (min-width: 749px) { .product-count__text { 
+  font-size: 1.4rem !important;
+  font-weight: 500 !important;
+}
 /* ========================================================================= */
 /* --- Price Styling --- */
 /* ========================================================================= */
-
-
 
 /* Struck-through Old Price in Cart */
 .cart-item__old-price {
@@ -324,43 +337,6 @@ quantity-input.quantity.main-quantity .quantity__input {
 }
 
 .card-information .loox-rating {
-  display: none !important;
-}
-/* Hide all slideshow pagination and controls */
-.slideshow__controls {
-  display: none !important;
-}
-
-.slideshow__controls--top {
-  display: none !important;
-}
-
-.slideshow__controls--desktop-over,
-.slideshow__controls--desktop-under {
-  display: none !important;
-}
-
-.slideshow__controls--mobile-over {
-  display: none !important;
-}
-
-.slider-buttons {
-  display: none !important;
-}
-
-.slider-counter {
-  display: none !important;
-}
-
-.slider-button {
-  display: none !important;
-}
-
-.slideshow__autoplay {
-  display: none !important;
-}
-
-.slideshow__control-wrapper {
   display: none !important;
 }
 
