@@ -343,9 +343,12 @@ quantity-input.quantity.main-quantity .quantity__input {
 .price-item--regular,
 .product-single__price {
   font-size: 15px !important;
-  font-weight: 400 !important; /* Base weight */
+  font-weight: 300 !important; /* Base weight */
   font-family: sans-serif !important;
 }
+.price .main-comapre-price { color: #951515 !important;
+  font-weight: 600 !important; 
+  font-size: 14px !important;                          }
 
 
 /* Compare-at Price on Product Cards */
