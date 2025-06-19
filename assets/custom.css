@@ -339,4 +339,41 @@ quantity-input.quantity.main-quantity .quantity__input {
 .card-information .loox-rating {
   display: none !important;
 }
+/* Hide all slideshow pagination and controls */
+.slideshow__controls {
+  display: none !important;
+}
+
+.slideshow__controls--top {
+  display: none !important;
+}
+
+.slideshow__controls--desktop-over,
+.slideshow__controls--desktop-under {
+  display: none !important;
+}
+
+.slideshow__controls--mobile-over {
+  display: none !important;
+}
+
+.slider-buttons {
+  display: none !important;
+}
+
+.slider-counter {
+  display: none !important;
+}
+
+.slider-button {
+  display: none !important;
+}
+
+.slideshow__autoplay {
+  display: none !important;
+}
+
+.slideshow__control-wrapper {
+  display: none !important;
+}
 
