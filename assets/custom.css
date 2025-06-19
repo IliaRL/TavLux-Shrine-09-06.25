@@ -180,6 +180,10 @@ quantity-input.quantity.main-quantity .quantity__input {
 .list-payment__item svg {
   max-height: 24px !important;
 }
+.drawer__close svg {
+    height: 2.rem;
+    width: 2.rem;
+}
 
 /* ========================================================================= */
 /* --- Mobile Specific Styles (max-width: 749px) --- */
@@ -316,9 +320,6 @@ quantity-input.quantity.main-quantity .quantity__input {
 }
 
 .card-information .loox-rating {
-  display: none !important;
-}
-.slideshow__controls {
   display: none !important;
 }
 
