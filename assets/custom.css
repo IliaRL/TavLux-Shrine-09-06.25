@@ -213,6 +213,68 @@ quantity-input.quantity.main-quantity .quantity__input {
   text-transform: none !important; /* Change to 'uppercase' if desired */
   letter-spacing: 0.05rem !important;
 }
+.sticky-atc .product-title {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  color: rgb(var(--color-foreground)) !important;
+  letter-spacing: 0.1rem !important;
+}
+
+/* --- Regular & Sale Price --- */
+.sticky-atc .price:not(.price--on-sale) .price-item,
+.sticky-atc .price--on-sale .price__sale .price-item {
+  font-size: 1.6rem !important;
+  font-weight: 200 !important;
+  color: rgb(var(--color-foreground)) !important;
+}
+
+/* --- Compare-at Price --- */
+.sticky-atc .price--on-sale .price__regular .price-item {
+  font-size: 1.5rem !important;
+  font-weight: 200 !important;
+  color: #951515 !important;
+}
+
+/* --- Button Container & Size --- */
+.sticky-atc .button {
+  height: 4.5rem !important;
+  min-height: auto !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  font-size: 1.3rem !important;
+  font-weight: 300 !important;
+}
+
+/* --- Button Label (Text) --- */
+.sticky-atc .button .button__label {
+  font-size: 1.3rem !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.1rem !important;
+}
+
+
+.sticky-atc {
+  width: 100% !important;
+  padding: 1rem 1.5rem !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.sticky-atc__info {
+  min-width: 0 !important;
+}
+
+/* --- Product Title --- */
+.sticky-atc .product-title {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  color: rgb(var(--color-foreground)) !important;
+  letter-spacing: 0.1rem !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
 
 /* --- Prices --- */
 .sticky-atc .price:not(.price--on-sale) .price-item,
@@ -236,6 +298,7 @@ quantity-input.quantity.main-quantity .quantity__input {
   padding-right: 2rem !important;
   font-size: 1.3rem !important;
   font-weight: 300 !important;
+  flex-shrink: 0;
 }
 
 .sticky-atc .button .button__label {
@@ -244,40 +307,155 @@ quantity-input.quantity.main-quantity .quantity__input {
   letter-spacing: 0.1rem !important;
 }
 
-
-
-/* General Price Styles */
-.price,
-.price-item,
-.price-item--regular,
-.product-single__price {
-  font-size: 15px !important;
-  font-weight: 300 !important; /* Base weight */
-  font-family: sans-serif !important;
-}
-.price .main-comapre-price { color: #951515 !important;
-  font-weight: 600 !important; 
-  font-size: 14px !important;
-                           }
-
-
-/* This rule styles product cards */
-
-.product-card-wrapper .price--on-sale .price-item:last-child {
-  color: #951515 !important; /* Edit this for the normal/sale price color */
-  font-weight: 900 !important; /* Edit this for the normal/sale price weight */
-  font-size: 14px !important; /* Edit this for the normal/sale price size */
+/* --- MOBILE Layout Rules (749px and narrower) --- */
+@media (max-width: 749px) {
+   .sticky-atc {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 1.5rem; /* Adds space between the info and the button */
+  }
+      flex-direction: column !important; /* Stacks items vertically */
+    align-items: stretch !important;   /* Makes items fill the full width */
+  
+  
+  .sticky-atc .button {
+    width: 100% !important; /* Makes the button full width on mobile */
+    margin-top: 1rem !important; /* Adds some space between info and button */
+  }
 }
 
-/* Not on sale cards */
-.card-wrapper .price-item--regular,
-.product-single__price {
-  font-size: 15px !important;
-  font-weight: 300 !important;}
+/* This styles the main SALE price on the product page. */
+/* It targets the last price item when the product is marked as on-sale. */
+.product-single__price.price--on-sale .price-item:last-child {
+  color: #000000;      /* Edit this for the sale price color */
+  font-weight: 300;     /* Edit this for the sale price weight (e.g., 700 is bold) */
+  font-size: 15px;      /* Edit this for the sale price size */
+}
 
-.product-card-wrapper .price--on-sale .price-item,
-.price-item--regular {
-  font-weight: 300 !important;
-  font-size: 15px !important;
+/* This styles the COMPARE-AT price on the product page (the original, crossed-out price). */
+/* It targets the first price item when the product is on sale. */
+.product-single__price.price--on-sale .price-item:first-child {
+  color: #951515;      /* Edit this for the compare-at price color */
+  font-weight: 700;     /* Edit this for the compare-at price weight (e.g., 400 is normal) */
+  font-size: 14px;      /* Edit this for the compare-at price size */
+  /* Note: The theme usually adds the line-through style automatically. */
+}
+
+/* This styles the REGULAR price on the product page (when the item is NOT on sale). */
+.product-single__price:not(.price--on-sale) .price-item {
+  color: #000000;      /* Edit this for the regular price color */
+  font-weight: 300;     /* Edit this for the regular price weight */
+  font-size: 24px;      /* Edit this for the regular price size */
+}
+
+
+/* --- 2. PRODUCT CARD STYLING (for Collections, Featured Products, etc.) --- */
+
+/* This styles the final SALE price on a product card. */
+/* It targets the last price item in a sale container. */
+.card-information .price--on-sale .price-item:last-child {
+  color: #000000;      /* Edit this for the card's sale price color */
+  font-weight: 700;     /* Edit this for the card's sale price weight */
+  font-size: 16px;      /* Edit this for the card's sale price size */
+}
+
+/* This styles the COMPARE-AT price on a product card (the crossed-out one). */
+/* It targets the first price item in a sale container. */
+.card-information .price--on-sale .price-item:first-child {
+  color: #951515;      /* Edit this for the card's compare-at price color */
+  font-weight: 800;     /* Edit this for the card's compare-at price weight */
+  font-size: 14px;      /* Edit this for the card's compare-at price size */
+}
+
+/* This styles the REGULAR price on a product card (when NOT on sale). */
+/* It targets any price inside a container that is NOT on sale. */
+.card-information .price:not(.price--on-sale) .price-item {
+  color: #000000;      /* Edit this for the card's regular price color */
+  font-weight: 300;     /* Edit this for the card's regular price weight */
+  font-size: 16px;      /* Edit this for the card's regular price size */
+}
+
+
+/* --- 3. Optional Base Font --- */
+/* You can set a default font-family for all prices. This is safer */
+/* than your original rule that used !important. */
+.price, .price .price-item {
+  font-family: sans-serif; /* Change this to your desired font */
+}
+
+
+/* Mobile-only sticky add-to-cart styles */
+@media only screen and (max-width: 767px) {
+  /* Clean sticky add-to-cart - name and price centered together */
+  .sticky-atc-container {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 6px 16px !important;
+    gap: 8px !important;
+    align-items: center !important;
+  }
+
+  /* Top section: Product name and price stacked and centered */
+  .sticky-atc__left {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 2px !important;
+    text-align: center !important;
+  }
+
+  .sticky-atc__title {
+    font-size: 1.1rem !important;
+    font-weight: 700 !important;
+    margin: 0 !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+  }
+
+  /* Price section - centered */
+  .sticky-atc__price {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    font-size: 0.75rem !important;
+    margin: 0 !important;
+  }
+
+  /* Make price elements more compact */
+  .sticky-atc__price .price__container {
+    display: flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    line-height: 1 !important;
+  }
+
+  /* Discount badge - smaller and inline */
+  .sticky-atc__price .badge {
+    font-size: 0.6rem !important;
+    padding: 2px 4px !important;
+    line-height: 1 !important;
+    margin-left: 4px !important;
+  }
+
+  /* Bottom row: Button centered */
+  .sticky-atc__button {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .sticky-atc__button button {
+    width: 100% !important;
+    padding: 8px !important;
+    font-size: 0.9rem !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Hide reviews */
+  .rating-stars-and-text {
+    display: none !important;
+  }
 }
 
