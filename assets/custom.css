@@ -340,13 +340,6 @@ quantity-input.quantity.main-quantity .quantity__input {
   letter-spacing: 0.1rem !important;
 }
 
-
-/* ========================================================================= */
-/* --- Layout Rules for Different Screen Sizes --- */
-/* ========================================================================= */
-
- 
-
 /* --- MOBILE Layout Rules (749px and narrower) --- */
 @media (max-width: 749px) {
    .sticky-atc {
