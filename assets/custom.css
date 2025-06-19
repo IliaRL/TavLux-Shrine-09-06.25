@@ -348,10 +348,9 @@ quantity-input.quantity.main-quantity .quantity__input {
     align-items: center !important;
     gap: 1.5rem; /* Adds space between the info and the button */
   }
-  .sticky-atc__info {
-     flex-grow: 1 !important; /* Allows info container to take up space */
-  }
-
+      flex-direction: column !important; /* Stacks items vertically */
+    align-items: stretch !important;   /* Makes items fill the full width */
+  
   
   .sticky-atc .button {
     width: 100% !important; /* Makes the button full width on mobile */
