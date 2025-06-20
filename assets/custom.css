@@ -120,7 +120,7 @@ quantity-input.quantity.main-quantity {
   gap: 0 !important;
   justify-content: space-between !important;
   /* The last value (alpha/opacity) was changed from 0.5 to 0.8 to make the border darker */
-  border: 2px solid rgba(var(--color-foreground), 0.8) !important;
+  border: 1.5px solid rgba(var(--color-foreground), 0.8) !important;
   border-radius: 5px !important;
   overflow: hidden !important;
   height: 4rem !important;
