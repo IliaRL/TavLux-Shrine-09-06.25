@@ -116,7 +116,7 @@
 .product-card-wrapper .color-swatch input:checked+.color-swatch__image,
 .collection-card-wrapper .color-swatch input:checked+.color-swatch__image {
   box-shadow: 0 0 0 1.5px rgb(var(--color-background)),
-    0 0 0 2px rgba(var(--color-foreground), 0.85) !important;
+    0 0 0 4px rgba(var(--color-foreground), 0.85) !important;
 }
 
 /* Swatch Hover Tooltip */
