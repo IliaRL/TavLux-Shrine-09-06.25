@@ -120,12 +120,25 @@ quantity-input.quantity.main-quantity {
   gap: 0 !important;
   justify-content: space-between !important;
   /* The last value (alpha/opacity) was changed from 0.5 to 0.8 to make the border darker */
-  border: 1px solid rgba(var(--color-foreground), 0.8) !important;
+  border: 2px solid rgba(var(--color-foreground), 0.8) !important;
   border-radius: 5px !important;
   overflow: hidden !important;
   height: 4rem !important;
   min-height: auto !important;
 }
+quantity-input.quantity.main-quantity {
+  max-width: 10rem !important;
+  max-height: 4rem !important;
+  gap: 0 !important;
+  justify-content: space-between !important;
+  border: 0.2px solid rgba(var(--color-foreground), 0.5) !important;
+  border-radius: 5px !important;
+  overflow: hidden !important;
+  height: 4rem !important;
+  min-height: auto !important;
+  border-width: 1rem !important;
+  border-opac
+} 
 
 quantity-input.quantity.main-quantity .quantity__button,
 quantity-input.quantity.main-quantity .quantity__input {
